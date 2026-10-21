@@ -219,3 +219,4 @@ footer.site a:hover{color:var(--terracotta)}
 .ppp-upcoming h2{font-family:var(--serif);font-weight:500;font-size:34px;border-bottom:1px solid var(--sand-200);padding-bottom:8px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:baseline}
 .ppp-upcoming h2 small{font-family:var(--sans);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--terracotta);font-weight:800}
 .ppp-upcoming .ev .t{line-height:1.3}
+.spec .photo{display:block;width:100%;max-width:560px;aspect-ratio:1;object-fit:cover;object-position:center 30%;border-radius:18px;margin-top:14px}
