@@ -221,3 +221,4 @@ footer.site a:hover{color:var(--terracotta)}
 .ppp-upcoming .ev .t{line-height:1.3}
 .spec .photo{display:block;width:100%;max-width:560px;aspect-ratio:1;object-fit:cover;object-position:center 30%;border-radius:18px;margin-top:14px}
 .ppp-upcoming p.lead{color:var(--ink-soft);font-size:14px;margin:-6px 0 16px}
+.pagehead.ppp h1 .plus{color:var(--terracotta)}

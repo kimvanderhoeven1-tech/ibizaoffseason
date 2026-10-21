@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PPP Concierge — Ibiza Offseason</title>
-<meta name="description" content="Concierge access to PPP — for hotel concierges, villa managers and hosts with an access code.">
-<meta property="og:title" content="PPP Concierge — Ibiza Offseason">
-<meta property="og:description" content="PPP concierge access.">
-<meta property="og:url" content="https://ibizaoffseason.com/concierge">
+<title>PPP+ — Ibiza Offseason</title>
+<meta name="description" content="PPP+ — the concierge tier of PPP. For hotel concierges, villa managers and hosts with an access code.">
+<meta property="og:title" content="PPP+ — Ibiza Offseason">
+<meta property="og:description" content="PPP+ concierge tier.">
+<meta property="og:url" content="https://ibizaoffseason.com/ppp-plus">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,15 +35,15 @@
 <meta name="robots" content="noindex">
 <main class="wrap">
   <div class="pagehead ppp">
-    <p class="kicker">PPP · CONCIERGE</p>
-    <h1>Concierge access</h1>
-    <p class="when">For the people who hold the keys.</p>
-    <p>Hotel concierges, villa managers, private hosts: with an access code you can put PPP specials straight on the list for your guests — a dinner, a party, a place to dance — and request invitations on their behalf. Everything still passes through us before it goes live.</p>
+    <p class="kicker">PPP+</p>
+    <h1>PPP<span class="plus">+</span></h1>
+    <p class="when">The concierge tier. For the people who hold the keys.</p>
+    <p>Hotel concierges, villa managers, private hosts: with an access code you have PPP+ access: put specials straight on the list for your guests — a dinner, a party, a place to dance — and request invitations on their behalf. Everything still passes through us before it goes live.</p>
   </div>
 
   <section class="ppp-form" id="gate">
     <h2>Access code</h2>
-    <p>Don't have one? <a href="mailto:hello@ibizaoffseason.com?subject=PPP%20concierge%20access">Ask for concierge access</a> — tell us where you work.</p>
+    <p>Don't have one? <a href="mailto:hello@ibizaoffseason.com?subject=PPP%2B%20access">Ask for PPP+ access</a> — tell us where you work.</p>
     <form id="gateform">
       <input type="password" name="code" placeholder="Access code" autocomplete="off" required>
       <button class="btn solid" type="submit">Enter</button>
@@ -52,7 +52,7 @@
   </section>
 
   <section class="ppp-form" id="concierge" style="display:none">
-    <h2>Add a PPP special</h2>
+    <h2>Add a PPP+ special</h2>
     <p>Fill in what you know. We never publish the address — only the invitation. Your guests go on the list through you.</p>
     <form id="cform">
       <input type="text" name="concierge" placeholder="Your name" required>
@@ -69,7 +69,7 @@
       <input type="text" name="guests" placeholder="Guests you're bringing (names or number)">
       <textarea name="about" rows="4" placeholder="What is it, what's the vibe, how do people get in?"></textarea>
       <label class="check"><input type="checkbox" name="confirm" required> I'll keep the location off social and share the pin only with confirmed guests.</label>
-      <button class="btn solid" type="submit">Send to PPP</button>
+      <button class="btn solid" type="submit">Send to PPP+</button>
     </form>
     <p class="fine">Opens your mail app with everything pre-filled. We confirm within a day.</p>
   </section>
@@ -92,8 +92,8 @@ try{if(sessionStorage.getItem('pppc')==='1')open_();}catch(_){}
 document.getElementById('gateform').addEventListener('submit',e=>{e.preventDefault();const v=e.target.code.value.trim().toLowerCase();if(v===CODE)open_();else{msg.textContent='That code doesn\'t open this door. Ask us for one.';}});
 document.getElementById('cform').addEventListener('submit',e=>{
   e.preventDefault();const f=e.target;
-  const body=`CONCIERGE SUBMISSION\nConcierge: ${f.concierge.value} — ${f.org.value}\nEmail: ${f.email.value}\nWhatsApp: ${f.phone.value}\n\nSpecial: ${f.event.value}\nDate: ${f.date.value} ${f.time.value}\nArea: ${f.area.value}\nSeats / price: ${f.capacity.value}\nGuests: ${f.guests.value}\n\n${f.about.value}`;
-  location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('PPP concierge special — '+f.event.value)+'&body='+encodeURIComponent(body);
+  const body=`PPP+ SUBMISSION\nConcierge: ${f.concierge.value} — ${f.org.value}\nEmail: ${f.email.value}\nWhatsApp: ${f.phone.value}\n\nSpecial: ${f.event.value}\nDate: ${f.date.value} ${f.time.value}\nArea: ${f.area.value}\nSeats / price: ${f.capacity.value}\nGuests: ${f.guests.value}\n\n${f.about.value}`;
+  location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('PPP+ special — '+f.event.value)+'&body='+encodeURIComponent(body);
 });
 </script>
 </body>
