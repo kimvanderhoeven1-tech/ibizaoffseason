@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ibiza Offseason — the island in winter</title>
+<meta name="description" content="Ibiza Offseason — your curated guide to everything happening on Ibiza in winter: sport, culture, music, workshops and family days out. Launching winter 2026/27.">
+<meta property="og:title" content="Ibiza Offseason">
+<meta property="og:description" content="The island in winter. Sport, culture, music, workshops, kids & family — curated weekly. Launching winter 2026/27.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ibizaoffseason.com">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<style>
+  .hero{padding:40px 0 56px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--olive);margin-bottom:22px}
+  .eyebrow::before{content:"";width:28px;height:1.5px;background:var(--olive)}
+  .wordmark{font-weight:800;text-transform:uppercase;letter-spacing:.06em;line-height:.9;font-size:clamp(64px,11vw,132px)}
+  .wordmark small{display:block;font-weight:400;letter-spacing:.32em;font-size:clamp(15px,2.2vw,24px);margin-top:12px;color:var(--ink-soft)}
+  h1.tagline{font-family:var(--serif);font-weight:500;font-style:italic;font-size:clamp(28px,4vw,44px);line-height:1.15;margin:30px 0 18px;color:var(--ink)}
+  .lead{font-size:16px;max-width:520px;color:var(--ink-soft)}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 34px}
+  .pill{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:8px 14px;border-radius:999px;background:var(--sand-100);border:1px solid var(--sand-200);color:var(--ink-soft);text-decoration:none}
+  .pill:hover{border-color:var(--ink);color:var(--ink)}
+  form{display:flex;gap:10px;max-width:520px}
+  input[type=email]{flex:1;min-width:0;font:inherit;font-size:15px;padding:16px 18px;border-radius:14px;border:1.5px solid var(--sand-300);background:#fff;color:var(--ink);outline:none;transition:.2s}
+  input[type=email]:focus{border-color:var(--ink)}
+  input::placeholder{color:#A39A89}
+  form button{font:inherit;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:16px 22px;border-radius:14px;border:0;background:var(--ink);color:var(--sand-50);cursor:pointer;transition:.2s;white-space:nowrap}
+  form button:hover{background:var(--terracotta)}
+  .fine{font-size:12px;color:#8A8172;margin-top:12px}
+  .ok{display:none;margin-top:14px;font-family:var(--serif);font-size:22px;font-style:italic;color:var(--olive)}
+  .art{position:relative;display:flex;justify-content:center}
+  .art svg{width:100%;max-width:420px;height:auto;filter:drop-shadow(0 30px 40px rgba(43,38,31,.12))}
+  .art .ring{position:absolute;inset:8% 6%;border-radius:50%;background:var(--sand-100);z-index:-1}
+  .strip{border-top:1px solid var(--sand-200);border-bottom:1px solid var(--sand-200);padding:28px 0;overflow:hidden}
+  .ticker{display:flex;gap:48px;white-space:nowrap;font-family:var(--serif);font-size:22px;font-style:italic;color:var(--ink-soft);animation:scroll 40s linear infinite}
+  .ticker span::after{content:"·";margin-left:48px;color:var(--sand-400)}
+  @keyframes scroll{to{transform:translateX(-50%)}}
+  .join{background:var(--sand-100);border:1px solid var(--sand-200);border-radius:24px;padding:40px;margin:56px 0 10px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+  .join h2{font-family:var(--serif);font-weight:500;font-size:clamp(30px,4vw,42px);line-height:1.05}
+  .join p{color:var(--ink-soft);font-size:15px;margin-top:8px;max-width:46ch}
+  @media (max-width:820px){
+    .hero{grid-template-columns:1fr;padding:24px 0 40px;gap:28px}
+    .art{order:-1}.art svg{max-width:200px}
+    form{flex-direction:column}form button{width:100%}
+    .join{grid-template-columns:1fr;padding:26px}
+  }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="lizard" fill="#2B261F"><path d="M58 14c4-3 10-2 12 2 1.5 3 .5 6-2.5 8-2 1.3-4.5 1.5-6.8 2.5l-3.5 2.3c-1.6 1-3.6.4-4.3-1.3-.9-2.3-1.1-4.8-.4-7.1.8-2.9 2.9-5 5.5-6.4z"/><path d="M53.5 27c5.2 1.2 8.8 4.6 10 9.6.9 3.8.2 7.6-1.1 11.2-1.6 4.3-4 8.3-7.2 11.6-3.4 3.6-7.6 6.2-11.9 8.5-3.7 2-7.7 3.6-11.6 5.1-2.3.9-4.9-.8-4.9-3.3 0-1.7 1.1-3.1 2.6-3.7 4-1.6 8-3.3 11.7-5.5 3.7-2.2 7-5 9.4-8.6 2-3 3.3-6.4 3.9-9.9.6-3.5-.2-7.1-2.8-9.6-1.7-1.6-1.3-4.6.9-5.4.4-.1.7-.1 1 0z"/><path d="M31 70.5c-1.3 3.5-3.8 6.5-7.3 8.1-3.1 1.4-6.6 1.5-9.8.6-3.2-.9-6-2.9-8-5.5-.9-1.2-.5-3 .9-3.6 1.1-.5 2.3 0 3 .9 1.6 2 3.8 3.5 6.3 4.1 2.2.5 4.6.3 6.6-.8 2.2-1.2 3.8-3.2 4.6-5.6.5-1.4 2.1-2.1 3.4-1.4 1 .5 1.5 1.7 1.2 2.8z"/><path d="M61.5 36l9.5-6.5c1.2-.8 2.8-.5 3.6.7.7 1.1.5 2.6-.5 3.5L66 40.5c-1.1 1-2.8.9-3.8-.2-1-1.2-.9-3 .3-4z"/><path d="M58 38.5l-2.8 10.2c-.4 1.4-1.9 2.2-3.3 1.8-1.3-.4-2.1-1.8-1.8-3.1l2.2-10.8c.3-1.4 1.6-2.3 3-2 1.5.3 2.4 1.7 2.1 3.2z"/><path d="M40 62l-10-3c-1.4-.4-2.1-1.9-1.7-3.3.4-1.3 1.8-2 3.1-1.6l10.5 3.2c1.4.4 2.2 1.9 1.7 3.3-.4 1.2-1.6 2-2.9 1.6z"/><path d="M45.5 60.5l6.5 8.5c.9 1.2.7 2.9-.5 3.8-1.1.8-2.7.6-3.6-.5l-7-8.8c-.9-1.2-.7-2.9.5-3.8 1.2-.9 2.9-.6 3.8.5z"/></g></defs></svg>
+
+<header class="site wrap">
+  <nav class="nav">
+    <a class="brand" href="/"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#lizard"/></svg><span class="word">Ibiza <span>Offseason</span></span></a>
+    <div class="menu">
+      <a href="/agenda">Agenda</a>
+      <a href="/trails">Trails</a>
+      <a href="/retreats">Retreats</a>
+      <a class="cta" href="#join">Get the weekly</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Winter 2026 / 27</div>
+      <div class="wordmark">Ibiza<small>Offseason</small></div>
+      <h1 class="tagline">The island, when the island is yours.</h1>
+      <p class="lead">Ibiza doesn't stop in winter — it just stops shouting. Hikes, padel, ceramics, galleries, concerts, farm days, hierbas making, village fiestas. One curated agenda, in English, every week.</p>
+      <div class="pills">
+        <a class="pill" href="/agenda">Sport</a><a class="pill" href="/agenda">Culture</a><a class="pill" href="/agenda">Music</a><a class="pill" href="/agenda">Workshops</a><a class="pill" href="/agenda">Kids &amp; Family</a><a class="pill" href="/trails">Trails</a><a class="pill" href="/retreats">Retreats</a>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn solid" href="/agenda">See what's on</a><a class="btn" href="/trails">Explore trails</a></div>
+    </div>
+    <div class="art">
+      <div class="ring"></div>
+      <svg viewBox="0 0 100 100" role="img" aria-label="Sargantana, the Ibiza wall lizard"><use href="#lizard"/></svg>
+    </div>
+  </section>
+</main>
+
+<div class="strip">
+  <div class="ticker" aria-hidden="true">
+    <span>Sunrise hikes to Sa Talaia</span><span>Padel at 10 in Santa Gertrudis</span><span>Ceramics in San Carlos</span><span>Hierbas making with a grandmother</span><span>Dry‑stone wall workshop</span><span>Farm lunch at a finca</span><span>Jazz in Dalt Vila</span><span>Rainy‑day plans for kids</span><span>Wine tasting, island grapes only</span>
+    <span>Sunrise hikes to Sa Talaia</span><span>Padel at 10 in Santa Gertrudis</span><span>Ceramics in San Carlos</span><span>Hierbas making with a grandmother</span><span>Dry‑stone wall workshop</span><span>Farm lunch at a finca</span><span>Jazz in Dalt Vila</span><span>Rainy‑day plans for kids</span><span>Wine tasting, island grapes only</span>
+  </div>
+</div>
+
+<section class="block wrap" id="home-agenda">
+  <div class="head"><div><h2>This week on the island</h2><p>A few picks from the agenda. The full list runs three weeks ahead, by day and category.</p></div><a class="more" href="/agenda">Full agenda</a></div>
+  <div class="mini" id="h-agenda"></div>
+</section>
+
+<section class="block wrap" id="home-trails">
+  <div class="head"><div><h2>Trails</h2><p>The island on foot and by bike: routes locals actually walk, ride and run, with the facts and a map link.</p></div><a class="more" href="/trails">All routes</a></div>
+  <div class="pick" id="h-trails"></div>
+</section>
+
+<section class="block wrap" id="home-retreats">
+  <div class="head"><div><h2>Retreats this winter</h2><p>Yoga, breathwork, detox, creative, fitness — every retreat on Ibiza from November to March, in one overview.</p></div><a class="more" href="/retreats">All retreats</a></div>
+  <div class="mini" id="h-retreats"></div>
+</section>
+
+<section class="wrap">
+  <div class="join" id="join">
+    <div><h2>One email a week. The good stuff only.</h2><p>Every Thursday: what's on this weekend and the week after, one trail, one retreat worth knowing about. No spam, ever.</p></div>
+    <div>
+      <form id="signup" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="email" name="email" placeholder="Your email" required autocomplete="email">
+        <button type="submit">Join the list</button>
+      </form>
+      <p class="fine">Unsubscribe with one click, any time.</p>
+      <p class="ok" id="ok">You're on the list. See you Thursday.</p>
+    </div>
+  </div>
+</section>
+
+
+<footer class="site wrap">
+  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div class="soc">
+    <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
+    <a href="mailto:hello@ibizaoffseason.com">Email</a>
+  </div>
+</footer>
+
+<script>
+  const f=document.getElementById('signup'),ok=document.getElementById('ok');
+  f.addEventListener('submit',async e=>{
+    if(f.action.includes('YOUR_FORM_ID')){e.preventDefault();f.style.display='none';ok.style.display='block';return;}
+    e.preventDefault();
+    try{
+      const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}});
+      if(r.ok){f.style.display='none';ok.style.display='block';}else{f.submit();}
+    }catch(_){f.submit();}
+  });
+</script>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const CAT={sport:'Sport',culture:'Culture',music:'Music',workshops:'Workshops',kids:'Kids & Family',island:'Island life'};
+fetch('/data/events.json').then(r=>r.json()).then(d=>{
+  const today=new Date().toISOString().slice(0,10);
+  const picks=d.events.filter(e=>e.date>=today&&e.featured).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,5);
+  const list=picks.length?picks:d.events.filter(e=>e.date>=today).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,5);
+  document.getElementById('h-agenda').innerHTML=list.map(e=>{const dt=new Date(e.date+'T12:00');return `<div class="ev"><div class="t">${DOW[dt.getDay()]} ${dt.getDate()} ${MON[dt.getMonth()]}<small>${esc(e.time||'')}</small></div><div><h3>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div><div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`}).join('');
+}).catch(()=>{});
+fetch('/data/trails.json').then(r=>r.json()).then(d=>{
+  const ids=['sa-talaia','santa-agnes-balandres','bike-es-plans'];
+  const picks=ids.map(i=>d.find(t=>t.id===i)).filter(Boolean);
+  document.getElementById('h-trails').innerHTML=picks.map(t=>`<article class="trail"><div class="top"><div><span class="type">${esc(t.type)}</span><h3>${esc(t.name)}</h3><div class="area">${esc(t.area)}</div></div><span class="diff" data-d="${esc(t.difficulty)}"><i></i><i></i><i></i></span></div><div class="facts"><div><b>${esc(t.km)} km</b><span>distance</span></div><div><b>${esc(t.time)}</b><span>time</span></div><div><b>${esc(t.difficulty)}</b><span>${esc(t.shape)}</span></div></div><p class="blurb">${esc(t.blurb)}</p><div class="go"><a class="btn" href="/trails">Details</a></div></article>`).join('');
+}).catch(()=>{});
+fetch('/data/retreats.json').then(r=>r.json()).then(d=>{
+  const today=new Date().toISOString().slice(0,10);
+  const list=d.retreats.filter(r=>r.end>=today).sort((a,b)=>a.start.localeCompare(b.start)).slice(0,5);
+  document.getElementById('h-retreats').innerHTML=list.map(r=>{const a=new Date(r.start+'T12:00'),b=new Date(r.end+'T12:00');return `<div class="ev"><div class="t">${a.getDate()}–${b.getDate()} ${MON[b.getMonth()]}<small>${(r.types||[])[0]||''}</small></div><div><h3>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>`:esc(r.name)}</h3><div class="where">${esc(r.organiser)}${r.town?', '+esc(r.town):''}</div><div class="meta">${r.price?`<span class="price">from ${esc(r.price)}</span>`:''}</div></div></div>`}).join('');
+}).catch(()=>{});
+</script>
+</body>
+</html>

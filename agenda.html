@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agenda — Ibiza Offseason</title>
+<meta name="description" content="What's on in Ibiza this winter: sport, culture, music, workshops, kids & family and island life — one curated agenda, in English, by date.">
+<meta property="og:title" content="Agenda — Ibiza Offseason">
+<meta property="og:description" content="What's on in Ibiza over the next three weeks, curated and in English.">
+<meta property="og:url" content="https://ibizaoffseason.com/agenda">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="lizard" fill="#2B261F"><path d="M58 14c4-3 10-2 12 2 1.5 3 .5 6-2.5 8-2 1.3-4.5 1.5-6.8 2.5l-3.5 2.3c-1.6 1-3.6.4-4.3-1.3-.9-2.3-1.1-4.8-.4-7.1.8-2.9 2.9-5 5.5-6.4z"/><path d="M53.5 27c5.2 1.2 8.8 4.6 10 9.6.9 3.8.2 7.6-1.1 11.2-1.6 4.3-4 8.3-7.2 11.6-3.4 3.6-7.6 6.2-11.9 8.5-3.7 2-7.7 3.6-11.6 5.1-2.3.9-4.9-.8-4.9-3.3 0-1.7 1.1-3.1 2.6-3.7 4-1.6 8-3.3 11.7-5.5 3.7-2.2 7-5 9.4-8.6 2-3 3.3-6.4 3.9-9.9.6-3.5-.2-7.1-2.8-9.6-1.7-1.6-1.3-4.6.9-5.4.4-.1.7-.1 1 0z"/><path d="M31 70.5c-1.3 3.5-3.8 6.5-7.3 8.1-3.1 1.4-6.6 1.5-9.8.6-3.2-.9-6-2.9-8-5.5-.9-1.2-.5-3 .9-3.6 1.1-.5 2.3 0 3 .9 1.6 2 3.8 3.5 6.3 4.1 2.2.5 4.6.3 6.6-.8 2.2-1.2 3.8-3.2 4.6-5.6.5-1.4 2.1-2.1 3.4-1.4 1 .5 1.5 1.7 1.2 2.8z"/><path d="M61.5 36l9.5-6.5c1.2-.8 2.8-.5 3.6.7.7 1.1.5 2.6-.5 3.5L66 40.5c-1.1 1-2.8.9-3.8-.2-1-1.2-.9-3 .3-4z"/><path d="M58 38.5l-2.8 10.2c-.4 1.4-1.9 2.2-3.3 1.8-1.3-.4-2.1-1.8-1.8-3.1l2.2-10.8c.3-1.4 1.6-2.3 3-2 1.5.3 2.4 1.7 2.1 3.2z"/><path d="M40 62l-10-3c-1.4-.4-2.1-1.9-1.7-3.3.4-1.3 1.8-2 3.1-1.6l10.5 3.2c1.4.4 2.2 1.9 1.7 3.3-.4 1.2-1.6 2-2.9 1.6z"/><path d="M45.5 60.5l6.5 8.5c.9 1.2.7 2.9-.5 3.8-1.1.8-2.7.6-3.6-.5l-7-8.8c-.9-1.2-.7-2.9.5-3.8 1.2-.9 2.9-.6 3.8.5z"/></g></defs></svg>
+
+<header class="site wrap">
+  <nav class="nav">
+    <a class="brand" href="/"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#lizard"/></svg><span class="word">Ibiza <span>Offseason</span></span></a>
+    <div class="menu">
+      <a href="/agenda" aria-current="page">Agenda</a>
+      <a href="/trails">Trails</a>
+      <a href="/retreats">Retreats</a>
+      <a class="cta" href="/#join">Get the weekly</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="pagehead">
+    <h1>Agenda</h1>
+    <p class="when" id="range">The next three weeks</p>
+    <p>Everything worth leaving the house for, picked by someone who lives here year-round. Updated every week.</p>
+  </div>
+
+  <div class="filters" role="group" aria-label="Filter by category">
+    <button class="chip" data-f="all" aria-pressed="true">Everything</button>
+    <button class="chip" data-f="sport" aria-pressed="false">Sport</button>
+    <button class="chip" data-f="culture" aria-pressed="false">Culture</button>
+    <button class="chip" data-f="music" aria-pressed="false">Music</button>
+    <button class="chip" data-f="workshops" aria-pressed="false">Workshops</button>
+    <button class="chip" data-f="kids" aria-pressed="false">Kids &amp; Family</button>
+    <button class="chip" data-f="island" aria-pressed="false">Island life</button>
+  </div>
+  <p class="count" id="count"></p>
+
+  <div id="list"></div>
+
+  <section class="recurring" id="recurring"></section>
+
+  <div class="listcta">
+    <div><h2>Organising something this winter?</h2><p>Galleries, workshops, concerts, village fiestas, kids' days — send us the details and we'll consider it for the agenda. Free.</p></div>
+    <a class="btn" href="mailto:hello@ibizaoffseason.com?subject=Event%20for%20the%20agenda">Send an event</a>
+  </div>
+</main>
+
+<footer class="site wrap">
+  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div class="soc">
+    <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
+    <a href="mailto:hello@ibizaoffseason.com">Email</a>
+  </div>
+</footer>
+
+<script>
+const CAT={sport:'Sport',culture:'Culture',music:'Music',workshops:'Workshops',kids:'Kids & Family',island:'Island life'};
+const list=document.getElementById('list'),count=document.getElementById('count'),rec=document.getElementById('recurring'),range=document.getElementById('range');
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const DOW=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MON=['January','February','March','April','May','June','July','August','September','October','November','December'];
+let data={events:[],recurring:[]};
+function fmtRange(a,b){const d1=new Date(a+'T12:00'),d2=new Date(b+'T12:00');return `${d1.getDate()} ${MON[d1.getMonth()].slice(0,3)} – ${d2.getDate()} ${MON[d2.getMonth()].slice(0,3)}`;}
+function ev(e){
+  const title=e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title);
+  return `<div class="ev"><div class="t">${esc(e.time||'')}</div><div>
+    <h3>${title}</h3>
+    <div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>
+    ${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}
+    <div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div>
+  </div></div>`;
+}
+function render(f){
+  const items=(f==='all'?data.events:data.events.filter(e=>e.cat===f)).slice().sort((a,b)=>a.date.localeCompare(b.date)||String(a.time||'').localeCompare(String(b.time||'')));
+  if(!items.length){list.innerHTML='<p class="empty">Nothing in this category yet — check back next week.</p>';count.textContent='';}
+  else{
+    // group by week (Mon–Sun) then day
+    const weeks=new Map();
+    for(const e of items){
+      const d=new Date(e.date+'T12:00');const dow=(d.getDay()+6)%7;const mon=new Date(d);mon.setDate(d.getDate()-dow);
+      const key=mon.toISOString().slice(0,10);
+      if(!weeks.has(key))weeks.set(key,new Map());
+      const days=weeks.get(key);if(!days.has(e.date))days.set(e.date,[]);days.get(e.date).push(e);
+    }
+    let html='';let wi=0;
+    for(const [wk,days] of weeks){
+      const mon=new Date(wk+'T12:00'),sun=new Date(mon);sun.setDate(mon.getDate()+6);
+      const label=wi===0?'This week':wi===1?'Next week':'The week after';
+      html+=`<section class="week"><h2>${label} — ${fmtRange(wk,sun.toISOString().slice(0,10))}</h2>`;
+      for(const [day,evs] of days){
+        const d=new Date(day+'T12:00');
+        html+=`<div class="day"><div class="date"><b>${d.getDate()}</b><span>${DOW[d.getDay()]}</span><em>${MON[d.getMonth()]}</em></div><div class="events">${evs.map(ev).join('')}</div></div>`;
+      }
+      html+='</section>';wi++;
+    }
+    list.innerHTML=html;count.textContent=`${items.length} event${items.length===1?'':'s'}`;
+  }
+  const r=f==='all'?data.recurring:data.recurring.filter(e=>e.cat===f);
+  rec.style.display=r.length?'':'none';
+  rec.innerHTML=`<h2>Every week</h2><p class="lead">The fixtures of island winter life — no need to check dates.</p><div class="events">${r.map(e=>`<div class="ev"><div class="t">${esc(e.when)}</div><div><h3>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}<div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`).join('')}</div>`;
+}
+document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render(b.dataset.f);}));
+fetch('/data/events.json').then(r=>r.json()).then(d=>{data=d;if(d.from&&d.to)range.textContent=fmtRange(d.from,d.to);render('all');}).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the agenda. Refresh to try again.</p>';});
+</script>
+</body>
+</html>
