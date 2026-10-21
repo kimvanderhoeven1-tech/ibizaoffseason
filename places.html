@@ -70,7 +70,7 @@ function render(f){
   const items=f==='all'?all:all.filter(p=>(p.tags||[]).includes(f));
   if(!items.length){list.innerHTML='<p class="empty">Nothing of this type listed yet.</p>';count.textContent='';return;}
   count.textContent=items.length+' place'+(items.length===1?'':'s');
-  const vill=new Map();for(const p of items){if(!vill.has(p.village))vill.set(p.village,[]);vill.get(p.village).push(p);}
+  const vill=new Map();items.sort((a,b)=>(a.area==='All')-(b.area==='All'));for(const p of items){if(!vill.has(p.village))vill.set(p.village,[]);vill.get(p.village).push(p);}
   let html='';for(const [v,ps] of vill){html+=`<section class="month"><h2>${esc(v)}<small>${ps.length} place${ps.length===1?'':'s'}</small></h2><div class="events">${ps.map(row).join('')}</div></section>`;}
   list.innerHTML=html;
 }
