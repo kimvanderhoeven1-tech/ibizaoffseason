@@ -187,3 +187,35 @@ footer.site a:hover{color:var(--terracotta)}
   .month h2{font-size:28px}
   .pagehead h1{font-size:44px}
 }
+
+/* PPP button + page */
+.menu .ppp-btn{font-size:12px;font-weight:800;letter-spacing:.18em;padding:10px 14px;border-radius:999px;background:var(--terracotta);color:var(--sand-50);border:1.5px solid var(--terracotta);text-decoration:none;transition:.2s}
+.menu .ppp-btn:hover,.menu .ppp-btn.on{background:var(--ink);border-color:var(--ink);color:var(--sand-50)}
+.pagehead.ppp .kicker{font-size:12px;font-weight:800;letter-spacing:.3em;color:var(--terracotta);margin:0 0 10px}
+.pagehead.ppp .when{color:var(--terracotta)}
+.ppp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:26px 0 40px}
+.ppp-card{background:var(--ink);color:var(--sand-50);border-radius:20px;padding:24px;min-height:170px;display:flex;flex-direction:column;gap:8px}
+.ppp-card span{font-size:11px;letter-spacing:.3em;color:var(--terracotta);font-weight:800}
+.ppp-card h3{font-family:var(--serif);font-weight:500;font-size:26px}
+.ppp-card p{font-size:14px;opacity:.8;line-height:1.5}
+.ppp-form{background:var(--sand-100);border:1px solid var(--sand-200);border-radius:22px;padding:30px;margin:0 0 10px;max-width:640px}
+.ppp-form h2{font-family:var(--serif);font-weight:500;font-size:34px;margin-bottom:6px}
+.ppp-form>p{color:var(--ink-soft);font-size:14px;margin-bottom:18px}
+.ppp-form form{display:grid;gap:10px}
+.ppp-form input,.ppp-form textarea{font:inherit;font-size:15px;padding:12px 14px;border-radius:12px;border:1.5px solid var(--sand-300);background:var(--sand-50);color:var(--ink);width:100%}
+.ppp-form input:focus,.ppp-form textarea:focus{outline:none;border-color:var(--ink)}
+.ppp-form .fine{font-size:12px;color:#8A8172;margin-top:10px}
+/* Winter Table */
+.spec .month{margin:28px 0}
+.spec .desc{font-size:15px;color:var(--ink-soft);max-width:66ch;margin-top:10px}
+.spec .where{font-size:14px;margin-top:8px}
+.spec .where a{text-decoration:underline;text-decoration-color:var(--sand-400)}
+@media(max-width:640px){.menu .ppp-btn{padding:8px 11px;font-size:11px}}
+.ppp-switch{display:flex;gap:8px;margin:0 0 16px}
+.ppp-form .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ppp-form .check{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--ink-soft)}
+.ppp-form .check input{width:auto;margin-top:3px}
+.ppp-upcoming{margin:0 0 36px}
+.ppp-upcoming h2{font-family:var(--serif);font-weight:500;font-size:34px;border-bottom:1px solid var(--sand-200);padding-bottom:8px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:baseline}
+.ppp-upcoming h2 small{font-family:var(--sans);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--terracotta);font-weight:800}
+.ppp-upcoming .ev .t{line-height:1.3}
