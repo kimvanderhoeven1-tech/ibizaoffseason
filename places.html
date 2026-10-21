@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Winter Places — Ibiza Offseason</title>
+<meta name="description" content="Restaurants, bars, hotels, markets and live music on Ibiza that stay open in winter — village by village, with opening days and what to go for.">
+<meta property="og:title" content="Winter Places — Ibiza Offseason">
+<meta property="og:description" content="What's open on Ibiza in winter, village by village.">
+<meta property="og:url" content="https://ibizaoffseason.com/places">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="lizard" fill="#2B261F"><path d="M58 14c4-3 10-2 12 2 1.5 3 .5 6-2.5 8-2 1.3-4.5 1.5-6.8 2.5l-3.5 2.3c-1.6 1-3.6.4-4.3-1.3-.9-2.3-1.1-4.8-.4-7.1.8-2.9 2.9-5 5.5-6.4z"/><path d="M53.5 27c5.2 1.2 8.8 4.6 10 9.6.9 3.8.2 7.6-1.1 11.2-1.6 4.3-4 8.3-7.2 11.6-3.4 3.6-7.6 6.2-11.9 8.5-3.7 2-7.7 3.6-11.6 5.1-2.3.9-4.9-.8-4.9-3.3 0-1.7 1.1-3.1 2.6-3.7 4-1.6 8-3.3 11.7-5.5 3.7-2.2 7-5 9.4-8.6 2-3 3.3-6.4 3.9-9.9.6-3.5-.2-7.1-2.8-9.6-1.7-1.6-1.3-4.6.9-5.4.4-.1.7-.1 1 0z"/><path d="M31 70.5c-1.3 3.5-3.8 6.5-7.3 8.1-3.1 1.4-6.6 1.5-9.8.6-3.2-.9-6-2.9-8-5.5-.9-1.2-.5-3 .9-3.6 1.1-.5 2.3 0 3 .9 1.6 2 3.8 3.5 6.3 4.1 2.2.5 4.6.3 6.6-.8 2.2-1.2 3.8-3.2 4.6-5.6.5-1.4 2.1-2.1 3.4-1.4 1 .5 1.5 1.7 1.2 2.8z"/><path d="M61.5 36l9.5-6.5c1.2-.8 2.8-.5 3.6.7.7 1.1.5 2.6-.5 3.5L66 40.5c-1.1 1-2.8.9-3.8-.2-1-1.2-.9-3 .3-4z"/><path d="M58 38.5l-2.8 10.2c-.4 1.4-1.9 2.2-3.3 1.8-1.3-.4-2.1-1.8-1.8-3.1l2.2-10.8c.3-1.4 1.6-2.3 3-2 1.5.3 2.4 1.7 2.1 3.2z"/><path d="M40 62l-10-3c-1.4-.4-2.1-1.9-1.7-3.3.4-1.3 1.8-2 3.1-1.6l10.5 3.2c1.4.4 2.2 1.9 1.7 3.3-.4 1.2-1.6 2-2.9 1.6z"/><path d="M45.5 60.5l6.5 8.5c.9 1.2.7 2.9-.5 3.8-1.1.8-2.7.6-3.6-.5l-7-8.8c-.9-1.2-.7-2.9.5-3.8 1.2-.9 2.9-.6 3.8.5z"/></g></defs></svg>
+
+<header class="site wrap">
+  <nav class="nav">
+    <a class="brand" href="/"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#lizard"/></svg><span class="word">Ibiza <span>Offseason</span></span></a>
+    <div class="menu">
+      <a href="/agenda">Agenda</a>
+      <a href="/trails">Trails</a>
+      <a href="/retreats">Retreats</a>
+      <a href="/places" aria-current="page">Places</a>
+      <a class="cta" href="/#join">Get the weekly</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="pagehead">
+    <h1>Winter Places</h1>
+    <p class="when">Open when the island goes quiet</p>
+    <p>Restaurants, bars, fincas, markets and the odd hotel that keep going all winter — the ones with a terrace in the sun, a fondue, a concert or a sunset. Grouped by village, so you know where to end a walk.</p>
+  </div>
+
+  <div class="filters" role="group" aria-label="Filter by type" id="filters">
+    <button class="chip" data-f="all" aria-pressed="true">All places</button>
+  </div>
+  <p class="count" id="count"></p>
+
+  <div id="list"></div>
+
+  <div class="listcta">
+    <div><h2>Open this winter?</h2><p>If your place stays open after October — restaurant, bar, hotel, market, studio — tell us what you do, which days you're open and what to come for. Listing is free during our launch season.</p></div>
+    <a class="btn" href="mailto:hello@ibizaoffseason.com?subject=List%20my%20place">List your place</a>
+  </div>
+</main>
+
+<footer class="site wrap">
+  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div class="soc">
+    <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=61595315296612" target="_blank" rel="noopener">Facebook</a>
+    <a href="mailto:hello@ibizaoffseason.com">Email</a>
+  </div>
+</footer>
+
+<script>
+const list=document.getElementById('list'),count=document.getElementById('count'),filters=document.getElementById('filters');
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let all=[];
+const row=p=>`<div class="ev"><div class="t">${esc(p.open)}</div><div><h3>${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</h3><div class="where">${(p.tags||[]).map(esc).join(' · ')}</div>${p.desc?`<p class="desc">${esc(p.desc)}</p>`:''}</div></div>`;
+function render(f){
+  const items=f==='all'?all:all.filter(p=>(p.tags||[]).includes(f));
+  if(!items.length){list.innerHTML='<p class="empty">Nothing of this type listed yet.</p>';count.textContent='';return;}
+  count.textContent=items.length+' place'+(items.length===1?'':'s');
+  const vill=new Map();for(const p of items){if(!vill.has(p.village))vill.set(p.village,[]);vill.get(p.village).push(p);}
+  let html='';for(const [v,ps] of vill){html+=`<section class="month"><h2>${esc(v)}<small>${ps.length} place${ps.length===1?'':'s'}</small></h2><div class="events">${ps.map(row).join('')}</div></section>`;}
+  list.innerHTML=html;
+}
+fetch('/data/places.json').then(r=>r.json()).then(d=>{
+  all=d;
+  const tags=[...new Set(d.flatMap(p=>p.tags||[]))].sort();
+  tags.forEach(t=>{const b=document.createElement('button');b.className='chip';b.dataset.f=t;b.setAttribute('aria-pressed','false');b.textContent=t;filters.appendChild(b);});
+  document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render(b.dataset.f);}));
+  render('all');
+}).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the places. Refresh to try again.</p>';});
+</script>
+</body>
+</html>

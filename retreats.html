@@ -24,6 +24,7 @@
       <a href="/agenda">Agenda</a>
       <a href="/trails">Trails</a>
       <a href="/retreats" aria-current="page">Retreats</a>
+      <a href="/places">Places</a>
       <a class="cta" href="/#join">Get the weekly</a>
     </div>
   </nav>
@@ -44,8 +45,6 @@
   <div id="list"></div>
 
   <section class="recurring" id="tba" style="display:none"></section>
-
-  <section class="recurring" id="places" style="display:none"></section>
 
   <div class="listcta">
     <div><h2>Running a retreat on the island?</h2><p>Get it in front of the people searching for exactly this. Send dates, venue, price and a link — listing is free during our launch season.</p></div>
@@ -97,8 +96,6 @@ fetch('/data/retreats.json').then(r=>r.json()).then(d=>{
   document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render(b.dataset.f);}));
   render('all');
   if(d.organisers&&d.organisers.length){tba.style.display='';tba.innerHTML=`<h2>Regulars — dates coming</h2><p class="lead">Organisers who run retreats here every winter but haven't published this season's dates yet.</p><div class="events">${d.organisers.map(o=>`<div class="ev"><div class="t"></div><div><h3>${o.url?`<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.name)}</a>`:esc(o.name)}</h3><div class="where">${esc(o.where||'')}</div>${o.desc?`<p class="desc">${esc(o.desc)}</p>`:''}</div></div>`).join('')}</div>`;}
-  const pl=document.getElementById('places');
-  if(d.places&&d.places.length){pl.style.display='';pl.innerHTML=`<h2>Places to stay — open this winter</h2><p class="lead">Hotels and spots with wellness, food and a view that stay open when the island goes quiet. Good bases for a self-made retreat or a walking weekend.</p><div class="events">${d.places.map(o=>`<div class="ev"><div class="t">${esc(o.open||'')}</div><div><h3>${o.url?`<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.name)}</a>`:esc(o.name)}</h3><div class="where">${esc(o.where||'')}</div>${o.desc?`<p class="desc">${esc(o.desc)}</p>`:''}</div></div>`).join('')}</div>`;}
 }).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the retreats. Refresh to try again.</p>';});
 </script>
 </body>
