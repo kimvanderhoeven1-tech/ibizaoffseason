@@ -21,5 +21,9 @@
 {"name": "Ibiza Wellness Retreats", "where": "Can Curreu / Atzaró", "desc": "One-to-one wellness packages, bookable on request through the winter.", "url": "https://ibizawellnessretreats.com"},
 {"name": "YogaFit Ibiza", "where": "Es Figueral", "desc": "Next editions 4–11 April and 2–9 May 2027.", "url": "https://yogafitretreats.com/collections/yogafit-ibiza"},
 {"name": "Yoga x Life Retreats", "where": "Near Sant Joan", "desc": "Three retreats 18–29 April 2027.", "url": "https://yogaxliferetreats.com"}
+],
+"places":[
+{"name": "Es Cucons", "where": "Santa Agnès de Corona", "open": "Open through the winter", "desc": "Rural hotel in a 17th-century finca on the Pla de Corona, with a spa, sauna, hot tub and a Mediterranean restaurant. Runs live concerts and wellness days off-season — a good base for the Santa Agnès walks and the almond blossom in February.", "url": "https://www.escucons.com"},
+{"name": "Las Puertas del Cielo", "where": "Santa Agnès de Corona", "open": "Open until 15 November", "desc": "Clifftop bar-restaurant above the north-west coast, named for the 'gates of heaven' view. One of the island's great sunset spots and a natural end to the Ses Balandres walk — catch it before the closing on 15 November.", "url": "https://www.laspuertasdelcielo.es"}
 ]
 }
