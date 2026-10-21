@@ -48,6 +48,8 @@
     <div class="ppp-card"><span>05</span><h3>The invitation</h3><p>Some doors only open if someone walks you to them. That's what we do.</p></div>
   </div>
 
+  <section id="regulars" class="ppp-upcoming" style="display:none"></section>
+
   <section id="upcoming" class="ppp-upcoming" style="display:none"></section>
 
   <div class="ppp-switch" role="tablist">
@@ -108,6 +110,11 @@ fetch('/data/ppp.json').then(r=>r.json()).then(d=>{
   if(!ev.length)return;const up=document.getElementById('upcoming');up.style.display='';
   up.innerHTML=`<h2>Coming up<small>members only</small></h2><div class="events">${ev.map(e=>{const dt=new Date(e.date+'T12:00');return `<div class="ev"><div class="t">${dt.getDate()} ${MON[dt.getMonth()]}${e.time?`<br>${esc(e.time)}`:''}</div><div><h3>${esc(e.name)}</h3><div class="where">${esc(e.area||'Location on invitation')}${e.price?' · '+esc(e.price):''}${e.capacity?' · '+esc(e.capacity):''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}<p class="where"><a href="#apply" data-ev="${esc(e.name)}" class="askin">Request an invitation →</a></p></div></div>`;}).join('')}</div>`;
   up.querySelectorAll('.askin').forEach(a=>a.addEventListener('click',()=>{show('apply');document.querySelector('#pppform [name=about]').value='Invitation for: '+a.dataset.ev+'\n';}));
+}).catch(()=>{});
+fetch('/data/places.json').then(r=>r.json()).then(d=>{
+  const m=d.filter(p=>(p.tags||[]).includes('Music'));if(!m.length)return;
+  const s=document.getElementById('regulars');s.style.display='';
+  s.innerHTML=`<h2>Where the music is, every week<small>no invitation needed</small></h2><p class="lead">The regulars: live sets, salsa nights and bands in restaurants that keep the stage going all winter.</p><div class="events">${m.map(p=>`<div class="ev"><div class="t">${esc(p.open)}</div><div><h3>${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</h3><div class="where">${esc(p.village)}</div>${p.desc?`<p class="desc">${esc(p.desc)}</p>`:''}</div></div>`).join('')}</div><p class="where" style="margin-top:14px"><a href="/places">All places open in winter →</a></p>`;
 }).catch(()=>{});
 function show(t){document.getElementById('apply').style.display=t==='apply'?'':'none';document.getElementById('host').style.display=t==='host'?'':'none';document.querySelectorAll('.ppp-switch .chip').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===t));}
 document.querySelectorAll('.ppp-switch .chip').forEach(b=>b.addEventListener('click',()=>show(b.dataset.t)));
