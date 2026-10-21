@@ -114,12 +114,12 @@
   <div class="join" id="join">
     <div><h2>One email a week. The good stuff only.</h2><p>Every Thursday: what's on this weekend and the week after, one trail, one retreat worth knowing about. No spam, ever.</p></div>
     <div>
-      <form id="signup" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form id="signup">
         <input type="email" name="email" placeholder="Your email" required autocomplete="email">
         <button type="submit">Join the list</button>
       </form>
       <p class="fine">Unsubscribe with one click, any time.</p>
-      <p class="ok" id="ok">You're on the list. See you Thursday.</p>
+      <p class="ok" id="ok">Almost there — send the email that just opened and you're on the list.</p>
     </div>
   </div>
 </section>
@@ -136,13 +136,10 @@
 
 <script>
   const f=document.getElementById('signup'),ok=document.getElementById('ok');
-  f.addEventListener('submit',async e=>{
-    if(f.action.includes('YOUR_FORM_ID')){e.preventDefault();f.style.display='none';ok.style.display='block';return;}
-    e.preventDefault();
-    try{
-      const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}});
-      if(r.ok){f.style.display='none';ok.style.display='block';}else{f.submit();}
-    }catch(_){f.submit();}
+  f.addEventListener('submit',e=>{
+    e.preventDefault();const em=f.email.value.trim();if(!em)return;
+    location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('Weekly: sign me up')+'&body='+encodeURIComponent('Please add me to the Ibiza Offseason weekly.\n\nEmail: '+em);
+    f.style.display='none';ok.style.display='block';
   });
 </script>
 <script>
