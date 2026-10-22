@@ -46,7 +46,7 @@
   <div class="ppp-grid">
     <div class="ppp-card"><span>01</span><h3>The cave</h3><p>Dinner for twelve, candlelight, a cellist, a kitchen that drives in. Not on any map.</p></div>
     <div class="ppp-card"><span>02</span><h3>The finca</h3><p>Fifty hectares, one night, a line-up you'll recognise. Shuttle from the village; nobody parks at the gate.</p></div>
-    <div class="ppp-card"><span>03</span><h3>KvdH tables</h3><p>Long tables, produced by KvdH: a private chef, an oysterman in a top hat — at a finca whose name you'll get with the pin. Limited seats, priced like it.</p></div>
+    <div class="ppp-card"><span>03</span><h3>Your Ibiza Table</h3><p>A long table, produced for you: a private chef, an oysterman in a top hat, music, the guest list — at a finca whose name you'll get with the pin. Limited seats, priced like it. Or your own night, produced start to finish: <a href="#host" onclick="show('host')">ask us</a>.</p></div>
     <div class="ppp-card"><span>04</span><h3>The dancefloor</h3><p>Special places to dance when the clubs are shut: a finca with a sound system, a cave, a living room with the right people. The music starts after midnight and nobody posts the location.</p></div>
     <div class="ppp-card"><span>05</span><h3>The invitation</h3><p>Some doors only open if someone walks you to them. That's what we do.</p></div>
   </div>
@@ -76,6 +76,7 @@
   <section class="ppp-form" id="host" style="display:none">
     <h2>Host a PPP event</h2>
     <p>A private party, a closed-door opening, a one-night thing in a cave or a finca that isn't for everyone. Submit it here — we never publish the address, only the invitation. Guests go through us.</p>
+    <p class="produce"><b>Want us to produce it?</b> Your Ibiza Table is our own format: we bring the chef, the oysters, the music and the guests to your restaurant, finca or garden, and you get a full house on a winter night. Tick the box below and we'll call you.</p>
     <form id="hostform">
       <input type="text" name="event" placeholder="Event name" required>
       <input type="text" name="host" placeholder="Host / organisation" required>
@@ -88,6 +89,7 @@
       <input type="text" name="area" placeholder="Area only — e.g. north, Sant Joan, 'a cave near the coast'">
       <input type="text" name="capacity" placeholder="Capacity / price per head (optional)">
       <textarea name="about" rows="4" placeholder="What is it, what's the vibe, and how do people get in? (invite, list, paid, password)"></textarea>
+      <label class="check"><input type="checkbox" name="produce"> I'd like Ibiza Offseason to produce this night (Your Ibiza Table) — send me a quote.</label>
       <label class="check"><input type="checkbox" name="confirm" required> I understand the address stays private and guests are vetted through Ibiza Offseason.</label>
       <button class="btn solid" type="submit">Submit event</button>
     </form>
@@ -127,7 +129,7 @@ document.querySelectorAll('.ppp-switch .chip').forEach(b=>b.addEventListener('cl
 if(location.hash==='#host')show('host');
 document.getElementById('hostform').addEventListener('submit',e=>{
   e.preventDefault();const f=e.target;
-  const body=`Event: ${f.event.value}\nHost: ${f.host.value}\nEmail: ${f.email.value}\nWhatsApp: ${f.phone.value}\nDate: ${f.date.value} ${f.time.value}\nArea: ${f.area.value}\nCapacity / price: ${f.capacity.value}\n\n${f.about.value}`;
+  const body=`Event: ${f.event.value}\nHost: ${f.host.value}\nEmail: ${f.email.value}\nWhatsApp: ${f.phone.value}\nDate: ${f.date.value} ${f.time.value}\nArea: ${f.area.value}\nCapacity / price: ${f.capacity.value}\nProduce it (Your Ibiza Table): ${f.produce.checked?'YES — call me':'no'}\n\n${f.about.value}`;
   location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('PPP event submission — '+f.event.value)+'&body='+encodeURIComponent(body);
 });
 document.getElementById('pppform').addEventListener('submit',e=>{
