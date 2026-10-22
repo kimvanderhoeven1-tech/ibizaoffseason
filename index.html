@@ -35,7 +35,8 @@
   .ok{display:none;margin-top:14px;font-family:var(--serif);font-size:22px;font-style:italic;color:var(--olive)}
   .art{position:relative;display:flex;justify-content:center}
   .art svg{width:100%;max-width:420px;height:auto;filter:drop-shadow(0 30px 40px rgba(43,38,31,.12))}
-  .art .ring{position:absolute;inset:8% 6%;border-radius:50%;background:var(--sand-100);z-index:-1}
+  .art .photo{width:100%;max-width:440px;aspect-ratio:4/5;object-fit:cover;border-radius:28px;box-shadow:0 30px 40px rgba(43,38,31,.14)}
+  .art .badge{position:absolute;right:-6px;bottom:-14px;width:120px;height:120px;max-width:none;background:var(--sand-50);border-radius:50%;padding:18px;box-shadow:0 10px 24px rgba(43,38,31,.14);filter:none}
   .strip{border-top:1px solid var(--sand-200);border-bottom:1px solid var(--sand-200);padding:28px 0;overflow:hidden}
   .ticker{display:flex;gap:48px;white-space:nowrap;font-family:var(--serif);font-size:22px;font-style:italic;color:var(--ink-soft);animation:scroll 40s linear infinite}
   .ticker span::after{content:"·";margin-left:48px;color:var(--sand-400)}
@@ -45,7 +46,7 @@
   .join p{color:var(--ink-soft);font-size:15px;margin-top:8px;max-width:46ch}
   @media (max-width:820px){
     .hero{grid-template-columns:1fr;padding:24px 0 40px;gap:28px}
-    .art{order:-1}.art svg{max-width:200px}
+    .art{order:-1}.art .photo{max-width:100%;aspect-ratio:16/10}.art .badge{width:84px;height:84px;padding:12px;right:8px;bottom:-10px}
     form{flex-direction:column}form button{width:100%}
     .join{grid-template-columns:1fr;padding:26px}
   }
@@ -83,8 +84,8 @@
       <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn solid" href="/agenda">See what's on</a><a class="btn" href="/trails">Explore trails</a></div>
     </div>
     <div class="art">
-      <div class="ring"></div>
-      <svg viewBox="0 0 100 100" role="img" aria-label="Sargantana, the Ibiza wall lizard"><use href="#lizard"/></svg>
+      <img class="photo" src="/img/hero-cove.jpg" alt="A quiet turquoise cove with fishermen's huts, Ibiza in winter">
+      <svg class="badge" viewBox="0 0 100 100" role="img" aria-label="Sargantana, the Ibiza wall lizard"><use href="#lizard"/></svg>
     </div>
   </section>
 </main>
