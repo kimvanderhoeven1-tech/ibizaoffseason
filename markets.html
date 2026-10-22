@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Markets — Ibiza Offseason</title>
-<meta name="description" content="Every market on Ibiza that runs through the winter — Forada, Sant Joan, Las Dalias, Sant Jordi — plus private and pop-up markets. Day, hours, what to go for.">
+<meta name="description" content="Every market on Ibiza that runs through the winter — Forada, Sant Joan, Las Dalias, Sant Jordi, the Friday farmers' market in Sant Antoni, Saturdays at Juntos Farm, the Christmas markets — plus pop-ups. Day, hours, what to go for.">
 <meta property="og:title" content="Markets — Ibiza Offseason">
 <meta property="og:description" content="Ibiza's winter markets, and the pop-ups.">
 <meta property="og:url" content="https://ibizaoffseason.com/markets">
@@ -37,11 +37,13 @@
   <div class="pagehead">
     <h1>Markets</h1>
     <p class="when">Markets are the best. Sell, swap, meet.</p>
-    <p>End of season, everyone has something to sell: the villa that's closing, the boat that's being emptied, the wardrobe that didn't fit the winter. Markets are where the island meets itself — four of them run every week all winter, and then there are the pop-ups: a sale in a finca, a vintage day in a studio, a producers' market at a bodega. This is the place to find them, and to start your own.</p>
+    <p>End of season, everyone has something to sell: the villa that's closing, the boat that's being emptied, the wardrobe that didn't fit the winter. Markets are where the island meets itself — the weekly ones that run all winter, the farms that open their gates on Fridays and Saturdays, the Christmas markets in the four towns, and the pop-ups: a sale in a finca, a vintage day in a studio, a producers' market at a bodega. This is the place to find them, and to start your own.</p>
   </div>
 
   <section class="month" id="weekly"><h2>Every week<small>all winter</small></h2><div class="events" id="wlist"></div></section>
 
+  <section class="month" id="farms"><h2>Farms &amp; producers<small>shop where it grows</small></h2><p class="lead">The island's farms don't do markets so much as open days: a shop, a long table, something for the kids. Fridays and Saturdays are the days.</p><div class="events" id="flist"></div></section>
+  <section class="month" id="xmas"><h2>Christmas markets<small>December – 6 January</small></h2><p class="lead">All four towns do one. Dates follow last year's pattern until the town halls publish this year's — we update them the day they do.</p><div class="events" id="xlist"></div></section>
   <section class="recurring" id="popups" style="display:none"></section>
 
   <section class="recurring" id="host">
@@ -86,8 +88,15 @@
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 fetch('/data/markets.json').then(r=>r.json()).then(d=>{
-  document.getElementById('wlist').innerHTML=d.map(m=>`<div class="ev"><div class="t">${esc(m.day)}<br><span style="font-weight:500;color:var(--ink-soft)">${esc(m.hours)}</span></div><div><h3>${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a>`:esc(m.name)}</h3><div class="where">${esc(m.village)} · ${esc(m.type)} · ${esc(m.season)}</div>${m.desc?`<p class="desc">${esc(m.desc)}</p>`:''}</div></div>`).join('');
+  const row=m=>`<div class="ev"><div class="t">${esc(m.day)}<br><span style="font-weight:500;color:var(--ink-soft)">${esc(m.hours)}</span></div><div><h3>${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a>`:esc(m.name)}</h3><div class="where">${esc(m.village)} · ${esc(m.type)} · ${esc(m.season)}</div>${m.desc?`<p class="desc">${esc(m.desc)}</p>`:''}</div></div>`;
+  const ORD={Monday:1,Tuesday:2,Wednesday:3,Thursday:4,Friday:5,Saturday:6,Sunday:7};
+  const by=g=>d.filter(m=>(m.group||'weekly')===g).sort((a,b)=>(ORD[a.day]||9)-(ORD[b.day]||9));
+  document.getElementById('wlist').innerHTML=by('weekly').map(row).join('');
+  document.getElementById('flist').innerHTML=by('farm').map(row).join('');
 });
+fetch('/data/christmas-markets.json').then(r=>r.json()).then(d=>{
+  document.getElementById('xlist').innerHTML=d.map(m=>`<div class="ev"><div class="t">${esc(m.when)}</div><div><h3>${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a>`:esc(m.name)}</h3><div class="where">${esc(m.village)}</div>${m.desc?`<p class="desc">${esc(m.desc)}</p>`:''}</div></div>`).join('');
+}).catch(()=>{});
 fetch('/data/popup-markets.json').then(r=>r.json()).then(d=>{
   const today=new Date().toISOString().slice(0,10);
   const ev=(d||[]).filter(e=>(e.end||e.date)>=today).sort((a,b)=>a.date.localeCompare(b.date));
