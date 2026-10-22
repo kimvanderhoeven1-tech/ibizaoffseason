@@ -104,5 +104,16 @@ fetch('/data/retreats.json').then(r=>r.json()).then(d=>{
   if(d.organisers&&d.organisers.length){tba.style.display='';tba.innerHTML=`<h2>Regulars — dates coming</h2><p class="lead">Organisers who run retreats here every winter but haven't published this season's dates yet.</p><div class="events">${d.organisers.map(o=>`<div class="ev"><div class="t"></div><div><h3>${o.url?`<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.name)}</a>`:esc(o.name)}</h3><div class="where">${esc(o.where||'')}</div>${o.desc?`<p class="desc">${esc(o.desc)}</p>`:''}</div></div>`).join('')}</div>`;}
 }).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the retreats. Refresh to try again.</p>';});
 </script>
+<script>
+// Outgoing links carry utm_source=ibizaoffseason so venues can see the traffic came from here.
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;
+  var h=a.getAttribute('href')||'';if(!/^https?:\/\//i.test(h))return;
+  try{var u=new URL(h);if(/(^|\.)ibizaoffseason\.com$/i.test(u.hostname))return;
+    if(!u.searchParams.has('utm_source')){u.searchParams.set('utm_source','ibizaoffseason');u.searchParams.set('utm_medium','referral');a.href=u.toString();}
+  }catch(err){}
+},true);
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

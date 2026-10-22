@@ -107,5 +107,16 @@ document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{
 }));
 fetch('/data/trails.json').then(r=>r.json()).then(d=>{all=d;render('all');}).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the routes. Refresh to try again.</p>';});
 </script>
+<script>
+// Outgoing links carry utm_source=ibizaoffseason so venues can see the traffic came from here.
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;
+  var h=a.getAttribute('href')||'';if(!/^https?:\/\//i.test(h))return;
+  try{var u=new URL(h);if(/(^|\.)ibizaoffseason\.com$/i.test(u.hostname))return;
+    if(!u.searchParams.has('utm_source')){u.searchParams.set('utm_source','ibizaoffseason');u.searchParams.set('utm_medium','referral');a.href=u.toString();}
+  }catch(err){}
+},true);
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

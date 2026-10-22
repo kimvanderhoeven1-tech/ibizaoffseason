@@ -138,5 +138,16 @@ document.getElementById('pppform').addEventListener('submit',e=>{
   location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('PPP access request — '+f.name.value)+'&body='+encodeURIComponent(body);
 });
 </script>
+<script>
+// Outgoing links carry utm_source=ibizaoffseason so venues can see the traffic came from here.
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;
+  var h=a.getAttribute('href')||'';if(!/^https?:\/\//i.test(h))return;
+  try{var u=new URL(h);if(/(^|\.)ibizaoffseason\.com$/i.test(u.hostname))return;
+    if(!u.searchParams.has('utm_source')){u.searchParams.set('utm_source','ibizaoffseason');u.searchParams.set('utm_medium','referral');a.href=u.toString();}
+  }catch(err){}
+},true);
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
