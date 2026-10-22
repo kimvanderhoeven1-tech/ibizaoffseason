@@ -22,7 +22,9 @@
   .wordmark small{display:block;font-weight:400;letter-spacing:.32em;font-size:clamp(15px,2.2vw,24px);margin-top:12px;color:var(--ink-soft)}
   h1.tagline{font-family:var(--serif);font-weight:500;font-style:italic;font-size:clamp(28px,4vw,44px);line-height:1.15;margin:30px 0 18px;color:var(--ink)}
   .lead{font-size:16px;max-width:520px;color:var(--ink-soft)}
-  .pills{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 34px}
+  .hero-signup{margin-top:26px;max-width:460px}
+  .hero-fine{margin-top:8px;max-width:46ch}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 30px}
   .pill{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:8px 14px;border-radius:999px;background:var(--sand-100);border:1px solid var(--sand-200);color:var(--ink-soft);text-decoration:none}
   .pill:hover{border-color:var(--ink);color:var(--ink)}
   form{display:flex;gap:10px;max-width:520px}
@@ -67,7 +69,7 @@
       <a href="/winter-table">Winter Table</a>
       <a href="/markets">Markets</a>
       <a class="ppp-btn" href="/ppp" title="Professional Party People Places">PPP</a>
-      <a class="cta" href="#join">Get the weekly</a>
+      <a class="cta" href="#signup-top">Get the weekly</a>
     </div>
   </nav>
 </header>
@@ -79,6 +81,11 @@
       <div class="wordmark">Ibiza<small>Offseason</small></div>
       <h1 class="tagline">The island, when the island is yours.</h1>
       <p class="lead">Ibiza doesn't stop in winter — it just stops shouting. Hikes, padel, ceramics, galleries, concerts, farm days, hierbas making, village fiestas. One curated agenda, in English, every week.</p>
+      <form class="signup hero-signup" id="signup-top" aria-label="Get the weekly">
+        <input type="email" name="email" placeholder="Your email" required autocomplete="email">
+        <button type="submit">Get the weekly</button>
+      </form>
+      <p class="fine hero-fine">One email every Thursday: what's on, one trail, one retreat. <span class="ok" id="ok-top">Almost there — send the email that just opened and you're on the list.</span></p>
       <div class="pills">
         <a class="pill" href="/agenda">Sport</a><a class="pill" href="/agenda">Culture</a><a class="pill" href="/agenda">Music</a><a class="pill" href="/agenda">Workshops</a><a class="pill" href="/agenda">Kids &amp; Family</a><a class="pill" href="/trails">Trails</a><a class="pill" href="/beaches">Beaches</a><a class="pill" href="/retreats">Retreats</a><a class="pill" href="/places">Open in winter</a>
       </div>
@@ -117,7 +124,7 @@
   <div class="join" id="join">
     <div><h2>One email a week. The good stuff only.</h2><p>Every Thursday: what's on this weekend and the week after, one trail, one retreat worth knowing about. No spam, ever.</p></div>
     <div>
-      <form id="signup">
+      <form class="signup" id="signup">
         <input type="email" name="email" placeholder="Your email" required autocomplete="email">
         <button type="submit">Join the list</button>
       </form>
@@ -138,11 +145,12 @@
 </footer>
 
 <script>
-  const f=document.getElementById('signup'),ok=document.getElementById('ok');
-  f.addEventListener('submit',e=>{
-    e.preventDefault();const em=f.email.value.trim();if(!em)return;
-    location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('Weekly: sign me up')+'&body='+encodeURIComponent('Please add me to the Ibiza Offseason weekly.\n\nEmail: '+em);
-    f.style.display='none';ok.style.display='block';
+  document.querySelectorAll('form.signup').forEach(f=>{
+    f.addEventListener('submit',e=>{
+      e.preventDefault();const em=f.email.value.trim();if(!em)return;
+      location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('Weekly: sign me up')+'&body='+encodeURIComponent('Please add me to the Ibiza Offseason weekly.\n\nEmail: '+em);
+      f.style.display='none';document.querySelectorAll('.ok').forEach(o=>o.style.display='inline');
+    });
   });
 </script>
 <script>
