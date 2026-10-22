@@ -77,7 +77,7 @@ function dates(a,b){const d1=new Date(a+'T12:00'),d2=new Date(b+'T12:00');const 
   return `${s}<small>${n} day${n===1?'':'s'}</small>`;}
 function row(r){
   return `<div class="retreat">
-    <div class="dates">${dates(r.start,r.end)}</div>
+    <div class="dates">${dates(r.start,r.end)}${r.tbc?'<br><small style="font-weight:400;opacity:.75">dates to confirm</small>':''}</div>
     <div><h3>${esc(r.name)}</h3><div class="org">${esc(r.organiser)}${r.venue?' · '+esc(r.venue):''}${r.town?', '+esc(r.town):''}</div>
       ${r.desc?`<p class="desc">${esc(r.desc)}</p>`:''}
       <div class="meta">${(r.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}${r.lang?`<span class="price">${esc(r.lang)}</span>`:''}</div></div>
