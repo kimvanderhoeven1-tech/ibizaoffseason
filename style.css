@@ -224,3 +224,7 @@ footer.site a:hover{color:var(--terracotta)}
 .pagehead.ppp h1 .plus{color:var(--terracotta)}
 #weekly .ev{grid-template-columns:96px 1fr}
 #weekly .ev .t{line-height:1.35}
+.mform{display:grid;gap:10px;max-width:640px}
+.mform input,.mform textarea{font:inherit;font-size:15px;padding:12px 14px;border-radius:12px;border:1.5px solid var(--sand-300);background:var(--sand-50);color:var(--ink);width:100%}
+.mform input:focus,.mform textarea:focus{outline:none;border-color:var(--ink)}
+.mform .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}

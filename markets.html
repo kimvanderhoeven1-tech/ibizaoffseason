@@ -44,10 +44,33 @@
 
   <section class="recurring" id="popups" style="display:none"></section>
 
-  <div class="listcta" id="list">
-    <div><h2>Got stuff to sell? Start a market.</h2><p>An end-of-season sale at your villa, a closet clear-out with friends, a Christmas market in your finca, a producers' day — send the date, place and what's on the stalls. We list it here and in the agenda, and bring the people. Free during our launch season.</p></div>
-    <a class="btn" href="mailto:hello@ibizaoffseason.com?subject=Pop-up%20market">List your market</a>
-  </div>
+  <section class="recurring" id="host">
+    <h2>Start your own market</h2>
+    <p class="lead">Two ways in: you have a place — a finca, a garden, a courtyard, a studio — and want a market there; or you have things to sell and need a market to join. Tell us which, we match the two and put the date on the island's calendar.</p>
+    <div class="ppp-switch">
+      <button class="chip" data-t="place" aria-pressed="true">I have a place</button>
+      <button class="chip" data-t="stall" aria-pressed="false">I want a stall</button>
+    </div>
+    <form id="placeform" class="mform">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="place" placeholder="The place — finca, garden, studio, bar… and the village" required>
+      <div class="two"><input type="date" name="date" aria-label="Date (if you have one)"><input type="text" name="size" placeholder="Room for how many stalls?"></div>
+      <input type="text" name="kind" placeholder="What kind of market? (vintage, producers, Christmas, kids, anything)">
+      <textarea name="about" rows="3" placeholder="Parking, power, toilets, food & drink on site, anything else"></textarea>
+      <button class="btn solid" type="submit">Offer my place</button>
+    </form>
+    <form id="stallform" class="mform" style="display:none">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="sell" placeholder="What are you selling? (clothes, furniture, boat gear, food, art…)" required>
+      <input type="text" name="when" placeholder="When? (a weekend, a month, 'before Christmas')">
+      <textarea name="about" rows="3" placeholder="Anything else — do you have a table and a gazebo, do you want to join an existing market or start one with friends?"></textarea>
+      <button class="btn solid" type="submit">Find me a market</button>
+    </form>
+    <p class="fine" style="margin-top:10px;color:#8A8172;font-size:12px">Both open your mail app with everything pre-filled, to hello@ibizaoffseason.com.</p>
+  </section>
+
 </main>
 
 <footer class="site wrap">
@@ -71,6 +94,10 @@ fetch('/data/popup-markets.json').then(r=>r.json()).then(d=>{
   if(!ev.length)return;const s=document.getElementById('popups');s.style.display='';
   s.innerHTML=`<h2>Pop-ups & private markets</h2><p class="lead">One-offs: announced here as soon as they're confirmed.</p><div class="events">${ev.map(e=>{const dt=new Date(e.date+'T12:00');return `<div class="ev"><div class="t">${dt.getDate()} ${MON[dt.getMonth()]}${e.end&&e.end!==e.date?` – ${new Date(e.end+'T12:00').getDate()} ${MON[new Date(e.end+'T12:00').getMonth()]}`:''}${e.hours?`<br>${esc(e.hours)}`:''}</div><div><h3>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a>`:esc(e.name)}</h3><div class="where">${esc(e.village||'')}${e.private?' · private — ask for the invitation':''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}</div></div>`;}).join('')}</div>`;
 }).catch(()=>{});
+function showm(t){document.getElementById('placeform').style.display=t==='place'?'':'none';document.getElementById('stallform').style.display=t==='stall'?'':'none';document.querySelectorAll('#host .chip').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===t));}
+document.querySelectorAll('#host .chip').forEach(b=>b.addEventListener('click',()=>showm(b.dataset.t)));
+document.getElementById('placeform').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const body=`MARKET — I HAVE A PLACE\nName: ${f.name.value}\nEmail: ${f.email.value}\nPlace: ${f.place.value}\nDate: ${f.date.value}\nStalls: ${f.size.value}\nKind: ${f.kind.value}\n\n${f.about.value}`;location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('Market at my place — '+f.place.value)+'&body='+encodeURIComponent(body);});
+document.getElementById('stallform').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const body=`MARKET — I WANT A STALL\nName: ${f.name.value}\nEmail: ${f.email.value}\nSelling: ${f.sell.value}\nWhen: ${f.when.value}\n\n${f.about.value}`;location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('Stall wanted — '+f.sell.value)+'&body='+encodeURIComponent(body);});
 </script>
 </body>
 </html>
