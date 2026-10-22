@@ -66,7 +66,7 @@
 const list=document.getElementById('list'),count=document.getElementById('count'),filters=document.getElementById('filters');
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let all=[];
-const row=p=>`<div class="ev"><div class="t">${esc(p.open)}</div><div><h3>${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</h3><div class="where">${(p.tags||[]).map(esc).join(' · ')}</div>${p.desc?`<p class="desc">${esc(p.desc)}</p>`:''}</div></div>`;
+const row=p=>`<div class="ev"><div class="t">${esc(p.open)}</div><div><h3>${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</h3><div class="where">${(p.tags||[]).map(esc).join(' · ')}</div>${p.desc?`<p class="desc">${esc(p.desc)}</p>`:''}${p.now?`<p class="now"><b>Now showing</b> ${esc(p.now)}</p>`:''}</div></div>`;
 function render(f){
   const items=f==='all'?all:all.filter(p=>(p.tags||[]).includes(f));
   if(!items.length){list.innerHTML='<p class="empty">Nothing of this type listed yet.</p>';count.textContent='';return;}
