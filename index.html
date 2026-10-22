@@ -95,12 +95,13 @@
   <div class="join" id="join">
     <div><h2>One email a week. The good stuff only.</h2><p>Every Thursday: what's on this weekend and the week after, one trail, one retreat worth knowing about. No spam, ever.</p></div>
     <div>
-      <form class="signup" id="signup">
-        <input type="email" name="email" placeholder="Your email" required autocomplete="email">
+      <form class="signup" id="signup" action="https://icloud.us5.list-manage.com/subscribe/post?u=a8d4cb4db63a54d7867509056&amp;id=a807233047&amp;f_id=00d7beedf0" method="post" target="_blank" novalidate>
+        <input type="email" name="EMAIL" placeholder="Your email" required autocomplete="email">
+        <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_a8d4cb4db63a54d7867509056_a807233047" tabindex="-1" value=""></div>
         <button type="submit">Join the list</button>
       </form>
       <p class="fine">Unsubscribe with one click, any time.</p>
-      <p class="ok" id="ok">Almost there — send the email that just opened and you're on the list.</p>
+      <p class="ok" id="ok">Almost there — check your inbox and click the confirmation link.</p>
     </div>
   </div>
 </section>
@@ -139,13 +140,8 @@
 </footer>
 
 <script>
-  document.querySelectorAll('form.signup').forEach(f=>{
-    f.addEventListener('submit',e=>{
-      e.preventDefault();const em=f.email.value.trim();if(!em)return;
-      location.href='mailto:hello@ibizaoffseason.com?subject='+encodeURIComponent('Weekly: sign me up')+'&body='+encodeURIComponent('Please add me to the Ibiza Offseason weekly.\n\nEmail: '+em);
-      f.style.display='none';document.querySelectorAll('.ok').forEach(o=>o.style.display='block');
-    });
-  });
+  const f=document.getElementById('signup');
+  f.addEventListener('submit',()=>{setTimeout(()=>{f.style.display='none';document.getElementById('ok').style.display='block';},400);});
 </script>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
