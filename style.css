@@ -231,3 +231,4 @@ footer.site a:hover{color:var(--terracotta)}
 
 .pagehead .banner{display:block;width:100%;aspect-ratio:3/1;object-fit:cover;border-radius:24px;margin:0 0 26px;background:var(--sand-100)}
 @media (max-width:640px){.pagehead .banner{aspect-ratio:16/9;border-radius:18px}}
+.pagehead .bannerwrap{position:relative;margin:0 0 26px}.pagehead .bannerwrap .banner{margin:0}.pagehead figcaption{position:absolute;right:14px;bottom:10px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:rgba(43,38,31,.45);padding:4px 9px;border-radius:999px}
