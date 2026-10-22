@@ -25,8 +25,8 @@
       <a href="/trails">Trails</a>
       <a href="/beaches" aria-current="page">Beaches</a>
       <a href="/retreats">Retreats</a>
-      <a href="/places">Open in winter</a>
-      <a href="/winter-table">Winter Table</a>
+      <a href="/places" data-summer="Open now">Open in winter</a>
+      <a href="/winter-table" data-summer="Summer Table">Winter Table</a>
       <a href="/markets">Markets</a>
       <a class="ppp-btn" href="/ppp" title="Professional Party People Places">PPP</a>
       <a class="cta" href="/#join">Get the weekly</a>
@@ -57,7 +57,7 @@
   <div class="notice"><b>Dogs.</b> Outside the bathing season (roughly November to April) most of the island's municipalities allow dogs on the beach; the rules differ by town hall and change, so look for the sign at the steps. <b>Open in winter:</b> beach restaurants decide month by month — we list what we've confirmed and mark the rest "to confirm". Know one that's open? <a href="mailto:hello@ibizaoffseason.com?subject=Beach%20restaurant%20open%20in%20winter">Tell us</a>.</div>
 </main>
 <footer class="site wrap">
-  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div data-summer="© 2026 Ibiza Onseason · Made on the island">© 2026 Ibiza Offseason · Made on the island</div>
   <div class="soc">
     <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.facebook.com/profile.php?id=61595315296612" target="_blank" rel="noopener">Facebook</a>
@@ -91,7 +91,7 @@ function render(f){
   count.textContent=`${items.length} beach${items.length===1?'':'es'}`;
 }
 document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render(b.dataset.f);}));
-fetch('/data/beaches.json').then(r=>r.json()).then(d=>{all=d;render('all');}).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the beaches. Refresh to try again.</p>';});
+fetch('/data/beaches.json').then(r=>r.json()).then(d=>{all=d.filter(x=>!window.inSeason||window.inSeason(x));render('all');}).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the beaches. Refresh to try again.</p>';});
 </script>
 <script>
 // Outgoing links carry utm_source=ibizaoffseason so venues can see the traffic came from here.
@@ -103,6 +103,7 @@ document.addEventListener('click',function(e){
   }catch(err){}
 },true);
 </script>
+<script src="/season.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

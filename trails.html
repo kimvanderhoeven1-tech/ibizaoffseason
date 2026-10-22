@@ -25,8 +25,8 @@
       <a href="/trails" aria-current="page">Trails</a>
       <a href="/beaches">Beaches</a>
       <a href="/retreats">Retreats</a>
-      <a href="/places">Open in winter</a>
-      <a href="/winter-table">Winter Table</a>
+      <a href="/places" data-summer="Open now">Open in winter</a>
+      <a href="/winter-table" data-summer="Summer Table">Winter Table</a>
       <a href="/markets">Markets</a>
       <a class="ppp-btn" href="/ppp" title="Professional Party People Places">PPP</a>
       <a class="cta" href="/#join">Get the weekly</a>
@@ -60,7 +60,7 @@
       <li><b>Daylight ends early.</b> From November the sun sets around 17:30. Plan to be off cliff paths by five, and carry a headtorch for sunset walks.</li>
       <li><b>Hunting days.</b> Small-game season runs October to early January. Hunters are out on Tuesdays, Thursdays, Saturdays, Sundays and holidays, mostly inland. Coastal paths are hunting-free; inland, wear bright colours and keep dogs on a lead.</li>
       <li><b>Respect the land.</b> Much of the countryside is private. Stay on tracks, never climb the dry-stone walls (paret seca), close gates behind you and take everything home.</li>
-      <li><b>Where to end up.</b> A handful of village restaurants, bars and fincas stay open all winter and turn a walk into a day — Can Cosmi and Sa Palmera in Santa Agnès, Ses Casetes in Sant Mateu, the Saturday market at Forada, fondue and live music at Can Suldat. We keep them, village by village, under <a href="/places">Open in winter</a>.</li>
+      <li><b>Where to end up.</b> A handful of village restaurants, bars and fincas stay open all winter and turn a walk into a day — Can Cosmi and Sa Palmera in Santa Agnès, Ses Casetes in Sant Mateu, the Saturday market at Forada, fondue and live music at Can Suldat. We keep them, village by village, under <a href="/places" data-summer="Open now">Open in winter</a>.</li>
       <li><b>Pack for it.</b> Nothing is open on most routes outside summer. One to two litres of water, food, proper shoes for loose limestone, and a windproof layer on the north coast.</li>
     </ul>
     <p class="count" style="margin-top:14px">Prefer company? <a href="https://ibizaoutdoors.com" target="_blank" rel="noopener">Ibiza Outdoors</a> (formerly Walking Ibiza) runs donation-based group walks on Sunday and Wednesday mornings, year-round. Sant Josep council runs a free guided walk programme October to June.</p>
@@ -68,7 +68,7 @@
 </main>
 
 <footer class="site wrap">
-  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div data-summer="© 2026 Ibiza Onseason · Made on the island">© 2026 Ibiza Offseason · Made on the island</div>
   <div class="soc">
     <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.facebook.com/profile.php?id=61595315296612" target="_blank" rel="noopener">Facebook</a>
@@ -117,6 +117,7 @@ document.addEventListener('click',function(e){
   }catch(err){}
 },true);
 </script>
+<script src="/season.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

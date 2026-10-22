@@ -25,8 +25,8 @@
       <a href="/trails">Trails</a>
       <a href="/beaches">Beaches</a>
       <a href="/retreats">Retreats</a>
-      <a href="/places">Open in winter</a>
-      <a href="/winter-table">Winter Table</a>
+      <a href="/places" data-summer="Open now">Open in winter</a>
+      <a href="/winter-table" data-summer="Summer Table">Winter Table</a>
       <a href="/markets">Markets</a>
       <a class="ppp-btn" href="/ppp" title="Professional Party People Places">PPP</a>
       <a class="cta" href="/#join">Get the weekly</a>
@@ -87,7 +87,7 @@
   <div class="notice"><b>Something private?</b> Caves, fincas, parties that aren't for everyone go through <a href="/ppp">PPP</a>, not here. <b>A whole market?</b> Use the <a href="/markets#host">market forms</a>. <b>Just a tip</b> — a place you love, a trail, a thing we missed? <a href="mailto:hello@ibizaoffseason.com?subject=Tip">Email</a> is fine.</div>
 </main>
 <footer class="site wrap">
-  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div data-summer="© 2026 Ibiza Onseason · Made on the island">© 2026 Ibiza Offseason · Made on the island</div>
   <div class="soc">
     <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.facebook.com/profile.php?id=61595315296612" target="_blank" rel="noopener">Facebook</a>
@@ -133,6 +133,7 @@ document.addEventListener('click',function(e){
   }catch(err){}
 },true);
 </script>
+<script src="/season.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

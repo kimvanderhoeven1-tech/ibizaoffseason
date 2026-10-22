@@ -63,8 +63,8 @@
       <a href="/trails">Trails</a>
       <a href="/beaches">Beaches</a>
       <a href="/retreats">Retreats</a>
-      <a href="/places">Open in winter</a>
-      <a href="/winter-table">Winter Table</a>
+      <a href="/places" data-summer="Open now">Open in winter</a>
+      <a href="/winter-table" data-summer="Summer Table">Winter Table</a>
       <a href="/markets">Markets</a>
       <a class="ppp-btn" href="/ppp" title="Professional Party People Places">PPP</a>
       <a class="cta" href="#join">Get the weekly</a>
@@ -75,10 +75,10 @@
 <main class="wrap">
   <section class="hero">
     <div>
-      <div class="eyebrow">Winter 2026 / 27</div>
+      <div class="eyebrow" data-summer="Summer 2027">Winter 2026 / 27</div>
       <div class="wordmark">Ibiza<small>Offseason</small></div>
-      <h1 class="tagline">The island, when the island is yours.</h1>
-      <p class="lead">Ibiza doesn't stop in winter — it just stops shouting. Hikes, padel, ceramics, galleries, concerts, farm days, hierbas making, village fiestas. One curated agenda, in English, every week.</p>
+      <h1 class="tagline" data-summer="The island, beyond the obvious.">The island, when the island is yours.</h1>
+      <p class="lead" data-summer="Everyone knows the clubs and the beach beds. This is the rest: sunrise hikes before the heat, the villages at dinner time, concerts in the fincas, boat days, the markets, the pop-ups. One curated agenda, in English, every week.">Ibiza doesn't stop in winter — it just stops shouting. Hikes, padel, ceramics, galleries, concerts, farm days, hierbas making, village fiestas. One curated agenda, in English, every week.</p>
       <div class="pills">
         <a class="pill" href="/agenda">Sport</a><a class="pill" href="/agenda">Culture</a><a class="pill" href="/agenda">Music</a><a class="pill" href="/agenda">Workshops</a><a class="pill" href="/agenda">Kids &amp; Family</a><a class="pill" href="/trails">Trails</a><a class="pill" href="/beaches">Beaches</a><a class="pill" href="/retreats">Retreats</a><a class="pill" href="/places">Open in winter</a>
       </div>
@@ -131,7 +131,7 @@
 
 
 <footer class="site wrap">
-  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div data-summer="© 2026 Ibiza Onseason · Made on the island">© 2026 Ibiza Offseason · Made on the island</div>
   <div class="soc">
     <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.facebook.com/profile.php?id=61595315296612" target="_blank" rel="noopener">Facebook</a>
@@ -175,6 +175,7 @@ document.addEventListener('click',function(e){
   }catch(err){}
 },true);
 </script>
+<script src="/season.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

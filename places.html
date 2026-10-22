@@ -25,8 +25,8 @@
       <a href="/trails">Trails</a>
       <a href="/beaches">Beaches</a>
       <a href="/retreats">Retreats</a>
-      <a href="/places" aria-current="page">Open in winter</a>
-      <a href="/winter-table">Winter Table</a>
+      <a href="/places" aria-current="page" data-summer="Open now">Open in winter</a>
+      <a href="/winter-table" data-summer="Summer Table">Winter Table</a>
       <a href="/markets">Markets</a>
       <a class="ppp-btn" href="/ppp" title="Professional Party People Places">PPP</a>
       <a class="cta" href="/#join">Get the weekly</a>
@@ -56,7 +56,7 @@
 </main>
 
 <footer class="site wrap">
-  <div>© 2026 Ibiza Offseason · Made on the island</div>
+  <div data-summer="© 2026 Ibiza Onseason · Made on the island">© 2026 Ibiza Offseason · Made on the island</div>
   <div class="soc">
     <a href="https://instagram.com/theibizaoffseason" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.facebook.com/profile.php?id=61595315296612" target="_blank" rel="noopener">Facebook</a>
@@ -71,7 +71,8 @@ const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 let all=[];
 const row=p=>`<div class="ev"><div class="t">${esc(p.open)}</div><div><h3>${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</h3><div class="where">${(p.tags||[]).map(esc).join(' · ')}</div>${p.desc?`<p class="desc">${esc(p.desc)}</p>`:''}${p.now?`<p class="now"><b>Now showing</b> ${esc(p.now)}</p>`:''}</div></div>`;
 function render(f){
-  const items=f==='all'?all:all.filter(p=>(p.tags||[]).includes(f));
+  const pool=all.filter(p=>!window.inSeason||window.inSeason(p));
+  const items=f==='all'?pool:pool.filter(p=>(p.tags||[]).includes(f));
   if(!items.length){list.innerHTML='<p class="empty">Nothing of this type listed yet.</p>';count.textContent='';return;}
   count.textContent=items.length+' place'+(items.length===1?'':'s');
   const vill=new Map();items.sort((a,b)=>(a.area==='All')-(b.area==='All'));for(const p of items){if(!vill.has(p.village))vill.set(p.village,[]);vill.get(p.village).push(p);}
@@ -96,6 +97,7 @@ document.addEventListener('click',function(e){
   }catch(err){}
 },true);
 </script>
+<script src="/season.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

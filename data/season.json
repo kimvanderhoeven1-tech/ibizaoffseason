@@ -1,0 +1,10 @@
+{
+  "_comment": "force: null = automatic by date; 'winter' or 'summer' to override for everyone. Preview without changing anything: add ?season=summer to any URL.",
+  "force": null,
+  "winter": { "from": "10-01", "to": "04-30" },
+  "summer": {
+    "tagline_short": "the island in summer",
+    "hero_img": "/img/hero-cove.jpg",
+    "hero_alt": "A turquoise cove on Ibiza in summer"
+  }
+}
