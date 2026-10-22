@@ -6,6 +6,83 @@
       "source": "/concierge",
       "destination": "/ppp-plus",
       "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "ibizaonseason.com"
+        }
+      ],
+      "destination": "https://ibizaoffseason.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ibizaonseason.com"
+        }
+      ],
+      "destination": "https://ibizaoffseason.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "theibizaseasons.com"
+        }
+      ],
+      "destination": "https://ibizaoffseason.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.theibizaseasons.com"
+        }
+      ],
+      "destination": "https://ibizaoffseason.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "balearicseasons.com"
+        }
+      ],
+      "destination": "https://ibizaoffseason.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.balearicseasons.com"
+        }
+      ],
+      "destination": "https://ibizaoffseason.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ibizaoffseason.com"
+        }
+      ],
+      "destination": "https://ibizaoffseason.com/:path*",
+      "permanent": true
     }
   ]
 }
