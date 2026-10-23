@@ -718,6 +718,51 @@
    "desc": "English- and Dutch-speaking day camp for ages 4–15 in three age groups, running until Friday 6 November: dodgeball, capture the flag, padel, tennis, archery, treasure hunts, crafts and a daily dip in the pool. Healthy lunch included; early drop-off and late pick-up possible. Book single days or a full week online — spots are limited.",
    "price": "€75 a day, €300 for 5 days",
    "url": "https://www.ibizakidscamp.com/kidscamps2026"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "23:00",
+   "title": "La Tipi at Akasha — Lumio, Words of Nio, Sarcasmo",
+   "venue": "Akasha, Las Dalias",
+   "town": "Sant Carles",
+   "cat": "music",
+   "price": "Ticketed, from €15",
+   "desc": "Friday night in the club under the trees at Las Dalias: Lumio, Words of Nio, Sarcasmo, David Osorio and Tomy Velez. Doors 23:00.",
+   "url": "https://lasdalias.es/en/events"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "21:00",
+   "title": "Flash Closing at Pikes",
+   "venue": "Pikes",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "price": "Ticketed",
+   "desc": "The first of three closing nights: DiY Soundsystem x Music for Freaks, The Pepperbox, Grace Sands and friends, hosted by Lucy Fizz.",
+   "url": "https://www.pikesibiza.com/whats-on/"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "21:00",
+   "title": "Pikes House Party Closing — Groove Armada & Bushwacka!",
+   "venue": "Pikes",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "price": "Ticketed",
+   "featured": true,
+   "desc": "The hotel closes its 2026 season with Groove Armada, Bushwacka!, El Conchitas, Lilli Kelly, Andy Baxter and Quantum Disco. Last chance until April.",
+   "url": "https://www.pikesibiza.com/whats-on/"
+  },
+  {
+   "date": "2026-10-25",
+   "time": "21:00",
+   "title": "Sundays at Pikes — the closing",
+   "venue": "Pikes",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "price": "Ticketed",
+   "desc": "D'Julz, Alessio Collino, Neil Diablo, Frenchy and the Sundays crew close the season. Halloween follows on the 31st, then the doors shut until spring.",
+   "url": "https://www.pikesibiza.com/whats-on/"
   }
  ],
  "recurring": [
