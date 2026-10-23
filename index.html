@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
+<script src="/weather.js"></script>
 <style>
   .hero{padding:40px 0 56px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
   .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--olive);margin-bottom:22px}
@@ -74,6 +75,7 @@
 </header>
 
 <main class="wrap">
+  <div class="wx" id="wx" aria-live="polite"></div>
   <section class="hero">
     <div>
       <div class="eyebrow" data-summer="Summer 2027">Winter 2026 / 27</div>
@@ -152,7 +154,7 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const CAT={sport:'Sport',culture:'Culture',music:'Music',workshops:'Workshops',kids:'Kids & Family',island:'Island life'};
 fetch('/data/events.json').then(r=>r.json()).then(d=>{
-  const today=new Date().toISOString().slice(0,10);
+  const today=window.ISLAND_TODAY?window.ISLAND_TODAY():new Date().toISOString().slice(0,10);
   const picks=d.events.filter(e=>e.date>=today&&e.featured).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,5);
   const list=picks.length?picks:d.events.filter(e=>e.date>=today).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,5);
   document.getElementById('h-agenda').innerHTML=list.map(e=>{const dt=new Date(e.date+'T12:00');return `<div class="ev"><div class="t">${DOW[dt.getDay()]} ${dt.getDate()} ${MON[dt.getMonth()]}<small>${esc(e.time||'')}</small></div><div><h3>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div><div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`}).join('');
@@ -163,7 +165,7 @@ fetch('/data/trails.json').then(r=>r.json()).then(d=>{
   document.getElementById('h-trails').innerHTML=picks.map(t=>`<article class="trail"><div class="top"><div><span class="type">${esc(t.type)}</span><h3>${esc(t.name)}</h3><div class="area">${esc(t.area)}</div></div><span class="diff" data-d="${esc(t.difficulty)}"><i></i><i></i><i></i></span></div><div class="facts"><div><b>${esc(t.km)} km</b><span>distance</span></div><div><b>${esc(t.time)}</b><span>time</span></div><div><b>${esc(t.difficulty)}</b><span>${esc(t.shape)}</span></div></div><p class="blurb">${esc(t.blurb)}</p><div class="go"><a class="btn" href="/trails">Details</a></div></article>`).join('');
 }).catch(()=>{});
 fetch('/data/retreats.json').then(r=>r.json()).then(d=>{
-  const today=new Date().toISOString().slice(0,10);
+  const today=window.ISLAND_TODAY?window.ISLAND_TODAY():new Date().toISOString().slice(0,10);
   const list=d.retreats.filter(r=>r.end>=today).sort((a,b)=>a.start.localeCompare(b.start)).slice(0,5);
   document.getElementById('h-retreats').innerHTML=list.map(r=>{const a=new Date(r.start+'T12:00'),b=new Date(r.end+'T12:00');return `<div class="ev"><div class="t">${a.getDate()}–${b.getDate()} ${MON[b.getMonth()]}<small>${(r.types||[])[0]||''}</small></div><div><h3>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>`:esc(r.name)}</h3><div class="where">${esc(r.organiser)}${r.town?', '+esc(r.town):''}</div><div class="meta">${r.price?`<span class="price">from ${esc(r.price)}</span>`:''}</div></div></div>`}).join('');
 }).catch(()=>{});
