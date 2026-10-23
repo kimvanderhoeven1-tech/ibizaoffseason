@@ -624,6 +624,42 @@
    "desc": "Bring passport or NIE and your padrón. Classes run Monday and Wednesday from October to April, mornings in Santa Eulària and evenings in Jesús.",
    "price": "Free",
    "url": "https://lavozdeibiza.com/?p=10067219"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "20:00",
+   "title": "Choir gathering in Sant Antoni — four choirs in the church",
+   "venue": "Església de Sant Antoni",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "local": true,
+   "desc": "The Consell's Trobada de Corals Lina Bufí moves west: the parish choir of Sant Antoni, Cor de ses Figueretes, the Ukrainian Greek Catholic church choir and Cor Ciutat d'Eivissa, one after the other in the big church on the square. Free until the pews are full.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/nl/agenda/"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "19:00",
+   "title": "Choir gathering in Sant Joan — the northern parishes sing",
+   "venue": "Església de Sant Joan de Labritja",
+   "town": "Sant Joan",
+   "cat": "music",
+   "local": true,
+   "desc": "The choirs of Sant Joan, Sant Llorenç and Sant Vicent together, with Santa Gertrudis, Puig d'en Valls and the young voices of Cor de Veus Joves. The village church, a Saturday evening in November, and a drink at the bar after.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/nl/agenda/"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "20:00",
+   "title": "Closing concert of the choir gathering — 50 years of Amics de sa Música",
+   "venue": "Església de Santo Domingo (El Convent), Dalt Vila",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "local": true,
+   "desc": "The island's choir series ends in the convent church in Dalt Vila with Cor Amics de sa Música celebrating its 50th anniversary. Free; arrive early, it fills.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/nl/agenda/"
   }
  ],
  "recurring": [
