@@ -1,7 +1,7 @@
-// Today on the island: date + live weather (Open-Meteo, free, no key) with a link to Weer & Radar for the full forecast.
+// Today on the island: date + live weather (Open-Meteo, free, no key) with a link to Weather & Radar for the full forecast.
 // Renders into any element with id="wx". Island date is Europe/Madrid, so it rolls over at Ibiza midnight wherever the visitor is.
 (function(){
-  var LAT=38.98, LON=1.43, LINK='https://www.weeronline.nl/Europe/Espagne/Ibiza/4128779';
+  var LAT=38.98, LON=1.43, LINK='https://www.weatherandradar.com/weather/ibiza/12426356';
   var MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'], DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
   function iso(d){ return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).format(d||new Date()); }
   function nice(s){ var d=new Date(s+'T12:00'); return DOW[d.getDay()]+' '+d.getDate()+' '+MON[d.getMonth()]; }
@@ -26,7 +26,7 @@
     var today=iso();
     var head='<span class="wx-date"><b>'+nice(today)+'</b><small>Ibiza · today</small></span>';
     if(!w||w.day!==today){
-      el.innerHTML=head+'<span class="wx-now"><span class="wx-i">'+icon(1)+'</span><span><b>&nbsp;</b><small>Loading the forecast…</small></span></span><a class="wx-link" target="_blank" rel="noopener" href="'+LINK+'">Weer &amp; Radar ↗</a>';
+      el.innerHTML=head+'<span class="wx-now"><span class="wx-i">'+icon(1)+'</span><span><b>&nbsp;</b><small>Loading the forecast…</small></span></span><a class="wx-link" target="_blank" rel="noopener" href="'+LINK+'">Weather &amp; Radar ↗</a>';
       return;
     }
     var days=(w.days||[]).slice(1,4).map(function(d){ return '<span class="wx-d"><em>'+DOW[new Date(d.d+'T12:00').getDay()]+'</em>'+icon(d.code)+'<b>'+Math.round(d.hi)+'°</b><small>'+Math.round(d.lo)+'°'+(d.rain>=30?' · '+d.rain+'%':'')+'</small></span>'; }).join('');
@@ -34,7 +34,7 @@
     el.innerHTML=head+
       '<span class="wx-now"><span class="wx-i">'+icon(w.code)+'</span><span><b>'+Math.round(w.temp)+'°C <i>'+text(w.code)+'</i></b><small>'+facts+'</small></span></span>'+
       '<span class="wx-days">'+days+'</span>'+
-      '<a class="wx-link" target="_blank" rel="noopener" href="'+LINK+'">Full forecast &amp; rain radar · Weer &amp; Radar ↗</a>';
+      '<a class="wx-link" target="_blank" rel="noopener" href="'+LINK+'">Full forecast &amp; rain radar · Weather &amp; Radar ↗</a>';
   }
 
   function fetchWx(){
@@ -51,7 +51,7 @@
   function update(force){
     var w=load(); render(w);
     if(!force&&w&&w.day===iso()&&Date.now()-(w.at||0)<30*60*1000) return;
-    fetchWx().then(function(w){ save(w); render(w); }).catch(function(){ /* keep the cached version; the Weer & Radar link still works */ });
+    fetchWx().then(function(w){ save(w); render(w); }).catch(function(){ /* keep the cached version; the Weather & Radar link still works */ });
   }
   window.ISLAND_TODAY=iso; // other scripts use this for "today" in Ibiza time
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',function(){ update(false); }); else update(false);
