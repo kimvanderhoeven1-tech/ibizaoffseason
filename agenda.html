@@ -50,6 +50,7 @@
     <button class="chip" data-f="workshops" aria-pressed="false">Workshops</button>
     <button class="chip" data-f="kids" aria-pressed="false">Kids &amp; Family</button>
     <button class="chip" data-f="island" aria-pressed="false">Island life</button>
+    <button class="chip local" data-f="local" aria-pressed="false">Local ★</button>
   </div>
   <p class="count" id="count"></p>
 
@@ -75,6 +76,7 @@
 </footer>
 
 <script>
+const match=(e,f)=>f==='all'||(f==='local'?!!e.local:e.cat===f);
 const CAT={sport:'Sport',culture:'Culture',music:'Music',workshops:'Workshops',kids:'Kids & Family',island:'Island life'};
 const list=document.getElementById('list'),count=document.getElementById('count'),rec=document.getElementById('recurring'),upc=document.getElementById('upcoming'),range=document.getElementById('range');
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -88,11 +90,11 @@ function ev(e){
     <h3>${title}</h3>
     <div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>
     ${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}
-    <div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div>
+    <div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.local?'<span class="tag loc" title="Only locals know">★ Local</span>':''}${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div>
   </div></div>`;
 }
 function render(f){
-  const items=(f==='all'?data.events:data.events.filter(e=>e.cat===f)).slice().sort((a,b)=>a.date.localeCompare(b.date)||String(a.time||'').localeCompare(String(b.time||'')));
+  const items=data.events.filter(e=>match(e,f)).slice().sort((a,b)=>a.date.localeCompare(b.date)||String(a.time||'').localeCompare(String(b.time||'')));
   if(!items.length){list.innerHTML='<p class="empty">Nothing in this category yet — check back next week.</p>';count.textContent='';}
   else{
     // group by week (Mon–Sun) then day
@@ -116,12 +118,12 @@ function render(f){
     }
     list.innerHTML=html;count.textContent=`${items.length} event${items.length===1?'':'s'}`;
   }
-  const u=f==='all'?(data.upcoming||[]):(data.upcoming||[]).filter(e=>e.cat===f);
+  const u=(data.upcoming||[]).filter(e=>match(e,f));
   upc.style.display=u.length?'':'none';
-  upc.innerHTML=`<h2>Coming up — dates to confirm</h2><p class="lead">Announced for the weeks ahead; exact dates follow. Write us to get the date first.</p><div class="events">${u.map(e=>`<div class="ev"><div class="t">${esc(e.when)}</div><div><h3>${e.url?`<a href="${esc(e.url)}"${e.url.startsWith('http')?' target="_blank" rel="noopener"':''}>${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}<div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`).join('')}</div>`;
-  const r=f==='all'?data.recurring:data.recurring.filter(e=>e.cat===f);
+  upc.innerHTML=`<h2>Coming up — dates to confirm</h2><p class="lead">Announced for the weeks ahead; exact dates follow. Write us to get the date first.</p><div class="events">${u.map(e=>`<div class="ev"><div class="t">${esc(e.when)}</div><div><h3>${e.url?`<a href="${esc(e.url)}"${e.url.startsWith('http')?' target="_blank" rel="noopener"':''}>${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}<div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.local?'<span class="tag loc" title="Only locals know">★ Local</span>':''}${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`).join('')}</div>`;
+  const r=data.recurring.filter(e=>match(e,f));
   rec.style.display=r.length?'':'none';
-  rec.innerHTML=`<h2>Every week</h2><p class="lead">The fixtures of island winter life — no need to check dates.</p><div class="events">${r.map(e=>`<div class="ev"><div class="t">${esc(e.when)}</div><div><h3>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}<div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`).join('')}</div>`;
+  rec.innerHTML=`<h2>Every week</h2><p class="lead">The fixtures of island winter life — no need to check dates.</p><div class="events">${r.map(e=>`<div class="ev"><div class="t">${esc(e.when)}</div><div><h3>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}<div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.local?'<span class="tag loc" title="Only locals know">★ Local</span>':''}${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`).join('')}</div>`;
 }
 document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render(b.dataset.f);}));
 fetch('/data/events.json').then(r=>r.json()).then(d=>{data=d;if(d.from&&d.to)range.textContent=fmtRange(d.from,d.to);render('all');}).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the agenda. Refresh to try again.</p>';});
