@@ -660,6 +660,53 @@
    "desc": "The island's choir series ends in the convent church in Dalt Vila with Cor Amics de sa Música celebrating its 50th anniversary. Free; arrive early, it fills.",
    "price": "Free",
    "url": "https://welcometoibiza.com/nl/agenda/"
+  },
+  {
+   "date": "2026-10-25",
+   "time": "",
+   "title": "Festa Pagesa in Santa Gertrudis — ball pagès, crafts and island food",
+   "venue": "Village square",
+   "town": "Santa Gertrudis",
+   "cat": "island",
+   "local": true,
+   "desc": "A Sunday of the old island: traditional dancing, music, craft stalls, folk games and pagès food on the square. The warm-up to the village's November fiestas.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-10-25",
+   "time": "",
+   "title": "Fira d'Estocs de Tardor — autumn stock fair on Vara de Rey",
+   "venue": "Passeig de Vara de Rey",
+   "town": "Ibiza Town",
+   "cat": "island",
+   "local": true,
+   "desc": "The town's shops put their end-of-season stock on the boulevard at a discount, with kids' activities, tastings and live music. Postponed from earlier in the month.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "",
+   "title": "Ibiza Card Show — trading cards, tournaments and collectors",
+   "venue": "C19",
+   "town": "Ibiza Town",
+   "cat": "kids",
+   "desc": "Fourth edition of the island's trading-card show, 23–25 October: tournaments, trading tables, retailers and creators. Free entry.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Dalt Vila dramatised heritage tours",
+   "venue": "Dalt Vila",
+   "town": "Ibiza Town",
+   "cat": "culture",
+   "local": true,
+   "desc": "Two theatrical tours through the walled town, with actors playing out the island's history scene by scene. Times and booking via the town hall's culture programme.",
+   "price": "Check with the town hall",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
   }
  ],
  "recurring": [
@@ -905,6 +952,27 @@
    "desc": "The west's winter film club: independent films in original language with subtitles, Friday nights at the old Regio.",
    "price": "Check the cinema",
    "url": "https://www.ibiza-spotlight.com/events/2026/01/09"
+  },
+  {
+   "when": "Fridays · until December",
+   "title": "Friday films at Can Jeroni and Caló de s'Oli",
+   "venue": "Can Jeroni (Sant Josep) and Caló de s'Oli",
+   "town": "Sant Josep",
+   "cat": "culture",
+   "local": true,
+   "desc": "Sant Josep's autumn cycle: eleven films on Friday nights through December, including a Halloween double bill. The January–March cycle (Divendres de Cine) follows.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "when": "Fri & Sat nights (winter)",
+   "title": "Pacha Restaurant and Pachacha — winter nights",
+   "venue": "Pacha Restaurant",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "desc": "The club's restaurant and its small room keep Friday and Saturday going through the winter: dinner, cocktails, DJ sets, dancing. Free entry for residents.",
+   "price": "Free for residents",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
   }
  ],
  "upcoming": [
