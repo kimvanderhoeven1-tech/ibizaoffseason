@@ -33,7 +33,8 @@
    "cat": "culture",
    "desc": "Esperança Marí presents the English and Spanish editions of her book on the women of the salt pans.",
    "price": "Free",
-   "url": "https://cultura.santjosep.org/es/"
+   "url": "https://cultura.santjosep.org/es/",
+   "local": true
   },
   {
    "date": "2026-10-21",
@@ -44,7 +45,8 @@
    "cat": "island",
    "desc": "Until Sunday 25 October: each venue serves a signature tapa and the public votes for the winner. A good excuse to wander Vila's back streets.",
    "price": "€5–10 per tapa",
-   "url": "https://www.periodicodeibiza.es/noticias/escaparate/2026/10/04/2721835/gastronomia-para-descubrir-ibiza-tambien-otono.html"
+   "url": "https://www.periodicodeibiza.es/noticias/escaparate/2026/10/04/2721835/gastronomia-para-descubrir-ibiza-tambien-otono.html",
+   "local": true
   },
   {
    "date": "2026-10-22",
@@ -77,7 +79,8 @@
    "cat": "music",
    "desc": "A relaxed, funny opera concert by two sopranos. Nothing stiff about it.",
    "price": "€10",
-   "url": "https://lavozdeibiza.com/recinto/espacio-cultural-can-ventosa/"
+   "url": "https://lavozdeibiza.com/recinto/espacio-cultural-can-ventosa/",
+   "local": true
   },
   {
    "date": "2026-10-23",
@@ -89,7 +92,8 @@
    "featured": true,
    "desc": "Learn the traditional Ibizan way of curing olives in salt with Cristina Ferrer, inside a historic farmhouse press. Two sessions: 16:30 and 18:00.",
    "price": "Free, register patrimoni@santaeularia.com",
-   "url": "https://lavozdeibiza.com/?p=213186"
+   "url": "https://lavozdeibiza.com/?p=213186",
+   "local": true
   },
   {
    "date": "2026-10-23",
@@ -145,7 +149,8 @@
    "cat": "culture",
    "desc": "Original version with Spanish subtitles. Free until the room is full.",
    "price": "Free",
-   "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2026/10/15/2729195/sant-josep-presenta-programacion-otono-ciclo-divendres-cine.html"
+   "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2026/10/15/2729195/sant-josep-presenta-programacion-otono-ciclo-divendres-cine.html",
+   "local": true
   },
   {
    "date": "2026-10-23",
@@ -156,7 +161,8 @@
    "cat": "island",
    "desc": "The village's patron-saint week warms up with a night walk, a torrada of sobrassada and a concert by Arredefolk. Hot chocolate and buñuelos for the kids in the afternoon.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/?p=212601"
+   "url": "https://lavozdeibiza.com/?p=212601",
+   "local": true
   },
   {
    "date": "2026-10-24",
@@ -212,7 +218,8 @@
    "cat": "music",
    "desc": "Ensemble Cristóbal de Morales sings Palestrina, Guerrero, Brudieu and Flecha inside Stefan Brüggemann's golden installation Cel d'Or.",
    "price": "Free",
-   "url": "https://welcometoibiza.com/agenda-ibiza/musica/conciertos/musica-del-renacimiento-en-el-mace/"
+   "url": "https://welcometoibiza.com/agenda-ibiza/musica/conciertos/musica-del-renacimiento-en-el-mace/",
+   "local": true
   },
   {
    "date": "2026-10-24",
@@ -223,7 +230,8 @@
    "cat": "music",
    "desc": "Trobada de Corals Lina Bufí — four island choirs including the Eivissa Gospel Choir, in the fortified hilltop church.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/ibiza-reune-a-19-coros-en-seis-conciertos-gratuitos/"
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/ibiza-reune-a-19-coros-en-seis-conciertos-gratuitos/",
+   "local": true
   },
   {
    "date": "2026-10-24",
@@ -235,7 +243,8 @@
    "featured": true,
    "desc": "Mass and procession, ball pagès by Sa Colla de Sant Rafel, tasting of traditional products, then concerts into the night (Esta me la sé, Morning Drivers, DJ Yor D). The real island, in one village square.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/?p=212601"
+   "url": "https://lavozdeibiza.com/?p=212601",
+   "local": true
   },
   {
    "date": "2026-10-25",
@@ -268,7 +277,8 @@
    "cat": "island",
    "desc": "Village flea market on the church square until 16:30.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/event/gran-mercadillo-de-segunda-mano-en-la-plaza-de-jesus/"
+   "url": "https://lavozdeibiza.com/event/gran-mercadillo-de-segunda-mano-en-la-plaza-de-jesus/",
+   "local": true
   },
   {
    "date": "2026-10-25",
@@ -313,7 +323,8 @@
    "cat": "music",
    "desc": "Three island choirs in concert.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/ibiza-reune-a-19-coros-en-seis-conciertos-gratuitos/"
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/ibiza-reune-a-19-coros-en-seis-conciertos-gratuitos/",
+   "local": true
   },
   {
    "date": "2026-10-26",
@@ -390,7 +401,8 @@
    "cat": "sport",
    "desc": "Cala Mestella, Cala Boix and Pou des Lleó on an advanced-level walk with the municipal tourism team.",
    "price": "Free, register turisme@santaeularia.com",
-   "url": "https://visitsantaeulalia.com/en/agenda"
+   "url": "https://visitsantaeulalia.com/en/agenda",
+   "local": true
   },
   {
    "date": "2026-10-31",
@@ -436,7 +448,8 @@
    "featured": true,
    "desc": "Telescope session under one of the darkest skies on the island, with a free bus. Ages 6+. Places by email 23–25 October.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/event/noches-de-estrellas-en-el-observatorio-de-ses-paisses-de-cala-dhort/2026-10-31/"
+   "url": "https://lavozdeibiza.com/event/noches-de-estrellas-en-el-observatorio-de-ses-paisses-de-cala-dhort/2026-10-31/",
+   "local": true
   },
   {
    "date": "2026-10-31",
@@ -458,7 +471,8 @@
    "cat": "kids",
    "desc": "Nut-cracking, workshops and bouncy castles for All Saints' Day, lunch at the football ground, and the Trencada de Tots Sants at 20:00 to close the fiestas.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/?p=212601"
+   "url": "https://lavozdeibiza.com/?p=212601",
+   "local": true
   },
   {
    "date": "2026-11-01",
@@ -491,7 +505,8 @@
    "cat": "culture",
    "desc": "An All Saints' tour of the old cemetery with actors telling its stories.",
    "price": "Check with the council",
-   "url": "https://www.eivissa.es/es/agenda1"
+   "url": "https://www.eivissa.es/es/agenda1",
+   "local": true
   },
   {
    "date": "2026-11-04",
@@ -503,7 +518,8 @@
    "featured": true,
    "desc": "Mass and procession at midday, ball pagès, a hippy market in the afternoon and music into the night. 2026 programme still to be published — times follow last year's pattern.",
    "price": "Free",
-   "url": "https://ibiza.travel/en/agenda/fiestas-de-sant-carles/"
+   "url": "https://ibiza.travel/en/agenda/fiestas-de-sant-carles/",
+   "local": true
   },
   {
    "date": "2026-11-05",
@@ -525,7 +541,8 @@
    "cat": "culture",
    "desc": "Original version with Spanish subtitles.",
    "price": "Free",
-   "url": "https://cultura.santjosep.org/es/"
+   "url": "https://cultura.santjosep.org/es/",
+   "local": true
   },
   {
    "date": "2026-11-07",
@@ -558,7 +575,8 @@
    "cat": "sport",
    "desc": "Spartan-style obstacle race on a 1.2 km closed circuit, categories for all ages, kids free. Register by 5 November.",
    "price": "€6, kids free",
-   "url": "https://gotrail.run/es/carrera/sant-carles-xtrem"
+   "url": "https://gotrail.run/es/carrera/sant-carles-xtrem",
+   "local": true
   },
   {
    "date": "2026-11-08",
@@ -569,7 +587,8 @@
    "cat": "music",
    "desc": "Three island choirs in the village church, followed by vermouth hour on the square.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/ibiza-reune-a-19-coros-en-seis-conciertos-gratuitos/"
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/ibiza-reune-a-19-coros-en-seis-conciertos-gratuitos/",
+   "local": true
   },
   {
    "date": "2026-11-08",
@@ -581,6 +600,30 @@
    "desc": "Sunday garden session, free until 20:00.",
    "price": "Garden free",
    "url": "https://www.ibiza-spotlight.com/night/events/2026/11?daterange=02/11/2026-08/11/2026"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "18:30",
+   "title": "Cinefòrum UIB: Gattaca — film and debate",
+   "venue": "UIB, C/ Calvari 1",
+   "town": "Ibiza Town",
+   "cat": "culture",
+   "local": true,
+   "desc": "The university's free film forum: a film in original version, then a debate. Next: Persona on 13 Nov, Smoke on 27 Nov.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/agenda-ibiza/cultura/cineforum-uib/"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "",
+   "title": "Last day to enrol: free Spanish classes, Santa Eulària",
+   "venue": "Santa Eulària town hall",
+   "town": "Santa Eulària",
+   "cat": "workshops",
+   "local": true,
+   "desc": "Bring passport or NIE and your padrón. Classes run Monday and Wednesday from October to April, mornings in Santa Eulària and evenings in Jesús.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/?p=10067219"
   }
  ],
  "recurring": [
@@ -612,7 +655,8 @@
    "cat": "island",
    "desc": "Small year-round market of local produce and crafts: honey, cosmetics, ceramics, vegetables.",
    "price": "Free",
-   "url": "https://www.ibiza-spotlight.com/magazine/2026/07/local-charm-craft-Ibiza-smaller-markets"
+   "url": "https://www.ibiza-spotlight.com/magazine/2026/07/local-charm-craft-Ibiza-smaller-markets",
+   "local": true
   },
   {
    "when": "Sundays 10:00–16:00",
@@ -622,7 +666,8 @@
    "cat": "island",
    "desc": "Artisan and organic market with live musicians from midday, all year.",
    "price": "Free",
-   "url": "https://mercadillos.org/en/island-ibiza/sunday"
+   "url": "https://mercadillos.org/en/island-ibiza/sunday",
+   "local": true
   },
   {
    "when": "Fridays 08:00–13:00",
@@ -632,7 +677,8 @@
    "cat": "island",
    "desc": "Island growers sell direct on Friday mornings.",
    "price": "Free",
-   "url": "https://www.santantoni.net/es_ES/actualidad/agenda"
+   "url": "https://www.santantoni.net/es_ES/actualidad/agenda",
+   "local": true
   },
   {
    "when": "Saturdays 09:00",
@@ -672,7 +718,8 @@
    "cat": "culture",
    "desc": "Films in their original language four evenings a week until 13 December.",
    "price": "Low-cost tickets",
-   "url": "https://www.ibiza-spotlight.com/event/movies-original-language-teatro-espana-2"
+   "url": "https://www.ibiza-spotlight.com/event/movies-original-language-teatro-espana-2",
+   "local": true
   },
   {
    "when": "Thursdays 20:00",
@@ -682,7 +729,8 @@
    "cat": "music",
    "desc": "Acoustic and jazz nights every Thursday of the year, with the grill going.",
    "price": "Free",
-   "url": "https://lavozdeibiza.com/event/cas-costas-llena-los-jueves-de-musica-en-vivo-y-gastronomia-en-ibiza/2026-09-03/"
+   "url": "https://lavozdeibiza.com/event/cas-costas-llena-los-jueves-de-musica-en-vivo-y-gastronomia-en-ibiza/2026-09-03/",
+   "local": true
   },
   {
    "when": "Thu 19:00 & Sat 13:00",
@@ -692,7 +740,8 @@
    "cat": "music",
    "desc": "Blues and rock gigs at the island's most loved roadside bar, all year.",
    "price": "Usually free",
-   "url": "https://ibiza-spotlight.com/event/can-jordi-blues-station"
+   "url": "https://ibiza-spotlight.com/event/can-jordi-blues-station",
+   "local": true
   },
   {
    "when": "Mon–Fri from 10:00",
@@ -702,7 +751,8 @@
    "cat": "workshops",
    "desc": "Vineyard walk, three wines and a hierbas to finish.",
    "price": "Paid",
-   "url": "https://www.ibiza-spotlight.com/magazine/2026/09/things-do-month-on-ibiza-october-2026"
+   "url": "https://www.ibiza-spotlight.com/magazine/2026/09/things-do-month-on-ibiza-october-2026",
+   "local": true
   },
   {
    "when": "Until 15 Nov",
@@ -755,15 +805,70 @@
    "url": "https://welcometoibiza.com/en/agenda/que-hacer-en-ibiza-hoy/"
   },
   {
-   "when": "Thursdays 20:00",
-   "title": "Live music at Cas Costas",
-   "venue": "Cas Costas Grill & Market, Ctra. Sant Josep km 3",
-   "town": "Sant Jordi",
+   "when": "Mon & Wed · Oct–Apr",
+   "title": "Free Spanish classes for EU residents — Santa Eulària town hall",
+   "venue": "Santa Eulària (by the Club Nàutic) mornings · Jesús cultural centre evenings",
+   "town": "Santa Eulària",
+   "cat": "workshops",
+   "local": true,
+   "desc": "The town hall's own Spanish course for foreigners: beginner, intermediate and advanced, twice a week, free. Mornings in Santa Eulària (08:30 / 09:30 / 10:30), evenings in Jesús (17:00 / 18:00). Enrol by 31 October with passport or NIE and your padrón; tel. 971 33 96 69.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/?p=10067219"
+  },
+  {
+   "when": "Thu–Sat 14:30–16:00 · until 31 Dec",
+   "title": "Live piano over lunch at Sa Caleta",
+   "venue": "Restaurante Sa Caleta",
+   "town": "Sant Josep",
    "cat": "music",
    "local": true,
-   "desc": "The grill-and-market on the Sant Josep road does a band every Thursday night — local and visiting musicians, a different style each week, free entry, open all winter. Book a table and eat; the farm shop is open too. Flamenco nights pop up on the calendar as well.",
+   "desc": "A pianist through the long lunch, Thursday to Saturday, at the fish restaurant on the red-cliff beach. Order the bullit de peix the day before. Free with lunch.",
+   "price": "Free with lunch",
+   "url": "https://www.ibiza-spotlight.com/event/live-music-sa-caleta-restaurant"
+  },
+  {
+   "when": "Thursdays from 19:00",
+   "title": "The Yard — vinyl, open decks and the fireplace at Las Dalias Café",
+   "venue": "Las Dalias Café",
+   "town": "Sant Carles",
+   "cat": "music",
+   "local": true,
+   "desc": "Reggae, soul and dub on vinyl, open decks for whoever brings records, tapas and the fire going. The north's Thursday living room.",
    "price": "Free",
-   "url": "https://www.cascostasibiza.com/en/show/live-music-5/2026-10-22/"
+   "url": "https://welcometoibiza.com/agenda-ibiza/musica/the-yard-las-dalias-cafe/"
+  },
+  {
+   "when": "Sundays, late",
+   "title": "Salsa & bachata Sundays at Keeper",
+   "venue": "Keeper, Marina Botafoch",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "local": true,
+   "desc": "The island's Latin crowd dances on Sunday nights all year, led by Evelyn 'La Negra', who also runs classes on Mondays and Tuesdays. Beginners welcome; sometimes a free class first.",
+   "price": "Free entry",
+   "url": "https://welcometoibiza.com/agenda-ibiza/magazine/bailar-salsa-en-ibiza/"
+  },
+  {
+   "when": "Fridays (winter)",
+   "title": "Latin Club at Zazú — salsa and bachata",
+   "venue": "Zazú",
+   "town": "Platja d'en Bossa",
+   "cat": "music",
+   "local": true,
+   "desc": "Salsa and bachata the first half of the night, then whatever the floor wants. €15 with a drink.",
+   "price": "€15 incl. drink",
+   "url": "https://welcometoibiza.com/agenda-ibiza/magazine/bailar-salsa-en-ibiza/"
+  },
+  {
+   "when": "Fridays 20:30",
+   "title": "Zinètic — independent cinema in original version",
+   "venue": "Cine Regio",
+   "town": "Sant Antoni",
+   "cat": "culture",
+   "local": true,
+   "desc": "The west's winter film club: independent films in original language with subtitles, Friday nights at the old Regio.",
+   "price": "Check the cinema",
+   "url": "https://www.ibiza-spotlight.com/events/2026/01/09"
   }
  ],
  "upcoming": [
@@ -776,6 +881,83 @@
    "desc": "An afternoon with the travelling oysterman: how to open an oyster without losing a finger (or the liquor), how to tell a good one, and what to drink with it — AIX rosé from Provence, poured generously. You leave knowing how to shuck, and well fed. Small group.",
    "price": "€75 per person",
    "url": "mailto:hello@ibizaoffseason.com?subject=Oyster%20shucking%20workshop%20with%20The%20Oyster%20Nomad"
+  },
+  {
+   "when": "Sun 15 Nov · 07:15",
+   "title": "Dawn walk up Sa Talaia with Sant Josep council",
+   "venue": "Meet at the church square",
+   "town": "Sant Josep",
+   "cat": "sport",
+   "local": true,
+   "desc": "The council's free guided walks start the season with sunrise from the island's highest point. Arrive 30 minutes early, no dogs. Next: Ses Salines–Es Codolar 13 Dec, full-moon Es Cavallet 23 Jan, Sant Agustí 21 Feb, Es Cubells 21 Mar.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/?p=10067043"
+  },
+  {
+   "when": "Mon 16 Nov · all day",
+   "title": "Festes de Santa Gertrudis — patron saint's day",
+   "venue": "Village square",
+   "town": "Santa Gertrudis",
+   "cat": "island",
+   "local": true,
+   "desc": "Mass and procession in the morning, ball pagès on the square, a concert in the marquee at 20:00, and the bars full. The fiestas run into early December with the world rice-with-pebrassos contest and the Cursa de sa Sobrassada on the last weekend of November.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/event/santa-gertrudis-patron-saint-festivities-2025/2025-11-16/"
+  },
+  {
+   "when": "Sat 12 Dec (to confirm) · from 17:00",
+   "title": "Festa des Vi Pagès — the Sant Mateu wine festival",
+   "venue": "Polideportivo",
+   "town": "Sant Mateu d'Albarca",
+   "cat": "island",
+   "local": true,
+   "desc": "The village pours its new wine for free, with sobrassada and butifarra from the matances, ball pagès at 19:00 and a concert after. Always the second Saturday of December. The one day a year the whole island drives to Sant Mateu.",
+   "price": "Free",
+   "url": "https://www.ibiza-spotlight.com/event/wine-festival-san-mateo"
+  },
+  {
+   "when": "Fridays 20:00 · Jan–Mar",
+   "title": "Divendres de Cine — free films in original version at Can Jeroni",
+   "venue": "Can Jeroni",
+   "town": "Sant Josep",
+   "cat": "culture",
+   "local": true,
+   "desc": "Sant Josep's winter film cycle: a film every Friday night in original version with subtitles, free, January to March.",
+   "price": "Free",
+   "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2026/01/08/2545611/sant-josep-presenta-ciclo-divendres-cine-can-jeroni.html"
+  },
+  {
+   "when": "January · all month",
+   "title": "Sant Josep és Música — a month of concerts in the village bars",
+   "venue": "Can Jordi, Rosana's, Cas Costas and more",
+   "town": "Sant Josep",
+   "cat": "music",
+   "local": true,
+   "desc": "Every January the municipality fills its bars with music: Can Jordi Blues Station Thursdays and Saturdays, Rosana's on Saturdays, Cas Costas Thursdays, improvisation Wednesdays at Robert Arató's studio. Programme at musica.santjosep.org.",
+   "price": "Mostly free",
+   "url": "https://lavozdeibiza.com/event/sant-josep-es-musica-agenda-de-conciertos-de-enero/2026-01-08/"
+  },
+  {
+   "when": "Sun 17 Jan",
+   "title": "Festes de Sant Antoni — blessing of the animals and the big tasting",
+   "venue": "Passeig de ses Fonts",
+   "town": "Sant Antoni",
+   "cat": "island",
+   "local": true,
+   "desc": "Mass, procession, the blessing of every dog, horse and parrot in the west, ball pagès and a popular tasting on the promenade. The fiestas run 9 January to mid-February; the world matances-rice championship is on Carrer Rosell around 6 February — sign up at Bar Es Clot.",
+   "price": "Free",
+   "url": "https://www.ibiza-spotlight.com/event/fiesta-san-antonio-arroz-matanzas"
+  },
+  {
+   "when": "Thu 21 Jan",
+   "title": "Festes de Santa Agnès — bunyols, carts and the almond blossom",
+   "venue": "Village square",
+   "town": "Santa Agnès de Corona",
+   "cat": "island",
+   "local": true,
+   "desc": "Mass at 12:00, a parade of carts, ball pagès, free bunyols and wine, a concert at 19:00. The weekends that follow: the sofrit pagès contest, a night walk through the blossom around 30 January, the Cursa dels Ametllers in early February. The prettiest village fiesta on the island.",
+   "price": "Free",
+   "url": "https://ibiza-spotlight.com/event/fiestade-santa-ines-santa-agnes"
   }
  ]
 }
