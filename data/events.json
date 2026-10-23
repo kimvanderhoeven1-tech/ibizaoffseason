@@ -707,6 +707,17 @@
    "desc": "Two theatrical tours through the walled town, with actors playing out the island's history scene by scene. Times and booking via the town hall's culture programme.",
    "price": "Check with the town hall",
    "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-10-26",
+   "time": "11:00–15:00 daily",
+   "title": "Ibiza Kids Camp — autumn holiday camp (book now)",
+   "venue": "The Bubble Club Ibiza",
+   "town": "Sant Antoni",
+   "cat": "kids",
+   "desc": "Day camp for ages 4–15 in three age groups, running until Friday 6 November: dodgeball, capture the flag, padel, tennis, archery, treasure hunts, crafts and a daily dip in the pool. Healthy lunch included; early drop-off and late pick-up possible. Book single days or a full week online — spots are limited.",
+   "price": "€75 a day, €300 for 5 days",
+   "url": "https://www.ibizakidscamp.com/kidscamps2026"
   }
  ],
  "recurring": [
@@ -1062,6 +1073,16 @@
    "desc": "Mass at 12:00, a parade of carts, ball pagès, free bunyols and wine, a concert at 19:00. The weekends that follow: the sofrit pagès contest, a night walk through the blossom around 30 January, the Cursa dels Ametllers in early February. The prettiest village fiesta on the island.",
    "price": "Free",
    "url": "https://ibiza-spotlight.com/event/fiestade-santa-ines-santa-agnes"
+  },
+  {
+   "when": "14 Dec – 18 Jan · 11:00–15:00",
+   "title": "Ibiza Kids Camp — Christmas holiday camp",
+   "venue": "The Bubble Club Ibiza",
+   "town": "Sant Antoni",
+   "cat": "kids",
+   "desc": "The same sporty day camp over the Christmas holidays: ages 4–15, lunch included, book by the day or the week. Registration is already open — handy to know before the holiday childcare scramble.",
+   "price": "€75 a day, €300 for 5 days",
+   "url": "https://www.ibizakidscamp.com/kidscamps2026"
   }
  ]
 }
