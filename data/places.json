@@ -719,5 +719,17 @@
   "desc": "Swedish sommelier Anders Enkvist's shop in Santa Gertrudis, a 'talent scout for wines' since 2017: the island's own bottles, gin, beer, olive oil and hierbas next to serious finds from Italy, France and Austria. A tasting room for up to twenty — book a private tasting or a pop-up dinner for a winter night with friends.",
   "url": "https://www.wineshopibiza.com",
   "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+ },
+ {
+  "id": "ojo-de-ibiza",
+  "name": "Ojo de Ibiza",
+  "village": "Sant Mateu d'Albarca",
+  "area": "West",
+  "tags": [
+   "Wine"
+  ],
+  "open": "Tasting room seasonal — 'see you next season'; wines in shops and restaurants all winter",
+  "desc": "Dieter Meier's organic winery on twelve hectares of old terraces on the Pla de Sant Mateu, planted in 2015: the island's most polished bottles, made where the almond trees bloom in February. The tasting room by the vines closes for winter, but the wines are on the island's best lists and in SOMM and Vino&Co — drink them while you wait for spring.",
+  "url": "https://www.ojoibiza.com"
  }
 ]
