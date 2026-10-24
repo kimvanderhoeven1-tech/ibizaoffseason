@@ -58,16 +58,19 @@
  },
  {
   "id": "ses-casetes",
-  "name": "Ses Casetes",
+  "name": "Ses Casetes Art Café",
   "village": "Sant Mateu d'Albarca",
   "area": "West",
   "tags": [
    "Eat",
-   "Music"
+   "Music",
+   "Art",
+   "Local"
   ],
   "open": "Open all year",
-  "desc": "Country restaurant on the village square: homemade island cooking, grilled meats and fish, a colourful interior, art on the walls and live concerts. Lunch in the winter sun after a walk through the Albarca vineyards.",
-  "url": "https://indagare.com/restaurant/ses-casetes"
+  "desc": "Country restaurant on the square in Es Pla de Sant Mateu: homemade island cooking, grilled meats and fish, a riot of colour inside, art on every wall and live concerts. Lunch in the winter sun after a walk through the Albarca vineyards. Open all year — book on WhatsApp.",
+  "url": "https://sescasetesartcafe.com",
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
  },
  {
   "id": "juntos-house",
@@ -556,6 +559,21 @@
   "open": "Open all year · dinner Tue–Sat from 19:00, Sunday roast from 13:00",
   "desc": "A 200-year-old farmhouse tucked behind the square, run by Holly and Pedro: farmhouse cooking from island produce, a fireplace-and-garden kind of place, and the Sunday roast that half the island's expats plan their week around from October to May. They host private birthdays, anniversaries and office dinners of any size, tailored — email holly@canmimosaibiza.com.",
   "url": "https://canmimosaibiza.com",
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+ },
+ {
+  "id": "can-sulayetas",
+  "name": "Can Sulayetas",
+  "village": "Sant Miquel",
+  "area": "North",
+  "tags": [
+   "Eat",
+   "Drink",
+   "Local"
+  ],
+  "open": "Open all year from 10:00 · book, it fills",
+  "desc": "A countryside bar on the Vénda de Rubió outside Sant Miquel that islanders have been driving to for years: a big terrace, dogs welcome, the parrillada as the house dish, sardines on Tuesdays, burgers on Thursdays, coconut flan to finish. €20–30 a head, 1,400 reviews and still nobody's secret but the locals'.",
+  "url": "tel:+34971334567",
   "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
  }
 ]
