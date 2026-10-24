@@ -688,5 +688,20 @@
   "open": "Tours and tastings by appointment all year",
   "desc": "The island's most ambitious winery, on the road out of Santa Gertrudis: guided visits of the production and tastings of their rosé and reds that make it onto restaurant lists across Europe. A good rainy-afternoon plan.",
   "url": "https://www.ibizkus.com"
+ },
+ {
+  "id": "salon-san-miguel",
+  "name": "Salón San Miguel",
+  "village": "Sant Miquel",
+  "area": "North",
+  "tags": [
+   "Eat",
+   "Drink",
+   "Local"
+  ],
+  "open": "Open in winter · check Instagram for days and hours",
+  "desc": "A real Mexican salón on the hill by the fortified church of Sant Miquel — not tacos-for-tourists but the true thing, rooted in Mexican kitchen culture, with the aromas to match and the village at your feet. One of the most special tables in the north; book.",
+  "url": "https://www.instagram.com/salon.san.miguel/",
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
  }
 ]
