@@ -86,7 +86,8 @@ fetch('/data/places.json').then(r=>r.json()).then(d=>{
   const tags=[...new Set(d.flatMap(p=>p.tags||[]))].sort();
   tags.forEach(t=>{const b=document.createElement('button');b.className='chip';b.dataset.f=t;b.setAttribute('aria-pressed','false');b.textContent=t;filters.appendChild(b);});
   document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render(b.dataset.f);}));
-  render('all');
+  const want=new URLSearchParams(location.search).get('f');const pre=want&&[...document.querySelectorAll('.chip')].find(b=>b.dataset.f.toLowerCase()===want.toLowerCase());
+  if(pre){document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===pre));render(pre.dataset.f);}else render('all');
 }).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the places. Refresh to try again.</p>';});
 </script>
 <script>
