@@ -542,5 +542,19 @@
   "open": "Open all year · busy at lunch, book",
   "desc": "A proper neighbourhood restaurant a few streets from Dalt Vila where the locals eat: frita de pulpo, ensaladilla rusa, grilled vegetables and paella at prices that still make sense. No sea view, no concept — just home cooking and a full room.",
   "url": "tel:+34971310350"
+ },
+ {
+  "id": "can-mimosa",
+  "name": "Can Mimosa",
+  "village": "Santa Gertrudis",
+  "area": "Centre",
+  "tags": [
+   "Eat",
+   "Drink",
+   "Local"
+  ],
+  "open": "Open all year · dinner Tue–Sat from 19:00, Sunday roast from 13:00",
+  "desc": "A 200-year-old farmhouse tucked behind the square, run by Holly and Pedro: farmhouse cooking from island produce, a fireplace-and-garden kind of place, and the Sunday roast that half the island's expats plan their week around from October to May. Also does birthdays and private dinners.",
+  "url": "https://canmimosaibiza.com"
  }
 ]
