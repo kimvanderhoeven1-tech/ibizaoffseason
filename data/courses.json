@@ -1,0 +1,93 @@
+[
+ {
+  "id": "santa-eularia-council-spanish",
+  "group": "spanish",
+  "local": true,
+  "name": "Santa Eulària town-hall Spanish courses",
+  "village": "Santa Eulària & Jesús",
+  "type": "Beginner · intermediate · advanced",
+  "when": "Mon & Wed, Oct–Apr · mornings in Santa Eulària (08:30–11:30), afternoons in Jesús (17:00–19:00)",
+  "price": "Council course — free or near-free; ask",
+  "desc": "The Ajuntament runs Spanish classes for EU residents of the municipality every winter, one hour per level, twice a week: three levels at the municipal offices by the Club Nàutic in the morning, beginner and intermediate at the Centro Cultural de Jesús in the late afternoon. You need your NIE or passport and your empadronamiento in Santa Eulària. The best-kept language secret on the east side.",
+  "status": "Register by 31 October 2026 — email Cultura or call 971 33 96 69",
+  "url": "https://lavozdeibiza.com/?p=10067227",
+  "book": "tel:+34971339669"
+ },
+ {
+  "id": "instituto-idiomas-ibiza",
+  "group": "spanish",
+  "name": "Instituto de Idiomas Ibiza",
+  "village": "Ibiza Town (Av. Ignacio Wallis 32) & Sant Antoni",
+  "type": "Group · intensive · private · online",
+  "when": "New groups start every Monday · 1 to 26 weeks",
+  "price": "On request — winter discounts",
+  "desc": "The island's language school since forever: adult groups (18+, 30+, 50+), intensive 20-hours-a-week courses with two rotating teachers, one-to-one lessons in Ibiza Town or Sant Antoni, and online. Kids' and teens' classes too. The place to go if you want structure and a start date that is next Monday.",
+  "status": "Join any week — level test first",
+  "url": "https://ii-ibiza.com",
+  "book": "tel:+34971303815"
+ },
+ {
+  "id": "eoi-eivissa",
+  "group": "spanish",
+  "name": "Escuela Oficial de Idiomas — Español para extranjeros",
+  "village": "Ibiza Town (IES Blanca Dona) · extension in Sant Antoni",
+  "type": "Official state language school · full academic year",
+  "when": "October to May, evening classes",
+  "price": "About €190 for the year",
+  "desc": "The state language school: proper year-long courses with official certificates at the end, for a fraction of private prices. Spanish for foreigners alongside Catalan, English, French, German and Italian. Enrolment is in September–mid-October, so for this winter you've likely missed it — put it in your diary for next September, or email to ask about late places.",
+  "status": "Enrolment closed mid-October — ask secretaria@eoi-eivissa.com about late places; next intake September 2027",
+  "url": "mailto:secretaria@eoi-eivissa.com"
+ },
+ {
+  "id": "cepa-pitiuses",
+  "group": "spanish",
+  "local": true,
+  "name": "CEPA Pitiüses — adult education school",
+  "village": "Ibiza Town · Sant Jordi · Sant Antoni",
+  "type": "Spanish for foreigners · Catalan · more",
+  "when": "Weekday mornings and evenings · two terms",
+  "price": "Public adult school — minimal fees",
+  "desc": "The public adult-education centre, with Spanish-for-foreigners groups among its courses, plus Catalan, languages and school-leaving qualifications. Aula Eivissa Vila enrols all year; the main intake is September and there is a second-term enrolment window in February (8–12 February 2027). Very local, very cheap, Spanish-speaking from the first minute.",
+  "status": "Aula Eivissa Vila: open enrolment all year · second-term window 8–12 Feb 2027",
+  "url": "https://www.caib.es/sites/educacio_per_adults/es/inici/"
+ },
+ {
+  "id": "private-tutor-ii",
+  "group": "private",
+  "name": "One-to-one Spanish via Instituto de Idiomas",
+  "village": "Ibiza Town · Sant Antoni · online",
+  "type": "Private lessons",
+  "when": "Your hours",
+  "price": "On request",
+  "desc": "The easy route to a private teacher: the Instituto matches you with one of its tutors for one-to-one lessons in town, in Sant Antoni, or online, at the pace you want. Good if you need Spanish for a licence exam, a job, or the ajuntament.",
+  "status": "Start any week",
+  "url": "https://ii-ibiza.com",
+  "book": "tel:+34971303815"
+ },
+ {
+  "id": "private-tutors-list",
+  "group": "private",
+  "name": "Independent tutors — the list is coming",
+  "village": "Island-wide",
+  "type": "Private Spanish & Catalan teachers",
+  "when": "Flexible",
+  "price": "Typically €25–40 an hour",
+  "desc": "Half the Spanish on this island is learnt at a kitchen table with a teacher who also knows where to buy the best sobrassada. We're collecting the independent tutors who teach expats — in person in the villages or online. Want to be on it? Use the form. Want one now? Email us what you need and where you live and we'll point you to someone.",
+  "status": "Email hello@ibizaoffseason.com — we'll match you",
+  "url": "mailto:hello@ibizaoffseason.com?subject=Spanish%20tutor",
+  "book": "/submit"
+ },
+ {
+  "id": "catalan-courses",
+  "group": "catalan",
+  "local": true,
+  "name": "Free Catalan courses — Consell & ajuntaments",
+  "village": "Every municipality",
+  "type": "Catalan for adults · all levels",
+  "when": "Autumn and spring editions · evenings",
+  "price": "Free",
+  "desc": "Ibiza's own language, and the one that turns a nod from the pagès next door into a conversation. The Consell d'Eivissa and the town halls (Sant Josep, Santa Eulària, Sant Antoni, Vila) run free Catalan courses for adults every year, usually two evenings a week, with official certificates. Ask at your ajuntament's Servei de Normalització Lingüística, or at the EOI for the year course.",
+  "status": "Autumn editions start October–November — ask at your town hall",
+  "url": "https://www.conselldeivissa.es"
+ }
+]
