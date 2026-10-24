@@ -575,5 +575,118 @@
   "desc": "A countryside bar on the Vénda de Rubió outside Sant Miquel that islanders have been driving to for years: a big terrace, dogs welcome, the parrillada as the house dish, sardines on Tuesdays, burgers on Thursdays, coconut flan to finish. €20–30 a head, 1,400 reviews and still nobody's secret but the locals'.",
   "url": "tel:+34971334567",
   "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+ },
+ {
+  "id": "vino-co",
+  "name": "Vino&Co",
+  "village": "Sant Jordi",
+  "area": "Town",
+  "tags": [
+   "Wine",
+   "Drink",
+   "Eat",
+   "Shop",
+   "Local"
+  ],
+  "open": "Open all year · Mon–Thu 10–14 & 17–20, Fri until 23:00, Sat mornings · closed Sunday",
+  "desc": "The island's wine shop, with a tasting bar in the middle, a small terrace and a kitchen that does cheeses, jamón and pâtés to go with whatever is open. In winter the owners run tastings, workshops and Friday-night gatherings with special bites — the best-kept Friday on the island. Book a seat at the bar.",
+  "url": "https://www.instagram.com/vinoycoibiza/",
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+ },
+ {
+  "id": "chidas",
+  "name": "Chidas Bar + Cantina",
+  "village": "Plaça Pintor Vicent Calbet, Ibiza Town",
+  "area": "Town",
+  "tags": [
+   "Eat",
+   "Drink",
+   "Local"
+  ],
+  "open": "Open all year from 17:00 · closed Sunday",
+  "desc": "Modern Mexican taqueria and mezcal bar on a small square in town: tacos, tostadas, a long agave list and a late licence. Where the island's hospitality crowd ends up on a winter night. Watch for their Mezcal Monday collaborations.",
+  "url": "https://www.instagram.com/chidas_bar.cantina/"
+ },
+ {
+  "id": "casa-lhasa",
+  "name": "Casa Lhasa",
+  "village": "Sant Llorenç de Balàfia",
+  "area": "North",
+  "tags": [
+   "Eat",
+   "Drink",
+   "Music",
+   "Local"
+  ],
+  "open": "Open in winter · Mezcal Mondays from 18:00 — check Instagram for the week's hours",
+  "desc": "A cosy village eatery in Sant Llorenç with a thing for mezcal: Monday nights are Mezcal Mondays — two-for-one tacos and snacks with Ojo de Isla cocktails, the artisanal mezcal made by an Ibiza-based founder, sometimes with a DJ. The kind of evening that makes a Monday in the north worth it.",
+  "url": "https://www.instagram.com/casa.lhasa.ibiza/",
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+ },
+ {
+  "id": "casa-club",
+  "name": "Casa Club",
+  "village": "Santa Eulària des Riu",
+  "area": "East",
+  "tags": [
+   "Eat",
+   "Drink",
+   "Music"
+  ],
+  "open": "Open all year",
+  "desc": "Restaurant and bar in the centre of Santa Eulària that keeps its doors open and its music on all winter — dinners, drinks, live sessions and a crowd that lives here. Check their Instagram for this week's programme.",
+  "url": "https://www.instagram.com/casaclub.ibiza/",
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+ },
+ {
+  "id": "can-rich",
+  "name": "Bodega Can Rich",
+  "village": "Buscastell, Sant Antoni",
+  "area": "West",
+  "tags": [
+   "Wine",
+   "Workshop"
+  ],
+  "open": "Winter tours and tastings on weekdays · book ahead",
+  "desc": "Organic winery on the Buscastell plain making the island's best-known wines, plus hierbas and olive oil. Guided tours of the vines and cellar end with a tasting — one of the few bodega visits that run right through the winter.",
+  "url": "https://www.bodegascanrich.com"
+ },
+ {
+  "id": "sa-cova",
+  "name": "Bodega Sa Cova",
+  "village": "Sant Mateu d'Albarca",
+  "area": "West",
+  "tags": [
+   "Wine",
+   "Workshop"
+  ],
+  "open": "Visits by appointment all year",
+  "desc": "Family winery in the Sant Mateu valley, the island's wine country: a walk through the vines and the cellar, then a tasting paired with island cheeses and sobrassada. Combine with lunch at Ses Casetes on the square.",
+  "url": "https://www.sacovaibiza.com"
+ },
+ {
+  "id": "can-maymo",
+  "name": "Bodegas Can Maymó",
+  "village": "Sant Mateu d'Albarca",
+  "area": "West",
+  "tags": [
+   "Wine"
+  ],
+  "open": "Shop open all year · tastings on request",
+  "desc": "Small Sant Mateu bodega between the almond trees — reds, a rosé and a sweet wine sold straight from the finca. Buy a bottle, drink it on the terrace at sunset over the vineyards. In early December the whole valley celebrates the Festa del Vi Pagès with the new wine.",
+  "url": "https://www.bodegascanmaymo.com"
+ },
+ {
+  "id": "ibizkus",
+  "name": "Ibizkus",
+  "village": "Santa Gertrudis",
+  "area": "Centre",
+  "tags": [
+   "Wine",
+   "Workshop"
+  ],
+  "open": "Tours and tastings by appointment all year",
+  "desc": "The island's most ambitious winery, on the road out of Santa Gertrudis: guided visits of the production and tastings of their rosé and reds that make it onto restaurant lists across Europe. A good rainy-afternoon plan.",
+  "url": "https://www.ibizkus.com"
  }
 ]
