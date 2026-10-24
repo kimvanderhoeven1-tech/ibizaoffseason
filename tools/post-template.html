@@ -1,0 +1,34 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Lora;font-style:italic;font-weight:600;src:url(node_modules/@fontsource/lora/files/lora-latin-600-italic.woff2)}
+@font-face{font-family:Poppins;font-weight:400;src:url(node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:500;src:url(node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:600;src:url(node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2)}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1350px;background:#6B6B4F;font-family:Poppins,sans-serif;color:#F3EEE3;position:relative;overflow:hidden}
+.brand{position:absolute;left:90px;top:96px;display:flex;align-items:center;gap:14px;font-weight:600;font-size:22px;letter-spacing:.18em;text-transform:uppercase}
+.brand span{font-weight:400;opacity:.8}
+.brand svg{width:34px;height:34px;fill:#F3EEE3}
+.liz{position:absolute;right:-10px;bottom:70px;width:420px;height:420px;fill:#F3EEE3;opacity:.12;transform:rotate(-20deg)}
+.body{position:absolute;left:90px;right:90px;bottom:120px}
+.kick{font-size:21px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;display:flex;align-items:center;gap:18px;margin-bottom:26px;color:#E7DFCC}
+.kick::before{content:"";width:40px;height:2px;background:#E7DFCC}
+.where{font-size:30px;font-weight:400;margin-bottom:26px}
+h1{font-family:Lora,serif;font-style:italic;font-weight:600;font-size:116px;line-height:1.02;margin-bottom:34px;text-shadow:0 2px 20px rgba(0,0,0,.15)}
+p{font-size:33px;line-height:1.42;color:#EDE6D6;max-width:900px}
+.pill{display:inline-block;margin-top:40px;padding:18px 32px;border-radius:999px;background:rgba(243,238,227,.14);font-size:20px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+.foot{position:absolute;left:90px;right:90px;bottom:66px;border-top:1.5px solid rgba(243,238,227,.3);padding-top:26px;display:flex;justify-content:space-between;font-size:20px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#E7DFCC}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs><g id="lizard"><path d="M58 14c4-3 10-2 12 2 1.5 3 .5 6-2.5 8-2 1.3-4.5 1.5-6.8 2.5l-3.5 2.3c-1.6 1-3.6.4-4.3-1.3-.9-2.3-1.1-4.8-.4-7.1.8-2.9 2.9-5 5.5-6.4z"/><path d="M53.5 27c5.2 1.2 8.8 4.6 10 9.6.9 3.8.2 7.6-1.1 11.2-1.6 4.3-4 8.3-7.2 11.6-3.4 3.6-7.6 6.2-11.9 8.5-3.7 2-7.7 3.6-11.6 5.1-2.3.9-4.9-.8-4.9-3.3 0-1.7 1.1-3.1 2.6-3.7 4-1.6 8-3.3 11.7-5.5 3.7-2.2 7-5 9.4-8.6 2-3 3.3-6.4 3.9-9.9.6-3.5-.2-7.1-2.8-9.6-1.7-1.6-1.3-4.6.9-5.4.4-.1.7-.1 1 0z"/><path d="M31 70.5c-1.3 3.5-3.8 6.5-7.3 8.1-3.1 1.4-6.6 1.5-9.8.6-3.2-.9-6-2.9-8-5.5-.9-1.2-.5-3 .9-3.6 1.1-.5 2.3 0 3 .9 1.6 2 3.8 3.5 6.3 4.1 2.2.5 4.6.3 6.6-.8 2.2-1.2 3.8-3.2 4.6-5.6.5-1.4 2.1-2.1 3.4-1.4 1 .5 1.5 1.7 1.2 2.8z"/><path d="M61.5 36l9.5-6.5c1.2-.8 2.8-.5 3.6.7.7 1.1.5 2.6-.5 3.5L66 40.5c-1.1 1-2.8.9-3.8-.2-1-1.2-.9-3 .3-4z"/><path d="M58 38.5l-2.8 10.2c-.4 1.4-1.9 2.2-3.3 1.8-1.3-.4-2.1-1.8-1.8-3.1l2.2-10.8c.3-1.4 1.6-2.3 3-2 1.5.3 2.4 1.7 2.1 3.2z"/><path d="M40 62l-10-3c-1.4-.4-2.1-1.9-1.7-3.3.4-1.3 1.8-2 3.1-1.6l10.5 3.2c1.4.4 2.2 1.9 1.7 3.3-.4 1.2-1.6 2-2.9 1.6z"/><path d="M45.5 60.5l6.5 8.5c.9 1.2.7 2.9-.5 3.8-1.1.8-2.7.6-3.6-.5l-7-8.8c-.9-1.2-.7-2.9.5-3.8 1.2-.9 2.9-.6 3.8.5z"/></g></defs></svg>
+<div class="brand"><svg viewBox="0 0 100 100"><use href="#lizard"/></svg>Ibiza <span>Offseason</span></div>
+<svg class="liz" viewBox="0 0 100 100"><use href="#lizard"/></svg>
+<div class="body">
+  <div class="kick">This winter · sign up by Friday</div>
+  <div class="where">Santa Eulària, Jesús, Ibiza Town &amp; online</div>
+  <h1>Learn Spanish this winter</h1>
+  <p>Town-hall classes twice a week until April (Santa Eulària residents, register by 31 Oct), the official language school, schools you can join any Monday, private tutors. All on one page.</p>
+  <span class="pill">Courses · new on the site</span>
+</div>
+<div class="foot"><span>ibizaoffseason.com/courses</span><span>@theibizaoffseason</span></div>
+</body></html>
