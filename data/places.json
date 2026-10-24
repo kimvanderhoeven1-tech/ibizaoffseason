@@ -703,5 +703,21 @@
   "desc": "A real Mexican salón on the hill by the fortified church of Sant Miquel — not tacos-for-tourists but the true thing, rooted in Mexican kitchen culture, with the aromas to match and the village at your feet. One of the most special tables in the north; book.",
   "url": "https://www.instagram.com/salon.san.miguel/",
   "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+ },
+ {
+  "id": "somm-wine-shop",
+  "name": "SOMM Wine Shop",
+  "village": "Santa Gertrudis",
+  "area": "Centre",
+  "tags": [
+   "Wine",
+   "Shop",
+   "Workshop",
+   "Local"
+  ],
+  "open": "Open all year · tastings and pop-up dinners on request",
+  "desc": "Swedish sommelier Anders Enkvist's shop in Santa Gertrudis, a 'talent scout for wines' since 2017: the island's own bottles, gin, beer, olive oil and hierbas next to serious finds from Italy, France and Austria. A tasting room for up to twenty — book a private tasting or a pop-up dinner for a winter night with friends.",
+  "url": "https://www.wineshopibiza.com",
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
  }
 ]
