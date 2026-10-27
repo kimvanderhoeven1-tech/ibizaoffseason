@@ -731,5 +731,19 @@
   "open": "Tasting room seasonal — 'see you next season'; wines in shops and restaurants all winter",
   "desc": "Dieter Meier's organic winery on twelve hectares of old terraces on the Pla de Sant Mateu, planted in 2015: the island's most polished bottles, made where the almond trees bloom in February. The tasting room by the vines closes for winter, but the wines are on the island's best lists and in SOMM and Vino&Co — drink them while you wait for spring.",
   "url": "https://www.ojoibiza.com"
+ },
+ {
+  "id": "studio-raffo",
+  "name": "Studiø Raffo",
+  "village": "Countryside studio — address on booking",
+  "area": "All",
+  "tags": [
+   "Art",
+   "Workshop",
+   "Shop"
+  ],
+  "open": "All winter · workshops by appointment",
+  "desc": "Cristina Raffo's ceramics studio in the Ibiza countryside: hand-built black stoneware and porcelain objects, one of a kind, and her Color & Clay afternoons where you paint your own pieces (€79, about 2.5 hours, groups of up to 6, everything fired and glazed for you). Private hand-building classes too. Write to book; she sends the address.",
+  "url": "https://www.studioraffo.es"
  }
 ]
