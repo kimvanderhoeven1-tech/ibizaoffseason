@@ -1,765 +1,780 @@
 [
- {
-  "id": "es-cucons",
-  "name": "Es Cucons",
-  "village": "Santa Agnès de Corona",
-  "area": "West",
-  "tags": [
-   "Eat",
-   "Stay",
-   "Wellness",
-   "Music"
-  ],
-  "open": "Open until 15 Nov · reopens end of February",
-  "desc": "Rural hotel in a 17th-century finca on the Pla de Corona, with a spa, sauna, hot tub, restaurant and live concerts. Closes mid-November and reopens at the end of February, just as the almond blossom fades — the Santa Agnès address for a late-winter weekend.",
-  "url": "https://www.escucons.com"
- },
- {
-  "id": "puertas-del-cielo",
-  "name": "Las Puertas del Cielo",
-  "village": "Santa Agnès de Corona",
-  "area": "West",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Sunset"
-  ],
-  "open": "Open until 15 Nov · reopens end of February",
-  "desc": "Clifftop bar-restaurant above the north-west coast, named for the 'gates of heaven' view. One of the island's great sunset spots and the natural end to the Ses Balandres walk. Closes 15 November, back at the end of February.",
-  "url": "https://www.laspuertasdelcielo.es"
- },
- {
-  "id": "can-cosmi",
-  "name": "Can Cosmi",
-  "village": "Santa Agnès de Corona",
-  "area": "West",
-  "tags": [
-   "Drink",
-   "Eat",
-   "Local",
-   "Music"
-  ],
-  "open": "Open all year",
-  "desc": "The village bar-restaurant opposite the church: the island's most talked-about tortilla, lamb chops, rustic salads and a terrace in the sun. Salsa nights in winter — ask at the bar for the next one.",
-  "url": "https://www.instagram.com/cancosmi/",
-  "now": "Live music at dinner some nights — blues, a guitar, whoever's on the island — 20:00–22:00, announced the same day on @cancosmi. Salsa nights too; ask at the bar."
- },
- {
-  "id": "sa-palmera",
-  "name": "Sa Palmera",
-  "village": "Santa Agnès de Corona",
-  "area": "West",
-  "tags": [
-   "Eat"
-  ],
-  "open": "Open in winter",
-  "desc": "Classic Spanish cooking on the village square — the locals' choice after a walk. Simple, honest plates and a terrace that catches the winter sun.",
-  "url": "https://www.ibiza-spotlight.com/restaurants/sa-palmera"
- },
- {
-  "id": "ses-casetes",
-  "name": "Ses Casetes Art Café",
-  "village": "Sant Mateu d'Albarca",
-  "area": "West",
-  "tags": [
-   "Eat",
-   "Music",
-   "Art",
-   "Local"
-  ],
-  "open": "Open all year",
-  "desc": "Country restaurant on the square in Es Pla de Sant Mateu: homemade island cooking, grilled meats and fish, a riot of colour inside, art on every wall and live concerts. Lunch in the winter sun after a walk through the Albarca vineyards. Open all year — book on WhatsApp.",
-  "url": "https://sescasetesartcafe.com",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "juntos-house",
-  "name": "Juntos House",
-  "village": "Sant Mateu d'Albarca",
-  "area": "West",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Shop"
-  ],
-  "open": "Check winter days",
-  "desc": "Farmhouse restaurant, shop and clubhouse: organic plates from their own land, natural wines and cocktails, plus The Pergola for walk-in drinks and tapas. Open through the holidays last winter — check their Instagram for current days.",
-  "url": "https://white-ibiza.com/restaurants/juntos-house/"
- },
- {
-  "id": "forada",
-  "name": "Mercat de Forada — Can Tixedó",
-  "village": "Buscastell, Sant Rafel",
-  "area": "West",
-  "tags": [
-   "Market",
-   "Eat",
-   "Music"
-  ],
-  "open": "Every Saturday 10–15, all year",
-  "desc": "The island's most local Saturday market, in the field by Can Tixedó Art Café: farm fruit and veg, homemade food, crafts, a book swap, kids' zone, vegan paella at 13:00 and the odd live set. Coffee and lunch at Tixedó afterwards.",
-  "url": "https://www.ibiza-spotlight.com/event/market-forada"
- },
- {
-  "id": "can-suldat",
-  "name": "La Finca Can Suldat",
-  "village": "Es Canar, Santa Eulària",
-  "area": "East",
-  "tags": [
-   "Eat",
-   "Music"
-  ],
-  "open": "All winter · closed Mondays",
-  "desc": "Swiss-Ibizan finca restaurant under a vine-roofed courtyard: cheese fondue, steak, goulash and 'Peter's famous salad', with live music through the winter. Go early evening to catch the music with the locals, and book a table.",
-  "url": "https://wanderlog.com/place/details/2700105/la-finca-can-suldat"
- },
- {
-  "id": "la-paloma",
-  "name": "La Paloma",
-  "village": "Sant Llorenç de Balàfia",
-  "area": "North",
-  "tags": [
-   "Eat",
-   "Drink"
-  ],
-  "open": "Open in winter · check days",
-  "desc": "An old finca among orange and lemon trees, with lunch in the flowering garden and dinners by lantern light: Italian-meets-Middle-Eastern plates, homemade bread, organic salads and a good bottle. Hours shift with the season — check their Instagram before you drive out.",
-  "url": "https://www.lapalomaibiza.com"
- },
- {
-  "id": "bar-costa",
-  "name": "Bar Costa",
-  "village": "Santa Gertrudis",
-  "area": "Centre",
-  "tags": [
-   "Breakfast",
-   "Drink",
-   "Eat",
-   "Local"
-  ],
-  "open": "Open all year except March · closed Tuesdays",
-  "desc": "The village institution on the square, hams hanging from the ceiling and paintings left by artists who paid in canvases. Bocadillos, tostadas and a cortado at the bar — the place the whole island passes through on a winter Sunday.",
-  "url": "https://www.ibiza-spotlight.com/restaurants/bar-costa"
- },
- {
-  "id": "bar-anita",
-  "name": "Bar Anita",
-  "village": "Sant Carles de Peralta",
-  "area": "North",
-  "tags": [
-   "Breakfast",
-   "Drink",
-   "Eat",
-   "Local"
-  ],
-  "open": "Open 365 days, 07:30–midnight",
-  "desc": "The hippie-era village bar opposite the church, with the old wooden post boxes still on the wall. Home-made hierbas, simple plates, a shaded terrace — and open every single day of the year.",
-  "url": "https://www.ibiza-spotlight.com/restaurants/bar-anita"
- },
- {
-  "id": "can-berri",
-  "name": "Bar Can Berri",
-  "village": "Sant Agustí des Vedrà",
-  "area": "West",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Specialty"
-  ],
-  "open": "Open in winter · calçotades Feb–Mar",
-  "desc": "Tiny bar on the prettiest village square in the west, under the church. Known in winter for its calçotades on Sundays in February and March: charred spring onions, romesco, grilled meat and plenty of wine.",
-  "url": "https://www.ibiza-spotlight.com/restaurants/bar-can-berri"
- },
- {
-  "id": "sa-carboneria",
-  "name": "Sa Carboneria",
-  "village": "Santa Eulària des Riu",
-  "area": "East",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Music"
-  ],
-  "open": "Open all winter · closed Tuesdays",
-  "desc": "Steakhouse and garden just behind the town hall: aged meats over charcoal, a warm dining room for the cold nights, a small garden for the sunny lunches. Winter weekends bring the Hunger BBQ, and Sa Carbo Bar has live music October to March — this is where The Oyster Nomad set up in October.",
-  "url": "https://welcometoibiza.com/restaurantes/sa-carboneria/"
- },
- {
-  "id": "oyster-nomad",
-  "name": "The Oyster Nomad",
-  "village": "Island-wide — no fixed address",
-  "area": "All",
-  "tags": [
-   "Eat",
-   "Delivery",
-   "Music"
-  ],
-  "open": "All winter · delivers and pops up",
-  "desc": "A travelling oysterman — top hat, shucking knives, Umami oysters and AIX rosé — who delivers to villas and restaurants across the island all winter and shows up for pop-up nights. Shuck the world. No bar, no terrace: he comes to you.",
-  "url": "https://oystersyasha.com"
- },
- {
-  "id": "olas-gallery",
-  "name": "Olas Gallery",
-  "village": "Santa Eulària des Riu",
-  "area": "East",
-  "tags": [
-   "Art",
-   "Shop"
-  ],
-  "open": "All year · Wed–Sun",
-  "desc": "Photographer Sofia Gómez Fonzo's gallery and concept store a few steps from the beach: a show that changes every month, always with island artists — painting, aerial and underwater photography, cyanotypes, hand-stitched maps — and a shelf of books, prints, ceramics and oracle cards made on Ibiza. Talks and openings through the winter.",
-  "url": "https://olasgallery.com",
-  "now": "Autumn programme: Marcel Boer's Ibiza light studies, then Arnoud L∆L∆, and a group show of island artists in December."
- },
- {
-  "id": "parra-romero",
-  "name": "Parra & Romero",
-  "village": "Santa Gertrudis",
-  "area": "Centre",
-  "tags": [
-   "Art"
-  ],
-  "open": "Tue–Sat · Mon eve",
-  "desc": "The Madrid gallery's island outpost in an industrial space on the village paseo: conceptual and minimal art, site-specific projects, the kind of show you'd expect in Chelsea, with a coffee at Bar Costa afterwards. Tue–Sat 11–14 & 16:30–20:30, Mondays 17–21.",
-  "url": "https://www.parra-romero.com",
-  "now": "Landon Metz — the Arizona painter's first solo show in Spain, opened late September."
- },
- {
-  "id": "mace",
-  "name": "MACE — Museu d'Art Contemporani",
-  "village": "Dalt Vila, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Art"
-  ],
-  "open": "Tue–Sun · closed Mon",
-  "desc": "One of Spain's first contemporary art museums, set into the walls of Dalt Vila with the Phoenician and Roman foundations visible under glass floors. The permanent collection is the island's art story since the 1960s; the temporary shows are the reason to go back. Winter hours: Tue–Fri 10–16:30, weekends 10–14.",
-  "url": "https://www.eivissa.es/mace"
- },
- {
-  "id": "es-polvori",
-  "name": "Es Polvorí",
-  "village": "Dalt Vila, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Art"
-  ],
-  "open": "Tue–Sun",
-  "desc": "The old gunpowder store on the Santa Llúcia bastion, now the town's space for temporary shows: painting, photography and sculpture by artists living here, in a vaulted stone room with the harbour below. Tue–Fri 18–20:30, weekends 11–13:30.",
-  "url": "https://www.eivissa.es"
- },
- {
-  "id": "marta-torres",
-  "name": "Galería Marta Torres",
-  "village": "La Marina, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Art"
-  ],
-  "open": "Mon–Fri mornings",
-  "desc": "A gallery in the port since the 1990s: Marta Torres's own work and group shows of island painters, part of the emerging art route around La Marina. Mon–Fri 10–14.",
-  "url": "https://www.galeriamartatorres.com"
- },
- {
-  "id": "can-curt",
-  "name": "Can Curt",
-  "village": "Sant Agustí des Vedrà",
-  "area": "West",
-  "tags": [
-   "Art"
-  ],
-  "open": "Thu–Sun evenings",
-  "desc": "The village exhibition room opposite the church — painting, photography, sculpture, mostly by people who live within ten minutes of it. Combine with a drink at Can Berri Vell across the square. Thu–Sun 18–21.",
-  "url": "https://www.santjosep.org"
- },
- {
-  "id": "can-jeroni",
-  "name": "Can Jeroni",
-  "village": "Sant Josep de sa Talaia",
-  "area": "West",
-  "tags": [
-   "Art",
-   "Music"
-  ],
-  "open": "Wed–Sun",
-  "desc": "Sant Josep's cultural centre: exhibitions downstairs, and through the winter a programme of film, poetry, concerts and theatre that the village actually turns up for. Wed–Sun 10:30–13:30, plus Thu–Sat 18–21.",
-  "url": "https://www.santjosep.org"
- },
- {
-  "id": "sa-punta-des-moli",
-  "name": "Sa Punta des Molí",
-  "village": "Sant Antoni de Portmany",
-  "area": "West",
-  "tags": [
-   "Art"
-  ],
-  "open": "Tue & Sat (winter)",
-  "desc": "A restored windmill and olive press on the bay, with an exhibition hall and an open-air auditorium. Small shows by local artists; worth the walk along the promenade on a bright winter morning. Winter: Tuesdays and Saturdays 10–13 & 16–19.",
-  "url": "https://visit.santantoni.net/en/what-to-do/culture/sa-punta-des-moli/"
- },
- {
-  "id": "bartienne",
-  "name": "Bartienne & The Cook's Atelier",
-  "village": "Ca Na Negreta, Jesús",
-  "area": "East",
-  "tags": [
-   "Shop",
-   "Eat",
-   "Workshop"
-  ],
-  "open": "All winter · dinners twice a month",
-  "desc": "Barbara and Etienne's antique and interiors shop on the Santa Eulària road — French flea-market furniture, pieces from Asia and India, outdoor kitchens — with an open kitchen at the back. Barbara cooks there: long-table dinners for 20 to 40 a couple of weekends a month, and cooking workshops (Spanish, Italian, French) for groups. Follow @the_cooks_atelier_ibiza for the next date, or book the whole space for your own night. Carretera Santa Eulària 380.",
-  "url": "https://www.instagram.com/the_cooks_atelier_ibiza/"
- },
- {
-  "id": "chez-bibi",
-  "name": "Chez Bibi",
-  "village": "Santa Gertrudis",
-  "area": "Centre",
-  "tags": [
-   "Breakfast",
-   "Drink",
-   "Eat",
-   "Work"
-  ],
-  "open": "Open all year · daily 8:30–20:00",
-  "desc": "Café-restaurant with its own little bakery at the top of the village: Parisian croissants and cinnamon rolls, sourdough, poke and big salads, cakes that change daily. Laptops are welcome — on a grey winter morning half the terrace is working, the other half is on its second coffee. Dog-friendly, card accepted, book for lunch at weekends.",
-  "url": "https://www.instagram.com/chez_bibi_von_bakery_ibiza/"
- },
- {
-  "id": "es-vermell",
-  "name": "Es Vermell Cafè",
-  "village": "Carrer del Bisbe Abad y Lasierra, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Local"
-  ],
-  "open": "All year · mornings",
-  "desc": "The town's own breakfast bar: loud, fast, cheap, full of people who work round the corner. Tostada, café con leche, done.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "es-tap-nou",
-  "name": "Es Tap Nou",
-  "village": "Carrer de Madrid, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Local"
-  ],
-  "open": "All year · mornings",
-  "desc": "Juices pressed in front of you and a ham tostada on the open terrace in the shopping streets — the breakfast before the Saturday errands.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "croissant-show",
-  "name": "Croissant Show",
-  "village": "At the foot of the Dalt Vila drawbridge, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Breakfast",
-   "Eat"
-  ],
-  "open": "All year · from early",
-  "desc": "Since the 1980s: croissants with serrano at the tables under the walls, the whole port walking past. Winter sun hits the terrace mid-morning.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "bar-can-toni",
-  "name": "Bar Can Toni",
-  "village": "Ca Na Negreta, on the Santa Eulària road",
-  "area": "East",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Local"
-  ],
-  "open": "All year",
-  "desc": "A roadside bar with a terrace and parking: tostadas, bocadillos, workmen's prices. Sa Barda next door is the same idea.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "can-rei",
-  "name": "Can Rei",
-  "village": "Sant Miquel",
-  "area": "North",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Local"
-  ],
-  "open": "All year",
-  "desc": "The village café with homemade everything and km-0 produce, run by people who remember your order. Breakfast before the walk to the port.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "bar-cruce",
-  "name": "Bar Cruce",
-  "village": "Sant Rafel crossroads",
-  "area": "Centre",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Local"
-  ],
-  "open": "All year · from early",
-  "desc": "The bar at the crossroads where half the island stops for a coffee and a tostada on the way to work. No menu in English, no need.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "raco-verd",
-  "name": "Racó Verd",
-  "village": "Sant Josep",
-  "area": "West",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Music"
-  ],
-  "open": "All year",
-  "desc": "A patio behind the main street with a Mexican-leaning breakfast and Spanish standards, good prices, and live music nights through the winter.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "la-guay",
-  "name": "La Guay",
-  "village": "Sant Antoni, near Melbourne Street",
-  "area": "West",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Local"
-  ],
-  "open": "All year · mornings",
-  "desc": "Churros made fresh, strong coffee, the regulars at the bar. Sant Antoni's local breakfast.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "can-guillem",
-  "name": "Can Guillem",
-  "village": "Roadside at the Sant Agustí turn-off",
-  "area": "West",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Local"
-  ],
-  "open": "All year",
-  "desc": "An old roadside bar nobody tells tourists about: jamón serrano and manchego on toast, a coffee, the lorries going past.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "cool-cafe",
-  "name": "Cool Café",
-  "village": "Sant Antoni bay",
-  "area": "West",
-  "tags": [
-   "Breakfast",
-   "Eat"
-  ],
-  "open": "All year · opens very early",
-  "desc": "Open before anyone else on the bay: tostadas, tortilla, coffee and juice for the dawn-walk crowd.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "hostal-talamanca",
-  "name": "Hostal Talamanca",
-  "village": "Talamanca beach",
-  "area": "Town",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Sunset"
-  ],
-  "open": "All year",
-  "desc": "Faces east, so breakfast here is in the sun from the first light. Tostada with sobrassada and two cheeses, feet almost in the sand.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "massa-coffee",
-  "name": "Massa Coffee",
-  "village": "Marina, towards Talamanca",
-  "area": "Town",
-  "tags": [
-   "Breakfast",
-   "Eat",
-   "Drink"
-  ],
-  "open": "All year",
-  "desc": "Specialist coffee done properly, pastries and a few savoury plates, on the walk from the port to Talamanca.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "forn-can-bufi",
-  "name": "Forn Can Bufí",
-  "village": "Several bakeries across the island",
-  "area": "All",
-  "tags": [
-   "Breakfast",
-   "Shop",
-   "Local"
-  ],
-  "open": "All year · from early",
-  "desc": "The island's bakery: ensaimadas, magdalenas, flaó, orelletes and real bread. Buy the breakfast and take it to the beach.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
- },
- {
-  "id": "pou-des-lleo",
-  "name": "Restaurante Pou des Lleó",
-  "village": "Sant Carles de Peralta",
-  "area": "East",
-  "tags": [
-   "Eat",
-   "Local"
-  ],
-  "open": "Open all year except December · lunch 13:00–16:30, dinner 19:30–22:30",
-  "desc": "The fishermen's cove below Sant Carles, with the old boat huts and a restaurant a few metres from the water. Bullit de peix, arròs a banda with alioli and paella from the wood fire — the kind of place islanders drive to on a Sunday, not the tourist list. Closes only for December.",
-  "url": "https://welcometoibiza.com/restaurantes/restaurante-pou-des-lleo/"
- },
- {
-  "id": "port-balansat",
-  "name": "Port Balansat",
-  "village": "Port de Sant Miquel",
-  "area": "North",
-  "tags": [
-   "Eat",
-   "Local"
-  ],
-  "open": "Open until the end of November · reduced winter days — call ahead",
-  "desc": "Right on the beach at Port de Sant Miquel and, by island consensus, one of the best fish restaurants on Ibiza — the first to put bullit de peix on a menu. Fresh, boneless, no fuss. Keep it for a sunny November lunch before it closes for the winter.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2014/03/review-restaurante-port-balansat"
- },
- {
-  "id": "es-cantonet",
-  "name": "Es Cantonet",
-  "village": "Carrer de Gaspar Puig, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Eat",
-   "Local"
-  ],
-  "open": "Open all year · busy at lunch, book",
-  "desc": "A proper neighbourhood restaurant a few streets from Dalt Vila where the locals eat: frita de pulpo, ensaladilla rusa, grilled vegetables and paella at prices that still make sense. No sea view, no concept — just home cooking and a full room.",
-  "url": "tel:+34971310350"
- },
- {
-  "id": "can-mimosa",
-  "name": "Can Mimosa",
-  "village": "Santa Gertrudis",
-  "area": "Centre",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Local"
-  ],
-  "open": "Open all year · dinner Tue–Sat from 19:00, Sunday roast from 13:00",
-  "desc": "A 200-year-old farmhouse tucked behind the square, run by Holly and Pedro: farmhouse cooking from island produce, a fireplace-and-garden kind of place, and the Sunday roast that half the island's expats plan their week around from October to May. They host private birthdays, anniversaries and office dinners of any size, tailored — email holly@canmimosaibiza.com.",
-  "url": "https://canmimosaibiza.com",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "can-sulayetas",
-  "name": "Can Sulayetas",
-  "village": "Sant Miquel",
-  "area": "North",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Local"
-  ],
-  "open": "Open all year from 10:00 · book, it fills",
-  "desc": "A countryside bar on the Vénda de Rubió outside Sant Miquel that islanders have been driving to for years: a big terrace, dogs welcome, the parrillada as the house dish, sardines on Tuesdays, burgers on Thursdays, coconut flan to finish. €20–30 a head, 1,400 reviews and still nobody's secret but the locals'.",
-  "url": "tel:+34971334567",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "vino-co",
-  "name": "Vino&Co",
-  "village": "Sant Jordi",
-  "area": "Town",
-  "tags": [
-   "Wine",
-   "Drink",
-   "Eat",
-   "Shop",
-   "Local"
-  ],
-  "open": "Open all year · Mon–Thu 10–14 & 17–20, Fri until 23:00, Sat mornings · closed Sunday",
-  "desc": "The island's wine shop, with a tasting bar in the middle, a small terrace and a kitchen that does cheeses, jamón and pâtés to go with whatever is open. In winter the owners run tastings, workshops and Friday-night gatherings with special bites — the best-kept Friday on the island. Book a seat at the bar.",
-  "url": "https://www.instagram.com/vinoycoibiza/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "chidas",
-  "name": "Chidas Bar + Cantina",
-  "village": "Plaça Pintor Vicent Calbet, Ibiza Town",
-  "area": "Town",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Local"
-  ],
-  "open": "Open all year from 17:00 · closed Sunday",
-  "desc": "Modern Mexican taqueria and mezcal bar on a small square in town: tacos, tostadas, a long agave list and a late licence. Where the island's hospitality crowd ends up on a winter night. Watch for their Mezcal Monday collaborations.",
-  "url": "https://www.instagram.com/chidas_bar.cantina/"
- },
- {
-  "id": "casa-lhasa",
-  "name": "Casa Lhasa",
-  "village": "Sant Llorenç de Balàfia",
-  "area": "North",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Music",
-   "Local"
-  ],
-  "open": "Open in winter · Mezcal Mondays from 18:00 — check Instagram for the week's hours",
-  "desc": "A cosy village eatery in Sant Llorenç with a thing for mezcal: Monday nights are Mezcal Mondays — two-for-one tacos and snacks with Ojo de Isla cocktails, the artisanal mezcal made by an Ibiza-based founder, sometimes with a DJ. The kind of evening that makes a Monday in the north worth it.",
-  "url": "https://www.instagram.com/casa.lhasa.ibiza/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "casa-club",
-  "name": "Casa Club",
-  "village": "Santa Eulària des Riu",
-  "area": "East",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Music"
-  ],
-  "open": "Open all year",
-  "desc": "Restaurant and bar in the centre of Santa Eulària that keeps its doors open and its music on all winter — dinners, drinks, live sessions and a crowd that lives here. Check their Instagram for this week's programme.",
-  "url": "https://www.instagram.com/casaclub.ibiza/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "can-rich",
-  "name": "Bodega Can Rich",
-  "village": "Buscastell, Sant Antoni",
-  "area": "West",
-  "tags": [
-   "Wine",
-   "Workshop"
-  ],
-  "open": "Winter tours and tastings on weekdays · book ahead",
-  "desc": "Organic winery on the Buscastell plain making the island's best-known wines, plus hierbas and olive oil. Guided tours of the vines and cellar end with a tasting — one of the few bodega visits that run right through the winter.",
-  "url": "https://www.bodegascanrich.com"
- },
- {
-  "id": "sa-cova",
-  "name": "Bodega Sa Cova",
-  "village": "Sant Mateu d'Albarca",
-  "area": "West",
-  "tags": [
-   "Wine",
-   "Workshop"
-  ],
-  "open": "Visits by appointment all year",
-  "desc": "Family winery in the Sant Mateu valley, the island's wine country: a walk through the vines and the cellar, then a tasting paired with island cheeses and sobrassada. Combine with lunch at Ses Casetes on the square.",
-  "url": "https://www.sacovaibiza.com"
- },
- {
-  "id": "can-maymo",
-  "name": "Bodegas Can Maymó",
-  "village": "Sant Mateu d'Albarca",
-  "area": "West",
-  "tags": [
-   "Wine"
-  ],
-  "open": "Shop open all year · tastings on request",
-  "desc": "Small Sant Mateu bodega between the almond trees — reds, a rosé and a sweet wine sold straight from the finca. Buy a bottle, drink it on the terrace at sunset over the vineyards. In early December the whole valley celebrates the Festa del Vi Pagès with the new wine.",
-  "url": "https://www.bodegascanmaymo.com"
- },
- {
-  "id": "ibizkus",
-  "name": "Ibizkus",
-  "village": "Santa Eulària des Riu",
-  "area": "East",
-  "tags": [
-   "Wine",
-   "Workshop"
-  ],
-  "open": "Tours and tastings by appointment all year",
-  "desc": "The island's most ambitious winery, on the Santa Eulària side of the island: guided visits of the production and tastings of their rosé and reds that make it onto restaurant lists across Europe. A good rainy-afternoon plan.",
-  "url": "https://www.ibizkus.com"
- },
- {
-  "id": "salon-san-miguel",
-  "name": "Salón San Miguel",
-  "village": "Sant Miquel",
-  "area": "North",
-  "tags": [
-   "Eat",
-   "Drink",
-   "Local"
-  ],
-  "open": "Open in winter · check Instagram for days and hours",
-  "desc": "A real Mexican salón on the hill by the fortified church of Sant Miquel — not tacos-for-tourists but the true thing, rooted in Mexican kitchen culture, with the aromas to match and the village at your feet. One of the most special tables in the north; book.",
-  "url": "https://www.instagram.com/salon.san.miguel/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "somm-wine-shop",
-  "name": "SOMM Wine Shop",
-  "village": "Santa Gertrudis",
-  "area": "Centre",
-  "tags": [
-   "Wine",
-   "Shop",
-   "Workshop",
-   "Local"
-  ],
-  "open": "Open all year · tastings and pop-up dinners on request",
-  "desc": "Swedish sommelier Anders Enkvist's shop in Santa Gertrudis, a 'talent scout for wines' since 2017: the island's own bottles, gin, beer, olive oil and hierbas next to serious finds from Italy, France and Austria. A tasting room for up to twenty — book a private tasting or a pop-up dinner for a winter night with friends.",
-  "url": "https://www.wineshopibiza.com",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
- },
- {
-  "id": "ojo-de-ibiza",
-  "name": "Ojo de Ibiza",
-  "village": "Sant Mateu d'Albarca",
-  "area": "West",
-  "tags": [
-   "Wine"
-  ],
-  "open": "Tasting room seasonal — 'see you next season'; wines in shops and restaurants all winter",
-  "desc": "Dieter Meier's organic winery on twelve hectares of old terraces on the Pla de Sant Mateu, planted in 2015: the island's most polished bottles, made where the almond trees bloom in February. The tasting room by the vines closes for winter, but the wines are on the island's best lists and in SOMM and Vino&Co — drink them while you wait for spring.",
-  "url": "https://www.ojoibiza.com"
- },
- {
-  "id": "studio-raffo",
-  "name": "Studiø Raffo",
-  "village": "Cala Llonga, Santa Eulària",
-  "area": "East",
-  "tags": [
-   "Art",
-   "Workshop",
-   "Shop"
-  ],
-  "open": "All winter · Color & Clay 14:00–17:00 on 30 Oct, 6–7 & 13–14 Nov, otherwise by appointment",
-  "desc": "Cristina Raffo's ceramics studio in Cala Llonga: hand-built black stoneware and porcelain objects, one of a kind, and her Color & Clay afternoons where you paint your own pieces (€79, about 2.5 hours, groups of up to 6, everything fired and glazed for you). Private hand-building classes too. Write to book.",
-  "url": "https://www.studioraffo.es",
-  "img": "/img/listings/studio-raffo-pieces.jpg",
-  "credit": "Studiø Raffo"
- },
- {
-  "id": "eride-ibiza",
-  "name": "ERIDE Ibiza — electric retro motorcycles",
-  "village": "Siesta, Santa Eulària des Riu",
-  "area": "East",
-  "tags": [
-   "Explore",
-   "Sunset",
-   "Local"
-  ],
-  "open": "All winter · guided tours and day rental, book ahead",
-  "desc": "A small independent outfit in Siesta renting retro-styled electric scramblers — real motorcycles, not scooters, silent and emission-free, up to 150 km on a charge. Their Coast & Curves tour takes a small group through the mountain roads of the north with stops at Las Puertas del Cielo and Caló d'en Serra, lunch included; the Golden Hour Ride is an evening loop timed to the sunset. Or take one for the day: morning pick-up, route suggestions, helmet and gloves, evening return. They are full motorcycles, so check which licence you need when you book.",
-  "url": "https://www.e-rideibiza.com"
- }
+  {
+    "id": "es-cucons",
+    "name": "Es Cucons",
+    "village": "Santa Agnès de Corona",
+    "area": "West",
+    "tags": [
+      "Eat",
+      "Stay",
+      "Wellness",
+      "Music"
+    ],
+    "open": "Open until 15 Nov · reopens end of February",
+    "desc": "Rural hotel in a 17th-century finca on the Pla de Corona, with a spa, sauna, hot tub, restaurant and live concerts. Closes mid-November and reopens at the end of February, just as the almond blossom fades — the Santa Agnès address for a late-winter weekend.",
+    "url": "https://www.escucons.com"
+  },
+  {
+    "id": "puertas-del-cielo",
+    "name": "Las Puertas del Cielo",
+    "village": "Santa Agnès de Corona",
+    "area": "West",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Sunset"
+    ],
+    "open": "Open until 15 Nov · reopens end of February",
+    "desc": "Clifftop bar-restaurant above the north-west coast, named for the 'gates of heaven' view. One of the island's great sunset spots and the natural end to the Ses Balandres walk. Closes 15 November, back at the end of February.",
+    "url": "https://www.laspuertasdelcielo.es"
+  },
+  {
+    "id": "can-cosmi",
+    "name": "Can Cosmi",
+    "village": "Santa Agnès de Corona",
+    "area": "West",
+    "tags": [
+      "Drink",
+      "Eat",
+      "Local",
+      "Music"
+    ],
+    "open": "Open all year",
+    "desc": "The village bar-restaurant opposite the church: the island's most talked-about tortilla, lamb chops, rustic salads and a terrace in the sun. Salsa nights in winter — ask at the bar for the next one.",
+    "url": "https://www.instagram.com/cancosmi/",
+    "now": "Live music at dinner some nights — blues, a guitar, whoever's on the island — 20:00–22:00, announced the same day on @cancosmi. Salsa nights too; ask at the bar."
+  },
+  {
+    "id": "sa-palmera",
+    "name": "Sa Palmera",
+    "village": "Santa Agnès de Corona",
+    "area": "West",
+    "tags": [
+      "Eat"
+    ],
+    "open": "Open in winter",
+    "desc": "Classic Spanish cooking on the village square — the locals' choice after a walk. Simple, honest plates and a terrace that catches the winter sun.",
+    "url": "https://www.ibiza-spotlight.com/restaurants/sa-palmera"
+  },
+  {
+    "id": "ses-casetes",
+    "name": "Ses Casetes Art Café",
+    "village": "Sant Mateu d'Albarca",
+    "area": "West",
+    "tags": [
+      "Eat",
+      "Music",
+      "Art",
+      "Local"
+    ],
+    "open": "Open all year",
+    "desc": "Country restaurant on the square in Es Pla de Sant Mateu: homemade island cooking, grilled meats and fish, a riot of colour inside, art on every wall and live concerts. Lunch in the winter sun after a walk through the Albarca vineyards. Open all year — book on WhatsApp.",
+    "url": "https://sescasetesartcafe.com",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "juntos-house",
+    "name": "Juntos House",
+    "village": "Sant Mateu d'Albarca",
+    "area": "West",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Shop"
+    ],
+    "open": "Check winter days",
+    "desc": "Farmhouse restaurant, shop and clubhouse: organic plates from their own land, natural wines and cocktails, plus The Pergola for walk-in drinks and tapas. Open through the holidays last winter — check their Instagram for current days.",
+    "url": "https://white-ibiza.com/restaurants/juntos-house/"
+  },
+  {
+    "id": "forada",
+    "name": "Mercat de Forada — Can Tixedó",
+    "village": "Buscastell, Sant Rafel",
+    "area": "West",
+    "tags": [
+      "Market",
+      "Eat",
+      "Music"
+    ],
+    "open": "Every Saturday 10–15, all year",
+    "desc": "The island's most local Saturday market, in the field by Can Tixedó Art Café: farm fruit and veg, homemade food, crafts, a book swap, kids' zone, vegan paella at 13:00 and the odd live set. Coffee and lunch at Tixedó afterwards.",
+    "url": "https://www.ibiza-spotlight.com/event/market-forada"
+  },
+  {
+    "id": "can-suldat",
+    "name": "La Finca Can Suldat",
+    "village": "Es Canar, Santa Eulària",
+    "area": "East",
+    "tags": [
+      "Eat",
+      "Music"
+    ],
+    "open": "All winter · closed Mondays",
+    "desc": "Swiss-Ibizan finca restaurant under a vine-roofed courtyard: cheese fondue, steak, goulash and 'Peter's famous salad', with live music through the winter. Go early evening to catch the music with the locals, and book a table.",
+    "url": "https://wanderlog.com/place/details/2700105/la-finca-can-suldat"
+  },
+  {
+    "id": "es-pins-cala-pada",
+    "name": "Es Pins Cala Pada",
+    "village": "Cala Pada, Es Canar · Santa Eulària",
+    "area": "East",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Music",
+      "Local"
+    ],
+    "open": "All winter · daily 08:00–14:00, closed Tuesdays",
+    "desc": "Since 1976, hidden among the pines above Cala Pada on the Es Canar road (km 3.1): island flavours from a wood-fired kitchen, breakfasts and long lunches under the trees, and live music at the weekend. Mains from about €10 — one of the old-school beach restaurants that stays open when the resort around it has gone quiet. A children's corner is coming.",
+    "url": "https://www.espinscalapada.com"
+  },
+  {
+    "id": "la-paloma",
+    "name": "La Paloma",
+    "village": "Sant Llorenç de Balàfia",
+    "area": "North",
+    "tags": [
+      "Eat",
+      "Drink"
+    ],
+    "open": "Open in winter · check days",
+    "desc": "An old finca among orange and lemon trees, with lunch in the flowering garden and dinners by lantern light: Italian-meets-Middle-Eastern plates, homemade bread, organic salads and a good bottle. Hours shift with the season — check their Instagram before you drive out.",
+    "url": "https://www.lapalomaibiza.com"
+  },
+  {
+    "id": "bar-costa",
+    "name": "Bar Costa",
+    "village": "Santa Gertrudis",
+    "area": "Centre",
+    "tags": [
+      "Breakfast",
+      "Drink",
+      "Eat",
+      "Local"
+    ],
+    "open": "Open all year except March · closed Tuesdays",
+    "desc": "The village institution on the square, hams hanging from the ceiling and paintings left by artists who paid in canvases. Bocadillos, tostadas and a cortado at the bar — the place the whole island passes through on a winter Sunday.",
+    "url": "https://www.ibiza-spotlight.com/restaurants/bar-costa"
+  },
+  {
+    "id": "bar-anita",
+    "name": "Bar Anita",
+    "village": "Sant Carles de Peralta",
+    "area": "North",
+    "tags": [
+      "Breakfast",
+      "Drink",
+      "Eat",
+      "Local"
+    ],
+    "open": "Open 365 days, 07:30–midnight",
+    "desc": "The hippie-era village bar opposite the church, with the old wooden post boxes still on the wall. Home-made hierbas, simple plates, a shaded terrace — and open every single day of the year.",
+    "url": "https://www.ibiza-spotlight.com/restaurants/bar-anita"
+  },
+  {
+    "id": "can-berri",
+    "name": "Bar Can Berri",
+    "village": "Sant Agustí des Vedrà",
+    "area": "West",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Specialty"
+    ],
+    "open": "Open in winter · calçotades Feb–Mar",
+    "desc": "Tiny bar on the prettiest village square in the west, under the church. Known in winter for its calçotades on Sundays in February and March: charred spring onions, romesco, grilled meat and plenty of wine.",
+    "url": "https://www.ibiza-spotlight.com/restaurants/bar-can-berri"
+  },
+  {
+    "id": "sa-carboneria",
+    "name": "Sa Carboneria",
+    "village": "Santa Eulària des Riu",
+    "area": "East",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Music"
+    ],
+    "open": "Open all winter · closed Tuesdays",
+    "desc": "Steakhouse and garden just behind the town hall: aged meats over charcoal, a warm dining room for the cold nights, a small garden for the sunny lunches. Winter weekends bring the Hunger BBQ, and Sa Carbo Bar has live music October to March — this is where The Oyster Nomad set up in October.",
+    "url": "https://welcometoibiza.com/restaurantes/sa-carboneria/"
+  },
+  {
+    "id": "oyster-nomad",
+    "name": "The Oyster Nomad",
+    "village": "Island-wide — no fixed address",
+    "area": "All",
+    "tags": [
+      "Eat",
+      "Delivery",
+      "Music"
+    ],
+    "open": "All winter · delivers and pops up",
+    "desc": "A travelling oysterman — top hat, shucking knives, Umami oysters and AIX rosé — who delivers to villas and restaurants across the island all winter and shows up for pop-up nights. Shuck the world. No bar, no terrace: he comes to you.",
+    "url": "https://oystersyasha.com"
+  },
+  {
+    "id": "olas-gallery",
+    "name": "Olas Gallery",
+    "village": "Santa Eulària des Riu",
+    "area": "East",
+    "tags": [
+      "Art",
+      "Shop"
+    ],
+    "open": "All year · Wed–Sun",
+    "desc": "Photographer Sofia Gómez Fonzo's gallery and concept store a few steps from the beach: a show that changes every month, always with island artists — painting, aerial and underwater photography, cyanotypes, hand-stitched maps — and a shelf of books, prints, ceramics and oracle cards made on Ibiza. Talks and openings through the winter.",
+    "url": "https://olasgallery.com",
+    "now": "Autumn programme: Marcel Boer's Ibiza light studies, then Arnoud L∆L∆, and a group show of island artists in December."
+  },
+  {
+    "id": "parra-romero",
+    "name": "Parra & Romero",
+    "village": "Santa Gertrudis",
+    "area": "Centre",
+    "tags": [
+      "Art"
+    ],
+    "open": "Tue–Sat · Mon eve",
+    "desc": "The Madrid gallery's island outpost in an industrial space on the village paseo: conceptual and minimal art, site-specific projects, the kind of show you'd expect in Chelsea, with a coffee at Bar Costa afterwards. Tue–Sat 11–14 & 16:30–20:30, Mondays 17–21.",
+    "url": "https://www.parra-romero.com",
+    "now": "Landon Metz — the Arizona painter's first solo show in Spain, opened late September."
+  },
+  {
+    "id": "mace",
+    "name": "MACE — Museu d'Art Contemporani",
+    "village": "Dalt Vila, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Art"
+    ],
+    "open": "Tue–Sun · closed Mon",
+    "desc": "One of Spain's first contemporary art museums, set into the walls of Dalt Vila with the Phoenician and Roman foundations visible under glass floors. The permanent collection is the island's art story since the 1960s; the temporary shows are the reason to go back. Winter hours: Tue–Fri 10–16:30, weekends 10–14.",
+    "url": "https://www.eivissa.es/mace"
+  },
+  {
+    "id": "es-polvori",
+    "name": "Es Polvorí",
+    "village": "Dalt Vila, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Art"
+    ],
+    "open": "Tue–Sun",
+    "desc": "The old gunpowder store on the Santa Llúcia bastion, now the town's space for temporary shows: painting, photography and sculpture by artists living here, in a vaulted stone room with the harbour below. Tue–Fri 18–20:30, weekends 11–13:30.",
+    "url": "https://www.eivissa.es"
+  },
+  {
+    "id": "marta-torres",
+    "name": "Galería Marta Torres",
+    "village": "La Marina, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Art"
+    ],
+    "open": "Mon–Fri mornings",
+    "desc": "A gallery in the port since the 1990s: Marta Torres's own work and group shows of island painters, part of the emerging art route around La Marina. Mon–Fri 10–14.",
+    "url": "https://www.galeriamartatorres.com"
+  },
+  {
+    "id": "can-curt",
+    "name": "Can Curt",
+    "village": "Sant Agustí des Vedrà",
+    "area": "West",
+    "tags": [
+      "Art"
+    ],
+    "open": "Thu–Sun evenings",
+    "desc": "The village exhibition room opposite the church — painting, photography, sculpture, mostly by people who live within ten minutes of it. Combine with a drink at Can Berri Vell across the square. Thu–Sun 18–21.",
+    "url": "https://www.santjosep.org"
+  },
+  {
+    "id": "can-jeroni",
+    "name": "Can Jeroni",
+    "village": "Sant Josep de sa Talaia",
+    "area": "West",
+    "tags": [
+      "Art",
+      "Music"
+    ],
+    "open": "Wed–Sun",
+    "desc": "Sant Josep's cultural centre: exhibitions downstairs, and through the winter a programme of film, poetry, concerts and theatre that the village actually turns up for. Wed–Sun 10:30–13:30, plus Thu–Sat 18–21.",
+    "url": "https://www.santjosep.org"
+  },
+  {
+    "id": "sa-punta-des-moli",
+    "name": "Sa Punta des Molí",
+    "village": "Sant Antoni de Portmany",
+    "area": "West",
+    "tags": [
+      "Art"
+    ],
+    "open": "Tue & Sat (winter)",
+    "desc": "A restored windmill and olive press on the bay, with an exhibition hall and an open-air auditorium. Small shows by local artists; worth the walk along the promenade on a bright winter morning. Winter: Tuesdays and Saturdays 10–13 & 16–19.",
+    "url": "https://visit.santantoni.net/en/what-to-do/culture/sa-punta-des-moli/"
+  },
+  {
+    "id": "bartienne",
+    "name": "Bartienne & The Cook's Atelier",
+    "village": "Ca Na Negreta, Jesús",
+    "area": "East",
+    "tags": [
+      "Shop",
+      "Eat",
+      "Workshop"
+    ],
+    "open": "All winter · dinners twice a month",
+    "desc": "Barbara and Etienne's antique and interiors shop on the Santa Eulària road — French flea-market furniture, pieces from Asia and India, outdoor kitchens — with an open kitchen at the back. Barbara cooks there: long-table dinners for 20 to 40 a couple of weekends a month, and cooking workshops (Spanish, Italian, French) for groups. Follow @the_cooks_atelier_ibiza for the next date, or book the whole space for your own night. Carretera Santa Eulària 380.",
+    "url": "https://www.instagram.com/the_cooks_atelier_ibiza/"
+  },
+  {
+    "id": "chez-bibi",
+    "name": "Chez Bibi",
+    "village": "Santa Gertrudis",
+    "area": "Centre",
+    "tags": [
+      "Breakfast",
+      "Drink",
+      "Eat",
+      "Work"
+    ],
+    "open": "Open all year · daily 8:30–20:00",
+    "desc": "Café-restaurant with its own little bakery at the top of the village: Parisian croissants and cinnamon rolls, sourdough, poke and big salads, cakes that change daily. Laptops are welcome — on a grey winter morning half the terrace is working, the other half is on its second coffee. Dog-friendly, card accepted, book for lunch at weekends.",
+    "url": "https://www.instagram.com/chez_bibi_von_bakery_ibiza/"
+  },
+  {
+    "id": "es-vermell",
+    "name": "Es Vermell Cafè",
+    "village": "Carrer del Bisbe Abad y Lasierra, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Local"
+    ],
+    "open": "All year · mornings",
+    "desc": "The town's own breakfast bar: loud, fast, cheap, full of people who work round the corner. Tostada, café con leche, done.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "es-tap-nou",
+    "name": "Es Tap Nou",
+    "village": "Carrer de Madrid, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Local"
+    ],
+    "open": "All year · mornings",
+    "desc": "Juices pressed in front of you and a ham tostada on the open terrace in the shopping streets — the breakfast before the Saturday errands.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "croissant-show",
+    "name": "Croissant Show",
+    "village": "At the foot of the Dalt Vila drawbridge, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Breakfast",
+      "Eat"
+    ],
+    "open": "All year · from early",
+    "desc": "Since the 1980s: croissants with serrano at the tables under the walls, the whole port walking past. Winter sun hits the terrace mid-morning.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "bar-can-toni",
+    "name": "Bar Can Toni",
+    "village": "Ca Na Negreta, on the Santa Eulària road",
+    "area": "East",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Local"
+    ],
+    "open": "All year",
+    "desc": "A roadside bar with a terrace and parking: tostadas, bocadillos, workmen's prices. Sa Barda next door is the same idea.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "can-rei",
+    "name": "Can Rei",
+    "village": "Sant Miquel",
+    "area": "North",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Local"
+    ],
+    "open": "All year",
+    "desc": "The village café with homemade everything and km-0 produce, run by people who remember your order. Breakfast before the walk to the port.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "bar-cruce",
+    "name": "Bar Cruce",
+    "village": "Sant Rafel crossroads",
+    "area": "Centre",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Local"
+    ],
+    "open": "All year · from early",
+    "desc": "The bar at the crossroads where half the island stops for a coffee and a tostada on the way to work. No menu in English, no need.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "raco-verd",
+    "name": "Racó Verd",
+    "village": "Sant Josep",
+    "area": "West",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Music"
+    ],
+    "open": "All year",
+    "desc": "A patio behind the main street with a Mexican-leaning breakfast and Spanish standards, good prices, and live music nights through the winter.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "la-guay",
+    "name": "La Guay",
+    "village": "Sant Antoni, near Melbourne Street",
+    "area": "West",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Local"
+    ],
+    "open": "All year · mornings",
+    "desc": "Churros made fresh, strong coffee, the regulars at the bar. Sant Antoni's local breakfast.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "can-guillem",
+    "name": "Can Guillem",
+    "village": "Roadside at the Sant Agustí turn-off",
+    "area": "West",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Local"
+    ],
+    "open": "All year",
+    "desc": "An old roadside bar nobody tells tourists about: jamón serrano and manchego on toast, a coffee, the lorries going past.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "cool-cafe",
+    "name": "Cool Café",
+    "village": "Sant Antoni bay",
+    "area": "West",
+    "tags": [
+      "Breakfast",
+      "Eat"
+    ],
+    "open": "All year · opens very early",
+    "desc": "Open before anyone else on the bay: tostadas, tortilla, coffee and juice for the dawn-walk crowd.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "hostal-talamanca",
+    "name": "Hostal Talamanca",
+    "village": "Talamanca beach",
+    "area": "Town",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Sunset"
+    ],
+    "open": "All year",
+    "desc": "Faces east, so breakfast here is in the sun from the first light. Tostada with sobrassada and two cheeses, feet almost in the sand.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "massa-coffee",
+    "name": "Massa Coffee",
+    "village": "Marina, towards Talamanca",
+    "area": "Town",
+    "tags": [
+      "Breakfast",
+      "Eat",
+      "Drink"
+    ],
+    "open": "All year",
+    "desc": "Specialist coffee done properly, pastries and a few savoury plates, on the walk from the port to Talamanca.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "forn-can-bufi",
+    "name": "Forn Can Bufí",
+    "village": "Several bakeries across the island",
+    "area": "All",
+    "tags": [
+      "Breakfast",
+      "Shop",
+      "Local"
+    ],
+    "open": "All year · from early",
+    "desc": "The island's bakery: ensaimadas, magdalenas, flaó, orelletes and real bread. Buy the breakfast and take it to the beach.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  },
+  {
+    "id": "pou-des-lleo",
+    "name": "Restaurante Pou des Lleó",
+    "village": "Sant Carles de Peralta",
+    "area": "East",
+    "tags": [
+      "Eat",
+      "Local"
+    ],
+    "open": "Open all year except December · lunch 13:00–16:30, dinner 19:30–22:30",
+    "desc": "The fishermen's cove below Sant Carles, with the old boat huts and a restaurant a few metres from the water. Bullit de peix, arròs a banda with alioli and paella from the wood fire — the kind of place islanders drive to on a Sunday, not the tourist list. Closes only for December.",
+    "url": "https://welcometoibiza.com/restaurantes/restaurante-pou-des-lleo/"
+  },
+  {
+    "id": "port-balansat",
+    "name": "Port Balansat",
+    "village": "Port de Sant Miquel",
+    "area": "North",
+    "tags": [
+      "Eat",
+      "Local"
+    ],
+    "open": "Open until the end of November · reduced winter days — call ahead",
+    "desc": "Right on the beach at Port de Sant Miquel and, by island consensus, one of the best fish restaurants on Ibiza — the first to put bullit de peix on a menu. Fresh, boneless, no fuss. Keep it for a sunny November lunch before it closes for the winter.",
+    "url": "https://www.ibiza-spotlight.com/magazine/2014/03/review-restaurante-port-balansat"
+  },
+  {
+    "id": "es-cantonet",
+    "name": "Es Cantonet",
+    "village": "Carrer de Gaspar Puig, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Eat",
+      "Local"
+    ],
+    "open": "Open all year · busy at lunch, book",
+    "desc": "A proper neighbourhood restaurant a few streets from Dalt Vila where the locals eat: frita de pulpo, ensaladilla rusa, grilled vegetables and paella at prices that still make sense. No sea view, no concept — just home cooking and a full room.",
+    "url": "tel:+34971310350"
+  },
+  {
+    "id": "can-mimosa",
+    "name": "Can Mimosa",
+    "village": "Santa Gertrudis",
+    "area": "Centre",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Local"
+    ],
+    "open": "Open all year · dinner Tue–Sat from 19:00, Sunday roast from 13:00",
+    "desc": "A 200-year-old farmhouse tucked behind the square, run by Holly and Pedro: farmhouse cooking from island produce, a fireplace-and-garden kind of place, and the Sunday roast that half the island's expats plan their week around from October to May. They host private birthdays, anniversaries and office dinners of any size, tailored — email holly@canmimosaibiza.com.",
+    "url": "https://canmimosaibiza.com",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "can-sulayetas",
+    "name": "Can Sulayetas",
+    "village": "Sant Miquel",
+    "area": "North",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Local"
+    ],
+    "open": "Open all year from 10:00 · book, it fills",
+    "desc": "A countryside bar on the Vénda de Rubió outside Sant Miquel that islanders have been driving to for years: a big terrace, dogs welcome, the parrillada as the house dish, sardines on Tuesdays, burgers on Thursdays, coconut flan to finish. €20–30 a head, 1,400 reviews and still nobody's secret but the locals'.",
+    "url": "tel:+34971334567",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "vino-co",
+    "name": "Vino&Co",
+    "village": "Sant Jordi",
+    "area": "Town",
+    "tags": [
+      "Wine",
+      "Drink",
+      "Eat",
+      "Shop",
+      "Local"
+    ],
+    "open": "Open all year · Mon–Thu 10–14 & 17–20, Fri until 23:00, Sat mornings · closed Sunday",
+    "desc": "The island's wine shop, with a tasting bar in the middle, a small terrace and a kitchen that does cheeses, jamón and pâtés to go with whatever is open. In winter the owners run tastings, workshops and Friday-night gatherings with special bites — the best-kept Friday on the island. Book a seat at the bar.",
+    "url": "https://www.instagram.com/vinoycoibiza/",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "chidas",
+    "name": "Chidas Bar + Cantina",
+    "village": "Plaça Pintor Vicent Calbet, Ibiza Town",
+    "area": "Town",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Local"
+    ],
+    "open": "Open all year from 17:00 · closed Sunday",
+    "desc": "Modern Mexican taqueria and mezcal bar on a small square in town: tacos, tostadas, a long agave list and a late licence. Where the island's hospitality crowd ends up on a winter night. Watch for their Mezcal Monday collaborations.",
+    "url": "https://www.instagram.com/chidas_bar.cantina/"
+  },
+  {
+    "id": "casa-lhasa",
+    "name": "Casa Lhasa",
+    "village": "Sant Llorenç de Balàfia",
+    "area": "North",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Music",
+      "Local"
+    ],
+    "open": "Open in winter · Mezcal Mondays from 18:00 — check Instagram for the week's hours",
+    "desc": "A cosy village eatery in Sant Llorenç with a thing for mezcal: Monday nights are Mezcal Mondays — two-for-one tacos and snacks with Ojo de Isla cocktails, the artisanal mezcal made by an Ibiza-based founder, sometimes with a DJ. The kind of evening that makes a Monday in the north worth it.",
+    "url": "https://www.instagram.com/casa.lhasa.ibiza/",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "casa-club",
+    "name": "Casa Club",
+    "village": "Santa Eulària des Riu",
+    "area": "East",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Music"
+    ],
+    "open": "Open all year",
+    "desc": "Restaurant and bar in the centre of Santa Eulària that keeps its doors open and its music on all winter — dinners, drinks, live sessions and a crowd that lives here. Check their Instagram for this week's programme.",
+    "url": "https://www.instagram.com/casaclub.ibiza/",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "can-rich",
+    "name": "Bodega Can Rich",
+    "village": "Buscastell, Sant Antoni",
+    "area": "West",
+    "tags": [
+      "Wine",
+      "Workshop"
+    ],
+    "open": "Winter tours and tastings on weekdays · book ahead",
+    "desc": "Organic winery on the Buscastell plain making the island's best-known wines, plus hierbas and olive oil. Guided tours of the vines and cellar end with a tasting — one of the few bodega visits that run right through the winter.",
+    "url": "https://www.bodegascanrich.com"
+  },
+  {
+    "id": "sa-cova",
+    "name": "Bodega Sa Cova",
+    "village": "Sant Mateu d'Albarca",
+    "area": "West",
+    "tags": [
+      "Wine",
+      "Workshop"
+    ],
+    "open": "Visits by appointment all year",
+    "desc": "Family winery in the Sant Mateu valley, the island's wine country: a walk through the vines and the cellar, then a tasting paired with island cheeses and sobrassada. Combine with lunch at Ses Casetes on the square.",
+    "url": "https://www.sacovaibiza.com"
+  },
+  {
+    "id": "can-maymo",
+    "name": "Bodegas Can Maymó",
+    "village": "Sant Mateu d'Albarca",
+    "area": "West",
+    "tags": [
+      "Wine"
+    ],
+    "open": "Shop open all year · tastings on request",
+    "desc": "Small Sant Mateu bodega between the almond trees — reds, a rosé and a sweet wine sold straight from the finca. Buy a bottle, drink it on the terrace at sunset over the vineyards. In early December the whole valley celebrates the Festa del Vi Pagès with the new wine.",
+    "url": "https://www.bodegascanmaymo.com"
+  },
+  {
+    "id": "ibizkus",
+    "name": "Ibizkus",
+    "village": "Santa Eulària des Riu",
+    "area": "East",
+    "tags": [
+      "Wine",
+      "Workshop"
+    ],
+    "open": "Tours and tastings by appointment all year",
+    "desc": "The island's most ambitious winery, on the Santa Eulària side of the island: guided visits of the production and tastings of their rosé and reds that make it onto restaurant lists across Europe. A good rainy-afternoon plan.",
+    "url": "https://www.ibizkus.com"
+  },
+  {
+    "id": "salon-san-miguel",
+    "name": "Salón San Miguel",
+    "village": "Sant Miquel",
+    "area": "North",
+    "tags": [
+      "Eat",
+      "Drink",
+      "Local"
+    ],
+    "open": "Open in winter · check Instagram for days and hours",
+    "desc": "A real Mexican salón on the hill by the fortified church of Sant Miquel — not tacos-for-tourists but the true thing, rooted in Mexican kitchen culture, with the aromas to match and the village at your feet. One of the most special tables in the north; book.",
+    "url": "https://www.instagram.com/salon.san.miguel/",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "somm-wine-shop",
+    "name": "SOMM Wine Shop",
+    "village": "Santa Gertrudis",
+    "area": "Centre",
+    "tags": [
+      "Wine",
+      "Shop",
+      "Workshop",
+      "Local"
+    ],
+    "open": "Open all year · tastings and pop-up dinners on request",
+    "desc": "Swedish sommelier Anders Enkvist's shop in Santa Gertrudis, a 'talent scout for wines' since 2017: the island's own bottles, gin, beer, olive oil and hierbas next to serious finds from Italy, France and Austria. A tasting room for up to twenty — book a private tasting or a pop-up dinner for a winter night with friends.",
+    "url": "https://www.wineshopibiza.com",
+    "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  },
+  {
+    "id": "ojo-de-ibiza",
+    "name": "Ojo de Ibiza",
+    "village": "Sant Mateu d'Albarca",
+    "area": "West",
+    "tags": [
+      "Wine"
+    ],
+    "open": "Tasting room seasonal — 'see you next season'; wines in shops and restaurants all winter",
+    "desc": "Dieter Meier's organic winery on twelve hectares of old terraces on the Pla de Sant Mateu, planted in 2015: the island's most polished bottles, made where the almond trees bloom in February. The tasting room by the vines closes for winter, but the wines are on the island's best lists and in SOMM and Vino&Co — drink them while you wait for spring.",
+    "url": "https://www.ojoibiza.com"
+  },
+  {
+    "id": "studio-raffo",
+    "name": "Studiø Raffo",
+    "village": "Cala Llonga, Santa Eulària",
+    "area": "East",
+    "tags": [
+      "Art",
+      "Workshop",
+      "Shop"
+    ],
+    "open": "All winter · Color & Clay 14:00–17:00 on 30 Oct, 6–7 & 13–14 Nov, otherwise by appointment",
+    "desc": "Cristina Raffo's ceramics studio in Cala Llonga: hand-built black stoneware and porcelain objects, one of a kind, and her Color & Clay afternoons where you paint your own pieces (€79, about 2.5 hours, groups of up to 6, everything fired and glazed for you). Private hand-building classes too. Write to book.",
+    "url": "https://www.studioraffo.es",
+    "img": "/img/listings/studio-raffo-pieces.jpg",
+    "credit": "Studiø Raffo"
+  },
+  {
+    "id": "eride-ibiza",
+    "name": "ERIDE Ibiza — electric retro motorcycles",
+    "village": "Siesta, Santa Eulària des Riu",
+    "area": "East",
+    "tags": [
+      "Explore",
+      "Sunset",
+      "Local"
+    ],
+    "open": "All winter · guided tours and day rental, book ahead",
+    "desc": "A small independent outfit in Siesta renting retro-styled electric scramblers — real motorcycles, not scooters, silent and emission-free, up to 150 km on a charge. Their Coast & Curves tour takes a small group through the mountain roads of the north with stops at Las Puertas del Cielo and Caló d'en Serra, lunch included; the Golden Hour Ride is an evening loop timed to the sunset. Or take one for the day: morning pick-up, route suggestions, helmet and gloves, evening return. They are full motorcycles, so check which licence you need when you book.",
+    "url": "https://www.e-rideibiza.com"
+  }
 ]
