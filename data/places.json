@@ -776,5 +776,20 @@
     "open": "All winter · guided tours and day rental, book ahead",
     "desc": "A small independent outfit in Siesta renting retro-styled electric scramblers — real motorcycles, not scooters, silent and emission-free, up to 150 km on a charge. Their Coast & Curves tour takes a small group through the mountain roads of the north with stops at Las Puertas del Cielo and Caló d'en Serra, lunch included; the Golden Hour Ride is an evening loop timed to the sunset. Or take one for the day: morning pick-up, route suggestions, helmet and gloves, evening return. They are full motorcycles, so check which licence you need when you book.",
     "url": "https://www.e-rideibiza.com"
+  },
+  {
+    "id": "ibiza-ice-baths",
+    "name": "Ibiza Ice Baths",
+    "village": "Delivered anywhere on the island",
+    "area": "All",
+    "tags": [
+      "Wellness",
+      "Delivery",
+      "Workshop"
+    ],
+    "open": "November–March · on request",
+    "desc": "Mobile ice-bath service for the whole island: a luxury ice bath delivered to your villa, finca or holiday rental, set up and explained, from €200 a day (one-day minimum). Or book a guided session, about two hours, for yourself or a group — cold-therapy and breathwork coaches walk you in, from €499 depending on group size. November to March, on request. Book by WhatsApp.",
+    "url": "https://ibizaicebaths.com",
+    "book": "https://wa.me/31619335822"
   }
 ]
