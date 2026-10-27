@@ -1,6 +1,6 @@
 {
  "from": "2026-10-21",
- "to": "2026-11-11",
+ "to": "2026-11-14",
  "events": [
   {
    "date": "2026-10-21",
@@ -84,6 +84,17 @@
   },
   {
    "date": "2026-10-23",
+   "time": "",
+   "title": "Ibiza Card Show — trading cards, tournaments and collectors",
+   "venue": "C19",
+   "town": "Ibiza Town",
+   "cat": "kids",
+   "desc": "Fourth edition of the island's trading-card show, 23–25 October: tournaments, trading tables, retailers and creators. Free entry.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-10-23",
    "time": "16:30",
    "title": "Olive-salting workshop at an old olive press",
    "venue": "Ca n'Andreu des Trull",
@@ -151,6 +162,28 @@
    "price": "Free",
    "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2026/10/15/2729195/sant-josep-presenta-programacion-otono-ciclo-divendres-cine.html",
    "local": true
+  },
+  {
+   "date": "2026-10-23",
+   "time": "21:00",
+   "title": "Flash Closing at Pikes",
+   "venue": "Pikes",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "price": "Ticketed",
+   "desc": "The first of three closing nights: DiY Soundsystem x Music for Freaks, The Pepperbox, Grace Sands and friends, hosted by Lucy Fizz.",
+   "url": "https://www.pikesibiza.com/whats-on/"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "23:00",
+   "title": "La Tipi at Akasha — Lumio, Words of Nio, Sarcasmo",
+   "venue": "Akasha, Las Dalias",
+   "town": "Sant Carles",
+   "cat": "music",
+   "price": "Ticketed, from €15",
+   "desc": "Friday night in the club under the trees at Las Dalias: Lumio, Words of Nio, Sarcasmo, David Osorio and Tomy Velez. Doors 23:00.",
+   "url": "https://lasdalias.es/en/events"
   },
   {
    "date": "2026-10-23",
@@ -235,6 +268,18 @@
   },
   {
    "date": "2026-10-24",
+   "time": "21:00",
+   "title": "Pikes House Party Closing — Groove Armada & Bushwacka!",
+   "venue": "Pikes",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "price": "Ticketed",
+   "featured": true,
+   "desc": "The hotel closes its 2026 season with Groove Armada, Bushwacka!, El Conchitas, Lilli Kelly, Andy Baxter and Quantum Disco. Last chance until April.",
+   "url": "https://www.pikesibiza.com/whats-on/"
+  },
+  {
+   "date": "2026-10-24",
    "time": "all day",
    "title": "Festes de Sant Rafel — patron saint's day",
    "venue": "Sant Rafel de sa Creu",
@@ -245,6 +290,30 @@
    "price": "Free",
    "url": "https://lavozdeibiza.com/?p=212601",
    "local": true
+  },
+  {
+   "date": "2026-10-25",
+   "time": "",
+   "title": "Festa Pagesa in Santa Gertrudis — ball pagès, crafts and island food",
+   "venue": "Village square",
+   "town": "Santa Gertrudis",
+   "cat": "island",
+   "local": true,
+   "desc": "A Sunday of the old island: traditional dancing, music, craft stalls, folk games and pagès food on the square. The warm-up to the village's November fiestas.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-10-25",
+   "time": "",
+   "title": "Fira d'Estocs de Tardor — autumn stock fair on Vara de Rey",
+   "venue": "Passeig de Vara de Rey",
+   "town": "Ibiza Town",
+   "cat": "island",
+   "local": true,
+   "desc": "The town's shops put their end-of-season stock on the boulevard at a discount, with kids' activities, tastings and live music. Postponed from earlier in the month.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
   },
   {
    "date": "2026-10-25",
@@ -327,6 +396,28 @@
    "local": true
   },
   {
+   "date": "2026-10-25",
+   "time": "21:00",
+   "title": "Sundays at Pikes — the closing",
+   "venue": "Pikes",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "price": "Ticketed",
+   "desc": "D'Julz, Alessio Collino, Neil Diablo, Frenchy and the Sundays crew close the season. Halloween follows on the 31st, then the doors shut until spring.",
+   "url": "https://www.pikesibiza.com/whats-on/"
+  },
+  {
+   "date": "2026-10-26",
+   "time": "11:00–15:00 daily",
+   "title": "Ibiza Kids Camp — autumn holiday camp (book now)",
+   "venue": "The Bubble Club Ibiza",
+   "town": "Sant Antoni",
+   "cat": "kids",
+   "desc": "English- and Dutch-speaking day camp for ages 4–15 in three age groups, running until Friday 6 November: dodgeball, capture the flag, padel, tennis, archery, treasure hunts, crafts and a daily dip in the pool. Healthy lunch included; early drop-off and late pick-up possible. Book single days or a full week online — spots are limited.",
+   "price": "€75 a day, €300 for 5 days",
+   "url": "https://www.ibizakidscamp.com/kidscamps2026"
+  },
+  {
    "date": "2026-10-26",
    "time": "17:30",
    "title": "Halloween reading and writing workshop for kids",
@@ -382,6 +473,41 @@
    "url": "https://www.diariodeibiza.com/event-news/ibiza-halloween-festival-2026-monster-walk/"
   },
   {
+   "time": "",
+   "title": "Color & Clay — paint your own ceramics at Studiø Raffo",
+   "venue": "Studiø Raffo",
+   "town": "Cala Llonga",
+   "cat": "workshops",
+   "desc": "An open afternoon in Cristina Raffo's ceramics studio: choose two smaller pieces or one larger one and paint them with her colours and glazes. No experience needed; materials, glazing and firing included, you collect your piece once it's out of the kiln. Up to 6 people — write to book your spot and get the time.",
+   "price": "€79 per person",
+   "url": "mailto:cristina.raffo@gmail.com?subject=Color%20%26%20Clay%20(via%20Ibiza%20Offseason)",
+   "date": "2026-10-30"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "16:00–20:00",
+   "title": "End-of-season sale & Friday tardeo at Atelier MosaArtBySteph",
+   "venue": "Atelier MosaArtBySteph, Carrer de Sol 14 (Escalera 2, 3A)",
+   "town": "Santa Eulària",
+   "cat": "island",
+   "local": true,
+   "desc": "Steph opens her mosaic atelier for a Friday afternoon with cold drinks and a sale: handmade bowls, mirrors, mosaic geckos, candle holders, lamps, vases and wall pieces for house and garden, the 2025 Christmas collection cleared out, and discounted bags from Estephy's Bags Ibiza. Toast the end of the season in good company.",
+   "price": "Free entry",
+   "url": "https://www.instagram.com/mosaartbysteph/"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "18:30",
+   "title": "Cinefòrum UIB: Gattaca — film and debate",
+   "venue": "UIB, C/ Calvari 1",
+   "town": "Ibiza Town",
+   "cat": "culture",
+   "local": true,
+   "desc": "The university's free film forum: a film in original version, then a debate. Next: Persona on 13 Nov, Smoke on 27 Nov.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/agenda-ibiza/cultura/cineforum-uib/"
+  },
+  {
    "date": "2026-10-30",
    "time": "20:00",
    "title": "Halloween double bill: Weapons & The Monkey",
@@ -391,6 +517,18 @@
    "desc": "Two horror films in original version, one in each venue. Check the start time with the council — listings vary between 20:00 and 21:30.",
    "price": "Free",
    "url": "https://cultura.santjosep.org/es/"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "",
+   "title": "Last day to enrol: free Spanish classes, Santa Eulària",
+   "venue": "Santa Eulària town hall",
+   "town": "Santa Eulària",
+   "cat": "workshops",
+   "local": true,
+   "desc": "Bring passport or NIE and your padrón. Classes run Monday and Wednesday from October to April, mornings in Santa Eulària and evenings in Jesús.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/?p=10067219"
   },
   {
    "date": "2026-10-31",
@@ -437,6 +575,18 @@
    "desc": "Armin Heinemann's tango-butoh production.",
    "price": "Around €25",
    "url": "https://visitsantaeulalia.com/en/agenda"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "20:00",
+   "title": "Choir gathering in Sant Antoni — four choirs in the church",
+   "venue": "Església de Sant Antoni",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "local": true,
+   "desc": "The Consell's Trobada de Corals Lina Bufí moves west: the parish choir of Sant Antoni, Cor de ses Figueretes, the Ukrainian Greek Catholic church choir and Cor Ciutat d'Eivissa, one after the other in the big church on the square. Free until the pews are full.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/nl/agenda/"
   },
   {
    "date": "2026-10-31",
@@ -533,6 +683,17 @@
    "url": "https://vivirediciones.es/?p=1138152"
   },
   {
+   "time": "",
+   "title": "Color & Clay — paint your own ceramics at Studiø Raffo",
+   "venue": "Studiø Raffo",
+   "town": "Cala Llonga",
+   "cat": "workshops",
+   "desc": "An open afternoon in Cristina Raffo's ceramics studio: choose two smaller pieces or one larger one and paint them with her colours and glazes. No experience needed; materials, glazing and firing included, you collect your piece once it's out of the kiln. Up to 6 people — write to book your spot and get the time.",
+   "price": "€79 per person",
+   "url": "mailto:cristina.raffo@gmail.com?subject=Color%20%26%20Clay%20(via%20Ibiza%20Offseason)",
+   "date": "2026-11-06"
+  },
+  {
    "date": "2026-11-06",
    "time": "20:00",
    "title": "Friday cinema: A Real Pain (Jesse Eisenberg)",
@@ -543,6 +704,17 @@
    "price": "Free",
    "url": "https://cultura.santjosep.org/es/",
    "local": true
+  },
+  {
+   "time": "",
+   "title": "Color & Clay — paint your own ceramics at Studiø Raffo",
+   "venue": "Studiø Raffo",
+   "town": "Cala Llonga",
+   "cat": "workshops",
+   "desc": "An open afternoon in Cristina Raffo's ceramics studio: choose two smaller pieces or one larger one and paint them with her colours and glazes. No experience needed; materials, glazing and firing included, you collect your piece once it's out of the kiln. Up to 6 people — write to book your spot and get the time.",
+   "price": "€79 per person",
+   "url": "mailto:cristina.raffo@gmail.com?subject=Color%20%26%20Clay%20(via%20Ibiza%20Offseason)",
+   "date": "2026-11-07"
   },
   {
    "date": "2026-11-07",
@@ -602,40 +774,26 @@
    "url": "https://www.ibiza-spotlight.com/night/events/2026/11?daterange=02/11/2026-08/11/2026"
   },
   {
-   "date": "2026-10-30",
-   "time": "18:30",
-   "title": "Cinefòrum UIB: Gattaca — film and debate",
-   "venue": "UIB, C/ Calvari 1",
-   "town": "Ibiza Town",
-   "cat": "culture",
-   "local": true,
-   "desc": "The university's free film forum: a film in original version, then a debate. Next: Persona on 13 Nov, Smoke on 27 Nov.",
-   "price": "Free",
-   "url": "https://welcometoibiza.com/agenda-ibiza/cultura/cineforum-uib/"
-  },
-  {
-   "date": "2026-10-31",
    "time": "",
-   "title": "Last day to enrol: free Spanish classes, Santa Eulària",
-   "venue": "Santa Eulària town hall",
-   "town": "Santa Eulària",
+   "title": "Color & Clay — paint your own ceramics at Studiø Raffo",
+   "venue": "Studiø Raffo",
+   "town": "Cala Llonga",
    "cat": "workshops",
-   "local": true,
-   "desc": "Bring passport or NIE and your padrón. Classes run Monday and Wednesday from October to April, mornings in Santa Eulària and evenings in Jesús.",
-   "price": "Free",
-   "url": "https://lavozdeibiza.com/?p=10067219"
+   "desc": "An open afternoon in Cristina Raffo's ceramics studio: choose two smaller pieces or one larger one and paint them with her colours and glazes. No experience needed; materials, glazing and firing included, you collect your piece once it's out of the kiln. Up to 6 people — write to book your spot and get the time.",
+   "price": "€79 per person",
+   "url": "mailto:cristina.raffo@gmail.com?subject=Color%20%26%20Clay%20(via%20Ibiza%20Offseason)",
+   "date": "2026-11-13"
   },
   {
-   "date": "2026-10-31",
-   "time": "20:00",
-   "title": "Choir gathering in Sant Antoni — four choirs in the church",
-   "venue": "Església de Sant Antoni",
-   "town": "Sant Antoni",
-   "cat": "music",
-   "local": true,
-   "desc": "The Consell's Trobada de Corals Lina Bufí moves west: the parish choir of Sant Antoni, Cor de ses Figueretes, the Ukrainian Greek Catholic church choir and Cor Ciutat d'Eivissa, one after the other in the big church on the square. Free until the pews are full.",
-   "price": "Free",
-   "url": "https://welcometoibiza.com/nl/agenda/"
+   "time": "",
+   "title": "Color & Clay — paint your own ceramics at Studiø Raffo",
+   "venue": "Studiø Raffo",
+   "town": "Cala Llonga",
+   "cat": "workshops",
+   "desc": "An open afternoon in Cristina Raffo's ceramics studio: choose two smaller pieces or one larger one and paint them with her colours and glazes. No experience needed; materials, glazing and firing included, you collect your piece once it's out of the kiln. Up to 6 people — write to book your spot and get the time.",
+   "price": "€79 per person",
+   "url": "mailto:cristina.raffo@gmail.com?subject=Color%20%26%20Clay%20(via%20Ibiza%20Offseason)",
+   "date": "2026-11-14"
   },
   {
    "date": "2026-11-14",
@@ -662,41 +820,6 @@
    "url": "https://welcometoibiza.com/nl/agenda/"
   },
   {
-   "date": "2026-10-25",
-   "time": "",
-   "title": "Festa Pagesa in Santa Gertrudis — ball pagès, crafts and island food",
-   "venue": "Village square",
-   "town": "Santa Gertrudis",
-   "cat": "island",
-   "local": true,
-   "desc": "A Sunday of the old island: traditional dancing, music, craft stalls, folk games and pagès food on the square. The warm-up to the village's November fiestas.",
-   "price": "Free",
-   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-10-25",
-   "time": "",
-   "title": "Fira d'Estocs de Tardor — autumn stock fair on Vara de Rey",
-   "venue": "Passeig de Vara de Rey",
-   "town": "Ibiza Town",
-   "cat": "island",
-   "local": true,
-   "desc": "The town's shops put their end-of-season stock on the boulevard at a discount, with kids' activities, tastings and live music. Postponed from earlier in the month.",
-   "price": "Free",
-   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-10-23",
-   "time": "",
-   "title": "Ibiza Card Show — trading cards, tournaments and collectors",
-   "venue": "C19",
-   "town": "Ibiza Town",
-   "cat": "kids",
-   "desc": "Fourth edition of the island's trading-card show, 23–25 October: tournaments, trading tables, retailers and creators. Free entry.",
-   "price": "Free",
-   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
    "date": "2026-11-21",
    "time": "",
    "title": "Dalt Vila dramatised heritage tours",
@@ -707,84 +830,16 @@
    "desc": "Two theatrical tours through the walled town, with actors playing out the island's history scene by scene. Times and booking via the town hall's culture programme.",
    "price": "Check with the town hall",
    "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-10-26",
-   "time": "11:00–15:00 daily",
-   "title": "Ibiza Kids Camp — autumn holiday camp (book now)",
-   "venue": "The Bubble Club Ibiza",
-   "town": "Sant Antoni",
-   "cat": "kids",
-   "desc": "English- and Dutch-speaking day camp for ages 4–15 in three age groups, running until Friday 6 November: dodgeball, capture the flag, padel, tennis, archery, treasure hunts, crafts and a daily dip in the pool. Healthy lunch included; early drop-off and late pick-up possible. Book single days or a full week online — spots are limited.",
-   "price": "€75 a day, €300 for 5 days",
-   "url": "https://www.ibizakidscamp.com/kidscamps2026"
-  },
-  {
-   "date": "2026-10-23",
-   "time": "23:00",
-   "title": "La Tipi at Akasha — Lumio, Words of Nio, Sarcasmo",
-   "venue": "Akasha, Las Dalias",
-   "town": "Sant Carles",
-   "cat": "music",
-   "price": "Ticketed, from €15",
-   "desc": "Friday night in the club under the trees at Las Dalias: Lumio, Words of Nio, Sarcasmo, David Osorio and Tomy Velez. Doors 23:00.",
-   "url": "https://lasdalias.es/en/events"
-  },
-  {
-   "date": "2026-10-23",
-   "time": "21:00",
-   "title": "Flash Closing at Pikes",
-   "venue": "Pikes",
-   "town": "Sant Antoni",
-   "cat": "music",
-   "price": "Ticketed",
-   "desc": "The first of three closing nights: DiY Soundsystem x Music for Freaks, The Pepperbox, Grace Sands and friends, hosted by Lucy Fizz.",
-   "url": "https://www.pikesibiza.com/whats-on/"
-  },
-  {
-   "date": "2026-10-24",
-   "time": "21:00",
-   "title": "Pikes House Party Closing — Groove Armada & Bushwacka!",
-   "venue": "Pikes",
-   "town": "Sant Antoni",
-   "cat": "music",
-   "price": "Ticketed",
-   "featured": true,
-   "desc": "The hotel closes its 2026 season with Groove Armada, Bushwacka!, El Conchitas, Lilli Kelly, Andy Baxter and Quantum Disco. Last chance until April.",
-   "url": "https://www.pikesibiza.com/whats-on/"
-  },
-  {
-   "date": "2026-10-25",
-   "time": "21:00",
-   "title": "Sundays at Pikes — the closing",
-   "venue": "Pikes",
-   "town": "Sant Antoni",
-   "cat": "music",
-   "price": "Ticketed",
-   "desc": "D'Julz, Alessio Collino, Neil Diablo, Frenchy and the Sundays crew close the season. Halloween follows on the 31st, then the doors shut until spring.",
-   "url": "https://www.pikesibiza.com/whats-on/"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "16:00–20:00",
-   "title": "End-of-season sale & Friday tardeo at Atelier MosaArtBySteph",
-   "venue": "Atelier MosaArtBySteph, Carrer de Sol 14 (Escalera 2, 3A)",
-   "town": "Santa Eulària",
-   "cat": "island",
-   "local": true,
-   "desc": "Steph opens her mosaic atelier for a Friday afternoon with cold drinks and a sale: handmade bowls, mirrors, mosaic geckos, candle holders, lamps, vases and wall pieces for house and garden, the 2025 Christmas collection cleared out, and discounted bags from Estephy's Bags Ibiza. Toast the end of the season in good company.",
-   "price": "Free entry",
-   "url": "https://www.instagram.com/mosaartbysteph/"
   }
  ],
  "recurring": [
   {
    "when": "By appointment · approx. 2.5 h",
    "title": "Color & Clay — ceramic painting at Studiø Raffo",
-   "venue": "Studiø Raffo, countryside studio",
-   "town": "",
+   "venue": "Studiø Raffo",
+   "town": "Cala Llonga",
    "cat": "workshops",
-   "desc": "A slow afternoon in Cristina Raffo's small countryside studio: pick two smaller ceramic pieces or one larger one and paint them with her colours and glazes. No experience needed. All materials, glazing and firing included — you collect your piece once it's out of the kiln. Groups of up to 6, so it works for a birthday or an afternoon with friends; also a good Christmas gift. Private hand-building classes on request.",
+   "desc": "A slow afternoon in Cristina Raffo's small studio in Cala Llonga: pick two smaller ceramic pieces or one larger one and paint them with her colours and glazes. No experience needed. All materials, glazing and firing included — you collect your piece once it's out of the kiln. Groups of up to 6, so it works for a birthday or an afternoon with friends; also a good Christmas gift. Private hand-building classes on request.",
    "price": "€79 per person",
    "url": "mailto:cristina.raffo@gmail.com?subject=Color%20%26%20Clay%20workshop%20(via%20Ibiza%20Offseason)"
   },
