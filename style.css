@@ -73,6 +73,7 @@ header.site{padding-top:22px;padding-bottom:22px}
 .ev h3 a:hover{text-decoration:underline;text-decoration-color:var(--sand-400)}
 .ev .where{font-size:13px;color:var(--ink-soft);margin-top:2px}
 .ev .desc{font-size:14px;color:var(--ink-soft);margin-top:6px;max-width:66ch}
+.ev .pic{margin:10px 0 0;max-width:420px}.ev .pic img{display:block;width:100%;height:auto;border-radius:10px;aspect-ratio:4/3;object-fit:cover}.ev .pic figcaption{font-size:11px;color:var(--ink-soft);margin-top:4px}
 .ev .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px;align-items:center}
 .tag{font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 10px;border-radius:999px;background:var(--sand-100);border:1px solid var(--sand-200);color:var(--ink-soft)}
 .tag.sport{background:#E3E9DD;border-color:#C9D5BF;color:#4A5D3A}
