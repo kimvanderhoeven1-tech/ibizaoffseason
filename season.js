@@ -20,5 +20,5 @@
     }
     document.dispatchEvent(new CustomEvent('seasonready',{detail:season}));
   }
-  fetch('/data/season.json').then(function(r){return r.json();}).then(apply).catch(function(){ apply({winter:{from:'11-01',to:'04-30'}}); });
+  fetch('/data/season.json').then(function(r){return r.json();}).then(apply).catch(function(){ apply({force:'winter',winter:{from:'10-01',to:'04-30'}}); });
 })();

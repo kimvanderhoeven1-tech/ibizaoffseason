@@ -1,6 +1,6 @@
 {
-  "_comment": "force: null = automatic by date; 'winter' or 'summer' to override for everyone. Preview without changing anything: add ?season=summer to any URL.",
-  "force": null,
+  "_comment": "force: 'winter' is set for the 2026/27 test season (switch to null for automatic by date, or 'summer' from May); null = automatic by date; 'winter' or 'summer' to override for everyone. Preview without changing anything: add ?season=summer to any URL.",
+  "force": "winter",
   "winter": { "from": "10-01", "to": "04-30" },
   "summer": {
     "tagline_short": "the island in summer",
