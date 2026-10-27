@@ -240,7 +240,8 @@ const TITLES = {
   'ppp-plus.html': 'PPP+ for Concierges & Hosts | Ibiza Offseason',
   'submit.html': 'Submit an Event, Place or Retreat | Ibiza Offseason',
   'enviar.html': 'Enviar un evento, local o retiro | Ibiza Offseason',
-  'enviar-ca.html': 'Enviar un esdeveniment, local o retir | Ibiza Offseason'
+  'enviar-ca.html': 'Enviar un esdeveniment, local o retir | Ibiza Offseason',
+  'ibiza-in-november.html': 'Ibiza in November: Weather, Things to Do & What\'s Open (2026 Guide)'
 };
 const H1_LD = { // extra JSON-LD per page
   'agenda.html': [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'What\'s on in Ibiza this winter', url: SITE + '/agenda', numberOfItems: eventPages.filter(x => !x.past).length, itemListElement: eventPages.filter(x => !x.past).slice(0, 60).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: x.url, name: x.e.title })) },
@@ -266,7 +267,19 @@ function prerenderPlaces() {
   for (const [v, xs] of vill) html += `<section class="month"><h2>${esc(v)}<small>${xs.length} place${xs.length === 1 ? '' : 's'}</small></h2><div class="events">${xs.map(x => `<div class="ev"><div class="t">${esc(x.p.open || '')}</div><div><h3><a href="/venue/${x.slug}">${esc(x.p.name)}</a></h3><div class="where">${(x.p.tags || []).map(esc).join(' · ')}</div>${x.p.desc ? `<p class="desc">${esc(x.p.desc)}</p>` : ''}</div></div>`).join('')}</div></section>`;
   return html;
 }
-const PRERENDER = { 'agenda.html': prerenderAgenda, 'places.html': prerenderPlaces };
+function prerenderMonth(month) {
+  return () => {
+    const up = eventPages.filter(x => !x.past && x.e.date.startsWith(month)).sort((a, b) => a.e.date.localeCompare(b.e.date) || String(a.e.time || '').localeCompare(String(b.e.time || '')));
+    const days = new Map(); for (const x of up) { if (!days.has(x.e.date)) days.set(x.e.date, []); days.get(x.e.date).push(x); }
+    let html = '';
+    for (const [day, xs] of days) {
+      const d = new Date(day + 'T12:00:00Z');
+      html += `<div class="day"><div class="date"><b>${d.getUTCDate()}</b><span>${DOW[d.getUTCDay()].slice(0, 3)}</span><em>${MON[d.getUTCMonth()]}</em></div><div class="events">${xs.map(x => `<div class="ev"><div class="t">${esc(x.e.time || '')}</div><div><h3><a href="${x.url.replace(SITE, '')}">${esc(x.e.title)}</a></h3><div class="where">${esc(x.e.venue)}${x.e.town ? ', ' + esc(x.e.town) : ''}</div>${x.e.desc ? `<p class="desc">${esc(x.e.desc)}</p>` : ''}<div class="meta"><span class="tag ${esc(x.e.cat)}">${esc(CAT[x.e.cat] || x.e.cat || '')}</span>${x.e.price ? `<span class="price">${esc(x.e.price)}</span>` : ''}</div></div></div>`).join('')}</div></div>`;
+    }
+    return html;
+  };
+}
+const PRERENDER = { 'agenda.html': prerenderAgenda, 'places.html': prerenderPlaces, 'ibiza-in-november.html': prerenderMonth('2026-11') };
 
 for (const file of Object.keys(TITLES)) {
   if (!fs.existsSync(path.join(ROOT, file))) continue;
@@ -291,12 +304,12 @@ ${(H1_LD[file] || []).map(o => `<script type="application/ld+json">${json(o)}</s
 `;
   html = html.replace(/<link rel="canonical"[^>]*>\n?/, m => m + extra);
   if (!/<meta property="og:url"/.test(html)) html = html.replace(/<link rel="canonical"[^>]*>/, m => m + `\n<meta property="og:url" content="${pageUrl}">`);
-  if (PRERENDER[file]) html = html.replace('<div id="list"></div>', `<div id="list">${PRERENDER[file]()}</div>`);
+  if (PRERENDER[file]) html = html.replace(/<div class="nov-events" id="nov-list"><\/div>|<div id="list"><\/div>/, m => m.replace('></div>', `>${PRERENDER[file]()}</div>`));
   write(file, html);
 }
 
 // ---------------------------------------------------------------- 5. sitemap
-const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
+const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ibiza-in-november', 'weekly', '0.9'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
 const all = [...statics.map(([p, c, pr]) => ({ loc: SITE + p, changefreq: c, priority: pr })), ...sitemapUrls];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all.map(u => `  <url><loc>${u.loc}</loc><lastmod>${TODAY}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}\n</urlset>\n`);
 
