@@ -1,3 +1,7 @@
 .DS_Store
 img/drive/
 img/unsplash/
+# generated at build by tools/seo-build.js
+event/
+venue/
+retreat/

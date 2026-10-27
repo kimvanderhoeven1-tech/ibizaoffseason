@@ -1,4 +1,6 @@
 {
+  "buildCommand": "node tools/seo-build.js",
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
