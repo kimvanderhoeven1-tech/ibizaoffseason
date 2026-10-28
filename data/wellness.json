@@ -345,9 +345,22 @@
   "type": "Personal training · small-group training · guided hikes",
   "when": "All winter · by appointment",
   "price": "Guided hike €150 for 1–2 people, +€20 per extra person · training on request",
-  "desc": "A Dutch personal trainer who lives on the island: one-to-one and small-group sessions at your villa or outdoors, and guided hikes to the places you'd never find alone — the Cova de ses Medusa and the Punta Grossa lighthouse in the north, the stone arch at Cala d'Albarca in the west, two to two and a half hours each. English and Dutch. Book by WhatsApp.",
+  "desc": "A Dutch personal trainer who lives on the island: one-to-one and small-group sessions at your villa or outdoors, and guided hikes to the places you'd never find alone — the Cova de ses Medusa and the Punta Grossa lighthouse in the north, the stone arch at Cala d'Albarca in the west, two to two and a half hours each. English and Dutch. Licensed hiking guide (TA 0052 E). Also a Full Body Sculpt class every Wednesday at Casa Sukha. Book via Instagram DM.",
   "status": "All winter",
-  "url": "https://www.cynthiavanwinden.com",
-  "book": "https://www.cynthiavanwinden.com"
+  "url": "https://www.instagram.com/cynthiavanwinden",
+  "book": "https://www.instagram.com/cynthiavanwinden"
+ },
+ {
+  "id": "sculpt-casa-sukha",
+  "group": "classes",
+  "name": "Full Body Sculpt with Cynthia van Winden at Casa Sukha",
+  "village": "Ibiza",
+  "type": "Sculpt · strength",
+  "when": "Wednesdays · time via Instagram",
+  "price": "On request",
+  "desc": "A weekly full-body sculpt class at Casa Sukha with Dutch personal trainer Cynthia van Winden — small group, all levels. Check @cynthiavanwinden for this week's time and to reserve a mat.",
+  "status": "To confirm for winter",
+  "url": "https://www.instagram.com/cynthiavanwinden",
+  "book": "https://www.instagram.com/cynthiavanwinden"
  }
 ]
