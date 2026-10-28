@@ -1295,9 +1295,34 @@
    "price": "Free",
    "url": "https://www.noudiari.es/noticias-ibiza-formentera-sidebar/los-reyes-magos-ya-tienen-la-agenda-de-visitas-a-sant-antoni",
    "local": true
+  },
+  {
+   "date": "2026-10-29",
+   "time": "16:30",
+   "title": "Kids dance — trial class with Dance with Kimberley",
+   "venue": "Ibiza Yoga Point",
+   "town": "Santa Eulària",
+   "cat": "kids",
+   "desc": "Groovy, feel-good dance for 4–11-year-olds to the pop songs they already know, taught by Kimberley — Utrecht dance academy, Studio 100 and dance schools in London and the Netherlands. Groups are small on purpose (4–8 kids). Trial class €25; book and pay in advance by bank transfer or Bizum, no drop-ins — DM her on Instagram today.",
+   "price": "€25 per child · trial",
+   "url": "https://www.instagram.com/dancewithkimberley/",
+   "img": "/img/listings/dance-with-kimberley.jpg",
+   "credit": "Dance with Kimberley",
+   "local": true
   }
  ],
  "recurring": [
+  {
+   "when": "Thursdays 16:30 · ages 4–11",
+   "title": "Kids dance classes — Dance with Kimberley",
+   "venue": "Ibiza Yoga Point",
+   "town": "Santa Eulària",
+   "cat": "kids",
+   "desc": "Weekly groovy pop dance classes for 4–11-year-olds in small groups of 4–8, with a teacher trained at the Utrecht dance academy who has worked for Studio 100 and taught in London and the Netherlands. Reserve and pay ahead (bank transfer or Bizum); no last-minute drop-ins. First trial class Thursday 29 October.",
+   "price": "€25 trial class",
+   "url": "https://www.instagram.com/dancewithkimberley/",
+   "local": true
+  },
   {
    "when": "Open dates 14:00–17:00 · or by appointment",
    "title": "Color & Clay — ceramic painting at Studiø Raffo",
