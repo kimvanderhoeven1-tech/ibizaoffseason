@@ -234,6 +234,7 @@ const TITLES = {
   'beaches.html': 'Ibiza Beaches in Winter: Sheltered Coves & Beach Bars Still Open',
   'wellness.html': 'Yoga, Pilates, Spas & Saunas in Ibiza in Winter | Ibiza Offseason',
   'courses.html': 'Spanish Lessons & Courses in Ibiza This Winter | Ibiza Offseason',
+  'helping-hands.html': 'Nannies, Chefs & Property Management in Ibiza — Helping Hands | Ibiza Offseason',
   'markets.html': 'Ibiza Markets in Winter: Hippy, Farmers\' & Christmas Markets | Ibiza Offseason',
   'winter-table.html': 'Ibiza Winter Food: Calçotades, Bunyols, Hierbas & Where to Eat Them',
   'ppp.html': 'PPP — Professional Party People Places | Ibiza Offseason',
@@ -321,7 +322,7 @@ ${(H1_LD[file] || []).map(o => `<script type="application/ld+json">${json(o)}</s
 }
 
 // ---------------------------------------------------------------- 5. sitemap
-const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ibiza-in-november', 'weekly', '0.9'], ['/ibiza-in-december', 'weekly', '0.9'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
+const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/helping-hands', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ibiza-in-november', 'weekly', '0.9'], ['/ibiza-in-december', 'weekly', '0.9'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
 const all = [...statics.map(([p, c, pr]) => ({ loc: SITE + p, changefreq: c, priority: pr })), ...sitemapUrls];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all.map(u => `  <url><loc>${u.loc}</loc><lastmod>${TODAY}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}\n</urlset>\n`);
 
