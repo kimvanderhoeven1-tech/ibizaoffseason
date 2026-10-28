@@ -124,9 +124,11 @@
    "Music",
    "Local"
   ],
-  "open": "All winter · daily 08:00–14:00, closed Tuesdays",
-  "desc": "Since 1976, hidden among the pines above Cala Pada on the Es Canar road (km 3.1): island flavours from a wood-fired kitchen, breakfasts and long lunches under the trees, and live music at the weekend. Mains from about €10 — one of the old-school beach restaurants that stays open when the resort around it has gone quiet. A children's corner is coming.",
-  "url": "https://www.espinscalapada.com"
+  "open": "All winter · daily 08:00–02:00, breakfast, lunch and dinner",
+  "desc": "Since 1976, hidden among the pines above Cala Pada on the Es Canar road (km 3.1): island flavours from a wood-fired kitchen, breakfasts, long lunches and dinners under the trees, open from eight in the morning until two at night, every day of the winter. Live music at the weekend, mains from about €10 — one of the old-school beach restaurants that stays open when the resort around it has gone quiet. A children's corner is coming. +34 971 33 06 57.",
+  "url": "https://www.espinscalapada.com",
+  "img": "/img/listings/es-pins.jpg",
+  "credit": "Es Pins Cala Pada"
  },
  {
   "id": "la-paloma",
