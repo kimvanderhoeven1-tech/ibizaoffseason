@@ -43,5 +43,20 @@
     "book": "https://tantewill.nl/",
     "booklabel": "Ask for a date",
     "contact": "@tantewill.ibiza"
+  },
+  {
+    "id": "homegirlz",
+    "group": "hands",
+    "name": "Homegirlz — extra hands for home, boat or event",
+    "village": "Island-wide",
+    "type": "Home help · groceries · event & boat crew",
+    "when": "On request · by the hour or the day",
+    "price": "Ask for rates",
+    "desc": "\"Here to help you with whatever life brings\" — and on this island that means: the fridge filled before you land, the house turned around between guests, two more pairs of hands on the boat or behind the bar at your party, the errand you can't fit in. New this winter, so the fastest way in is a DM with what you need and when.",
+    "status": "New this winter 2026/27 — taking bookings",
+    "url": "https://www.instagram.com/homegirlz.ibiza/",
+    "book": "https://www.instagram.com/homegirlz.ibiza/",
+    "booklabel": "Send a DM",
+    "contact": "@homegirlz.ibiza"
   }
 ]
