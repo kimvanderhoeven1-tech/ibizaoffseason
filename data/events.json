@@ -462,6 +462,17 @@
    "url": "https://welcometoibiza.com/agenda-ibiza/actividades/hic-summit-ibiza/"
   },
   {
+   "date": "2026-10-28",
+   "time": "19:00",
+   "title": "SHHH — Shibiza Nights opening party at ROTO",
+   "venue": "ROTO",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "desc": "Shirley's Wednesday dinner-and-dance nights are back for the winter. Opening night with Davina Moss and Chelsea Domenica, a performance by Nikki Milou and resident DJ Escribano. Doors 19:00, dinner from 20:00, dance when you like until late.",
+   "price": "Guest list & tables via link",
+   "url": "https://site.fourvenues.com/es/roto-ibiza/events/shibiza-nights-28-10-2026-K3TL"
+  },
+  {
    "date": "2026-10-29",
    "time": "afternoon",
    "title": "Ibiza Halloween Festival opens",
@@ -710,6 +721,17 @@
    "local": true
   },
   {
+   "date": "2026-11-07",
+   "time": "10:30",
+   "title": "Dalt Vila's landmark buildings — guided heritage walk",
+   "venue": "Meet at Plaça de la Catedral",
+   "town": "Ibiza Town",
+   "cat": "culture",
+   "desc": "Two hours on the civil, military and religious architecture of the old town.",
+   "price": "Free, register madinayabisa@eivissa.es",
+   "url": "https://www.eivissa.es/documents/d/ayuntamiento-de-ibiza/itinerarios-patrimoniales-2026-cast-1-"
+  },
+  {
    "time": "14:00",
    "title": "Color & Clay — paint your own ceramics at Studiø Raffo",
    "venue": "Studiø Raffo",
@@ -721,17 +743,6 @@
    "date": "2026-11-07",
    "img": "/img/listings/studio-raffo-olives.jpg",
    "credit": "Studiø Raffo"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "10:30",
-   "title": "Dalt Vila's landmark buildings — guided heritage walk",
-   "venue": "Meet at Plaça de la Catedral",
-   "town": "Ibiza Town",
-   "cat": "culture",
-   "desc": "Two hours on the civil, military and religious architecture of the old town.",
-   "price": "Free, register madinayabisa@eivissa.es",
-   "url": "https://www.eivissa.es/documents/d/ayuntamiento-de-ibiza/itinerarios-patrimoniales-2026-cast-1-"
   },
   {
    "date": "2026-11-07",
@@ -854,6 +865,16 @@
    "url": "mailto:cristina.raffo@gmail.com?subject=Color%20%26%20Clay%20workshop%20(via%20Ibiza%20Offseason)",
    "img": "/img/listings/studio-raffo-cup.jpg",
    "credit": "Studiø Raffo"
+  },
+  {
+   "when": "Wednesdays 19:00",
+   "title": "Shibiza Nights at ROTO — dinner, drinks & dancing",
+   "venue": "ROTO",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "desc": "The Wednesday night that runs all winter: dinner from 20:00, DJs and a performance, dance until late. Guest list opens each week.",
+   "price": "Guest list via roto.club",
+   "url": "https://roto.club"
   },
   {
    "when": "Saturdays 10:00",
