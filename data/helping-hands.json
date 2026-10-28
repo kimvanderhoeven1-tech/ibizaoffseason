@@ -28,5 +28,20 @@
     "book": "https://24nannies.nl/",
     "booklabel": "Request a nanny",
     "contact": "info@24nannies.nl · @24nannies"
+  },
+  {
+    "id": "tante-will",
+    "group": "family",
+    "name": "Tante Will — your Dutch babysitter on Ibiza",
+    "village": "Island-wide",
+    "type": "Babysitting · evenings & days",
+    "when": "On request · evenings, days, holiday weeks",
+    "price": "Ask for rates",
+    "desc": "One person, not an agency: an experienced Dutch babysitter who lives on the island, with a background in social pedagogy, for the evening you want to go out, the days the kids are off school and the week family stays over. Speaks Dutch and English with the little ones. Message her on Instagram or through her site with your dates.",
+    "status": "On the island all winter",
+    "url": "https://www.instagram.com/tantewill.ibiza/",
+    "book": "https://tantewill.nl/",
+    "booklabel": "Ask for a date",
+    "contact": "@tantewill.ibiza"
   }
 ]
