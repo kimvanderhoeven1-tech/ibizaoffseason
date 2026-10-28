@@ -1335,6 +1335,17 @@
    "local": true
   },
   {
+   "when": "Sundays 13:00–17:00",
+   "title": "Sunday Roast at La Chickeria × Wild Health",
+   "venue": "La Chickeria, Venda de Can Llàtzer 19",
+   "town": "Santa Gertrudis",
+   "cat": "island",
+   "local": true,
+   "desc": "A proper British Sunday roast in the Santa Gertrudis countryside — Yorkshire pudding, roast potatoes, the lot — cooked by the chefs, with a live DJ and signature cocktails (the Bloody Mary and Moscow Mule do the heavy lifting). Kitchen 13:00–17:00. Book by WhatsApp.",
+   "price": "Book: WhatsApp +34 654 04 18 00",
+   "url": "https://wa.me/34654041800"
+  },
+  {
    "when": "Open dates 14:00–17:00 · or by appointment",
    "title": "Color & Clay — ceramic painting at Studiø Raffo",
    "venue": "Studiø Raffo",
