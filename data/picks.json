@@ -1,0 +1,47 @@
+{
+  "_readme": "Personal picks shown in the month guides ('Handpicked'). One object per pick. month = YYYY-MM, by = first name only (site rule: no surnames, no own businesses). link is optional and may be a site path or a full URL. Edit, commit, push — the build injects them into /ibiza-in-<month>.",
+  "picks": [
+    {
+      "month": "2026-12",
+      "by": "Kim",
+      "title": "The Vara de Rey market after dark",
+      "text": "Go on a weekday after 19:00, when the stalls are lit, the Christmas lights are on and the Saturday crowd isn't. Hot chocolate from the churros stand, then a walk up into Dalt Vila.",
+      "link": "/markets"
+    },
+    {
+      "month": "2026-12",
+      "by": "Kim",
+      "title": "A fire, a bottle of hierbas, a winter table",
+      "text": "December is the month to eat indoors in the villages: a log fire, a long lunch, somebody's grandmother's sofrit pagès. My picks for a table are on the Winter Table page; ask us if you want one set up.",
+      "link": "/winter-table"
+    },
+    {
+      "month": "2026-12",
+      "by": "Kim",
+      "title": "Swim on Christmas morning",
+      "text": "The sea is still 17°C. A quick swim at a sheltered cove before lunch is the island's best Christmas tradition, and the one visitors never believe until they've done it.",
+      "link": "/beaches"
+    },
+    {
+      "month": "2026-12",
+      "by": "Mel",
+      "title": "Forada market before the bread runs out",
+      "text": "Saturday mornings, in the field by Can Tixedo. The sourdough and the almond pastries are gone by eleven; the coffee queue is where you meet half the island.",
+      "link": "/markets"
+    },
+    {
+      "month": "2026-12",
+      "by": "Mel",
+      "title": "Can Jordi on a Thursday night",
+      "text": "A petrol station on the Sant Josep road, live blues inside, everyone from the valley at the bar. The island's winter living room, and never more so than in the weeks before Christmas.",
+      "link": "/places?f=Music"
+    },
+    {
+      "month": "2026-12",
+      "by": "Mel",
+      "title": "The cliff walk to Ses Portes del Cel, then the village bar",
+      "text": "Eight kilometres above Santa Agnès, done in the low December light with the whole north coast at your feet. Back in the village for a glass of wine while it gets dark at half past five.",
+      "link": "/trails"
+    }
+  ]
+}

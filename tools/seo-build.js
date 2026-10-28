@@ -241,7 +241,8 @@ const TITLES = {
   'submit.html': 'Submit an Event, Place or Retreat | Ibiza Offseason',
   'enviar.html': 'Enviar un evento, local o retiro | Ibiza Offseason',
   'enviar-ca.html': 'Enviar un esdeveniment, local o retir | Ibiza Offseason',
-  'ibiza-in-november.html': 'Ibiza in November: Weather, Things to Do & What\'s Open (2026 Guide)'
+  'ibiza-in-november.html': 'Ibiza in November: Weather, Things to Do & What\'s Open (2026 Guide)',
+  'ibiza-in-december.html': 'Ibiza in December: Christmas, Weather & What\'s Open (2026 Guide)'
 };
 const H1_LD = { // extra JSON-LD per page
   'agenda.html': [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'What\'s on in Ibiza this winter', url: SITE + '/agenda', numberOfItems: eventPages.filter(x => !x.past).length, itemListElement: eventPages.filter(x => !x.past).slice(0, 60).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: x.url, name: x.e.title })) },
@@ -279,7 +280,17 @@ function prerenderMonth(month) {
     return html;
   };
 }
-const PRERENDER = { 'agenda.html': prerenderAgenda, 'places.html': prerenderPlaces, 'ibiza-in-november.html': prerenderMonth('2026-11') };
+// Personal picks ("Handpicked") for the month guides, from data/picks.json. First names only — site rule.
+const picks = fs.existsSync(path.join(ROOT, 'data/picks.json')) ? readJson('data/picks.json').picks || [] : [];
+function renderPicks(month) {
+  const xs = picks.filter(p => p.month === month);
+  if (!xs.length) return '';
+  return xs.map(p => {
+    const link = p.link ? `<a href="${esc(p.link)}">${esc(p.title)}</a>` : esc(p.title);
+    return `<div class="hp"><div class="who"><span class="av">${esc((p.by || '?')[0])}</span><span>${esc(p.by)}'s pick</span></div><h3>${link}</h3><p>${esc(p.text)}</p></div>`;
+  }).join('');
+}
+const PRERENDER = { 'agenda.html': prerenderAgenda, 'places.html': prerenderPlaces, 'ibiza-in-november.html': prerenderMonth('2026-11'), 'ibiza-in-december.html': prerenderMonth('2026-12') };
 
 for (const file of Object.keys(TITLES)) {
   if (!fs.existsSync(path.join(ROOT, file))) continue;
@@ -304,12 +315,13 @@ ${(H1_LD[file] || []).map(o => `<script type="application/ld+json">${json(o)}</s
 `;
   html = html.replace(/<link rel="canonical"[^>]*>\n?/, m => m + extra);
   if (!/<meta property="og:url"/.test(html)) html = html.replace(/<link rel="canonical"[^>]*>/, m => m + `\n<meta property="og:url" content="${pageUrl}">`);
-  if (PRERENDER[file]) html = html.replace(/<div class="nov-events" id="nov-list"><\/div>|<div id="list"><\/div>/, m => m.replace('></div>', `>${PRERENDER[file]()}</div>`));
+  if (PRERENDER[file]) html = html.replace(/<div class="nov-events" id="nov-list"><\/div>|<div class="month-events" id="month-list"><\/div>|<div id="list"><\/div>/, m => m.replace('></div>', `>${PRERENDER[file]()}</div>`));
+  html = html.replace(/<div class="handpicked" id="picks" data-month="(\d{4}-\d{2})"><\/div>/, (m, mo) => m.replace('></div>', `>${renderPicks(mo)}</div>`));
   write(file, html);
 }
 
 // ---------------------------------------------------------------- 5. sitemap
-const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ibiza-in-november', 'weekly', '0.9'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
+const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ibiza-in-november', 'weekly', '0.9'], ['/ibiza-in-december', 'weekly', '0.9'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
 const all = [...statics.map(([p, c, pr]) => ({ loc: SITE + p, changefreq: c, priority: pr })), ...sitemapUrls];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all.map(u => `  <url><loc>${u.loc}</loc><lastmod>${TODAY}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}\n</urlset>\n`);
 
