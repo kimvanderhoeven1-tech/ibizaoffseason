@@ -271,3 +271,5 @@ footer.site a:hover{color:var(--terracotta)}
 .day.today .date span::before{content:"Today · ";color:var(--terracotta)}
 
 .pic{margin:10px 0 0;max-width:420px}.pic img{display:block;width:100%;height:auto;border-radius:10px;aspect-ratio:4/3;object-fit:cover}.pic figcaption{font-size:11px;color:var(--ink-soft);margin-top:4px}
+
+.well .credit{font-size:11px;color:var(--ink-soft);margin:-4px 0 8px}

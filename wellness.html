@@ -77,14 +77,13 @@ const G={classes:'Drop-in',body:'Spa & body',sea:'Sea & cold',day:'Day retreat'}
 function card(w){
   const tc=/confirm|likely/i.test(w.status||'');
   return `<article class="trail well">
-    ${w.img?`<img class="wphoto" src="${esc(w.img)}" alt="${esc(w.alt||w.name)}" loading="lazy">`:''}
+    ${w.img?`<img class="wphoto" src="${esc(w.img)}" alt="${esc(w.alt||w.name)}" loading="lazy">${w.credit?`<div class="credit">Photo: ${esc(w.credit)}</div>`:''}`:''}
     <div class="top"><div><span class="type">${esc(G[w.group]||w.group)}${w.local?' · <b class="loc">★ Local</b>':''}</span><h3>${esc(w.name)}</h3><div class="area">${esc(w.village)} · ${esc(w.type)}</div></div></div>
     <div class="facts">
       <div><b>${esc(w.when)}</b><span>when</span></div>
       <div><b>${esc(w.price)}</b><span>price</span></div>
     </div>
     <p class="blurb">${esc(w.desc)}</p>
-    ${w.img?`<figure class="pic"><img src="${esc(w.img)}" alt="" loading="lazy">${w.credit?`<figcaption>Photo: ${esc(w.credit)}</figcaption>`:''}</figure>`:''}
     <p class="open ${tc?'tc':''}"><b>Winter</b> ${esc(w.status)}</p>
     <div class="go">${w.book?`<a class="btn solid" href="${esc(w.book)}" target="_blank" rel="noopener">Book</a>`:''}${w.url?`<a class="btn" href="${esc(w.url)}" target="_blank" rel="noopener">${w.book?'More':'Details'}</a>`:''}</div>
   </article>`;
