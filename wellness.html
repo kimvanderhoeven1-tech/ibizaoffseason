@@ -84,6 +84,7 @@ function card(w){
       <div><b>${esc(w.price)}</b><span>price</span></div>
     </div>
     <p class="blurb">${esc(w.desc)}</p>
+    ${w.img?`<figure class="pic"><img src="${esc(w.img)}" alt="" loading="lazy">${w.credit?`<figcaption>Photo: ${esc(w.credit)}</figcaption>`:''}</figure>`:''}
     <p class="open ${tc?'tc':''}"><b>Winter</b> ${esc(w.status)}</p>
     <div class="go">${w.book?`<a class="btn solid" href="${esc(w.book)}" target="_blank" rel="noopener">Book</a>`:''}${w.url?`<a class="btn" href="${esc(w.url)}" target="_blank" rel="noopener">${w.book?'More':'Details'}</a>`:''}</div>
   </article>`;

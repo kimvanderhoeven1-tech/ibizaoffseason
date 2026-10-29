@@ -335,7 +335,9 @@
   "desc": "Mobile ice-bath service for the whole island: a luxury ice bath delivered to your villa, finca or holiday rental, set up and explained, from €200 a day (one-day minimum). Or book a guided session, about two hours, for yourself or a group — cold-therapy and breathwork coaches walk you in, from €499 depending on group size. November to March, on request. Book by WhatsApp.",
   "status": "All winter",
   "url": "https://ibizaicebaths.com",
-  "book": "https://wa.me/31619335822"
+  "book": "https://wa.me/31619335822",
+  "img": "/img/listings/ibiza-ice-baths.jpg",
+  "credit": "Ibiza Ice Baths"
  },
  {
   "id": "cynthia-van-winden",
