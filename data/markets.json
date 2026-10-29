@@ -47,7 +47,9 @@
   "type": "Flea market",
   "desc": "The island's flea market around the old racetrack: second-hand everything, vinyl, furniture, bikes, and the best people-watching on Ibiza. Go early.",
   "url": "https://www.mercadillodesantjordi.com",
-  "group": "weekly"
+  "group": "weekly",
+  "img": "/img/listings/sant-jordi-market.jpg",
+  "credit": "Ibiza Offseason"
  },
  {
   "id": "sa-cooperativa",
