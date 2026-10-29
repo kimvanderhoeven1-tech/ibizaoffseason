@@ -49,15 +49,17 @@
     "group": "hands",
     "name": "Homegirlz — extra hands for home, boat or event",
     "village": "Island-wide",
-    "type": "Home help · groceries · event & boat crew",
-    "when": "On request · by the hour or the day",
-    "price": "Ask for rates",
-    "desc": "\"Here to help you with whatever life brings\" — and on this island that means: the fridge filled before you land, the house turned around between guests, two more pairs of hands on the boat or behind the bar at your party, the errand you can't fit in. New this winter, so the fastest way in is a DM with what you need and when.",
+    "type": "Family & kids · private cooking · PA · events & retreats · boat",
+    "when": "On request · by the hour, one girl or two · mix & match",
+    "price": "From €20/h (family & home) · cooking €35/h · PA €35/h · events & retreats €30/h · boat €40/h; two girls from €40/h",
+    "desc": "Two Dutch girls on the island who do whatever the day needs: babysitting and family support, cooking for the table (they've catered a whole mother-and-daughter retreat), personal assistance — reservations, shopping, the villa ready before you land — hands at your event or retreat, and the boat stocked and hosted for a day at sea. Combine what you need on the same day; they quote exact prices. 30% deposit, free cancellation up to 72 h before.",
     "status": "New this winter 2026/27 — taking bookings",
     "url": "https://www.instagram.com/homegirlz.ibiza/",
     "book": "https://www.instagram.com/homegirlz.ibiza/",
     "booklabel": "Send a DM",
-    "contact": "@homegirlz.ibiza"
+    "contact": "@homegirlz.ibiza",
+    "img": "/img/listings/homegirlz.jpg",
+    "credit": "Homegirlz Ibiza"
   },
   {
     "id": "kimberley-the-fairy",
