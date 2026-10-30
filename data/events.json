@@ -474,14 +474,17 @@
   },
   {
    "date": "2026-10-29",
-   "time": "afternoon",
-   "title": "Ibiza Halloween Festival opens",
-   "venue": "Can Ventosa",
-   "town": "Ibiza Town",
-   "cat": "culture",
-   "desc": "Four days of horror and fantasy films, FX make-up workshops and the Terror Express one-minute phone-film contest, through Sunday 1 November.",
-   "price": "Free",
-   "url": "https://www.diariodeibiza.com/event-news/ibiza-halloween-festival-2026-monster-walk/"
+   "time": "16:30",
+   "title": "Kids dance — trial class with Dance with Kimberley",
+   "venue": "Ibiza Yoga Point",
+   "town": "Santa Eulària",
+   "cat": "kids",
+   "desc": "Groovy, feel-good dance for 4–11-year-olds to the pop songs they already know, taught by Kimberley — Utrecht dance academy, Studio 100 and dance schools in London and the Netherlands. Groups are small on purpose (4–8 kids). Trial class €25; book and pay in advance by bank transfer or Bizum, no drop-ins — DM her on Instagram today.",
+   "price": "€25 per child · trial",
+   "url": "https://www.instagram.com/dancewithkimberley/",
+   "img": "/img/listings/dance-with-kimberley.jpg",
+   "credit": "Dance with Kimberley",
+   "local": true
   },
   {
    "time": "14:00",
@@ -521,17 +524,6 @@
    "url": "https://welcometoibiza.com/agenda-ibiza/cultura/cineforum-uib/"
   },
   {
-   "date": "2026-10-30",
-   "time": "20:00",
-   "title": "Halloween double bill: Weapons & The Monkey",
-   "venue": "Can Jeroni (Sant Josep) and Auditori Caló de s'Oli (Cala de Bou)",
-   "town": "Sant Josep",
-   "cat": "culture",
-   "desc": "Two horror films in original version, one in each venue. Check the start time with the council — listings vary between 20:00 and 21:30.",
-   "price": "Free",
-   "url": "https://cultura.santjosep.org/es/"
-  },
-  {
    "date": "2026-10-31",
    "time": "",
    "title": "Last day to enrol: free Spanish classes, Santa Eulària",
@@ -542,77 +534,6 @@
    "desc": "Bring passport or NIE and your padrón. Classes run Monday and Wednesday from October to April, mornings in Santa Eulària and evenings in Jesús.",
    "price": "Free",
    "url": "https://lavozdeibiza.com/?p=10067219"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "10:00",
-   "title": "Guided coastal walk from Sant Carles (14 km)",
-   "venue": "Sant Carles church",
-   "town": "Santa Eulària",
-   "cat": "sport",
-   "desc": "Cala Mestella, Cala Boix and Pou des Lleó on an advanced-level walk with the municipal tourism team.",
-   "price": "Free, register turisme@santaeularia.com",
-   "url": "https://visitsantaeulalia.com/en/agenda",
-   "local": true
-  },
-  {
-   "date": "2026-10-31",
-   "time": "17:00",
-   "title": "Halloween: monster make-up and the Monster Walk",
-   "venue": "Vara de Rey and the streets of Vila",
-   "town": "Ibiza Town",
-   "cat": "kids",
-   "featured": true,
-   "desc": "Free monster make-up from 17:00, then the costume parade through town ending on a red carpet with prizes. The island's biggest Halloween night for families.",
-   "price": "Free",
-   "url": "https://www.diariodeibiza.com/event-news/ibiza-halloween-festival-2026-monster-walk/"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "18:00",
-   "title": "Coco, el musical: Recuérdame",
-   "venue": "Recinto Ferial",
-   "town": "Ibiza Town",
-   "cat": "kids",
-   "desc": "Día de Muertos family musical, ages 3+. Second show Sunday at 12:00.",
-   "price": "€8 child / €12 adult",
-   "url": "https://welcometoibiza.com/agenda-ibiza/cultura/coco-el-musical-recuerdame-llega-al-recinto-ferial-de-ibiza/"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "18:30",
-   "title": "Dreams 2 (Sueños) — dance theatre",
-   "venue": "Palau de Congressos",
-   "town": "Santa Eulària",
-   "cat": "culture",
-   "desc": "Armin Heinemann's tango-butoh production.",
-   "price": "Around €25",
-   "url": "https://visitsantaeulalia.com/en/agenda"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "20:00",
-   "title": "Choir gathering in Sant Antoni — four choirs in the church",
-   "venue": "Església de Sant Antoni",
-   "town": "Sant Antoni",
-   "cat": "music",
-   "local": true,
-   "desc": "The Consell's Trobada de Corals Lina Bufí moves west: the parish choir of Sant Antoni, Cor de ses Figueretes, the Ukrainian Greek Catholic church choir and Cor Ciutat d'Eivissa, one after the other in the big church on the square. Free until the pews are full.",
-   "price": "Free",
-   "url": "https://welcometoibiza.com/nl/agenda/"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "20:30",
-   "title": "Stargazing night at the Cala d'Hort observatory",
-   "venue": "Observatori de ses Païsses, Cala d'Hort",
-   "town": "Sant Josep",
-   "cat": "culture",
-   "featured": true,
-   "desc": "Telescope session under one of the darkest skies on the island, with a free bus. Ages 6+. Places by email 23–25 October.",
-   "price": "Free",
-   "url": "https://lavozdeibiza.com/event/noches-de-estrellas-en-el-observatorio-de-ses-paisses-de-cala-dhort/2026-10-31/",
-   "local": true
   },
   {
    "date": "2026-10-31",
@@ -661,6 +582,40 @@
   },
   {
    "date": "2026-11-01",
+   "time": "12:00",
+   "title": "Els teclats virtuosos — organ concert",
+   "venue": "Església de Sant Josep",
+   "town": "Sant Josep",
+   "cat": "music",
+   "local": true,
+   "desc": "From the cycle marking twenty years of the village organ; moved to Sunday noon.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/luto-en-ibiza-y-formentera-que-actividades-se-suspenden-y-cuales-cambian-de-fecha/"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "17:00",
+   "title": "Coco, el musical: Recuérdame",
+   "venue": "Recinto Ferial",
+   "town": "Ibiza Town",
+   "cat": "kids",
+   "desc": "Día de Muertos family musical, ages 3+. Second show Sunday at 12:00. Moved from Saturday because of the national mourning — Saturday tickets are valid.",
+   "price": "€8 child / €12 adult",
+   "url": "https://welcometoibiza.com/agenda-ibiza/cultura/coco-el-musical-recuerdame-llega-al-recinto-ferial-de-ibiza/"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "17:30",
+   "title": "Nit espantosa — Halloween on the square",
+   "venue": "Plaça de Sant Jordi (Kairo's)",
+   "town": "Sant Jordi",
+   "cat": "kids",
+   "desc": "Sant Josep's Halloween night for families, moved from Saturday to Sunday after the national mourning: until 22:00 on the square.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/luto-en-ibiza-y-formentera-que-actividades-se-suspenden-y-cuales-cambian-de-fecha/"
+  },
+  {
+   "date": "2026-11-01",
    "time": "18:00",
    "title": "Theatrical visit to the old cemetery",
    "venue": "Cementeri Vell",
@@ -670,6 +625,39 @@
    "price": "Check with the council",
    "url": "https://www.eivissa.es/es/agenda1",
    "local": true
+  },
+  {
+   "date": "2026-11-01",
+   "time": "18:30",
+   "title": "Nit terrorífica — Halloween in the park",
+   "venue": "Parc de Cala de Bou",
+   "town": "Cala de Bou",
+   "cat": "kids",
+   "desc": "The Cala de Bou Halloween night, moved from Saturday to Sunday: until 23:00.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/luto-en-ibiza-y-formentera-que-actividades-se-suspenden-y-cuales-cambian-de-fecha/"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "19:00",
+   "title": "Retrats d'amor — Dúo Vives-Laliga",
+   "venue": "Centre Cultural de Jesús",
+   "town": "Jesús",
+   "cat": "music",
+   "desc": "Voice and piano, moved from Saturday to Sunday after the national mourning.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/luto-en-ibiza-y-formentera-que-actividades-se-suspenden-y-cuales-cambian-de-fecha/"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "20:00",
+   "title": "Dreams 2 (Sueños) — dance theatre",
+   "venue": "Palau de Congressos",
+   "town": "Santa Eulària",
+   "cat": "culture",
+   "desc": "Armin Heinemann's tango-butoh production. Moved from Saturday because of the national mourning.",
+   "price": "Around €25",
+   "url": "https://visitsantaeulalia.com/en/agenda"
   },
   {
    "date": "2026-11-04",
@@ -746,6 +734,18 @@
   },
   {
    "date": "2026-11-07",
+   "time": "18:00",
+   "title": "Co-Creating Culture — exhibition opening at Can Cristòfol",
+   "venue": "Can Cristòfol, Sant Carles road",
+   "town": "Santa Eulària",
+   "cat": "culture",
+   "desc": "Opening night of the art exhibition 'Co-crear cultura: cultivating a field of relationships', art and curation by Roseline de Thélin. Until 22:00; the first of three November gatherings at the finca.",
+   "price": "Free",
+   "url": "https://wa.me/34638497901",
+   "local": true
+  },
+  {
+   "date": "2026-11-07",
    "time": "20:00",
    "title": "Supernova at Las Dalias",
    "venue": "Las Dalias Café / Akasha",
@@ -804,6 +804,18 @@
    "credit": "Studiø Raffo"
   },
   {
+   "date": "2026-11-14",
+   "time": "10:30",
+   "title": "Conversations: Culture, Land & Art — speakers' panel",
+   "venue": "Can Cristòfol, Sant Carles road",
+   "town": "Santa Eulària",
+   "cat": "culture",
+   "desc": "A day of talks on culture, land and art around the Co-Creating Culture exhibition, 10:30–18:00. Booking required: WhatsApp Bex on +34 638 497 901.",
+   "price": "Booking required",
+   "url": "https://wa.me/34638497901",
+   "local": true
+  },
+  {
    "time": "14:00",
    "title": "Color & Clay — paint your own ceramics at Studiø Raffo",
    "venue": "Studiø Raffo",
@@ -853,30 +865,6 @@
    "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
   },
   {
-   "date": "2026-11-07",
-   "time": "18:00",
-   "title": "Co-Creating Culture — exhibition opening at Can Cristòfol",
-   "venue": "Can Cristòfol, Sant Carles road",
-   "town": "Santa Eulària",
-   "cat": "culture",
-   "desc": "Opening night of the art exhibition 'Co-crear cultura: cultivating a field of relationships', art and curation by Roseline de Thélin. Until 22:00; the first of three November gatherings at the finca.",
-   "price": "Free",
-   "url": "https://wa.me/34638497901",
-   "local": true
-  },
-  {
-   "date": "2026-11-14",
-   "time": "10:30",
-   "title": "Conversations: Culture, Land & Art — speakers' panel",
-   "venue": "Can Cristòfol, Sant Carles road",
-   "town": "Santa Eulària",
-   "cat": "culture",
-   "desc": "A day of talks on culture, land and art around the Co-Creating Culture exhibition, 10:30–18:00. Booking required: WhatsApp Bex on +34 638 497 901.",
-   "price": "Booking required",
-   "url": "https://wa.me/34638497901",
-   "local": true
-  },
-  {
    "date": "2026-11-21",
    "time": "10:30",
    "title": "Collaborative Artistic Lab at Can Cristòfol",
@@ -886,18 +874,6 @@
    "desc": "A full day of making together, 10:30–18:00, closing the Co-Creating Culture programme curated by Roseline de Thélin. Booking required: WhatsApp Bex on +34 638 497 901.",
    "price": "Booking required",
    "url": "https://wa.me/34638497901",
-   "local": true
-  },
-  {
-   "date": "2026-11-28",
-   "time": "18:30",
-   "title": "Christmas lights switch-on & Vara de Rey market opens",
-   "venue": "Vara de Rey & Parc Reina Sofía",
-   "town": "Ibiza Town",
-   "cat": "island",
-   "desc": "Ibiza Town turns on the lights with a videomapping show, dancers and acrobats, and the Christmas market on Vara de Rey opens the same night. Market runs daily until 6 January.",
-   "price": "Free",
-   "url": "https://lavozdeibiza.com/?p=10065894",
    "local": true
   },
   {
@@ -911,6 +887,18 @@
    "price": "Free",
    "url": "https://lavozdeibiza.com/event/sant-antoni-enciende-la-navidad/2025-12-25/",
    "tbc": true
+  },
+  {
+   "date": "2026-11-28",
+   "time": "18:30",
+   "title": "Christmas lights switch-on & Vara de Rey market opens",
+   "venue": "Vara de Rey & Parc Reina Sofía",
+   "town": "Ibiza Town",
+   "cat": "island",
+   "desc": "Ibiza Town turns on the lights with a videomapping show, dancers and acrobats, and the Christmas market on Vara de Rey opens the same night. Market runs daily until 6 January.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/?p=10065894",
+   "local": true
   },
   {
    "date": "2026-12-03",
@@ -1000,6 +988,18 @@
   },
   {
    "date": "2026-12-08",
+   "time": "10:00",
+   "title": "Mini Marató Memorial John Tunks",
+   "venue": "Sant Francesc → Sant Ferran",
+   "town": "Formentera",
+   "cat": "sport",
+   "desc": "12 km run or skate plus a 2.8 km kids' race on Constitution Day, with a free shuttle from La Savina. Date follows last year's pattern.",
+   "price": "About €15, under-18s free",
+   "url": "https://www.noudiari.es/deportes-ibiza/torna-la-minimarato-memorial-john-tunks-a-formentera",
+   "tbc": true
+  },
+  {
+   "date": "2026-12-08",
    "time": "11:30",
    "title": "Christmas morning in Jesús: parade, blessing of the Belén, ball pagès",
    "venue": "Plaça de l'Església, Jesús",
@@ -1012,15 +1012,15 @@
    "tbc": true
   },
   {
-   "date": "2026-12-08",
+   "date": "2026-12-12",
    "time": "10:00",
-   "title": "Mini Marató Memorial John Tunks",
-   "venue": "Sant Francesc → Sant Ferran",
-   "town": "Formentera",
-   "cat": "sport",
-   "desc": "12 km run or skate plus a 2.8 km kids' race on Constitution Day, with a free shuttle from La Savina. Date follows last year's pattern.",
-   "price": "About €15, under-18s free",
-   "url": "https://www.noudiari.es/deportes-ibiza/torna-la-minimarato-memorial-john-tunks-a-formentera",
+   "title": "Christmas skating rink opens in Sant Josep",
+   "venue": "Carrer de l'Ajuntament",
+   "town": "Sant Josep",
+   "cat": "kids",
+   "desc": "A synthetic ice rink in the village centre, open daily from midday through the holidays. Date follows last year's pattern.",
+   "price": "Small fee",
+   "url": "https://lavozdeibiza.com/actualidad/sant-josep-abre-la-temporada-navidena-con-un-programa-destacado-y-casi-100-actividades-por-descubrir/",
    "tbc": true
   },
   {
@@ -1050,15 +1050,29 @@
    "tbc": true
   },
   {
-   "date": "2026-12-12",
+   "date": "2026-12-19",
    "time": "10:00",
-   "title": "Christmas skating rink opens in Sant Josep",
-   "venue": "Carrer de l'Ajuntament",
+   "title": "Make-your-own hierbas walk",
+   "venue": "Sant Joan countryside",
+   "town": "Sant Joan",
+   "cat": "workshops",
+   "desc": "A countryside walk with Walking Ibiza to gather the plants, then a workshop to make your own bottle of the island's liqueur. Date follows last year's pattern.",
+   "price": "Ticketed",
+   "url": "https://www.ibiza-spotlight.com/magazine/2024/11/things-do-month-on-ibiza-december-2024",
+   "local": true,
+   "tbc": true
+  },
+  {
+   "date": "2026-12-19",
+   "time": "12:00",
+   "title": "Fira de sa Sobrassada",
+   "venue": "Sant Josep village",
    "town": "Sant Josep",
-   "cat": "kids",
-   "desc": "A synthetic ice rink in the village centre, open daily from midday through the holidays. Date follows last year's pattern.",
-   "price": "Small fee",
+   "cat": "island",
+   "desc": "Sobrassada fair with workshops, frita tasting, tapas and live music; repeats in the Sant Jordi tent the following Saturday. Date follows last year's pattern.",
+   "price": "Free",
    "url": "https://lavozdeibiza.com/actualidad/sant-josep-abre-la-temporada-navidena-con-un-programa-destacado-y-casi-100-actividades-por-descubrir/",
+   "local": true,
    "tbc": true
   },
   {
@@ -1075,19 +1089,6 @@
    "tbc": true
   },
   {
-   "date": "2026-12-19",
-   "time": "10:00",
-   "title": "Make-your-own hierbas walk",
-   "venue": "Sant Joan countryside",
-   "town": "Sant Joan",
-   "cat": "workshops",
-   "desc": "A countryside walk with Walking Ibiza to gather the plants, then a workshop to make your own bottle of the island's liqueur. Date follows last year's pattern.",
-   "price": "Ticketed",
-   "url": "https://www.ibiza-spotlight.com/magazine/2024/11/things-do-month-on-ibiza-december-2024",
-   "local": true,
-   "tbc": true
-  },
-  {
    "date": "2026-12-20",
    "time": "10:00",
    "title": "Cursa Popular de sa Salsa",
@@ -1098,19 +1099,6 @@
    "price": "Free / donation",
    "url": "https://ibiza-spotlight.com/event/cursa-de-sa-salsa-san-jose",
    "local": true
-  },
-  {
-   "date": "2026-12-19",
-   "time": "12:00",
-   "title": "Fira de sa Sobrassada",
-   "venue": "Sant Josep village",
-   "town": "Sant Josep",
-   "cat": "island",
-   "desc": "Sobrassada fair with workshops, frita tasting, tapas and live music; repeats in the Sant Jordi tent the following Saturday. Date follows last year's pattern.",
-   "price": "Free",
-   "url": "https://lavozdeibiza.com/actualidad/sant-josep-abre-la-temporada-navidena-con-un-programa-destacado-y-casi-100-actividades-por-descubrir/",
-   "local": true,
-   "tbc": true
   },
   {
    "date": "2026-12-20",
@@ -1175,6 +1163,18 @@
   },
   {
    "date": "2026-12-26",
+   "time": "10:30",
+   "title": "Diverespai — the Christmas fair for kids",
+   "venue": "Recinto Ferial",
+   "town": "Ibiza Town",
+   "cat": "kids",
+   "desc": "Five thousand square metres of inflatables, workshops and a baby corner for 0–12, plus VR, escape room and consoles for teens; 26 December to 3 January, mornings and afternoons. Dates follow last year's pattern.",
+   "price": "€2 per child per day, €10 pass; adults free",
+   "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2025/12/16/2532785/diverespai-vuelve-recinto-ferial-ibiza-dos-espacios-diferenciados-por-edades.html",
+   "tbc": true
+  },
+  {
+   "date": "2026-12-26",
    "time": "17:00",
    "title": "Concurs de Salsa de Nadal — the Christmas sauce contest",
    "venue": "Vara de Rey tent",
@@ -1187,28 +1187,15 @@
    "tbc": true
   },
   {
-   "date": "2026-12-26",
-   "time": "10:30",
-   "title": "Diverespai — the Christmas fair for kids",
-   "venue": "Recinto Ferial",
-   "town": "Ibiza Town",
-   "cat": "kids",
-   "desc": "Five thousand square metres of inflatables, workshops and a baby corner for 0–12, plus VR, escape room and consoles for teens; 26 December to 3 January, mornings and afternoons. Dates follow last year's pattern.",
-   "price": "€2 per child per day, €10 pass; adults free",
-   "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2025/12/16/2532785/diverespai-vuelve-recinto-ferial-ibiza-dos-espacios-diferenciados-por-edades.html",
-   "tbc": true
-  },
-  {
    "date": "2026-12-31",
-   "time": "16:30",
-   "title": "Pujada a la Catedral — the New Year's Eve run",
-   "venue": "Port → Cathedral, Dalt Vila",
-   "town": "Ibiza Town",
-   "cat": "sport",
-   "desc": "Ibiza's Sant Silvestre: 2.4 km uphill through the old town, costume category, trophies and a Christmas-hamper raffle at Plaça des Martell at 18:00. Register on Elitechip by 29 December; postponed if it pours.",
-   "price": "Free",
-   "url": "https://lavozdeibiza.com/sin-categorizar/the-pujada-a-la-catedral-de-ibiza-returns-on-new-years-eve-registrations-open-until-december-29th/",
-   "local": true
+   "time": "00:30",
+   "title": "Akasha New Year's Eve at Las Dalias",
+   "venue": "Akasha, Las Dalias",
+   "town": "North Ibiza",
+   "cat": "music",
+   "desc": "Oriol Calvo, DJ Ino and Seb Vedra from half past midnight; PaloSanto does a New Year's dinner with club access.",
+   "price": "Ticketed, cheaper online",
+   "url": "https://www.ibiza-spotlight.com/night/promoters/akasha-new-years-eve"
   },
   {
    "date": "2026-12-31",
@@ -1225,6 +1212,18 @@
   },
   {
    "date": "2026-12-31",
+   "time": "16:30",
+   "title": "Pujada a la Catedral — the New Year's Eve run",
+   "venue": "Port → Cathedral, Dalt Vila",
+   "town": "Ibiza Town",
+   "cat": "sport",
+   "desc": "Ibiza's Sant Silvestre: 2.4 km uphill through the old town, costume category, trophies and a Christmas-hamper raffle at Plaça des Martell at 18:00. Register on Elitechip by 29 December; postponed if it pours.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/sin-categorizar/the-pujada-a-la-catedral-de-ibiza-returns-on-new-years-eve-registrations-open-until-december-29th/",
+   "local": true
+  },
+  {
+   "date": "2026-12-31",
    "time": "22:00",
    "title": "Nochevieja on Vara de Rey with La Movida",
    "venue": "Vara de Rey tent",
@@ -1235,17 +1234,6 @@
    "url": "https://welcometoibiza.com/agenda-ibiza/fiestas/fiesta-de-nochevieja-con-la-movida/",
    "local": true,
    "tbc": true
-  },
-  {
-   "date": "2026-12-31",
-   "time": "00:30",
-   "title": "Akasha New Year's Eve at Las Dalias",
-   "venue": "Akasha, Las Dalias",
-   "town": "North Ibiza",
-   "cat": "music",
-   "desc": "Oriol Calvo, DJ Ino and Seb Vedra from half past midnight; PaloSanto does a New Year's dinner with club access.",
-   "price": "Ticketed, cheaper online",
-   "url": "https://www.ibiza-spotlight.com/night/promoters/akasha-new-years-eve"
   },
   {
    "date": "2027-01-01",
@@ -1294,20 +1282,6 @@
    "desc": "Welcomed at the port, a visit to the church, then two laps of the seafront. The villages follow: Santa Agnès 18:00, Sant Mateu 19:00, Sant Rafel 20:00, Buscastell 21:00.",
    "price": "Free",
    "url": "https://www.noudiari.es/noticias-ibiza-formentera-sidebar/los-reyes-magos-ya-tienen-la-agenda-de-visitas-a-sant-antoni",
-   "local": true
-  },
-  {
-   "date": "2026-10-29",
-   "time": "16:30",
-   "title": "Kids dance — trial class with Dance with Kimberley",
-   "venue": "Ibiza Yoga Point",
-   "town": "Santa Eulària",
-   "cat": "kids",
-   "desc": "Groovy, feel-good dance for 4–11-year-olds to the pop songs they already know, taught by Kimberley — Utrecht dance academy, Studio 100 and dance schools in London and the Netherlands. Groups are small on purpose (4–8 kids). Trial class €25; book and pay in advance by bank transfer or Bizum, no drop-ins — DM her on Instagram today.",
-   "price": "€25 per child · trial",
-   "url": "https://www.instagram.com/dancewithkimberley/",
-   "img": "/img/listings/dance-with-kimberley.jpg",
-   "credit": "Dance with Kimberley",
    "local": true
   }
  ],
@@ -1645,6 +1619,17 @@
   }
  ],
  "upcoming": [
+  {
+   "when": "Postponed · new date to be announced",
+   "title": "X Fira des Calamar, Sant Carles",
+   "venue": "Sant Carles village",
+   "town": "Sant Carles",
+   "cat": "island",
+   "local": true,
+   "desc": "The squid fair of the Sant Carles fiestas (30–31 Oct) was postponed in the national mourning for the Urda rail disaster. Santa Eulària council will announce the new date; we'll put it straight in the agenda.",
+   "price": "Free",
+   "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/la-fira-des-calamar-de-sant-carles-se-aplaza-por-el-luto-nacional/"
+  },
   {
    "when": "November · date to confirm",
    "title": "Learn to shuck oysters — with The Oyster Nomad",
