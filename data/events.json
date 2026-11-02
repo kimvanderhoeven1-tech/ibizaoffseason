@@ -675,6 +675,21 @@
   },
   {
    "date": "2026-11-04",
+   "time": "",
+   "title": "Herb-foraging & cosmetic workshop with Isabel Dumas",
+   "venue": "Botanical Soulmates Lab",
+   "town": "Sant Rafel",
+   "cat": "workshops",
+   "local": true,
+   "tbc": true,
+   "desc": "A half-day with skin specialist and cosmetic formulator Isabel Dumas: a walk around her lab in Sant Rafel to gather wild Ibicencan herbs, then in the lab learn what their bioactive compounds do for skin and body and make your own cosmetic product to take home, with your plants and a notebook of Isa's notes. About 3 hours; add a vegetarian lunch for €15 more. Small group. Start time on booking.",
+   "price": "€65 · €80 incl. lunch",
+   "url": "mailto:isa@ibizasoftensage.com?subject=Herb%20workshop%202026-11-04%20(via%20Ibiza%20Offseason)",
+   "img": "/img/listings/botanical-soulmates-lab.jpg",
+   "credit": "Isabel Dumas"
+  },
+  {
+   "date": "2026-11-04",
    "time": "12:00",
    "title": "Festes de Sant Carles — patron saint's day",
    "venue": "Sant Carles de Peralta",
@@ -832,6 +847,21 @@
    "local": true,
    "img": "/img/listings/higo-stamppot.jpg",
    "credit": "Higo"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "",
+   "title": "Herb-foraging & cosmetic workshop with Isabel Dumas",
+   "venue": "Botanical Soulmates Lab",
+   "town": "Sant Rafel",
+   "cat": "workshops",
+   "local": true,
+   "tbc": true,
+   "desc": "A half-day with skin specialist and cosmetic formulator Isabel Dumas: a walk around her lab in Sant Rafel to gather wild Ibicencan herbs, then in the lab learn what their bioactive compounds do for skin and body and make your own cosmetic product to take home, with your plants and a notebook of Isa's notes. About 3 hours; add a vegetarian lunch for €15 more. Small group. Start time on booking.",
+   "price": "€65 · €80 incl. lunch",
+   "url": "mailto:isa@ibizasoftensage.com?subject=Herb%20workshop%202026-11-11%20(via%20Ibiza%20Offseason)",
+   "img": "/img/listings/botanical-soulmates-lab.jpg",
+   "credit": "Isabel Dumas"
   },
   {
    "time": "14:00",
@@ -1845,6 +1875,19 @@
    "url": "https://canmimosaibiza.com",
    "img": "/img/listings/can-mimosa-roast.jpg",
    "credit": "Can Mimosa"
+  },
+  {
+   "when": "Year-round except Jul–Aug · dates on request",
+   "title": "Herb-foraging & cosmetic workshop — Botanical Soulmates Lab",
+   "venue": "Botanical Soulmates Lab",
+   "town": "Sant Rafel",
+   "cat": "workshops",
+   "local": true,
+   "desc": "Isabel Dumas's half-day: forage wild Ibicencan herbs around her Sant Rafel lab, learn what they do for skin and body, make your own cosmetic product to take home. About 3 hours, €65, or €80 with vegetarian lunch. Groups, retreats and friends' days welcome.",
+   "price": "€65 · €80 incl. lunch",
+   "url": "https://www.botanicalsoulmatescosmetics.com/products/cosmetic-formulating-ibicencan-medical-herbs-workshop-half-day",
+   "img": "/img/listings/botanical-soulmates-lab.jpg",
+   "credit": "Isabel Dumas"
   }
  ],
  "upcoming": [
