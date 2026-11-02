@@ -830,11 +830,13 @@
   "village": "Santa Eulària des Riu",
   "area": "East",
   "tags": [
-   "Eat"
+   "Eat",
+   "Local"
   ],
-  "open": "Open in winter · dinner, book ahead",
-  "desc": "Nikkei on the Santa Eulària side streets (Carrer de Sant Joan 38): Peruvian–Japanese cooking from a robata grill, organic produce, microgreens grown in-house and a proper vegetarian half of the menu — the smoked-yoghurt aubergine from the grill is the dish people come back for. Tuna rolls, skewers, fish of the day, steaks you finish on the grill yourself, a children's menu. The dinner in Santa Eulària when you want something other than the seafront.",
-  "url": "https://www.restauranthigo.com"
+  "open": "Open all winter · dinner from 18:00, book ahead · Monday stamppot nights, Friday steak night",
+  "desc": "MediterrAsian BBQ in the heart of Santa Eulària: Mediterranean and Asian flavours, table barbecues on charcoal and good cocktails, with the kitchen led by chef Ed Hoogendijk. In winter it doubles as the island's Dutch living room — seasonal stamppot every Monday from 18:00 (also to take away), steak night every Friday, disco bingo, a Sinterklaas treasure hunt, Christmas à la carte dinners on 24–26 December and a dinner quiz in January. Closed 29 Dec – 1 Jan.",
+  "url": "https://www.restauranthigo.com",
+  "book": "https://higo.resos.com/booking"
  },
  {
   "id": "can-garage",
