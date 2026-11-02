@@ -669,7 +669,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week endive stamppot with a Dutch meatball. Crisp endive mashed through the potato, a juicy meatball with a well of gravy. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-11-04",
@@ -825,7 +827,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week kale mash with fresh sausage. Boerenkool with a fresh sausage. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "time": "14:00",
@@ -899,7 +903,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week boerenkool stamppot with smoked sausage. The classic: kale mash and rookworst. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-11-21",
@@ -948,7 +954,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week Dutch hutspot with pork steak. Mashed potato, carrot and onion with a pork steak. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-11-27",
@@ -984,7 +992,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week Ibiza-style lettuce mash with a Dutch meatball. Stamppot made with island greens, meatball and gravy. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-12-03",
@@ -1082,7 +1092,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week spinach stamppot with braised beef. Spinach mash with slow-braised beef. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-12-08",
@@ -1157,7 +1169,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week red cabbage stamppot with fresh sausage. Red cabbage mash with a fresh sausage. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-12-19",
@@ -1233,7 +1247,9 @@
    "desc": "Higo's Dutch winter Monday: a different day-fresh seasonal stamppot each week, from 18:00. This week Brussels sprouts stamppot with roasted bacon bits. Sprout mash with crisp bacon — the last stamppot before Christmas. Also to take away; the regular MediterrAsian BBQ menu is on too. Book ahead.",
    "price": "Stamppot of the week · also takeaway · book",
    "url": "https://higo.resos.com/booking",
-   "local": true
+   "local": true,
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-12-21",
@@ -1482,7 +1498,9 @@
    "local": true,
    "desc": "Every Monday a different day-fresh seasonal stamppot — endive, kale, hutspot, red cabbage, sprouts — with meatball, sausage or braised beef, at the MediterrAsian BBQ restaurant in the heart of Santa Eulària. Also to take away; regular menu available. Book ahead.",
    "price": "Stamppot of the week · also takeaway",
-   "url": "https://higo.resos.com/booking"
+   "url": "https://higo.resos.com/booking",
+   "img": "/img/listings/higo-stamppot.jpg",
+   "credit": "Higo"
   },
   {
    "when": "Fridays · dinner",

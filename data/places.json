@@ -836,7 +836,9 @@
   "open": "Open all winter · dinner from 18:00, book ahead · Monday stamppot nights, Friday steak night",
   "desc": "MediterrAsian BBQ in the heart of Santa Eulària: Mediterranean and Asian flavours, table barbecues on charcoal and good cocktails, with the kitchen led by chef Ed Hoogendijk. In winter it doubles as the island's Dutch living room — seasonal stamppot every Monday from 18:00 (also to take away), steak night every Friday, disco bingo, a Sinterklaas treasure hunt, Christmas à la carte dinners on 24–26 December and a dinner quiz in January. Closed 29 Dec – 1 Jan.",
   "url": "https://www.restauranthigo.com",
-  "book": "https://higo.resos.com/booking"
+  "book": "https://higo.resos.com/booking",
+  "img": "/img/listings/higo-stamppot.jpg",
+  "credit": "Higo"
  },
  {
   "id": "can-garage",
