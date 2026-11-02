@@ -12,7 +12,8 @@
   ],
   "open": "Open until 15 Nov · reopens end of February",
   "desc": "Rural hotel in a 17th-century finca on the Pla de Corona, with a spa, sauna, hot tub, restaurant and live concerts. Closes mid-November and reopens at the end of February, just as the almond blossom fades — the Santa Agnès address for a late-winter weekend.",
-  "url": "https://www.escucons.com"
+  "url": "https://www.escucons.com",
+  "ig": "escucons_ibiza"
  },
  {
   "id": "puertas-del-cielo",
@@ -26,7 +27,9 @@
   ],
   "open": "Open until 15 Nov · reopens end of February",
   "desc": "Clifftop bar-restaurant above the north-west coast, named for the 'gates of heaven' view. One of the island's great sunset spots and the natural end to the Ses Balandres walk. Closes 15 November, back at the end of February.",
-  "url": "https://www.laspuertasdelcielo.es"
+  "url": "https://www.laspuertasdelcielo.es",
+  "ig": "laspuertasdelcieloibiza",
+  "ig_check": true
  },
  {
   "id": "can-cosmi",
@@ -42,7 +45,8 @@
   "open": "Winter hours 10–17 & 19–23 · Tuesdays closed",
   "desc": "The village bar-restaurant opposite the church: the island's most talked-about tortilla, lamb chops, rustic salads and a terrace in the sun. Salsa nights in winter — ask at the bar for the next one.",
   "url": "https://www.instagram.com/cancosmi/",
-  "now": "Live music at dinner some nights — blues, a guitar, whoever's on the island — 20:00–22:00, announced the same day on @cancosmi. Salsa nights too; ask at the bar."
+  "now": "Live music at dinner some nights — blues, a guitar, whoever's on the island — 20:00–22:00, announced the same day on @cancosmi. Salsa nights too; ask at the bar.",
+  "ig": "cancosmi"
  },
  {
   "id": "sa-palmera",
@@ -70,7 +74,8 @@
   "open": "Open all year",
   "desc": "Country restaurant on the square in Es Pla de Sant Mateu: homemade island cooking, grilled meats and fish, a riot of colour inside, art on every wall and live concerts. Lunch in the winter sun after a walk through the Albarca vineyards. Open all year — book on WhatsApp.",
   "url": "https://sescasetesartcafe.com",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list.",
+  "ig": "sescasetessantmateu"
  },
  {
   "id": "juntos-house",
@@ -84,7 +89,8 @@
   ],
   "open": "Check winter days",
   "desc": "Farmhouse restaurant, shop and clubhouse: organic plates from their own land, natural wines and cocktails, plus The Pergola for walk-in drinks and tapas. Open through the holidays last winter — check their Instagram for current days.",
-  "url": "https://white-ibiza.com/restaurants/juntos-house/"
+  "url": "https://white-ibiza.com/restaurants/juntos-house/",
+  "ig": "juntos.house"
  },
  {
   "id": "forada",
@@ -98,7 +104,8 @@
   ],
   "open": "Every Saturday 10–15, all year",
   "desc": "The island's most local Saturday market, in the field by Can Tixedó Art Café: farm fruit and veg, homemade food, crafts, a book swap, kids' zone, vegan paella at 13:00 and the odd live set. Coffee and lunch at Tixedó afterwards.",
-  "url": "https://www.ibiza-spotlight.com/event/market-forada"
+  "url": "https://www.ibiza-spotlight.com/event/market-forada",
+  "ig": "mercatdeforada"
  },
  {
   "id": "can-suldat",
@@ -111,7 +118,8 @@
   ],
   "open": "All winter · closed Mondays",
   "desc": "Swiss-Ibizan finca restaurant under a vine-roofed courtyard: cheese fondue, steak, goulash and 'Peter's famous salad', with live music through the winter. Go early evening to catch the music with the locals, and book a table.",
-  "url": "https://wanderlog.com/place/details/2700105/la-finca-can-suldat"
+  "url": "https://wanderlog.com/place/details/2700105/la-finca-can-suldat",
+  "ig": "lafincacansuldat"
  },
  {
   "id": "es-pins-cala-pada",
@@ -141,7 +149,8 @@
   ],
   "open": "Open in winter · check days",
   "desc": "An old finca among orange and lemon trees, with lunch in the flowering garden and dinners by lantern light: Italian-meets-Middle-Eastern plates, homemade bread, organic salads and a good bottle. Hours shift with the season — check their Instagram before you drive out.",
-  "url": "https://www.lapalomaibiza.com"
+  "url": "https://www.lapalomaibiza.com",
+  "ig": "lapalomaibiza"
  },
  {
   "id": "bar-costa",
@@ -156,7 +165,8 @@
   ],
   "open": "Open all year except March · closed Tuesdays",
   "desc": "The village institution on the square, hams hanging from the ceiling and paintings left by artists who paid in canvases. Bocadillos, tostadas and a cortado at the bar — the place the whole island passes through on a winter Sunday.",
-  "url": "https://www.ibiza-spotlight.com/restaurants/bar-costa"
+  "url": "https://www.ibiza-spotlight.com/restaurants/bar-costa",
+  "ig": "barcosta_ibiza"
  },
  {
   "id": "bar-anita",
@@ -185,7 +195,8 @@
   ],
   "open": "Open in winter · calçotades Feb–Mar",
   "desc": "Tiny bar on the prettiest village square in the west, under the church. Known in winter for its calçotades on Sundays in February and March: charred spring onions, romesco, grilled meat and plenty of wine.",
-  "url": "https://www.ibiza-spotlight.com/restaurants/bar-can-berri"
+  "url": "https://www.ibiza-spotlight.com/restaurants/bar-can-berri",
+  "ig": "barcanberri"
  },
  {
   "id": "sa-carboneria",
@@ -199,7 +210,8 @@
   ],
   "open": "Open all winter · closed Tuesdays",
   "desc": "Steakhouse and garden just behind the town hall: aged meats over charcoal, a warm dining room for the cold nights, a small garden for the sunny lunches. Winter weekends bring the Hunger BBQ, and Sa Carbo Bar has live music October to March — this is where The Oyster Nomad set up in October.",
-  "url": "https://welcometoibiza.com/restaurantes/sa-carboneria/"
+  "url": "https://welcometoibiza.com/restaurantes/sa-carboneria/",
+  "ig": "sacarboneriaibiza"
  },
  {
   "id": "oyster-nomad",
@@ -213,7 +225,8 @@
   ],
   "open": "All winter · delivers and pops up",
   "desc": "A travelling oysterman — top hat, shucking knives, Umami oysters and AIX rosé — who delivers to villas and restaurants across the island all winter and shows up for pop-up nights. Shuck the world. No bar, no terrace: he comes to you.",
-  "url": "https://oystersyasha.com"
+  "url": "https://oystersyasha.com",
+  "ig": "oystersyasha"
  },
  {
   "id": "olas-gallery",
@@ -240,7 +253,8 @@
   "open": "Tue–Sat · Mon eve",
   "desc": "The Madrid gallery's island outpost in an industrial space on the village paseo: conceptual and minimal art, site-specific projects, the kind of show you'd expect in Chelsea, with a coffee at Bar Costa afterwards. Tue–Sat 11–14 & 16:30–20:30, Mondays 17–21.",
   "url": "https://www.parra-romero.com",
-  "now": "Landon Metz — the Arizona painter's first solo show in Spain, opened late September."
+  "now": "Landon Metz — the Arizona painter's first solo show in Spain, opened late September.",
+  "ig": "parraromero"
  },
  {
   "id": "mace",
@@ -301,7 +315,8 @@
   ],
   "open": "Wed–Sun",
   "desc": "Sant Josep's cultural centre: exhibitions downstairs, and through the winter a programme of film, poetry, concerts and theatre that the village actually turns up for. Wed–Sun 10:30–13:30, plus Thu–Sat 18–21.",
-  "url": "https://www.santjosep.org"
+  "url": "https://www.santjosep.org",
+  "ig": "canjeroni_cultura"
  },
  {
   "id": "sa-punta-des-moli",
@@ -327,7 +342,8 @@
   ],
   "open": "All winter · dinners twice a month",
   "desc": "Barbara and Etienne's antique and interiors shop on the Santa Eulària road — French flea-market furniture, pieces from Asia and India, outdoor kitchens — with an open kitchen at the back. Barbara cooks there: long-table dinners for 20 to 40 a couple of weekends a month, and cooking workshops (Spanish, Italian, French) for groups. Follow @the_cooks_atelier_ibiza for the next date, or book the whole space for your own night. Carretera Santa Eulària 380.",
-  "url": "https://www.instagram.com/the_cooks_atelier_ibiza/"
+  "url": "https://www.instagram.com/the_cooks_atelier_ibiza/",
+  "ig": "the_cooks_atelier_ibiza"
  },
  {
   "id": "chez-bibi",
@@ -342,7 +358,8 @@
   ],
   "open": "Open all year · daily 8:30–20:00",
   "desc": "Café-restaurant with its own little bakery at the top of the village: Parisian croissants and cinnamon rolls, sourdough, poke and big salads, cakes that change daily. Laptops are welcome — on a grey winter morning half the terrace is working, the other half is on its second coffee. Dog-friendly, card accepted, book for lunch at weekends.",
-  "url": "https://www.instagram.com/chez_bibi_von_bakery_ibiza/"
+  "url": "https://www.instagram.com/chez_bibi_von_bakery_ibiza/",
+  "ig": "chez_bibi_von_bakery_ibiza"
  },
  {
   "id": "es-vermell",
@@ -356,7 +373,8 @@
   ],
   "open": "All year · mornings",
   "desc": "The town's own breakfast bar: loud, fast, cheap, full of people who work round the corner. Tostada, café con leche, done.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "esvermellcafe"
  },
  {
   "id": "es-tap-nou",
@@ -370,7 +388,8 @@
   ],
   "open": "All year · mornings",
   "desc": "Juices pressed in front of you and a ham tostada on the open terrace in the shopping streets — the breakfast before the Saturday errands.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "estapnou"
  },
  {
   "id": "croissant-show",
@@ -383,7 +402,8 @@
   ],
   "open": "All year · from early",
   "desc": "Since the 1980s: croissants with serrano at the tables under the walls, the whole port walking past. Winter sun hits the terrace mid-morning.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "croissantshow"
  },
  {
   "id": "bar-can-toni",
@@ -439,7 +459,8 @@
   ],
   "open": "All year",
   "desc": "A patio behind the main street with a Mexican-leaning breakfast and Spanish standards, good prices, and live music nights through the winter.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "racoverdibiza"
  },
  {
   "id": "la-guay",
@@ -453,7 +474,8 @@
   ],
   "open": "All year · mornings",
   "desc": "Churros made fresh, strong coffee, the regulars at the bar. Sant Antoni's local breakfast.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "laguayibiza"
  },
  {
   "id": "can-guillem",
@@ -480,7 +502,8 @@
   ],
   "open": "All year · opens very early",
   "desc": "Open before anyone else on the bay: tostadas, tortilla, coffee and juice for the dawn-walk crowd.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "coolcafeibiza"
  },
  {
   "id": "hostal-talamanca",
@@ -494,7 +517,9 @@
   ],
   "open": "All year",
   "desc": "Faces east, so breakfast here is in the sun from the first light. Tostada with sobrassada and two cheeses, feet almost in the sand.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "hostaltalamanca",
+  "ig_check": true
  },
  {
   "id": "massa-coffee",
@@ -508,7 +533,8 @@
   ],
   "open": "All year",
   "desc": "Specialist coffee done properly, pastries and a few savoury plates, on the walk from the port to Talamanca.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "massa_coffee"
  },
  {
   "id": "forn-can-bufi",
@@ -522,7 +548,9 @@
   ],
   "open": "All year · from early",
   "desc": "The island's bakery: ensaimadas, magdalenas, flaó, orelletes and real bread. Buy the breakfast and take it to the beach.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way"
+  "url": "https://www.ibiza-spotlight.com/magazine/2026/10/start-day-ibizan-way",
+  "ig": "forncanbufi",
+  "ig_check": true
  },
  {
   "id": "pou-des-lleo",
@@ -535,7 +563,8 @@
   ],
   "open": "Open all year except December · lunch 13:00–16:30, dinner 19:30–22:30",
   "desc": "The fishermen's cove below Sant Carles, with the old boat huts and a restaurant a few metres from the water. Bullit de peix, arròs a banda with alioli and paella from the wood fire — the kind of place islanders drive to on a Sunday, not the tourist list. Closes only for December.",
-  "url": "https://welcometoibiza.com/restaurantes/restaurante-pou-des-lleo/"
+  "url": "https://welcometoibiza.com/restaurantes/restaurante-pou-des-lleo/",
+  "ig": "restaurante_pou_des_lleo"
  },
  {
   "id": "port-balansat",
@@ -548,7 +577,8 @@
   ],
   "open": "Closed for the winter since 27 Oct · reopens April",
   "desc": "Right on the beach at Port de Sant Miquel and, by island consensus, one of the best fish restaurants on Ibiza — the first to put bullit de peix on a menu. Closed from late October until April; for the same bay in winter, walk along to Can Tothom.",
-  "url": "https://www.ibiza-spotlight.com/magazine/2014/03/review-restaurante-port-balansat"
+  "url": "https://www.ibiza-spotlight.com/magazine/2014/03/review-restaurante-port-balansat",
+  "ig": "portbalansat"
  },
  {
   "id": "can-tothom",
@@ -562,7 +592,8 @@
   ],
   "open": "Open all year · breakfast to dinner",
   "desc": "The one on the beach at Port de Sant Miquel that stays open all winter: Ibizan rice dishes, grilled octopus, fish from the espeto grill, salads and a children's menu, with the bay in front of you and the sun on the terrace until late afternoon. Breakfast to dinner. The stop after the Benirràs–Port de Sant Miquel walk. +34 971 33 41 28.",
-  "url": "https://eatinginibiza.com/en/restaurants-ibiza/san-juan/can-tothom"
+  "url": "https://eatinginibiza.com/en/restaurants-ibiza/san-juan/can-tothom",
+  "ig": "cantothom_ibiza"
  },
  {
   "id": "es-cantonet",
@@ -575,7 +606,9 @@
   ],
   "open": "Open all year · busy at lunch, book",
   "desc": "A proper neighbourhood restaurant a few streets from Dalt Vila where the locals eat: frita de pulpo, ensaladilla rusa, grilled vegetables and paella at prices that still make sense. No sea view, no concept — just home cooking and a full room.",
-  "url": "tel:+34971310350"
+  "url": "tel:+34971310350",
+  "ig": "escantonetcanapujoleta",
+  "ig_check": true
  },
  {
   "id": "can-mimosa",
@@ -622,7 +655,8 @@
   "open": "Open all year · Mon–Thu 10–14 & 17–20, Fri until 23:00, Sat mornings · closed Sunday",
   "desc": "The island's wine shop, with a tasting bar in the middle, a small terrace and a kitchen that does cheeses, jamón and pâtés to go with whatever is open. In winter the owners run tastings, workshops and Friday-night gatherings with special bites — the best-kept Friday on the island. Book a seat at the bar.",
   "url": "https://www.instagram.com/vinoycoibiza/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list.",
+  "ig": "vinoycoibiza"
  },
  {
   "id": "chidas",
@@ -635,7 +669,8 @@
   ],
   "open": "Open all year from 17:00 · closed Sunday",
   "desc": "Modern Mexican taqueria and mezcal bar on a small square in town: tacos, tostadas, a long agave list and a late licence. Where the island's hospitality crowd ends up on a winter night. Watch for their Mezcal Monday collaborations.",
-  "url": "https://www.instagram.com/chidas_bar.cantina/"
+  "url": "https://www.instagram.com/chidas_bar.cantina/",
+  "ig": "chidas_bar.cantina"
  },
  {
   "id": "casa-lhasa",
@@ -650,7 +685,8 @@
   "open": "Open in winter · Mezcal Mondays from 18:00 — check Instagram for the week's hours",
   "desc": "A cosy village eatery in Sant Llorenç with a thing for mezcal: Monday nights are Mezcal Mondays — two-for-one tacos and snacks with Ojo de Isla cocktails, the artisanal mezcal made by an Ibiza-based founder, sometimes with a DJ. The kind of evening that makes a Monday in the north worth it.",
   "url": "https://www.instagram.com/casa.lhasa.ibiza/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list.",
+  "ig": "casa.lhasa.ibiza"
  },
  {
   "id": "casa-club",
@@ -665,7 +701,8 @@
   "open": "Open all year",
   "desc": "Restaurant and bar in the centre of Santa Eulària that keeps its doors open and its music on all winter — dinners, drinks, live sessions and a crowd that lives here. Check their Instagram for this week's programme.",
   "url": "https://www.instagram.com/casaclub.ibiza/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list.",
+  "ig": "casaclub.ibiza"
  },
  {
   "id": "can-rich",
@@ -678,7 +715,8 @@
   ],
   "open": "Winter tours and tastings on weekdays · book ahead",
   "desc": "Organic winery on the Buscastell plain making the island's best-known wines, plus hierbas and olive oil. Guided tours of the vines and cellar end with a tasting — one of the few bodega visits that run right through the winter.",
-  "url": "https://www.bodegascanrich.com"
+  "url": "https://www.bodegascanrich.com",
+  "ig": "bodegascanrich"
  },
  {
   "id": "sa-cova",
@@ -703,7 +741,8 @@
   ],
   "open": "Shop open all year · tastings on request",
   "desc": "Small Sant Mateu bodega between the almond trees — reds, a rosé and a sweet wine sold straight from the finca. Buy a bottle, drink it on the terrace at sunset over the vineyards. In early December the whole valley celebrates the Festa del Vi Pagès with the new wine.",
-  "url": "https://www.bodegascanmaymo.com"
+  "url": "https://www.bodegascanmaymo.com",
+  "ig": "bodegacanmaymo"
  },
  {
   "id": "ibizkus",
@@ -716,7 +755,8 @@
   ],
   "open": "Tours and tastings by appointment all year",
   "desc": "The island's most ambitious winery, on the Santa Eulària side of the island: guided visits of the production and tastings of their rosé and reds that make it onto restaurant lists across Europe. A good rainy-afternoon plan.",
-  "url": "https://www.ibizkus.com"
+  "url": "https://www.ibizkus.com",
+  "ig": "ibizkus"
  },
  {
   "id": "salon-san-miguel",
@@ -731,7 +771,8 @@
   "open": "Open in winter · check Instagram for days and hours",
   "desc": "A real Mexican salón on the hill by the fortified church of Sant Miquel — not tacos-for-tourists but the true thing, rooted in Mexican kitchen culture, with the aromas to match and the village at your feet. One of the most special tables in the north; book.",
   "url": "https://www.instagram.com/salon.san.miguel/",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list.",
+  "ig": "salon.san.miguel"
  },
  {
   "id": "somm-wine-shop",
@@ -746,7 +787,8 @@
   "open": "Open all year · tastings and pop-up dinners on request",
   "desc": "Swedish sommelier Anders Enkvist's shop in Santa Gertrudis, a 'talent scout for wines' since 2017: the island's own bottles, gin, beer, olive oil and hierbas next to serious finds from Italy, France and Austria. A tasting room for up to twenty — book a private tasting or a pop-up dinner for a winter night with friends.",
   "url": "https://www.wineshopibiza.com",
-  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list."
+  "ppp": "Want it done for you? We'll set up your birthday or private table here — chef's menu, music, the guest list.",
+  "ig": "sommibiza"
  },
  {
   "id": "ojo-de-ibiza",
@@ -758,7 +800,8 @@
   ],
   "open": "Tasting room seasonal — 'see you next season'; wines in shops and restaurants all winter",
   "desc": "Dieter Meier's organic winery on twelve hectares of old terraces on the Pla de Sant Mateu, planted in 2015: the island's most polished bottles, made where the almond trees bloom in February. The tasting room by the vines closes for winter, but the wines are on the island's best lists and in SOMM and Vino&Co — drink them while you wait for spring.",
-  "url": "https://www.ojoibiza.com"
+  "url": "https://www.ojoibiza.com",
+  "ig": "ojodeibiza"
  },
  {
   "id": "studio-raffo",
@@ -789,7 +832,8 @@
   "desc": "A small independent outfit in Siesta renting retro-styled electric scramblers — real motorcycles, not scooters, silent and emission-free, up to 150 km on a charge. Golden Hour Ride (€85, 1.5–2 h): a guided loop timed to the best light of the day. Coast & Curves (€160, 3.5–4 h): the coast and the inland roads of the north with lunch and a drink. Day rental €120: morning pick-up, route suggestions, helmet and gloves, evening return. Groups of four at most. A car licence (B) with five years' experience is enough in Spain; any motorcycle licence works too.",
   "url": "https://www.e-rideibiza.com",
   "img": "/img/listings/eride-vedra.jpg",
-  "credit": "ERIDE Ibiza"
+  "credit": "ERIDE Ibiza",
+  "ig": "erideibiza"
  },
  {
   "id": "ibiza-ice-baths",
@@ -806,7 +850,8 @@
   "url": "https://ibizaicebaths.com",
   "book": "https://wa.me/31619335822",
   "img": "/img/listings/ibiza-ice-baths.jpg",
-  "credit": "Ibiza Ice Baths"
+  "credit": "Ibiza Ice Baths",
+  "ig": "ibizaicebaths"
  },
  {
   "id": "ritas-cantina",
@@ -822,7 +867,9 @@
   "desc": "The Sant Antoni institution on the corner by the harbour (Carrer de Madrid 1): breakfasts, crêpes, bocadillos and a long all-day menu that wanders well beyond Spain — the place for the night you don't fancy tapas — a proper tea and coffee list, sangria the traditional way, and a Cuban mural over the banquettes. Open every day of the winter from early till late, still properly affordable and always buzzing — which is why half of Sant Antoni passes through. Terrace in the sun, inside when the wind blows. +34 971 34 33 87.",
   "url": "https://ritasibiza.com",
   "img": "/img/listings/ritas-cantina.jpg",
-  "credit": "Rita's Cantina"
+  "credit": "Rita's Cantina",
+  "ig": "ritascantina",
+  "ig_check": true
  },
  {
   "id": "higo",
@@ -851,7 +898,8 @@
   ],
   "open": "Open until 20 Dec · Wed–Sat 18:00–23:00, Sun 13:00–23:00 non-stop, Sat lunch from November · closed Mon & Tue",
   "desc": "The island's smokehouse, in a converted garage on the Santa Eulària road: ribs and brisket out of the smoker, pulled-pork burgers, tacos people call the best on the island, craft beer, fair prices and a room full of families and regulars — book. Not for vegetarians. Open until 20 December, then a winter break. +34 971 31 92 39.",
-  "url": "https://www.instagram.com/cangarage.ibiza/"
+  "url": "https://www.instagram.com/cangarage.ibiza/",
+  "ig": "cangarage.ibiza"
  },
  {
   "id": "la-chickeria",
@@ -864,7 +912,8 @@
   ],
   "open": "All year · Tue–Sat 17:00–23:00 · Sun: Sunday Roast 13:00–17:00, then 18:00–23:00 · closed Mon",
   "desc": "The rotisserie in Santa Gertrudis (Venda de Can Llàtzer 19): organic chicken marinated in thirty-odd herbs and spices and turned over the fire, whole or half, plus chicken burgers, satay and a few vegetarian plates — eat in or take away. From this autumn Sundays are a proper British roast with Wild Health, 13:00–17:00, with a DJ and Bloody Marys. WhatsApp +34 654 04 18 00.",
-  "url": "https://www.instagram.com/lachickeriaibiza/"
+  "url": "https://www.instagram.com/lachickeriaibiza/",
+  "ig": "lachickeriaibiza"
  },
  {
   "id": "amigos-cala-llonga",
@@ -877,7 +926,9 @@
   ],
   "open": "All year · Tue–Sun 12:00–16:00 & 19:00–23:00 · closed Mon",
   "desc": "The friendly bar-restaurant on the Cala Llonga road (number 55) under new owners this winter: a terrace that holds the sun all day, and when the wind turns, a fireplace inside with room for everyone. The kind of place you settle into — a long lunch, a board game, a drink that becomes dinner. Around €25 a head. WhatsApp +34 619 82 34 08.",
-  "url": "https://www.amigosibiza.com/"
+  "url": "https://www.amigosibiza.com/",
+  "ig": "amigos.ibiza",
+  "ig_check": true
  },
  {
   "id": "melbourne-street-coffee",
@@ -891,7 +942,8 @@
   ],
   "open": "Tue–Sat 08:30–13:30 · closed in December",
   "desc": "Ibiza's small piece of Australia, a family café on Carrer de l'Estrella 11 in Sant Antoni: proper flat whites, home-made cakes and the brunch classics, served until they close at half one. Open Tuesday to Saturday mornings, takes December off, back in January.",
-  "url": "https://www.instagram.com/melbourne.street.coffee"
+  "url": "https://www.instagram.com/melbourne.street.coffee",
+  "ig": "melbourne.street.coffee"
  },
  {
   "id": "no24-ibiza",
@@ -919,6 +971,8 @@
   "url": "https://www.botanicalsoulmatescosmetics.com/products/cosmetic-formulating-ibicencan-medical-herbs-workshop-half-day",
   "book": "https://wa.me/34659378665?text=Hi%20Isa%2C%20I%20saw%20your%20workshop%20on%20Ibiza%20Offseason",
   "img": "/img/listings/botanical-soulmates-lab.jpg",
-  "credit": "Isabel Dumas"
+  "credit": "Isabel Dumas",
+  "ig": "botanicalsoulmates_cosmetics",
+  "ig_check": true
  }
 ]
