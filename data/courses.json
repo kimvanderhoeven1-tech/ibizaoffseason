@@ -89,5 +89,21 @@
   "desc": "Ibiza's own language, and the one that turns a nod from the pagès next door into a conversation. The Consell d'Eivissa and the town halls (Sant Josep, Santa Eulària, Sant Antoni, Vila) run free Catalan courses for adults every year, usually two evenings a week, with official certificates. Ask at your ajuntament's Servei de Normalització Lingüística, or at the EOI for the year course.",
   "status": "Autumn editions start October–November — ask at your town hall",
   "url": "https://www.conselldeivissa.es"
+ },
+ {
+  "id": "botanical-soulmates-phytotherapy",
+  "group": "other",
+  "local": true,
+  "name": "Beauty & health phytotherapy course — Botanical Soulmates Lab",
+  "village": "Sant Rafel",
+  "type": "7 lessons × 2 hours · English, Spanish or Dutch",
+  "when": "Mondays 10:00–12:00 · year-round except Jul–Aug · groups of 4+ can pick another day",
+  "price": "€450 incl. materials",
+  "desc": "Isabel Dumas — skin specialist, phytotherapist and cosmetic formulator — teaches ten plants and herbs of Ibiza over seven Monday mornings in her lab in Sant Rafel, for people who live here. You make and take home macerates, tinctures, hydrosols, balms, a facial cream, serum, scrub and mask, a cough syrup and an Ibicencan herbal liqueur. Minimum six people; the next start date follows the group.",
+  "status": "Ask for the next start date — WhatsApp +34 659 378 665",
+  "url": "https://www.botanicalsoulmatescosmetics.com/pages/workshops",
+  "book": "https://wa.me/34659378665?text=Hi%20Isa%2C%20I%27m%20interested%20in%20the%207-week%20phytotherapy%20course%20(via%20Ibiza%20Offseason)",
+  "img": "/img/listings/botanical-soulmates-lab.jpg",
+  "credit": "Isabel Dumas"
  }
 ]
