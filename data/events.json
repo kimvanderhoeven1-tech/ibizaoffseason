@@ -784,7 +784,7 @@
   {
    "date": "2026-11-08",
    "time": "",
-   "title": "Sinterklaas treasure hunt & parade at Higo",
+   "title": "Sinterklaas Uittocht Ibiza — treasure hunt & parade at Higo",
    "venue": "Restaurant Higo",
    "town": "Santa Eulària",
    "cat": "kids",
@@ -792,7 +792,9 @@
    "price": "Info & sign-up: sinterklaasibiza.com",
    "url": "https://www.sinterklaasibiza.com",
    "local": true,
-   "tbc": true
+   "tbc": true,
+   "img": "/img/listings/sinterklaas-uittocht.jpg",
+   "credit": "Sinterklaas Ibiza"
   },
   {
    "date": "2026-11-08",
