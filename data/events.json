@@ -786,6 +786,30 @@
   },
   {
    "date": "2026-11-07",
+   "time": "22:30",
+   "title": "Laundry Room at Pacha Restaurant",
+   "venue": "Pacha Restaurant (Pachacha)",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "desc": "Pacha's winter club night in the restaurant, 22:30–05:00: Angel Linde, Nicolau, Nima Gorji, Stephane and Tizzio b2b Koke. Tickets at the door only; free with a dinner reservation and free entry for Ibiza residents. Avda. 8 de Agosto.",
+   "price": "Free for Ibiza residents · tickets at the door",
+   "url": "https://pacha.com/restaurant",
+   "local": true
+  },
+  {
+   "date": "2026-11-07",
+   "time": "23:00",
+   "title": "Timemachine — vinyl only at Es Birra",
+   "venue": "Es Birra",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "desc": "Vinyl-only night: the Ricardistas — AKA Jay, Donna Sami and 4Pleasure — from 23:00 until late at Es Birra.",
+   "price": "Free",
+   "url": "https://www.instagram.com/timemachineibiza/",
+   "local": true
+  },
+  {
+   "date": "2026-11-07",
    "time": "afternoon",
    "title": "Sant Carles Xtrem — obstacle race",
    "venue": "Las Dalias car park",
@@ -826,13 +850,25 @@
   {
    "date": "2026-11-08",
    "time": "12:00",
-   "title": "Nido at Las Dalias",
+   "title": "Nido — The Sunday Edit at Las Dalias",
    "venue": "Las Dalias garden / Akasha",
    "town": "Sant Carles",
    "cat": "music",
-   "desc": "Sunday garden session, free until 20:00.",
-   "price": "Garden free",
-   "url": "https://www.ibiza-spotlight.com/night/events/2026/11?daterange=02/11/2026-08/11/2026"
+   "desc": "Sunday says hibernate, Nido says wake up. Las Dalias' Sunday all-in-one: from 12:00 in the Garden (free entry) with guest DJs Pomboklap, Cris 44, Ares, Mika Somoza and Shadeh & Sena, then from 20:00 the night moves inside to Akasha — free entry for residents 20:00–21:00. Presale at the door; info lasdalias.es.",
+   "price": "Garden free from 12:00 · Akasha from 20:00, residents free 20–21",
+   "url": "https://www.instagram.com/nidoibiza/"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "20:00",
+   "title": "Anna-B & Ainvar live at Can Cosmi",
+   "venue": "Can Cosmi",
+   "town": "Santa Agnès de Corona",
+   "cat": "music",
+   "desc": "Pop-rock from the 90s and 00s on the village bar's terrace opposite the church — guitars, two voices, beer and good vibes. Food, drinks, art, music. Free.",
+   "price": "Free",
+   "url": "https://www.instagram.com/cancosmi/",
+   "local": true
   },
   {
    "date": "2026-11-09",
@@ -887,6 +923,18 @@
    "date": "2026-11-13",
    "img": "/img/listings/studio-raffo-olives.jpg",
    "credit": "Studiø Raffo"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "19:30",
+   "title": "Pocomucho Winter Party — Part 1 at Paradise Lost",
+   "venue": "Paradise Lost",
+   "town": "Ibiza Town",
+   "cat": "music",
+   "desc": "Kick-off of the Pocomucho winter season, the first of four parties this winter: Ainsley May, BENDMZ, Louis Ryder, M.A.R.J.O.Y.A.S and Kevin B, 19:30–03:00 at Paradise Lost, Carrer del Passadís 14. No VIP, no guestlist — come early, they promise surprises.",
+   "price": "No VIP · no guestlist",
+   "url": "https://www.instagram.com/pocomuchoibiza/",
+   "local": true
   },
   {
    "date": "2026-11-14",

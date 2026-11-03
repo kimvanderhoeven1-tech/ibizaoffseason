@@ -979,5 +979,19 @@
   "credit": "Isabel Dumas",
   "ig": "botanicalsoulmates_cosmetics",
   "ig_check": true
+ },
+ {
+  "id": "can-dj",
+  "name": "Can DJ Ibiza — personal DJ lessons with Ainsley May",
+  "village": "Island-wide",
+  "area": "All",
+  "tags": [
+   "Workshop",
+   "Music"
+  ],
+  "open": "All winter · by appointment",
+  "desc": "Learn to mix, create and play. Ainsley May, resident DJ on the island's winter circuit, gives one-to-one DJ lessons to adults, teens and children — from first beatmatch to your own set. Message her on Instagram for dates and prices.",
+  "url": "https://www.instagram.com/ainsleymayibiza/",
+  "ig": "ainsleymayibiza"
  }
 ]
