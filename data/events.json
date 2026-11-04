@@ -913,6 +913,20 @@
   },
   {
    "date": "2026-11-11",
+   "time": "09:30",
+   "title": "Fit & Breakfast at La Cantina de San Carlos — first session",
+   "venue": "La Cantina de San Carlos",
+   "town": "Sant Carles",
+   "cat": "sport",
+   "desc": "Cynthia van Winden's new Wednesday morning: group workout, then a healthy breakfast together on the terrace of La Cantina in the village (breakfast at your own expense). All levels; every Wednesday from here on. Message Cynthia on WhatsApp to join.",
+   "price": "Ask on WhatsApp",
+   "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
+   "local": true,
+   "img": "/img/listings/cynthia-la-cantina.jpg",
+   "credit": "Cynthia van Winden"
+  },
+  {
+   "date": "2026-11-11",
    "time": "10:00",
    "title": "Wednesday walk: Es Portitxol — the hidden bay",
    "venue": "Ibiza Outdoors · Isla Blanca development, near Sant Miquel",
@@ -1995,16 +2009,16 @@
    "url": "https://ibizaoutdoors.com/calendar/"
   },
   {
-   "when": "Tuesdays 17:30",
-   "title": "Total-body workout at Cala Llenya — Cynthia van Winden",
-   "venue": "Cala Llenya beach",
+   "when": "Wednesdays 09:30 · from 11 Nov",
+   "title": "Fit & Breakfast at La Cantina de San Carlos — Cynthia van Winden",
+   "venue": "La Cantina de San Carlos",
    "town": "Sant Carles",
    "cat": "sport",
-   "desc": "Strength and conditioning circuit on the beach with Dutch personal trainer Cynthia van Winden, all levels, late afternoon as the light goes gold. Message her on WhatsApp to join.",
+   "desc": "New from Wednesday 11 November: a group workout with Dutch personal trainer Cynthia van Winden, then a healthy breakfast together on the terrace of La Cantina in the village (breakfast at your own expense). All levels. Message Cynthia on WhatsApp to join.",
    "price": "Ask on WhatsApp",
    "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
    "local": true,
-   "img": "/img/listings/cynthia-beach-workout.jpg",
+   "img": "/img/listings/cynthia-la-cantina.jpg",
    "credit": "Cynthia van Winden"
   },
   {
