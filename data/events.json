@@ -690,6 +690,18 @@
   },
   {
    "date": "2026-11-04",
+   "time": "10:00",
+   "title": "Wednesday walk: Salt & Earth — Portinatx coast",
+   "venue": "Ibiza Outdoors · Portinatx (abandoned building just before the village)",
+   "town": "Portinatx",
+   "cat": "sport",
+   "desc": "2.5 hours of sea views, beaches and countryside with guide Ankhana: a hippy cave, fishermen's houses, quiet bays, then inland lanes for foraging wild herbs and views over the bay of Xarraca. 5.5 km, medium — rocky paths, a few stretches with drops beside the path.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-salt-earth-10-00-2/",
+   "local": true
+  },
+  {
+   "date": "2026-11-04",
    "time": "12:00",
    "title": "Festes de Sant Carles — patron saint's day",
    "venue": "Sant Carles de Peralta",
@@ -838,13 +850,13 @@
   {
    "date": "2026-11-08",
    "time": "10:00",
-   "title": "Ses Salines lizard walk — fundraiser with Ibiza Outdoors",
-   "venue": "Ses Salines beach, in front of the Sailing Club",
+   "title": "Ses Salines lizard walk — Ibiza & Formentera Preservation fundraiser",
+   "venue": "Ibiza Outdoors · Ses Salines beach, in front of the Sailing Club (far right as you look out to sea)",
    "town": "Ses Salines",
    "cat": "sport",
-   "desc": "A special Sunday walk for Ibiza & Formentera Preservation and its wall-lizard protection projects. Along Salinas beach to the pirate tower, back through the forest behind the beach where the lizards live — the guide shows the snake traps and explains why they matter. 7.5 km, about 3 hours, easy+ and mostly flat. Meet at the far right of the beach as you look out to sea. Register free online (donate on the day) or reserve with a donation; all funds go to the charity.",
-   "price": "Free · donation welcome",
-   "url": "https://ibizaoutdoors.com/calendar/",
+   "desc": "Along Salinas beach to the pirate tower and back through the forest where the Ibiza wall lizards live — the guide shows the snake traps and explains why they matter. 7.5 km, 3 hours, easy+ and mostly flat. Register free online (donate on the day) or reserve with a donation; all funds go to the charity.",
+   "price": "Free · donation for the charity",
+   "url": "https://ibizaoutdoors.com/events/ibizapreservation-walk-protecting-the-ibiza-wall-lizard/",
    "local": true
   },
   {
@@ -910,6 +922,18 @@
    "url": "https://wa.me/34659378665?text=Hi%20Isa%2C%20I%27d%20like%20to%20join%20the%20herb%20workshop%20on%202026-11-11%20(via%20Ibiza%20Offseason)",
    "img": "/img/listings/botanical-soulmates-lab.jpg",
    "credit": "Isabel Dumas"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "10:00",
+   "title": "Wednesday walk: Es Portitxol — the hidden bay",
+   "venue": "Ibiza Outdoors · Isla Blanca development, near Sant Miquel",
+   "town": "Sant Miquel",
+   "cat": "sport",
+   "desc": "One of the island's most remote hikes: old fishermen's paths through olive, fig and carob valleys down to a hidden turquoise bay few ever see — swim if you dare — then the climb back up with views across the Mediterranean. 8 km, 3.5–4 hours, medium-hard. Bring 1.5 l of water and shoes with grip.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-portixol/",
+   "local": true
   },
   {
    "date": "2026-11-12",
@@ -987,6 +1011,18 @@
   },
   {
    "date": "2026-11-15",
+   "time": "10:00",
+   "title": "Fruit-tree walk around Sant Joan — Ibiza & Formentera Preservation fundraiser",
+   "venue": "Ibiza Outdoors · Can Curune car park, Sant Joan road",
+   "town": "Sant Joan",
+   "cat": "sport",
+   "desc": "A countryside walk past traditional farmland and local fruit-tree plantations, learning how they regenerate the landscape and feed the island — and about the charity's Produce programme. 7.5 km, 3 hours, easy+ and mostly flat. Register free (donate on the day) or reserve with a donation.",
+   "price": "Free · donation for the charity",
+   "url": "https://ibizaoutdoors.com/events/ibizapreservation-walk-fruit-trees/",
+   "local": true
+  },
+  {
+   "date": "2026-11-15",
    "time": "20:00",
    "title": "Closing concert of the choir gathering — 50 years of Amics de sa Música",
    "venue": "Església de Santo Domingo (El Convent), Dalt Vila",
@@ -1010,6 +1046,18 @@
    "local": true,
    "img": "/img/listings/higo-stamppot.jpg",
    "credit": "Higo"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "10:00",
+   "title": "Wednesday walk: Xarraca adventure — caves, rock pools & a wild swim",
+   "venue": "Ibiza Outdoors · Cala Xarraca beach",
+   "town": "Cala Xarraca",
+   "cat": "sport",
+   "desc": "Three hours along the wild north-west coast: dramatic wind-shaped rock, a cave with a natural limestone bridge, salt-filled rock pools where you can taste sun-dried sea salt, and wild-swim spots. 10 km, medium — loose stones and a few slightly technical sections.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-xarraca-adventure/",
+   "local": true
   },
   {
    "date": "2026-11-21",
@@ -1038,6 +1086,18 @@
   },
   {
    "date": "2026-11-21",
+   "time": "10:00",
+   "title": "Hierbas-making walk & workshop with Ibiza Outdoors",
+   "venue": "Ibiza Outdoors · Can Curune restaurant, Sant Joan road",
+   "town": "Sant Joan",
+   "cat": "sport",
+   "desc": "A gentle two-hour countryside walk near Sant Joan foraging rosemary, fennel, thyme and the other herbs behind Ibiza's digestif, then an hour at founder Toby's place making your own bottle of Hierbas Ibicencas to take home (it matures in three months — ready for Christmas). 5 km, easy.",
+   "price": "€35 incl. walk, workshop and your bottle",
+   "url": "https://ibizaoutdoors.com/events/hierbas-making-walk-workshop-7/",
+   "local": true
+  },
+  {
+   "date": "2026-11-21",
    "time": "10:30",
    "title": "Collaborative Artistic Lab at Can Cristòfol",
    "venue": "Can Cristòfol, Sant Carles road",
@@ -1046,6 +1106,18 @@
    "desc": "A full day of making together, 10:30–18:00, closing the Co-Creating Culture programme curated by Roseline de Thélin. Booking required: WhatsApp Bex on +34 638 497 901.",
    "price": "Booking required",
    "url": "https://wa.me/34638497901",
+   "local": true
+  },
+  {
+   "date": "2026-11-22",
+   "time": "10:00",
+   "title": "Crystal Coast posidonia walk — Ibiza & Formentera Preservation fundraiser",
+   "venue": "Ibiza Outdoors · Portinatx, on the furthest small beach",
+   "town": "Portinatx",
+   "cat": "sport",
+   "desc": "From the last beach at Portinatx along the Crystal Coast: hidden coves, rock formations and sea views, while learning why the posidonia meadows keep the water clear and what threatens them. 10 km, about 3 hours, medium — loose stones and uneven terrain. Register free (donate on the day) or reserve with a donation.",
+   "price": "Free · donation for the charity",
+   "url": "https://ibizaoutdoors.com/events/ibizapreservation-walk-posedonia/",
    "local": true
   },
   {
@@ -1061,6 +1133,30 @@
    "local": true,
    "img": "/img/listings/higo-stamppot.jpg",
    "credit": "Higo"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "16:15",
+   "title": "Full-moon walk at Cala Martina",
+   "venue": "Ibiza Outdoors · On the beach by the restaurant, Cala Martina",
+   "town": "Es Canar",
+   "cat": "sport",
+   "desc": "The moon rises twenty minutes before the sun sets. A short, easy walk with stops to hear the story of the moon's violent origin and why it matters for life on earth, then watch it rise from the sea. 3 km, 2 hours, easy. Bring a torch; be on time — you have a date with the moon.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/full-moon-walk-3/",
+   "local": true
+  },
+  {
+   "date": "2026-11-25",
+   "time": "10:00",
+   "title": "Wednesday walk: Time & Space — Ibiza Henge, the rave cave and Es Vedrà",
+   "venue": "Ibiza Outdoors · Cala Comte beach, by Sunset Ashram",
+   "town": "Cala Comte",
+   "cat": "sport",
+   "desc": "A west-coast coastal walk to the Time & Space installation — thirteen giant monoliths, Ibiza Henge — past the rave cave and a mysterious set of doors with Es Vedrà views. 6 km, about 2.5 hours, easy+ with uneven coastal stretches and a narrow but safe cliff-top section.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-time-space-2/",
+   "local": true
   },
   {
    "date": "2026-11-27",
@@ -1087,6 +1183,18 @@
    "local": true
   },
   {
+   "date": "2026-11-29",
+   "time": "10:00",
+   "title": "Sunday walk: the Chicken Loop — Can Ramon de sa Serra & Es Vedrà views",
+   "venue": "Ibiza Outdoors · Es Cuco car park, Port des Torrent",
+   "town": "Port des Torrent",
+   "cat": "sport",
+   "desc": "Country caminos, forest and a steady climb to the ruins of Can Ramon de sa Serra and a lookout across the south-west to Es Vedrà, then back down past the free-range farm that gives Es Cuco its chicken fame. 12 km, about 3.5 hours, medium with roughly 300 m of climbing.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/sunday-chicken-loop/",
+   "local": true
+  },
+  {
    "date": "2026-11-30",
    "time": "18:00",
    "title": "Stamppot Monday at Higo — Ibiza-style lettuce mash with a Dutch meatball",
@@ -1099,6 +1207,18 @@
    "local": true,
    "img": "/img/listings/higo-stamppot.jpg",
    "credit": "Higo"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "10:00",
+   "title": "Wednesday walk: Dolphin Lookout above Cala d'Albarca",
+   "venue": "Ibiza Outdoors · Sant Mateu (see map link on the booking page)",
+   "town": "Sant Mateu",
+   "cat": "sport",
+   "desc": "From just outside Sant Mateu past terraced fields into the forest, a scramble over boulders to a viewpoint over Cala d'Albarca where dolphins are sometimes spotted, and a loop back along a quiet camino. 6 km, about 2 hours, easy++.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-dolphin-lookout/",
+   "local": true
   },
   {
    "date": "2026-12-03",
@@ -1175,6 +1295,18 @@
   },
   {
    "date": "2026-12-06",
+   "time": "10:00",
+   "title": "Sunday walk: Punta Galera",
+   "venue": "Ibiza Outdoors · Cala Alto de Porta, near the TRS hotel",
+   "town": "Sant Antoni",
+   "cat": "sport",
+   "desc": "Along the rugged west coast from Cala Alto de Porta past the Cap Blanc aquarium, sandy coves and fishermen's houses to Punta Galera's layered rock terraces and turquoise water. 6 km, 2.5–3 hours, easy+ with rocky, uneven sections.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/sunday-walk-punta-galera/",
+   "local": true
+  },
+  {
+   "date": "2026-12-06",
    "time": "16:00",
    "title": "La Movida street party at the Christmas market",
    "venue": "Passeig de ses Fonts",
@@ -1226,6 +1358,18 @@
    "tbc": true
   },
   {
+   "date": "2026-12-09",
+   "time": "10:00",
+   "title": "Wednesday walk: Bill's Paradise — Santa Agnès to a hidden cove",
+   "venue": "Ibiza Outdoors · Restaurant Las Puertas del Cielo, Santa Agnès",
+   "town": "Santa Agnès de Corona",
+   "cat": "sport",
+   "desc": "From the almond valley of Santa Agnès through forest and past ancient walls to the west coast, down a fisherman's path to hidden boathouses in a secluded bay (swim if conditions allow), then a short rock scramble back up. 6 km, about 3 hours, medium — not for anyone scared of heights.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-bills-paradise/",
+   "local": true
+  },
+  {
    "date": "2026-12-12",
    "time": "10:00",
    "title": "Christmas skating rink opens in Sant Josep",
@@ -1264,6 +1408,18 @@
    "tbc": true
   },
   {
+   "date": "2026-12-13",
+   "time": "10:00",
+   "title": "Sunday walk: Ses Balandres — ropes, ladders and cliffs",
+   "venue": "Ibiza Outdoors · Restaurant Las Puertas del Cielo, Santa Agnès",
+   "town": "Santa Agnès de Corona",
+   "cat": "sport",
+   "desc": "One of Ibiza's wildest adventure walks: an old fisherman's trail from Santa Agnès down to the hidden bay of Ses Balandres with steep rocky sections, ladders and several rope-assisted descents. 4 km, about 3.5 hours, hard — good fitness and a head for heights essential.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/ses-balandares/",
+   "local": true
+  },
+  {
    "date": "2026-12-14",
    "time": "18:00",
    "title": "Stamppot Monday at Higo — red cabbage stamppot with fresh sausage",
@@ -1278,6 +1434,18 @@
    "credit": "Higo"
   },
   {
+   "date": "2026-12-16",
+   "time": "10:00",
+   "title": "Wednesday walk: the Secret Tunnel — Santa Eulària to Cala Blanca",
+   "venue": "Ibiza Outdoors · Siesta side of the footbridge over the Santa Eulària river",
+   "town": "Santa Eulària des Riu",
+   "cat": "sport",
+   "desc": "Coastal path from the Lovers' Bridge to Cala Blanca with views towards Formentera, island stories and wild herbs along the way, and a small path down to a long-forgotten tunnel. 7 km, about 3 hours, medium with some steep uphill stretches.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-secret-tunnel-2/",
+   "local": true
+  },
+  {
    "date": "2026-12-19",
    "time": "10:00",
    "title": "Make-your-own hierbas walk",
@@ -1289,6 +1457,18 @@
    "url": "https://www.ibiza-spotlight.com/magazine/2024/11/things-do-month-on-ibiza-december-2024",
    "local": true,
    "tbc": true
+  },
+  {
+   "date": "2026-12-19",
+   "time": "10:00",
+   "title": "Christmas Hierbas-making walk & workshop",
+   "venue": "Ibiza Outdoors · Can Curune restaurant, Sant Joan road",
+   "town": "Sant Joan",
+   "cat": "sport",
+   "desc": "The festive edition: a two-hour countryside walk foraging the herbs, then an hour making your own bottle of Hierbas Ibicencas — a handmade gift, or one for yourself. 5 km, easy.",
+   "price": "€35 incl. walk, workshop and your bottle",
+   "url": "https://ibizaoutdoors.com/events/hierbas-making-walk-workshop-8/",
+   "local": true
   },
   {
    "date": "2026-12-19",
@@ -1330,6 +1510,18 @@
   },
   {
    "date": "2026-12-20",
+   "time": "10:00",
+   "title": "Sunday walk: Es Vedrà & a secret beach from Es Cubells",
+   "venue": "Ibiza Outdoors · Es Cubells church",
+   "town": "Es Cubells",
+   "cat": "sport",
+   "desc": "Historic fishermen's trails and quiet countryside paths along the south-west coast — hidden coves, viewpoints, legends — with Es Vedrà as the reward. 12 km, medium, with a 300 m climb back up from the beach.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/sunday-walk-es-vedra-secret-beach/",
+   "local": true
+  },
+  {
+   "date": "2026-12-20",
    "time": "17:00",
    "title": "Vincles — immersive family theatre in the lighthouse",
    "venue": "Far de ses Coves Blanques",
@@ -1340,6 +1532,18 @@
    "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2025/12/02/2523623/espectaculo-vincles-vuelve-sant-antoni.html",
    "local": true,
    "tbc": true
+  },
+  {
+   "date": "2026-12-21",
+   "time": "16:00",
+   "title": "Winter Solstice walk to Ibiza Henge",
+   "venue": "Ibiza Outdoors · Cala Comte, by Sunset Ashram",
+   "town": "Cala Comte",
+   "cat": "sport",
+   "desc": "A community walk on the shortest day of the year: the coastal path from Cala Comte past the rave cave to the Time & Space circle of thirteen monoliths, and the sunset that marks the return of the light. 5 km, about 2.5 hours, easy with a narrow cliff-top stretch.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/winter-solstice-walk-ibiza-henge/",
+   "local": true
   },
   {
    "date": "2026-12-21",
@@ -1366,6 +1570,18 @@
    "price": "€10 donation",
    "url": "https://welcometoibiza.com/agenda-ibiza/actividades/programa-de-fiestas-de-navidad-en-ibiza-ciudad/",
    "tbc": true
+  },
+  {
+   "date": "2026-12-23",
+   "time": "10:00",
+   "title": "Wednesday walk: Tanit's sanctuary — Cova des Culleram",
+   "venue": "Ibiza Outdoors · Cala Sant Vicent promenade, beside the Boathouse restaurant",
+   "town": "Cala de Sant Vicent",
+   "cat": "sport",
+   "desc": "The old pilgrims' path from Cala Sant Vicent up to the Cova des Culleram, the Phoenician-Punic sanctuary of the goddess Tanit, with forest trails, coastal views and a bit of festive spirit. 7 km, about 3.5 hours, medium — a steady, stony climb to the cave.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-tanits-sanctuary/",
+   "local": true
   },
   {
    "date": "2026-12-23",
@@ -1468,6 +1684,30 @@
    "tbc": true
   },
   {
+   "date": "2026-12-27",
+   "time": "10:00",
+   "title": "Sunday walk: the Cap Nunó loop from Cala Salada",
+   "venue": "Ibiza Outdoors · Cala Salada beach",
+   "town": "Cala Salada",
+   "cat": "sport",
+   "desc": "A circular west-coast walk from Cala Salada: secluded bays, cliffs, pine forest and the climb to the top of Cap Nunó. 10 km, about 3.5 hours, medium — some steep climbs and rocky paths.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/sunday-walk-cap-nuno/",
+   "local": true
+  },
+  {
+   "date": "2026-12-30",
+   "time": "09:15",
+   "title": "Formentera eBike day with Ibiza Outdoors",
+   "venue": "Ibiza Outdoors · Es Pratet car park, Ibiza Town (ferry)",
+   "town": "Formentera",
+   "cat": "sport",
+   "desc": "A full day on Trek electric mountain bikes: country lanes, salt flats, pine forest and turquoise coast, hidden coves and villages, a long lunch by the sea. Medium — basic cycling experience needed. Price and ferry details on the booking page.",
+   "price": "See booking page",
+   "url": "https://ibizaoutdoors.com/events/formentera-ebike-experience-4/",
+   "local": true
+  },
+  {
    "date": "2026-12-31",
    "time": "00:30",
    "title": "Akasha New Year's Eve at Las Dalias",
@@ -1490,6 +1730,18 @@
    "url": "https://www.ibiza-spotlight.com/magazine/2024/11/things-do-month-on-ibiza-december-2024",
    "local": true,
    "tbc": true
+  },
+  {
+   "date": "2026-12-31",
+   "time": "10:00",
+   "title": "New Year's Eve walk & lunch — the Lost City of Sant Mateu",
+   "venue": "Ibiza Outdoors · Sant Mateu church",
+   "town": "Sant Mateu d'Albarca",
+   "cat": "sport",
+   "desc": "Ibiza Outdoors' famous last walk of the year with founder Toby: valleys, pine forest, olive, fig and carob trees, wild herbs, the remains of a Moorish settlement and the 'Great Wall of Ibiza', then a closing ceremony to let go of 2026 and lunch at 14:00. 10 km, about 3.5 hours, medium.",
+   "price": "€15 / €20 / €25 · lunch extra",
+   "url": "https://ibizaoutdoors.com/events/special-new-years-eve-walk-lunch-the-lost-city-1016/",
+   "local": true
   },
   {
    "date": "2026-12-31",
@@ -1750,9 +2002,9 @@
    "venue": "Varies",
    "town": "",
    "cat": "sport",
-   "desc": "Sunday social walk and the midweek 'Wednesdays are PURE'. Formerly Walking Ibiza. All levels.",
+   "desc": "Wednesday walks and Sunday walks all winter, plus full-moon walks, hierbas workshops and charity walks for Ibiza & Formentera Preservation. Donation-based (€15/20/25); every date with route, meeting point and rating is in the agenda. Formerly Walking Ibiza.",
    "price": "Donation",
-   "url": "https://www.ibiza-spotlight.com/activity/walking-ibiza-community-walks"
+   "url": "https://ibizaoutdoors.com/calendar/"
   },
   {
    "when": "Thu–Sun 17:00",
