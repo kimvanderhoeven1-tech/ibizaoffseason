@@ -890,7 +890,8 @@
   "url": "https://www.restauranthigo.com",
   "book": "https://higo.resos.com/booking",
   "img": "/img/listings/higo-stamppot.jpg",
-  "credit": "Higo"
+  "credit": "Higo",
+  "ig": "higoibiza"
  },
  {
   "id": "can-garage",
