@@ -1995,6 +1995,50 @@
    "url": "https://ibizaoutdoors.com/calendar/"
   },
   {
+   "when": "Tuesdays 17:30",
+   "title": "Total-body workout at Cala Llenya — Cynthia van Winden",
+   "venue": "Cala Llenya beach",
+   "town": "Sant Carles",
+   "cat": "sport",
+   "desc": "Strength and conditioning circuit on the beach with Dutch personal trainer Cynthia van Winden, all levels, late afternoon as the light goes gold. Message her on WhatsApp to join.",
+   "price": "Ask on WhatsApp",
+   "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
+   "local": true
+  },
+  {
+   "when": "Thursdays 09:30",
+   "title": "Sculpt class at Can Sastre — Cynthia van Winden",
+   "venue": "Can Sastre agroturismo",
+   "town": "Santa Gertrudis",
+   "cat": "sport",
+   "desc": "Full-body sculpt workout in the garden of the Dutch-run agroturismo near Santa Gertrudis: strength, toning and control. Stay for a dip in the pool afterwards. Message Cynthia on WhatsApp to join.",
+   "price": "Ask on WhatsApp",
+   "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
+   "local": true
+  },
+  {
+   "when": "Fridays 09:30",
+   "title": "Fit & Breakfast at Cala Llonga — Cynthia van Winden",
+   "venue": "Cala Llonga beach, then Moos Salads & More",
+   "town": "Cala Llonga",
+   "cat": "sport",
+   "desc": "Strength and conditioning circuit on the beach, then the whole group walks over to Moos for a healthy breakfast together (breakfast at your own expense). Message Cynthia on WhatsApp to join.",
+   "price": "Ask on WhatsApp",
+   "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
+   "local": true
+  },
+  {
+   "when": "Sundays 09:30",
+   "title": "Rooftop workout at Popshop — Cynthia van Winden",
+   "venue": "Popshop Cala Llonga",
+   "town": "Cala Llonga",
+   "cat": "sport",
+   "desc": "Sunday circuit on the hotel rooftop with the bay below; stay for a coffee, a smoothie or a swim in the pool afterwards. Message Cynthia on WhatsApp to join.",
+   "price": "Ask on WhatsApp",
+   "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
+   "local": true
+  },
+  {
    "when": "Thu–Sun 17:00",
    "title": "Original-language cinema at Teatro España",
    "venue": "Teatre Espanya",

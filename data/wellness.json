@@ -347,23 +347,25 @@
   "type": "Personal training · small-group training · guided hikes",
   "when": "All winter · by appointment",
   "price": "Guided hike €150 for 1–2 people, +€20 per extra person · training on request",
-  "desc": "A Dutch personal trainer who lives on the island: one-to-one and small-group sessions at your villa or outdoors, and guided hikes to the places you'd never find alone — the Cova de ses Medusa and the Punta Grossa lighthouse in the north, the stone arch at Cala d'Albarca in the west, two to two and a half hours each. English and Dutch. Licensed hiking guide (TA 0052 E). Also a Full Body Sculpt class every Wednesday at Casa Sukha. Book via Instagram DM.",
+  "desc": "A Dutch personal trainer who lives on the island: one-to-one and small-group sessions at your villa or outdoors, and guided hikes to the places you'd never find alone — the Cova de ses Medusa and the Punta Grossa lighthouse in the north, the stone arch at Cala d'Albarca in the west, two to two and a half hours each. English and Dutch. Licensed hiking guide (TA-0052-E). She also runs four open group workouts a week on the east coast — see her weekly schedule below. Book by WhatsApp.",
   "status": "All winter",
-  "url": "https://www.instagram.com/cynthiavanwinden",
-  "book": "https://www.instagram.com/cynthiavanwinden"
+  "url": "https://www.cynthiavanwinden.com",
+  "book": "https://wa.me/31653759012?text=Hi%21%20I%E2%80%99d%20like%20to%20join%20a%20workout%20this%20week%20on%20Ibiza%20%F0%9F%98%8A",
+  "ig": "cynthiavanwinden"
  },
  {
-  "id": "sculpt-casa-sukha",
+  "id": "cynthia-weekly-workouts",
   "group": "classes",
-  "name": "Full Body Sculpt with Cynthia van Winden at Casa Sukha",
-  "village": "Ibiza",
-  "type": "Sculpt · strength",
-  "when": "Wednesdays · time via Instagram",
-  "price": "On request",
-  "desc": "A weekly full-body sculpt class at Casa Sukha with Dutch personal trainer Cynthia van Winden — small group, all levels. Check @cynthiavanwinden for this week's time and to reserve a mat.",
-  "status": "To confirm for winter",
-  "url": "https://www.instagram.com/cynthiavanwinden",
-  "book": "https://www.instagram.com/cynthiavanwinden"
+  "name": "Open-air group workouts with Cynthia van Winden",
+  "village": "East coast · Cala Llenya, Cala Llonga, Can Sastre",
+  "type": "Strength & conditioning · sculpt",
+  "when": "Tue 17:30 · Thu, Fri & Sun 09:30",
+  "price": "Ask on WhatsApp",
+  "desc": "Four drop-in outdoor workouts a week with Dutch personal trainer Cynthia van Winden, all levels. Tuesday 17:30 a total-body strength and conditioning circuit at Cala Llenya; Thursday 09:30 a full-body sculpt class at Can Sastre agroturismo, with the pool afterwards; Friday 09:30 Fit & Breakfast at Cala Llonga, then a healthy breakfast together at Moos; Sunday 09:30 a rooftop circuit with a view at Popshop, Cala Llonga, coffee or a swim after. Message her on WhatsApp to join.",
+  "status": "All winter",
+  "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
+  "book": "https://wa.me/31653759012?text=Hi%21%20I%E2%80%99d%20like%20to%20join%20a%20workout%20this%20week%20on%20Ibiza%20%F0%9F%98%8A",
+  "ig": "cynthiavanwinden"
  },
  {
   "id": "moon-gatherings",
