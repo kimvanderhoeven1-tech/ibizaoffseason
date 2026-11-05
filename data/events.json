@@ -897,6 +897,20 @@
    "credit": "Higo"
   },
   {
+   "date": "2026-11-10",
+   "time": "09:30",
+   "title": "Fit & Breakfast at La Cantina de San Carlos — first session",
+   "venue": "La Cantina de San Carlos",
+   "town": "Sant Carles",
+   "cat": "sport",
+   "desc": "Cynthia van Winden's new Tuesday morning: group workout, then a healthy breakfast together on the terrace of La Cantina in the village (breakfast at your own expense). All levels; every Tuesday from here on. Message Cynthia on WhatsApp to join.",
+   "price": "Ask on WhatsApp",
+   "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
+   "local": true,
+   "img": "/img/listings/cynthia-la-cantina.jpg",
+   "credit": "Cynthia van Winden"
+  },
+  {
    "date": "2026-11-11",
    "time": "",
    "title": "Herb-foraging & cosmetic workshop with Isabel Dumas",
@@ -910,20 +924,6 @@
    "url": "https://wa.me/34659378665?text=Hi%20Isa%2C%20I%27d%20like%20to%20join%20the%20herb%20workshop%20on%202026-11-11%20(via%20Ibiza%20Offseason)",
    "img": "/img/listings/botanical-soulmates-lab.jpg",
    "credit": "Isabel Dumas"
-  },
-  {
-   "date": "2026-11-11",
-   "time": "09:30",
-   "title": "Fit & Breakfast at La Cantina de San Carlos — first session",
-   "venue": "La Cantina de San Carlos",
-   "town": "Sant Carles",
-   "cat": "sport",
-   "desc": "Cynthia van Winden's new Wednesday morning: group workout, then a healthy breakfast together on the terrace of La Cantina in the village (breakfast at your own expense). All levels; every Wednesday from here on. Message Cynthia on WhatsApp to join.",
-   "price": "Ask on WhatsApp",
-   "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
-   "local": true,
-   "img": "/img/listings/cynthia-la-cantina.jpg",
-   "credit": "Cynthia van Winden"
   },
   {
    "date": "2026-11-11",
@@ -2009,12 +2009,12 @@
    "url": "https://ibizaoutdoors.com/calendar/"
   },
   {
-   "when": "Wednesdays 09:30 · from 11 Nov",
+   "when": "Tuesdays 09:30 · from 10 Nov",
    "title": "Fit & Breakfast at La Cantina de San Carlos — Cynthia van Winden",
    "venue": "La Cantina de San Carlos",
    "town": "Sant Carles",
    "cat": "sport",
-   "desc": "New from Wednesday 11 November: a group workout with Dutch personal trainer Cynthia van Winden, then a healthy breakfast together on the terrace of La Cantina in the village (breakfast at your own expense). All levels. Message Cynthia on WhatsApp to join.",
+   "desc": "New from Tuesday 10 November: a group workout with Dutch personal trainer Cynthia van Winden, then a healthy breakfast together on the terrace of La Cantina in the village (breakfast at your own expense). All levels. Message Cynthia on WhatsApp to join.",
    "price": "Ask on WhatsApp",
    "url": "https://www.cynthiavanwinden.com/weekly-schedule-ibiza",
    "local": true,
