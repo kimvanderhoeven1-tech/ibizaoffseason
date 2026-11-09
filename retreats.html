@@ -114,7 +114,8 @@ function render(f){
     const months=new Map();
     for(const r of items){const k=r.start.slice(0,7);if(!months.has(k))months.set(k,[]);months.get(k).push(r);}
     let html='';
-    for(const [k,rs] of months){const d=new Date(k+'-15T12:00');html+=`<section class="month"><h2>${MON[d.getMonth()]} ${d.getFullYear()}<small>${rs.length} retreat${rs.length===1?'':'s'}</small></h2>${rs.map(row).join('')}</section>`;}
+    const REST='<section class="rest"><img src="/img/listings/retreats-winter-rest.jpg" alt="" onerror="this.remove()"><div><h2>December &amp; January<small>the island rests</small></h2><p>Most of the fincas and small hotels that host retreats close after November and reopen in February, so there are no fixed-date retreats to list for these two months. Private and one-to-one retreats run year-round — <a href="mailto:hello@ibizaoffseason.com">ask us</a> and we\'ll point you to the right people. Running one in December? <a href="/submit">Tell us</a>.</p></div></section>';
+    for(const [k,rs] of months){const d=new Date(k+'-15T12:00');html+=`<section class="month"><h2>${MON[d.getMonth()]} ${d.getFullYear()}<small>${rs.length} retreat${rs.length===1?'':'s'}</small></h2>${rs.map(row).join('')}</section>`;if(k==='2026-11'&&f==='all'&&!months.has('2026-12')&&!months.has('2027-01'))html+=REST;}
     list.innerHTML=html;count.textContent=`${items.length} retreat${items.length===1?'':'s'}`;
   }
 }
