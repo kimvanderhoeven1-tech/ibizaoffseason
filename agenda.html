@@ -101,7 +101,7 @@
   <div class="wx" id="wx" aria-live="polite"></div>
 
   <div class="filters" role="group" aria-label="Filter by category">
-    <button class="chip" data-f="all" aria-pressed="true">Everything</button>
+    <span id="filters"></span><button class="chip" data-f="all" aria-pressed="true">Everything</button>
     <button class="chip" data-f="sport" aria-pressed="false">Sport</button>
     <button class="chip" data-f="culture" aria-pressed="false">Culture</button>
     <button class="chip" data-f="music" aria-pressed="false">Music</button>
@@ -188,6 +188,7 @@ function render(f){
   rec.innerHTML=`<h2>Every week</h2><p class="lead">The fixtures of island winter life — no need to check dates.</p><div class="events">${r.map(e=>`<div class="ev"><div class="t">${esc(e.when)}</div><div><h3>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title)}</h3><div class="where">${esc(e.venue)}${e.town?', '+esc(e.town):''}</div>${e.desc?`<p class="desc">${esc(e.desc)}</p>`:''}${e.img?`<figure class="pic"><img src="${esc(e.img)}" alt="" loading="lazy">${e.credit?`<figcaption>Photo: ${esc(e.credit)}</figcaption>`:''}</figure>`:''}<div class="meta"><span class="tag ${esc(e.cat)}">${CAT[e.cat]||esc(e.cat)}</span>${e.local?'<span class="tag loc" title="Only locals know">★ Local</span>':''}${e.price?`<span class="price">${esc(e.price)}</span>`:''}</div></div></div>`).join('')}</div>`;
 }
 document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render(b.dataset.f);}));
+(()=>{const f=new URLSearchParams(location.search).get('f');const b=f&&document.querySelector(`.chip[data-f="${f}"]`);if(b){b.click();b.scrollIntoView({block:'start'});}})();
 fetch('/data/events.json').then(r=>r.json()).then(d=>{data=d;range.textContent=fmtRange(todayIso(),addDays(todayIso(),20));render('all');}).catch(()=>{list.innerHTML='<p class="empty">Couldn\'t load the agenda. Refresh to try again.</p>';});
 </script>
 <script>
