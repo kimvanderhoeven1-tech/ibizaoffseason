@@ -84,17 +84,6 @@
   },
   {
    "date": "2026-10-23",
-   "time": "",
-   "title": "Ibiza Card Show — trading cards, tournaments and collectors",
-   "venue": "C19",
-   "town": "Ibiza Town",
-   "cat": "kids",
-   "desc": "Fourth edition of the island's trading-card show, 23–25 October: tournaments, trading tables, retailers and creators. Free entry.",
-   "price": "Free",
-   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-10-23",
    "time": "16:30",
    "title": "Olive-salting workshop at an old olive press",
    "venue": "Ca n'Andreu des Trull",
@@ -184,6 +173,17 @@
    "price": "Ticketed, from €15",
    "desc": "Friday night in the club under the trees at Las Dalias: Lumio, Words of Nio, Sarcasmo, David Osorio and Tomy Velez. Doors 23:00.",
    "url": "https://lasdalias.es/en/events"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "",
+   "title": "Ibiza Card Show — trading cards, tournaments and collectors",
+   "venue": "C19",
+   "town": "Ibiza Town",
+   "cat": "kids",
+   "desc": "Fourth edition of the island's trading-card show, 23–25 October: tournaments, trading tables, retailers and creators. Free entry.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
   },
   {
    "date": "2026-10-23",
@@ -293,30 +293,6 @@
   },
   {
    "date": "2026-10-25",
-   "time": "",
-   "title": "Festa Pagesa in Santa Gertrudis — ball pagès, crafts and island food",
-   "venue": "Village square",
-   "town": "Santa Gertrudis",
-   "cat": "island",
-   "local": true,
-   "desc": "A Sunday of the old island: traditional dancing, music, craft stalls, folk games and pagès food on the square. The warm-up to the village's November fiestas.",
-   "price": "Free",
-   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-10-25",
-   "time": "",
-   "title": "Fira d'Estocs de Tardor — autumn stock fair on Vara de Rey",
-   "venue": "Passeig de Vara de Rey",
-   "town": "Ibiza Town",
-   "cat": "island",
-   "local": true,
-   "desc": "The town's shops put their end-of-season stock on the boulevard at a discount, with kids' activities, tastings and live music. Postponed from earlier in the month.",
-   "price": "Free",
-   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-10-25",
    "time": "10:00",
    "title": "Sunday social walk with Ibiza Outdoors",
    "venue": "Meeting point announced weekly",
@@ -405,6 +381,30 @@
    "price": "Ticketed",
    "desc": "D'Julz, Alessio Collino, Neil Diablo, Frenchy and the Sundays crew close the season. Halloween follows on the 31st, then the doors shut until spring.",
    "url": "https://www.pikesibiza.com/whats-on/"
+  },
+  {
+   "date": "2026-10-25",
+   "time": "",
+   "title": "Festa Pagesa in Santa Gertrudis — ball pagès, crafts and island food",
+   "venue": "Village square",
+   "town": "Santa Gertrudis",
+   "cat": "island",
+   "local": true,
+   "desc": "A Sunday of the old island: traditional dancing, music, craft stalls, folk games and pagès food on the square. The warm-up to the village's November fiestas.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-10-25",
+   "time": "",
+   "title": "Fira d'Estocs de Tardor — autumn stock fair on Vara de Rey",
+   "venue": "Passeig de Vara de Rey",
+   "town": "Ibiza Town",
+   "cat": "island",
+   "local": true,
+   "desc": "The town's shops put their end-of-season stock on the boulevard at a discount, with kids' activities, tastings and live music. Postponed from earlier in the month.",
+   "price": "Free",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
   },
   {
    "date": "2026-10-26",
@@ -525,6 +525,17 @@
   },
   {
    "date": "2026-10-31",
+   "time": "21:00",
+   "title": "Halloween at Pikes — the haunted hotel",
+   "venue": "Pikes",
+   "town": "Sant Antoni",
+   "cat": "music",
+   "desc": "Costume compulsory, charity night, until 06:00. Pikes also hosts The Haunted Ballroom at 528 Ibiza with Erol Alkan and Leon Vynehall.",
+   "price": "Ticketed",
+   "url": "https://white-ibiza.com/ibiza-calendar/halloween-2026-at-pikes-ibiza/"
+  },
+  {
+   "date": "2026-10-31",
    "time": "",
    "title": "Last day to enrol: free Spanish classes, Santa Eulària",
    "venue": "Santa Eulària town hall",
@@ -534,17 +545,6 @@
    "desc": "Bring passport or NIE and your padrón. Classes run Monday and Wednesday from October to April, mornings in Santa Eulària and evenings in Jesús.",
    "price": "Free",
    "url": "https://lavozdeibiza.com/?p=10067219"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "21:00",
-   "title": "Halloween at Pikes — the haunted hotel",
-   "venue": "Pikes",
-   "town": "Sant Antoni",
-   "cat": "music",
-   "desc": "Costume compulsory, charity night, until 06:00. Pikes also hosts The Haunted Ballroom at 528 Ibiza with Erol Alkan and Leon Vynehall.",
-   "price": "Ticketed",
-   "url": "https://white-ibiza.com/ibiza-calendar/halloween-2026-at-pikes-ibiza/"
   },
   {
    "date": "2026-11-01",
@@ -675,6 +675,19 @@
   },
   {
    "date": "2026-11-04",
+   "time": "12:00",
+   "title": "Festes de Sant Carles — patron saint's day",
+   "venue": "Sant Carles de Peralta",
+   "town": "Sant Carles",
+   "cat": "island",
+   "featured": true,
+   "desc": "Mass and procession at midday, ball pagès, a hippy market in the afternoon and music into the night. 2026 programme still to be published — times follow last year's pattern.",
+   "price": "Free",
+   "url": "https://ibiza.travel/en/agenda/fiestas-de-sant-carles/",
+   "local": true
+  },
+  {
+   "date": "2026-11-04",
    "time": "",
    "title": "Herb-foraging & cosmetic workshop with Isabel Dumas",
    "venue": "Botanical Soulmates Lab",
@@ -687,19 +700,6 @@
    "url": "https://wa.me/34659378665?text=Hi%20Isa%2C%20I%27d%20like%20to%20join%20the%20herb%20workshop%20on%202026-11-04%20(via%20Ibiza%20Offseason)",
    "img": "/img/listings/botanical-soulmates-lab.jpg",
    "credit": "Isabel Dumas"
-  },
-  {
-   "date": "2026-11-04",
-   "time": "12:00",
-   "title": "Festes de Sant Carles — patron saint's day",
-   "venue": "Sant Carles de Peralta",
-   "town": "Sant Carles",
-   "cat": "island",
-   "featured": true,
-   "desc": "Mass and procession at midday, ball pagès, a hippy market in the afternoon and music into the night. 2026 programme still to be published — times follow last year's pattern.",
-   "price": "Free",
-   "url": "https://ibiza.travel/en/agenda/fiestas-de-sant-carles/",
-   "local": true
   },
   {
    "date": "2026-11-05",
@@ -922,6 +922,18 @@
   },
   {
    "date": "2026-11-11",
+   "time": "10:00",
+   "title": "Wednesday walk: Es Portitxol — the hidden bay",
+   "venue": "Ibiza Outdoors · Isla Blanca development, near Sant Miquel",
+   "town": "Sant Miquel",
+   "cat": "sport",
+   "desc": "One of the island's most remote hikes: old fishermen's paths through olive, fig and carob valleys down to a hidden turquoise bay few ever see — swim if you dare — then the climb back up with views across the Mediterranean. 8 km, 3.5–4 hours, medium-hard. Bring 1.5 l of water and shoes with grip.",
+   "price": "Donation €15 / €20 / €25",
+   "url": "https://ibizaoutdoors.com/events/wednesday-walk-portixol/",
+   "local": true
+  },
+  {
+   "date": "2026-11-11",
    "time": "",
    "title": "Herb-foraging & cosmetic workshop with Isabel Dumas",
    "venue": "Botanical Soulmates Lab",
@@ -934,18 +946,6 @@
    "url": "https://wa.me/34659378665?text=Hi%20Isa%2C%20I%27d%20like%20to%20join%20the%20herb%20workshop%20on%202026-11-11%20(via%20Ibiza%20Offseason)",
    "img": "/img/listings/botanical-soulmates-lab.jpg",
    "credit": "Isabel Dumas"
-  },
-  {
-   "date": "2026-11-11",
-   "time": "10:00",
-   "title": "Wednesday walk: Es Portitxol — the hidden bay",
-   "venue": "Ibiza Outdoors · Isla Blanca development, near Sant Miquel",
-   "town": "Sant Miquel",
-   "cat": "sport",
-   "desc": "One of the island's most remote hikes: old fishermen's paths through olive, fig and carob valleys down to a hidden turquoise bay few ever see — swim if you dare — then the climb back up with views across the Mediterranean. 8 km, 3.5–4 hours, medium-hard. Bring 1.5 l of water and shoes with grip.",
-   "price": "Donation €15 / €20 / €25",
-   "url": "https://ibizaoutdoors.com/events/wednesday-walk-portixol/",
-   "local": true
   },
   {
    "date": "2026-11-12",
@@ -1117,6 +1117,17 @@
   },
   {
    "date": "2026-11-15",
+   "time": "13:00",
+   "title": "Tapas and Tunes at Lulu — Sunday afternoon on Port des Torrent beach",
+   "venue": "Lulu Restaurante",
+   "town": "Port des Torrent",
+   "cat": "music",
+   "desc": "A relaxed Sunday afternoon by the sea at Lulu on Port des Torrent beach: homemade tapas, warming soups, mulled wine and DJ Jay Jay from 13:00. Every Sunday through the winter.",
+   "price": "Free entry · pay as you eat",
+   "url": "https://www.instagram.com/lulu.ibz/"
+  },
+  {
+   "date": "2026-11-15",
    "time": "18:00",
    "title": "IV Qwirkle tournament — Santa Gertrudis fiestas",
    "venue": "Edifici polivalent, behind the swimming pools",
@@ -1179,31 +1190,6 @@
   },
   {
    "date": "2026-11-21",
-   "time": "",
-   "title": "Dalt Vila dramatised heritage tours",
-   "venue": "Dalt Vila",
-   "town": "Ibiza Town",
-   "cat": "culture",
-   "local": true,
-   "desc": "Two theatrical tours through the walled town, with actors playing out the island's history scene by scene. Times and booking via the town hall's culture programme.",
-   "price": "Check with the town hall",
-   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
-   "title": "Higo's Disco Bingo with DJ Roel",
-   "venue": "Restaurant Higo",
-   "town": "Santa Eulària",
-   "cat": "music",
-   "desc": "Bingo cards, disco classics and DJ Roel between the rounds — dinner first, then the balls roll. Book a table.",
-   "price": "Book a table",
-   "url": "https://higo.resos.com/booking",
-   "local": true,
-   "tbc": true
-  },
-  {
-   "date": "2026-11-21",
    "time": "10:00",
    "title": "Hierbas-making walk & workshop with Ibiza Outdoors",
    "venue": "Ibiza Outdoors · Can Curune restaurant, Sant Joan road",
@@ -1237,6 +1223,31 @@
    "desc": "The sobrassada race, eighteenth edition, part of the Santa Gertrudis fiestas. Register at sportmaniacs.com.",
    "price": "Register online",
    "url": "https://www.sportmaniacs.com"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Dalt Vila dramatised heritage tours",
+   "venue": "Dalt Vila",
+   "town": "Ibiza Town",
+   "cat": "culture",
+   "local": true,
+   "desc": "Two theatrical tours through the walled town, with actors playing out the island's history scene by scene. Times and booking via the town hall's culture programme.",
+   "price": "Check with the town hall",
+   "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Higo's Disco Bingo with DJ Roel",
+   "venue": "Restaurant Higo",
+   "town": "Santa Eulària",
+   "cat": "music",
+   "desc": "Bingo cards, disco classics and DJ Roel between the rounds — dinner first, then the balls roll. Book a table.",
+   "price": "Book a table",
+   "url": "https://higo.resos.com/booking",
+   "local": true,
+   "tbc": true
   },
   {
    "date": "2026-11-22",
@@ -1739,6 +1750,18 @@
   },
   {
    "date": "2026-12-24",
+   "time": "19:00",
+   "title": "Nit de Nadal: midnight mass with the Caramelles",
+   "venue": "Parish churches across the island",
+   "town": "Santa Eulària",
+   "cat": "culture",
+   "desc": "The island's medieval Christmas verses, sung with flute, drum and castanets: Sant Antoni at 19:00, Santa Eulària and Sant Josep at midnight. Also Sant Miquel 26 Dec 10:30, Sant Joan 26 Dec 11:30, Santa Gertrudis 31 Dec midday, el Roser in Dalt Vila 31 Dec 19:00.",
+   "price": "Free",
+   "url": "https://www.noudiari.es/noticias-ibiza-formentera-sidebar/arrenca-el-programa-de-caramelles-de-nadal/",
+   "local": true
+  },
+  {
+   "date": "2026-12-24",
    "time": "",
    "title": "Christmas Eve à la carte dinner at Higo",
    "venue": "Restaurant Higo",
@@ -1751,34 +1774,9 @@
    "tbc": true
   },
   {
-   "date": "2026-12-24",
-   "time": "19:00",
-   "title": "Nit de Nadal: midnight mass with the Caramelles",
-   "venue": "Parish churches across the island",
-   "town": "Santa Eulària",
-   "cat": "culture",
-   "desc": "The island's medieval Christmas verses, sung with flute, drum and castanets: Sant Antoni at 19:00, Santa Eulària and Sant Josep at midnight. Also Sant Miquel 26 Dec 10:30, Sant Joan 26 Dec 11:30, Santa Gertrudis 31 Dec midday, el Roser in Dalt Vila 31 Dec 19:00.",
-   "price": "Free",
-   "url": "https://www.noudiari.es/noticias-ibiza-formentera-sidebar/arrenca-el-programa-de-caramelles-de-nadal/",
-   "local": true
-  },
-  {
    "date": "2026-12-25",
    "time": "",
    "title": "Christmas Day à la carte dinner at Higo",
-   "venue": "Restaurant Higo",
-   "town": "Santa Eulària",
-   "cat": "island",
-   "desc": "Higo's Christmas à la carte: marinated entrecôte rolls, double-boiled beef broth or codfish rose to start, a scroppino in between, then grilled sea bass, Ibiza quail with rosemary sauce, chateaubriand or a celeriac risotto, and a surprise Christmas dessert. Four courses €59.50 or order à la carte. Closed 29 December to 1 January.",
-   "price": "4 courses €59.50 · or à la carte",
-   "url": "https://higo.resos.com/booking",
-   "local": true,
-   "tbc": true
-  },
-  {
-   "date": "2026-12-26",
-   "time": "",
-   "title": "Boxing Day à la carte dinner at Higo",
    "venue": "Restaurant Higo",
    "town": "Santa Eulària",
    "cat": "island",
@@ -1822,6 +1820,19 @@
    "desc": "Residents bring a jar of salsa de Nadal, the almond-and-broth Christmas sauce, to be judged, with ball pagès by the Colla de sa Bodega. Date follows last year's pattern.",
    "price": "Free",
    "url": "https://lavozdeibiza.com/que-hacer-en-ibiza-y-formentera/ibiza-vive-una-navidad-llena-de-cabalgatas-musica-y-propuestas-para-residentes-y-visitantes/",
+   "local": true,
+   "tbc": true
+  },
+  {
+   "date": "2026-12-26",
+   "time": "",
+   "title": "Boxing Day à la carte dinner at Higo",
+   "venue": "Restaurant Higo",
+   "town": "Santa Eulària",
+   "cat": "island",
+   "desc": "Higo's Christmas à la carte: marinated entrecôte rolls, double-boiled beef broth or codfish rose to start, a scroppino in between, then grilled sea bass, Ibiza quail with rosemary sauce, chateaubriand or a celeriac risotto, and a surprise Christmas dessert. Four courses €59.50 or order à la carte. Closed 29 December to 1 January.",
+   "price": "4 courses €59.50 · or à la carte",
+   "url": "https://higo.resos.com/booking",
    "local": true,
    "tbc": true
   },
@@ -1997,6 +2008,16 @@
    "desc": "The 17th edition of Sant Antoni's autumn menu weeks, this year built around potato and sweet potato: starter, main and dessert for €26, drinks apart, at 13 restaurants — eleven in town plus Sa Palmera in Santa Agnès and Ses Casetes in Sant Mateu. Each restaurant serves it on set days and shifts; check restaurat.es and book direct. Taking part: Ample 32, Es Rebost de Can Prats, Es Ventall, Grill Sant Antoni, La Josefita, S·Marí Cocina-Bar, S'Avaradero, Sa Palmera, Sa Prensa, Ses Casetes, Venezia Pizzeria, Villa Portmany, Zebra Steak & Grill.",
    "price": "€26 · three courses",
    "url": "https://restaurat.es/participantes/"
+  },
+  {
+   "when": "Sundays from 13:00",
+   "title": "Tapas and Tunes at Lulu, Port des Torrent",
+   "venue": "Lulu Restaurante",
+   "town": "Port des Torrent",
+   "cat": "music",
+   "desc": "Sunday afternoons by the sea on Port des Torrent beach: homemade tapas and soups, mulled wine and a DJ from 13:00, all winter.",
+   "price": "Free entry · pay as you eat",
+   "url": "https://www.instagram.com/lulu.ibz/"
   },
   {
    "when": "Mondays from 18:00 · 2 Nov – 21 Dec",
