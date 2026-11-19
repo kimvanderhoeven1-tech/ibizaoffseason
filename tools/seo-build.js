@@ -239,6 +239,7 @@ const TITLES = {
   'winter-table.html': 'Ibiza Winter Food: Calçotades, Bunyols, Hierbas & Where to Eat Them',
   'ppp.html': 'PPP — Professional Party People Places | Ibiza Offseason',
   'ppp-plus.html': 'PPP+ for Concierges & Hosts | Ibiza Offseason',
+  'weekly.html': 'The Weekly — one email every Friday | Ibiza Offseason',
   'submit.html': 'Submit an Event, Place or Retreat | Ibiza Offseason',
   'enviar.html': 'Enviar un evento, local o retiro | Ibiza Offseason',
   'enviar-ca.html': 'Enviar un esdeveniment, local o retir | Ibiza Offseason',
@@ -322,7 +323,7 @@ ${(H1_LD[file] || []).map(o => `<script type="application/ld+json">${json(o)}</s
 }
 
 // ---------------------------------------------------------------- 5. sitemap
-const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/helping-hands', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ibiza-in-november', 'weekly', '0.9'], ['/ibiza-in-december', 'weekly', '0.9'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
+const statics = [['/', 'daily', '1.0'], ['/agenda', 'daily', '0.9'], ['/places', 'weekly', '0.9'], ['/retreats', 'weekly', '0.9'], ['/trails', 'weekly', '0.8'], ['/beaches', 'weekly', '0.8'], ['/markets', 'weekly', '0.8'], ['/wellness', 'weekly', '0.8'], ['/courses', 'weekly', '0.7'], ['/helping-hands', 'weekly', '0.7'], ['/winter-table', 'weekly', '0.7'], ['/ibiza-in-november', 'weekly', '0.9'], ['/ibiza-in-december', 'weekly', '0.9'], ['/ppp', 'monthly', '0.5'], ['/ppp-plus', 'monthly', '0.3'], ['/weekly', 'monthly', '0.6'], ['/submit', 'monthly', '0.5'], ['/enviar', 'monthly', '0.4'], ['/enviar-ca', 'monthly', '0.4']];
 const all = [...statics.map(([p, c, pr]) => ({ loc: SITE + p, changefreq: c, priority: pr })), ...sitemapUrls];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all.map(u => `  <url><loc>${u.loc}</loc><lastmod>${TODAY}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}\n</urlset>\n`);
 
