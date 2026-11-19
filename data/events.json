@@ -1190,6 +1190,18 @@
   },
   {
    "date": "2026-11-20",
+   "time": "17:30",
+   "title": "Kids' workshop: little gnome houses — Biblioteca de Sant Jordi",
+   "venue": "Biblioteca Vicent Serra Orvay",
+   "town": "Sant Jordi",
+   "cat": "kids",
+   "local": true,
+   "desc": "An hour and a half of building tiny gnome houses with EducArte at the village library, for ages 6–8. Ten places, free; book by phone or email. The library runs storytelling on Friday afternoons through the winter.",
+   "price": "Free · 10 places · book",
+   "url": "mailto:bibliosantjordi@santjosep.org?subject=Taller%20casitas%20de%20enanitos%2020%20nov"
+  },
+  {
+   "date": "2026-11-20",
    "time": "20:00",
    "title": "Chimenea Sessions × La Tipi — dinner & dance by the fireplace",
    "venue": "Las Dalias Café",
@@ -1357,6 +1369,17 @@
   },
   {
    "date": "2026-11-27",
+   "time": "17:30",
+   "title": "ReparaLab: bring your broken furniture — IbizaPreservation × Deixalles",
+   "venue": "Fundació Deixalles, Pol. Montecristo, c/ des Manyans 28",
+   "town": "Sant Antoni",
+   "cat": "workshops",
+   "desc": "Open repair evening with tools and people who know how to use them, 17:30–19:30; this month's themed workshop is furniture (17:30–19:00). Bring the wobbly chair. Free; the open space needs no booking, the themed workshop does. Next one: 18 December, computers and free software.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/agenda-ibiza/eventos-ibiza-consciente/reparalab-talleres/"
+  },
+  {
+   "date": "2026-11-27",
    "time": "18:30",
    "title": "Sant Antoni lights switch-on & Christmas market opening",
    "venue": "Passeig de ses Fonts",
@@ -1443,6 +1466,17 @@
   },
   {
    "date": "2026-12-04",
+   "time": "17:00",
+   "title": "Press the season's flowers into a 2027 calendar — Sa Terra Ibiza at Pantastic",
+   "venue": "Pantastic Ibiza, c/ de Sant Cristòfol 20",
+   "town": "Ibiza Town",
+   "cat": "workshops",
+   "desc": "Botanical pressing techniques with Sa Terra: you make a twelve-sheet calendar on Tintoretto paper from pressed flowers and leaves, and take it home with a digital ebook of the method. About two and a half to three hours, snack included. Sa Terra also runs herbarium, solid-shampoo and soy-candle workshops.",
+   "price": "€55 · materials included",
+   "url": "https://saterraibiza.com/#calendario"
+  },
+  {
+   "date": "2026-12-04",
    "time": "18:00",
    "title": "Santa Eulària lights switch-on & Christmas market opening",
    "venue": "Town hall & Passeig de s'Alamera",
@@ -1488,6 +1522,18 @@
    "price": "Tent free · Can Ventosa €10–25",
    "url": "https://www.periodicodeibiza.es/pitiusas/aldia/2025/12/04/2524993/hacer-este-punte-constitucion-ibiza.html",
    "tbc": true
+  },
+  {
+   "date": "2026-12-05",
+   "time": "16:00",
+   "title": "Christmas centrepieces & candles — Sant Joan town hall workshop",
+   "venue": "Sala de Plens, Ajuntament de Sant Joan",
+   "town": "Sant Joan",
+   "cat": "workshops",
+   "local": true,
+   "desc": "Two hours making a preserved-flower centrepiece and candles for the table, in the council chamber of the village. The town hall covers most of the cost: you pay €10 by Bizum once your place is confirmed. Limited places, book by email.",
+   "price": "€10 · book by email",
+   "url": "mailto:rodrigueztur@santjoandelabritja.com?subject=Taller%20centros%20de%20flores%205%20dic"
   },
   {
    "date": "2026-12-05",
@@ -1592,6 +1638,17 @@
   },
   {
    "date": "2026-12-12",
+   "time": "10:00",
+   "title": "Clowntusiasmo: a weekend introduction to contemporary clown",
+   "venue": "AlmaSana, c/ Sant Vicent 40",
+   "town": "Santa Eulària",
+   "cat": "workshops",
+   "desc": "Two days, Saturday and Sunday 10:00–15:00, with clown teacher Monma Mingot: play, presence and failing beautifully. No experience needed. €125, or €100 if you book before 20 November.",
+   "price": "€125 · €100 early bird",
+   "url": "https://www.clowntusiasmo.com"
+  },
+  {
+   "date": "2026-12-12",
    "time": "12:00",
    "title": "Fira de sa Matança — the pig-slaughter fair",
    "venue": "Sant Llorenç de Balàfia",
@@ -1665,6 +1722,17 @@
    "price": "Donation €15 / €20 / €25",
    "url": "https://ibizaoutdoors.com/events/wednesday-walk-secret-tunnel-2/",
    "local": true
+  },
+  {
+   "date": "2026-12-18",
+   "time": "17:30",
+   "title": "ReparaLab: computers & free software — IbizaPreservation × Deixalles",
+   "venue": "Fundació Deixalles, Pol. Montecristo, c/ des Manyans 28",
+   "town": "Sant Antoni",
+   "cat": "workshops",
+   "desc": "Open repair evening 17:30–19:30; this month's themed workshop (17:30–19:00) is giving old laptops a second life with free software. Free; book the themed workshop by email.",
+   "price": "Free",
+   "url": "https://welcometoibiza.com/agenda-ibiza/eventos-ibiza-consciente/reparalab-talleres/"
   },
   {
    "date": "2026-12-19",
@@ -2086,6 +2154,39 @@
    "desc": "Sunday afternoons by the sea on Port des Torrent beach: homemade tapas and soups, mulled wine and a DJ from 13:00, all winter.",
    "price": "Free entry · pay as you eat",
    "url": "https://www.instagram.com/lulu.ibz/"
+  },
+  {
+   "when": "Weekends until 13 Dec",
+   "title": "Learn to sail a llaüt: vela latina workshops in Santa Eulària",
+   "venue": "Santa Eulària harbour",
+   "town": "Santa Eulària",
+   "cat": "workshops",
+   "local": true,
+   "desc": "The town hall's weekend workshops on the island's traditional lateen-rigged boats: rigging, handling and a sail on the bay with the local vela latina crews. Register with the Google form on the listing.",
+   "price": "€46.46",
+   "url": "https://welcometoibiza.com/en/agenda-ibiza/actividades/talleres-vela-latina-santa-eulalia/"
+  },
+  {
+   "when": "Tuesdays 17:30–19:30 · private sessions on request · closed in January",
+   "title": "Hand-building pottery with Carol Boneto, Buscastell",
+   "venue": "Carol Boneto studio",
+   "town": "Buscastell",
+   "cat": "workshops",
+   "desc": "A small countryside studio between Sant Antoni and Sant Rafel: weekly hand-building classes (coil, slab, pinch, slips and glazes) for beginners and up, or a private two-hour workshop for a group of four to eight.",
+   "price": "€95/month weekly · private €55 pp",
+   "url": "https://www.carolboneto.com/en/pottery-classes/",
+   "ig": "carolbonetoceramics"
+  },
+  {
+   "when": "Saturday mornings · 1 h · ages 3+",
+   "title": "Kids' ceramics at Le petit Atelier n°74",
+   "venue": "Numero74, Passeig de Santa Gertrudis 12",
+   "town": "Santa Gertrudis",
+   "cat": "kids",
+   "desc": "An hour of clay for children from three (under-fives with a grown-up), in English with Nadia, max six. Book online; private sessions for up to four. The atelier also runs Christmas-wreath, weaving, gingerbread-house and botanical lip-balm workshops for grown-ups.",
+   "price": "€30 per child",
+   "url": "https://latelier-ibiza.numero74.com/products/ceramic-for-kids",
+   "ig": "numero74_official"
   },
   {
    "when": "Mondays from 18:00 · 2 Nov – 21 Dec",

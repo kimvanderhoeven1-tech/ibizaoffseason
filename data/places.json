@@ -1021,5 +1021,33 @@
     "desc": "Beach restaurant on Port des Torrent bay, open through the winter. Sundays from 13:00 it's Tapas and Tunes: homemade tapas and soups, mulled wine and a DJ by the water.",
     "url": "https://www.instagram.com/lulu.ibz/",
     "ig": "lulu.ibz"
+  },
+  {
+    "id": "numero74-atelier",
+    "name": "Le petit Atelier n°74",
+    "village": "Santa Gertrudis",
+    "area": "Centre",
+    "tags": [
+      "Workshop",
+      "Shop"
+    ],
+    "open": "Open in winter · Saturday kids' ceramics",
+    "desc": "The workshop room behind Numero74's shop on the paseo: kids' ceramics on Saturday mornings, and for grown-ups Christmas wreaths, weaving, knitting club, gingerbread houses and botanical lip balms. In English, book online.",
+    "url": "https://latelier-ibiza.numero74.com",
+    "ig": "numero74_official"
+  },
+  {
+    "id": "carol-boneto",
+    "name": "Carol Boneto Ceramics",
+    "village": "Buscastell",
+    "area": "West",
+    "tags": [
+      "Workshop",
+      "Art"
+    ],
+    "open": "Open in winter · closed in January",
+    "desc": "A ceramicist's countryside studio near Es Broll: weekly hand-building classes and private pottery workshops for groups of four to eight. Beginners welcome.",
+    "url": "https://www.carolboneto.com/en/pottery-classes/",
+    "ig": "carolbonetoceramics"
   }
 ]
