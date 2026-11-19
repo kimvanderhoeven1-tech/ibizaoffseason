@@ -1345,6 +1345,17 @@
    "local": true
   },
   {
+   "date": "2026-11-26",
+   "time": "10:00",
+   "title": "Luxury Yardsale Ibiza at La Chickeria",
+   "venue": "La Chickeria",
+   "town": "Santa Gertrudis",
+   "cat": "island",
+   "desc": "A one-day second-hand sale of designer clothes, bags and accessories in La Chickeria's garden, 10:00–15:00. Cash and cards.",
+   "price": "Free entry",
+   "url": "https://www.instagram.com/lachickeriaibiza/"
+  },
+  {
    "date": "2026-11-27",
    "time": "18:30",
    "title": "Sant Antoni lights switch-on & Christmas market opening",
@@ -1355,6 +1366,18 @@
    "price": "Free",
    "url": "https://lavozdeibiza.com/event/sant-antoni-enciende-la-navidad/2025-12-25/",
    "tbc": true
+  },
+  {
+   "date": "2026-11-28",
+   "time": "12:00",
+   "title": "II Fira des Poll Pagès — the island-chicken fair in Sant Miquel",
+   "venue": "Sant Miquel village",
+   "town": "Sant Miquel",
+   "cat": "island",
+   "local": true,
+   "desc": "Second edition of Sant Miquel's fair around poll pagès, the island's own free-range chicken: villagers and restaurants each cook their own dish and sell it by the plate, no tapa over €10, 12:00–20:00. The jury tastes at 14:00 and picks the winners. Organised by Sant Joan council; last year's first edition sold 1,600 plates, so come early.",
+   "price": "Tapas up to €10",
+   "url": "https://lavozdeibiza.com/?p=218589"
   },
   {
    "date": "2026-11-28",
