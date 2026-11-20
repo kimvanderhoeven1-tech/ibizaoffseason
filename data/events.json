@@ -1212,6 +1212,18 @@
    "url": "https://www.instagram.com/latipi_ibiza/"
   },
   {
+   "date": "2026-11-20",
+   "time": "20:00",
+   "title": "Acoustic Friday: Nabil live at Sa Carboneria",
+   "venue": "Sa Carboneria, c/ Isidor Macabich 3",
+   "town": "Santa Eulària",
+   "cat": "music",
+   "desc": "The steakhouse's bar does live acoustic sets on Friday nights: tonight Nabil on guitar, 20:00–22:00, with a 2-for-1 cocktail happy hour from 19:00 to 20:00. Small room, so message them to keep you a spot.",
+   "price": "Free · happy hour 19–20",
+   "url": "https://www.instagram.com/sacarboneriaibiza/",
+   "ig": "sacarboneriaibiza"
+  },
+  {
    "date": "2026-11-21",
    "time": "10:00",
    "title": "Hierbas-making walk & workshop with Ibiza Outdoors",
@@ -1249,6 +1261,20 @@
   },
   {
    "date": "2026-11-21",
+   "time": "19:00",
+   "title": "Disco Bingo with DJ Roel at Higo — shared dinner",
+   "venue": "Restaurant Higo",
+   "town": "Santa Eulària",
+   "cat": "music",
+   "desc": "Bingo to disco classics during a shared dinner by Ed Hoogendijk, 19:00–22:00, and the evening ends, as it should, with Dutch sing-alongs. The shared menu (€59.50) runs from beef tataki and torched salmon sushi to chateaubriand, sea bass, coconut shrimps and chicken satay. Book a table at higo.resos.com.",
+   "price": "€59.50 shared menu · book",
+   "url": "https://higo.resos.com/booking",
+   "local": true,
+   "img": "/img/listings/higo-disco-bingo.jpg",
+   "credit": "Higo"
+  },
+  {
+   "date": "2026-11-21",
    "time": "20:00",
    "title": "Akasha's 5th Anniversary",
    "venue": "Akasha, Las Dalias",
@@ -1269,20 +1295,6 @@
    "desc": "Two theatrical tours through the walled town, with actors playing out the island's history scene by scene. Times and booking via the town hall's culture programme.",
    "price": "Check with the town hall",
    "url": "https://ibizaonestop.com/collections/ibiza-latest-news"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "19:00",
-   "title": "Disco Bingo with DJ Roel at Higo — shared dinner",
-   "venue": "Restaurant Higo",
-   "town": "Santa Eulària",
-   "cat": "music",
-   "desc": "Bingo to disco classics during a shared dinner by Ed Hoogendijk, 19:00–22:00, and the evening ends, as it should, with Dutch sing-alongs. The shared menu (€59.50) runs from beef tataki and torched salmon sushi to chateaubriand, sea bass, coconut shrimps and chicken satay. Book a table at higo.resos.com.",
-   "price": "€59.50 shared menu · book",
-   "url": "https://higo.resos.com/booking",
-   "local": true,
-   "img": "/img/listings/higo-disco-bingo.jpg",
-   "credit": "Higo"
   },
   {
    "date": "2026-11-22",
@@ -2155,6 +2167,17 @@
    "desc": "Sunday afternoons by the sea on Port des Torrent beach: homemade tapas and soups, mulled wine and a DJ from 13:00, all winter.",
    "price": "Free entry · pay as you eat",
    "url": "https://www.instagram.com/lulu.ibz/"
+  },
+  {
+   "when": "Fridays 20:00–22:00 · happy hour 19–20",
+   "title": "Acoustic Fridays at Sa Carboneria, Santa Eulària",
+   "venue": "Sa Carboneria, c/ Isidor Macabich 3",
+   "town": "Santa Eulària",
+   "cat": "music",
+   "desc": "Live acoustic music in the bar of the steakhouse every Friday evening, with 2-for-1 cocktails from 19:00 to 20:00. Message them on Instagram to keep you a spot.",
+   "price": "Free",
+   "url": "https://www.instagram.com/sacarboneriaibiza/",
+   "ig": "sacarboneriaibiza"
   },
   {
    "when": "Tuesdays 17:30–19:30 · private sessions on request · closed in January",
