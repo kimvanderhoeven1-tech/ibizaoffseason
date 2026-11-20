@@ -1272,16 +1272,17 @@
   },
   {
    "date": "2026-11-21",
-   "time": "",
-   "title": "Higo's Disco Bingo with DJ Roel",
+   "time": "19:00",
+   "title": "Disco Bingo with DJ Roel at Higo — shared dinner",
    "venue": "Restaurant Higo",
    "town": "Santa Eulària",
    "cat": "music",
-   "desc": "Bingo cards, disco classics and DJ Roel between the rounds — dinner first, then the balls roll. Book a table.",
-   "price": "Book a table",
+   "desc": "Bingo to disco classics during a shared dinner by Ed Hoogendijk, 19:00–22:00, and the evening ends, as it should, with Dutch sing-alongs. The shared menu (€59.50) runs from beef tataki and torched salmon sushi to chateaubriand, sea bass, coconut shrimps and chicken satay. Book a table at higo.resos.com.",
+   "price": "€59.50 shared menu · book",
    "url": "https://higo.resos.com/booking",
    "local": true,
-   "tbc": true
+   "img": "/img/listings/higo-disco-bingo.jpg",
+   "credit": "Higo"
   },
   {
    "date": "2026-11-22",
