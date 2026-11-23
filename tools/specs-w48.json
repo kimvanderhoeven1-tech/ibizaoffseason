@@ -1,0 +1,73 @@
+[
+ {
+  "name": "2026-11-w48-01-cover",
+  "photo": "img/bank/sunset-fields-tall.jpg",
+  "pos": "center 25%",
+  "kind": "cover",
+  "kick": "This weekend on the island",
+  "h1": "Lights on\nin the villages",
+  "sub": "27 \u2013 29 November"
+ },
+ {
+  "name": "2026-11-w48-02-fri",
+  "photo": "img/bank/mist-track.jpg",
+  "kind": "list",
+  "items": [
+   {
+    "day": "Friday 27",
+    "h2": "Christmas lights\nSant Antoni",
+    "meta": "18:30 \u00b7 switch-on & market opening \u00b7 free"
+   },
+   {
+    "day": "Friday 27",
+    "h2": "Acoustic Fridays\nSa Carboneria",
+    "meta": "20:00 \u00b7 Santa Eul\u00e0ria \u00b7 live music"
+   }
+  ]
+ },
+ {
+  "name": "2026-11-w48-03-sat",
+  "photo": "img/bank/golden-hill-love.jpg",
+  "pos": "center 30%",
+  "kind": "list",
+  "items": [
+   {
+    "day": "Saturday 28",
+    "h2": "Fira des Poll Pag\u00e8s\nSant Miquel",
+    "meta": "from 12:00 \u00b7 island-chicken tapas up to \u20ac10 \u00b7 \u2605 local"
+   },
+   {
+    "day": "Saturday 28",
+    "h2": "Ibiza Town\nlights on",
+    "meta": "18:30 \u00b7 Vara de Rey market opens \u00b7 free"
+   }
+  ]
+ },
+ {
+  "name": "2026-11-w48-04-sun",
+  "photo": "img/bank/margalides-blue-2.jpg",
+  "pos": "center 45%",
+  "kind": "list",
+  "items": [
+   {
+    "day": "Sunday 29",
+    "h2": "The Chicken Loop\nSunday walk",
+    "meta": "10:00 \u00b7 Es Vedr\u00e0 views \u00b7 donation \u20ac15\u201325"
+   },
+   {
+    "day": "Sunday 29",
+    "h2": "Sunday Roast\nLa Chickeria",
+    "meta": "Santa Gertrudis \u00b7 with Wild Health"
+   }
+  ]
+ },
+ {
+  "name": "2026-11-w48-05-close",
+  "theme": "diepzee",
+  "kind": "cover",
+  "kick": "Every Friday in your inbox",
+  "h1": "Your winter\nagenda",
+  "sub": "sign up \u00b7 link in bio",
+  "tag": "ibizaoffseason.com/weekly"
+ }
+]
