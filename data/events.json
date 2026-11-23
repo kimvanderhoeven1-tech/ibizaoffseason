@@ -1638,6 +1638,18 @@
    "local": true
   },
   {
+   "date": "2026-12-11",
+   "time": "",
+   "title": "Vrijmibo with a live singer and DJ at Amigos",
+   "venue": "Amigos Bar & Restaurante, Ctra Cala Llonga 55",
+   "town": "Cala Llonga",
+   "cat": "music",
+   "desc": "The Friday afternoon drinks at Amigos get a bigger edition: a live singer and a DJ on top of the usual vrijmibo — the Dutch habit of closing the week with a drink together. Sun on the terrace, the fireplace inside if the wind turns. Start time to be confirmed; WhatsApp +34 619 82 34 08.",
+   "price": "Free entry",
+   "url": "https://www.amigosibiza.com/",
+   "tbc": true
+  },
+  {
    "date": "2026-12-12",
    "time": "10:00",
    "title": "Christmas skating rink opens in Sant Josep",
@@ -2068,6 +2080,30 @@
    "price": "Free",
    "url": "https://welcometoibiza.com/agenda-ibiza/fiestas/fiesta-de-nochevieja-con-la-movida/",
    "local": true,
+   "tbc": true
+  },
+  {
+   "date": "2026-12-31",
+   "time": "",
+   "title": "Cava and a free oliebol at Amigos",
+   "venue": "Amigos Bar & Restaurante, Ctra Cala Llonga 55",
+   "town": "Cala Llonga",
+   "cat": "island",
+   "desc": "New Year's Eve the Dutch way: a glass of cava in the afternoon with a free oliebol, the fried dough ball the Netherlands eats by the dozen on the last day of the year. More oliebollen to buy on the spot. Exact time to be confirmed; WhatsApp +34 619 82 34 08.",
+   "price": "Free oliebol with a glass of cava",
+   "url": "https://www.amigosibiza.com/",
+   "tbc": true
+  },
+  {
+   "date": "2026-12-31",
+   "time": "",
+   "title": "New Year's Eve party at Amigos — buffet and open bar",
+   "venue": "Amigos Bar & Restaurante, Ctra Cala Llonga 55",
+   "town": "Cala Llonga",
+   "cat": "music",
+   "desc": "An all-in New Year's Eve in Cala Llonga: unlimited bites from the buffet and unlimited drinks for one price, and a party into the new year. Start time to be confirmed; book via WhatsApp +34 619 82 34 08.",
+   "price": "€75 · unlimited buffet & drinks · book",
+   "url": "https://www.amigosibiza.com/",
    "tbc": true
   },
   {
@@ -2630,6 +2666,16 @@
    "url": "https://www.botanicalsoulmatescosmetics.com/products/cosmetic-formulating-ibicencan-medical-herbs-workshop-half-day",
    "img": "/img/listings/botanical-soulmates-lab.jpg",
    "credit": "Isabel Dumas"
+  },
+  {
+   "when": "Fridays · afternoon",
+   "title": "Vrijmibo — Friday afternoon drinks at Amigos, Cala Llonga",
+   "venue": "Amigos Bar & Restaurante, Ctra Cala Llonga 55",
+   "town": "Cala Llonga",
+   "cat": "island",
+   "desc": "Vrijmibo is Dutch for the Friday afternoon drink that closes the working week, and Amigos pours it every Friday: the terrace that holds the sun all day, the fireplace inside when it's cold, and whoever turns up. Everyone welcome, Dutch or not.",
+   "price": "Free entry",
+   "url": "https://www.amigosibiza.com/"
   }
  ],
  "upcoming": [
