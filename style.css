@@ -1,3 +1,5 @@
+@font-face{font-family:"Fraunces";src:url(/img/brand/fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Fraunces";src:url(/img/brand/fonts/fraunces-italic.woff2) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
 :root{
   --sand-50:#F6F1E8;
   --sand-100:#EDE4D3;
@@ -6,11 +8,12 @@
   --sand-400:#B59E73;
   --ink:#2B261F;
   --ink-soft:#5E5649;
-  --olive:#6B6A4C;
-  --sea:#3F6B6E;
-  --terracotta:#B8653F;
+  --olive:#5E6246;
+  --sea:#1F3A4A;
+  --terracotta:#A85A3C;
+  --gold:#A4803C;
   --max:1120px;
-  --serif:"Cormorant Garamond",Georgia,serif;
+  --serif:"Fraunces","Cormorant Garamond",Georgia,serif;
   --sans:"Montserrat",system-ui,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -34,7 +37,11 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 header.site{padding-top:22px;padding-bottom:22px}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-.brand svg{width:34px;height:34px}
+.brand svg{width:44px;height:44px}
+.brand .word{font-family:var(--serif);font-weight:500;font-size:17px;letter-spacing:.14em;color:var(--ink)}
+h1,h2,h3,.pagehead h1{font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1}
+.menu .cta.alt{border-color:var(--gold);color:var(--gold)}.menu .cta.alt:hover{background:var(--gold);color:var(--sand-50)}
+.listbox{margin:36px auto 0}.lb{display:flex;align-items:center;gap:22px;flex-wrap:wrap;background:var(--sand-100);border:1px solid var(--sand-200);border-radius:18px;padding:22px 26px}.lb svg{width:64px;height:64px;flex:none}.lb div{flex:1 1 320px}.lb h2{font-family:var(--serif);font-weight:500;font-size:clamp(24px,3vw,32px);line-height:1.1;margin:0 0 6px}.lb p{color:var(--ink-soft);font-size:15px;margin:0}.lb .btn{flex:none}
 .brand .word{font-weight:800;letter-spacing:.14em;font-size:13px;text-transform:uppercase}
 .brand .word span{font-weight:400;letter-spacing:.2em;color:var(--ink-soft)}
 .menu{display:flex;gap:6px 22px;align-items:center;flex-wrap:wrap}
