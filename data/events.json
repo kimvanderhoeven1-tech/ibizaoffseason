@@ -2180,6 +2180,29 @@
    "url": "https://higo.resos.com/booking",
    "local": true,
    "tbc": true
+  },
+  {
+   "date": "2026-11-26",
+   "time": "",
+   "title": "Home Meeting Ibiza — interiors, construction and an art space",
+   "venue": "Recinto Ferial",
+   "town": "Ibiza Town",
+   "cat": "culture",
+   "desc": "Sixth edition of the island's home-and-interiors fair, 26–28 November: builders, architects, kitchens, gardens, and an Art Space this year with Kristina Dimitrova's intuitive painting ('El arte como un viaje') through Saint Gallery. The place to go if you're doing up a house this winter.",
+   "price": "Check the fair",
+   "url": "https://www.instagram.com/saint_gallery_ibiza/"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "16:30",
+   "title": "First salsa Saturday at Amigos — Cuban salsa with Orbe Yorgenis",
+   "venue": "Amigos Bar & Restaurante, Ctra Cala Llonga 55",
+   "town": "Cala Llonga",
+   "cat": "music",
+   "local": true,
+   "desc": "The first of the winter's salsa Saturdays: class 16:30–18:00 with Orbe Yorgenis, a drink included, then free dancing to salsa and Latin music from 18:00. €22 a class, ten for €188, couples €344; sangría €5; kids welcome with colouring inside. Book by WhatsApp +34 615 938 348.",
+   "price": "€22 · 10 classes €188",
+   "url": "https://www.amigosibiza.com/"
   }
  ],
  "recurring": [
@@ -2675,6 +2698,17 @@
    "cat": "island",
    "desc": "Vrijmibo is Dutch for the Friday afternoon drink that closes the working week, and Amigos pours it every Friday: the terrace that holds the sun all day, the fireplace inside when it's cold, and whoever turns up. Everyone welcome, Dutch or not.",
    "price": "Free entry",
+   "url": "https://www.amigosibiza.com/"
+  },
+  {
+   "when": "Saturdays 16:30–18:00 · from 28 Nov",
+   "title": "Salsa Saturdays at Amigos, Cala Llonga",
+   "venue": "Amigos Bar & Restaurante, Ctra Cala Llonga 55",
+   "town": "Cala Llonga",
+   "cat": "music",
+   "local": true,
+   "desc": "Cuban salsa with Orbe Yorgenis every Saturday afternoon until the end of February: a 90-minute class with a drink included, then open dancing from 18:00 — come for the class or just to dance. Kids welcome. No class on 26 Dec and 2 Jan. €22 a class or ten for €188; book by WhatsApp +34 615 938 348.",
+   "price": "€22 · 10 classes €188",
    "url": "https://www.amigosibiza.com/"
   }
  ],
