@@ -4,7 +4,7 @@
 const {chromium}=require('playwright');const fs=require('fs');const path=require('path');
 const root=path.resolve(__dirname,'..');
 const tpl=fs.readFileSync(path.join(__dirname,'post-template-v2.html'),'utf8');
-const themes={diepzee:['#1F3A4A','#EADFC6'],olijf:['#5E6246','#EFE6CF'],terracotta:['#A85A3C','#F4EBDD'],dennen:['#2F4A3E','#D9B56C'],zand:['#EFE6CF','#5E6246'],nacht:['#20283F','#E8A98A'],kerst:['#5A2226','#D9B56C'],photo:['#333','#F6F1E8']};
+const themes={roomgoud:['#F6F1E6','#A4803C'],donkergoud:['#2B261F','#A4803C'],diepzee:['#1F3A4A','#EADFC6'],olijf:['#5E6246','#EFE6CF'],terracotta:['#A85A3C','#F4EBDD'],dennen:['#2F4A3E','#D9B56C'],zand:['#EFE6CF','#5E6246'],nacht:['#20283F','#E8A98A'],kerst:['#5A2226','#D9B56C'],photo:['#333','#F6F1E8']};
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\n/g,'<br>');
 (async()=>{const specs=JSON.parse(fs.readFileSync(process.argv[2]));const outDir=process.argv[3]||'out';fs.mkdirSync(outDir,{recursive:true});
 const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});
