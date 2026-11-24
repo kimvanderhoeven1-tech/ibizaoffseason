@@ -1,0 +1,58 @@
+[
+ {
+  "name": "story-thu-weekend",
+  "photo": "img/bank/sunset-fields-tall.jpg",
+  "pos": "center 30%",
+  "kind": "cover",
+  "kick": "This weekend on the island",
+  "h1": "Lights on\nin the villages",
+  "sub": "27 \u2013 29 November",
+  "pill": "Full agenda \u00b7 link in bio",
+  "hint": "ibizaoffseason.com"
+ },
+ {
+  "name": "story-fri-newsletter",
+  "photo": "img/bank/margalides-blue-2.jpg",
+  "pos": "center 40%",
+  "kind": "cover",
+  "kick": "Weekly 06 is out",
+  "h1": "Your winter\nagenda",
+  "sub": "in your inbox every Friday",
+  "pill": "Sign up \u00b7 link in bio",
+  "hint": "free \u00b7 1 email a week"
+ },
+ {
+  "name": "story-list-sample",
+  "photo": "img/bank/mist-track.jpg",
+  "kind": "list",
+  "items": [
+   {
+    "day": "Friday 27",
+    "h2": "Christmas lights\nSant Antoni",
+    "meta": "18:30 \u00b7 free"
+   },
+   {
+    "day": "Saturday 28",
+    "h2": "Fira des Poll Pag\u00e8s",
+    "meta": "Sant Miquel \u00b7 from 12:00"
+   },
+   {
+    "day": "Sunday 29",
+    "h2": "The Chicken Loop",
+    "meta": "10:00 \u00b7 Es Vedr\u00e0 views"
+   }
+  ],
+  "pill": "Details \u00b7 link in bio",
+  "hint": "ibizaoffseason.com"
+ },
+ {
+  "name": "story-plain-kerst",
+  "theme": "kerst",
+  "kind": "cover",
+  "kick": "Save the date",
+  "h1": "Christmas\nmarkets",
+  "sub": "all weekends in December",
+  "pill": "Where & when \u00b7 link in bio",
+  "hint": "ibizaoffseason.com"
+ }
+]
