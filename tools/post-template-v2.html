@@ -5,8 +5,9 @@
 *{margin:0;box-sizing:border-box}
 :root{--bg:#1F3A4A;--fg:#EADFC6;--ov:.6}
 body{width:1080px;height:1350px;background:var(--bg);font-family:Fraunces,serif;font-variation-settings:'opsz' 144,'SOFT' 100,'WONK' 1;color:var(--fg);position:relative;overflow:hidden}
-.photo{position:absolute;inset:-60px;background:var(--photo) var(--pos,center)/cover;filter:blur(var(--blur,18px)) brightness(var(--ov)) saturate(1.05)}
-.in{position:absolute;inset:0;padding:96px 90px 84px;display:flex;flex-direction:column;justify-content:space-between;text-align:center}
+.photo{position:absolute;inset:-60px;z-index:0;background:var(--photo) var(--pos,center)/cover;filter:blur(var(--blur,4px)) brightness(var(--ov)) saturate(1.05)}
+.in::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 40%,rgba(0,0,0,.42) 62%,rgba(0,0,0,.55) 100%)}
+.in{isolation:isolate;position:absolute;inset:0;z-index:1;padding:96px 90px 84px;display:flex;flex-direction:column;justify-content:space-between;text-align:center}
 .top{display:flex;flex-direction:column;align-items:center;gap:16px}
 .top svg{width:150px;height:150px;fill:var(--fg)}.em{display:flex;align-items:center;gap:20px}.em i{display:block;width:90px;height:1.5px;background:var(--fg);opacity:.9}
 .brand{font-size:30px;letter-spacing:.12em;padding-left:.12em;font-weight:500}

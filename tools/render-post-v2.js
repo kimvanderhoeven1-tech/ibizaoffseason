@@ -9,7 +9,7 @@ const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\
 (async()=>{const specs=JSON.parse(fs.readFileSync(process.argv[2]));const outDir=process.argv[3]||'out';fs.mkdirSync(outDir,{recursive:true});
 const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});
 for(const s of specs){const [bg,fg]=themes[s.theme||(s.photo?'photo':'diepzee')];
- let css=`:root{--bg:${bg};--fg:${fg};--ov:${s.ov??.6};--blur:${s.blur??18}px;--pos:${s.pos||'center'};--photo:${s.photo?`url(${path.join(root,s.photo)})`:'none'}}`;
+ let css=`:root{--bg:${bg};--fg:${fg};--ov:${s.ov??.62};--blur:${s.blur??4}px;--pos:${s.pos||'center'};--photo:${s.photo?`url(${path.join(root,s.photo)})`:'none'}}`;
  if(!s.photo) css+='.photo{display:none}'; if(s.h1size) css+=`h1{font-size:${s.h1size}px}`; if(s.css) css+=s.css;
  let mid='';
  if(s.kind==='list'){mid=s.items.map((it,i)=>`${i?'<div class="rule"></div>':''}<div class="item"><div class="day">${esc(it.day)}</div><h2>${esc(it.h2)}</h2><div class="meta">${esc(it.meta)}</div></div>`).join('');}
