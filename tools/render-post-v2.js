@@ -17,5 +17,5 @@ for(const s of specs){const [bg,fg]=themes[s.theme||(s.photo?'photo':'diepzee')]
  let h=tpl.replace('</style>',css+'</style>').replace(/<div class="mid">[\s\S]*?<\/div>\n<div class="bot">/,`<div class="mid">${mid}</div>\n<div class="bot">`).replace(/<div class="bot">.*?<\/div>/,`<div class="bot">${esc(s.bot||'Your winter agenda · ibizaoffseason.com')}</div>`);
  if(s.hideTop) h=h.replace('<div class="top">','<div class="top" style="visibility:hidden">');
  const tmp=path.join(__dirname,'_post.html');fs.writeFileSync(tmp,h);await p.goto('file://'+tmp);await p.waitForTimeout(350);
- await p.screenshot({path:path.join(outDir,s.name+'.jpg'),type:'jpeg',quality:92});console.log(s.name);}
+ if(s.png){await p.screenshot({path:path.join(outDir,s.name+'.png'),omitBackground:true});}else{await p.screenshot({path:path.join(outDir,s.name+'.jpg'),type:'jpeg',quality:92});}console.log(s.name);}
 await b.close();fs.rmSync(path.join(__dirname,'_post.html'),{force:true})})();
