@@ -68,6 +68,7 @@
   "kick": "Every Friday in your inbox",
   "h1": "Your winter\nagenda",
   "sub": "sign up \u00b7 link in bio",
-  "tag": "ibizaoffseason.com/weekly"
+  "tag": "ibizaoffseason.com/weekly",
+  "css": ".bot,.kick,.tag{color:#2B261F;opacity:.85}.sub{color:#2B261F;opacity:.8}"
  }
 ]
