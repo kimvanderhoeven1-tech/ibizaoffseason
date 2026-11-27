@@ -2203,6 +2203,29 @@
    "desc": "The first of the winter's salsa Saturdays: class 16:30–18:00 with Orbe Yorgenis, a drink included, then free dancing to salsa and Latin music from 18:00. €22 a class, ten for €188, couples €344; sangría €5; kids welcome with colouring inside. Book by WhatsApp +34 615 938 348.",
    "price": "€22 · 10 classes €188",
    "url": "https://www.amigosibiza.com/"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "12:00",
+   "title": "Nido x Visionari — Sunday dance in the Las Dalias garden",
+   "venue": "Las Dalias garden & Akasha",
+   "town": "Sant Carles",
+   "cat": "music",
+   "local": true,
+   "desc": "This week's Nido edition with Visionari: organic house in the garden by the market from 12:00, free until 20:00, then Akasha from 20:00.",
+   "price": "Garden free · Akasha ticketed",
+   "url": "https://www.ibiza-spotlight.com/night/promoters/nido"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "09:30",
+   "title": "The Little Farmers Fair — two days at Juntos Farm",
+   "venue": "Juntos Farm",
+   "town": "Santa Eulària",
+   "cat": "kids",
+   "desc": "Hands in the soil: a family weekend on the farm, 5 and 6 December, 09:30–17:00, with workshops, animals, food and music. Tickets €25 (first release sold out). Tickets via @thelittlefarmersfair.",
+   "price": "€25",
+   "url": "https://www.instagram.com/thelittlefarmersfair/"
   }
  ],
  "recurring": [
@@ -2710,6 +2733,17 @@
    "desc": "Cuban salsa with Orbe Yorgenis every Saturday afternoon until the end of February: a 90-minute class with a drink included, then open dancing from 18:00 — come for the class or just to dance. Kids welcome. No class on 26 Dec and 2 Jan. €22 a class or ten for €188; book by WhatsApp +34 615 938 348.",
    "price": "€22 · 10 classes €188",
    "url": "https://www.amigosibiza.com/"
+  },
+  {
+   "when": "Sundays from 12:00 (garden free until 20:00, Akasha from 20:00)",
+   "title": "Nido Sundays at Las Dalias & Akasha",
+   "venue": "Las Dalias garden & Akasha",
+   "town": "Sant Carles",
+   "cat": "music",
+   "local": true,
+   "desc": "The Sunday ritual of the north: organic house in the Las Dalias garden next to the market from midday, free until 20:00, then indoors at Akasha until late. Confirmed every Sunday until 27 December.",
+   "price": "Garden free · Akasha ticketed",
+   "url": "https://www.ibiza-spotlight.com/night/promoters/nido"
   }
  ],
  "upcoming": [
