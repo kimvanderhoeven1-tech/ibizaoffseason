@@ -1622,6 +1622,17 @@
   },
   {
    "date": "2026-12-05",
+   "time": "18:00",
+   "title": "El Reto del Maridaje #2 — pizza vs wine vs sake at Vino&Co",
+   "venue": "Vino&Co, Can Bellotera (Sant Josep road km 1.6)",
+   "town": "Sant Jordi",
+   "cat": "food",
+   "desc": "Sommeliers Rosa (sake) and Bette (wine) put three wines and three sakes against three pizzas that Gabriele and Maresa make on the spot in the shop. No rules, no right answers: taste, compare, decide what works and why. 18:00–21:00. Limited places, booking essential.",
+   "price": "€49 · 3 wines, 3 sakes, 3 pizzas · book ahead",
+   "url": "https://www.instagram.com/vinoycoibiza/"
+  },
+  {
+   "date": "2026-12-05",
    "time": "19:00",
    "title": "Cañas 'n' Roll & Burger Fest",
    "venue": "Sant Josep village tent",
@@ -1708,6 +1719,17 @@
    "price": "Donation €15 / €20 / €25",
    "url": "https://ibizaoutdoors.com/events/wednesday-walk-bills-paradise/",
    "local": true
+  },
+  {
+   "date": "2026-12-10",
+   "time": "19:00",
+   "title": "La otra Rioja — Juan Carlos Sancha & Javier Arizcuren at Vino&Co",
+   "venue": "Vino&Co, Can Bellotera (Sant Josep road km 1.6)",
+   "town": "Sant Jordi",
+   "cat": "food",
+   "desc": "Two of the growers rewriting Rioja — old vines, forgotten varieties, single plots — pour and talk through their wines in the shop. Time and price to confirm with Vino&Co; places are always limited.",
+   "price": "Ask Vino&Co · book ahead",
+   "url": "https://www.instagram.com/vinoycoibiza/"
   },
   {
    "date": "2026-12-11",
@@ -1819,6 +1841,17 @@
    "price": "Donation €15 / €20 / €25",
    "url": "https://ibizaoutdoors.com/events/wednesday-walk-secret-tunnel-2/",
    "local": true
+  },
+  {
+   "date": "2026-12-17",
+   "time": "19:00",
+   "title": "Pop-up: Jacint Carafí + Maria Casanovas & Vinya Lluny at Vino&Co",
+   "venue": "Vino&Co, Can Bellotera (Sant Josep road km 1.6)",
+   "town": "Sant Jordi",
+   "cat": "food",
+   "desc": "A night of small Catalan producers in the shop — Jacint Carafí's wines alongside Bodega Maria Casanovas and Vinya Lluny. Time and price to confirm with Vino&Co.",
+   "price": "Ask Vino&Co · book ahead",
+   "url": "https://www.instagram.com/vinoycoibiza/"
   },
   {
    "date": "2026-12-18",
@@ -1933,6 +1966,17 @@
   },
   {
    "date": "2026-12-21",
+   "time": "17:00",
+   "title": "Open wines week at Vino&Co — 21, 22 & 23 Dec",
+   "venue": "Vino&Co, Can Bellotera (Sant Josep road km 1.6)",
+   "town": "Sant Jordi",
+   "cat": "food",
+   "desc": "Three days before Christmas the shop opens a selection of bottles to taste by the glass before you buy for the table. Also 22 and 23 December.",
+   "price": "By the glass",
+   "url": "https://www.instagram.com/vinoycoibiza/"
+  },
+  {
+   "date": "2026-12-21",
    "time": "18:00",
    "title": "Stamppot Monday at Higo — Brussels sprouts stamppot with roasted bacon bits",
    "venue": "Restaurant Higo",
@@ -1993,6 +2037,17 @@
    "url": "https://higo.resos.com/booking",
    "local": true,
    "tbc": true
+  },
+  {
+   "date": "2026-12-24",
+   "time": "10:00",
+   "title": "Christmas Eve aperitivo at Vino&Co",
+   "venue": "Vino&Co, Can Bellotera (Sant Josep road km 1.6)",
+   "town": "Sant Jordi",
+   "cat": "food",
+   "desc": "Shop and bar open from 10:00 until close on the 24th — a glass, something to nibble, and the last bottles for tonight.",
+   "price": "Bar prices",
+   "url": "https://www.instagram.com/vinoycoibiza/"
   },
   {
    "date": "2026-12-24",
@@ -2152,6 +2207,17 @@
    "price": "€15 / €20 / €25 · lunch extra",
    "url": "https://ibizaoutdoors.com/events/special-new-years-eve-walk-lunch-the-lost-city-1016/",
    "local": true
+  },
+  {
+   "date": "2026-12-31",
+   "time": "10:00",
+   "title": "New Year's Eve aperitivo at Vino&Co",
+   "venue": "Vino&Co, Can Bellotera (Sant Josep road km 1.6)",
+   "town": "Sant Jordi",
+   "cat": "food",
+   "desc": "Same on the 31st: aperitivo from 10:00 until close, and the bubbles for midnight.",
+   "price": "Bar prices",
+   "url": "https://www.instagram.com/vinoycoibiza/"
   },
   {
    "date": "2026-12-31",
@@ -2782,6 +2848,16 @@
    "url": "https://wa.me/31657595989?text=Hi%20Amber%2C%20I%27d%20like%20to%20join%20a%20walk%20with%20the%20horses%20(via%20Ibiza%20Offseason)",
    "img": "/img/listings/wandelclub-horses.jpg",
    "credit": "De Wandelclub"
+  },
+  {
+   "when": "Fridays 18:00–23:00",
+   "title": "Friday wine bar at Vino&Co",
+   "venue": "Vino&Co, Can Bellotera (Sant Josep road km 1.6)",
+   "town": "Sant Jordi",
+   "cat": "food",
+   "desc": "The wine shop at Can Bellotera turns into a bar every Friday evening: bottles from the shelves at shop price plus a small corkage, a short bistro menu, and whoever's on the island that week. The winter living room of the Sant Jordi side.",
+   "price": "Bar prices",
+   "url": "https://www.instagram.com/vinoycoibiza/"
   }
  ],
  "upcoming": [
