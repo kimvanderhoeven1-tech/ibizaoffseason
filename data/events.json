@@ -1513,6 +1513,20 @@
    "local": true
   },
   {
+   "date": "2026-12-02",
+   "time": "10:30",
+   "title": "Walk with the horses — De Wandelclub",
+   "venue": "Location sent on booking",
+   "town": "Island interior",
+   "cat": "island",
+   "local": false,
+   "desc": "Not a ride: a slow walk through the pine woods with a small herd of horses, mules and a pony on a lead rope beside you. You groom, you walk, the horses set the pace. Room for four adults; what you pay goes entirely to the care of the animals. Dutch and English. Message to book and you get the location.",
+   "price": "Contribution to the horses' care · ask when booking",
+   "url": "mailto:hello@ibizaoffseason.com?subject=Walk%20with%20the%20horses%202%20Dec",
+   "img": "/img/listings/wandelclub-horses.jpg",
+   "credit": "De Wandelclub"
+  },
+  {
    "date": "2026-12-03",
    "time": "12:00",
    "title": "Festa de Sant Francesc Xavier — Formentera's patron saint",
@@ -2756,6 +2770,18 @@
    "desc": "The Sunday ritual of the north: organic house in the Las Dalias garden next to the market from midday, free until 20:00, then indoors at Akasha until late. Confirmed every Sunday until 27 December.",
    "price": "Garden free · Akasha ticketed",
    "url": "https://www.ibiza-spotlight.com/night/promoters/nido"
+  },
+  {
+   "when": "Twice a month · dates in the agenda · private walks on request",
+   "title": "Walk with the horses — De Wandelclub",
+   "venue": "Island interior · location on booking",
+   "town": "",
+   "cat": "island",
+   "desc": "A morning walking through the woods with horses, mules and a pony beside you — grooming first, then the trail, the herd sets the pace. Max four adults, twice a month; or book it for your own group of friends. For children there's a private one-hour version (€35): brushing, a walk, maybe a few steps in the saddle, parent walks along. Everything you pay goes to the care of the animals.",
+   "price": "Kids' private walk €35 · adult walks: ask",
+   "url": "mailto:hello@ibizaoffseason.com?subject=De%20Wandelclub",
+   "img": "/img/listings/wandelclub-horses.jpg",
+   "credit": "De Wandelclub"
   }
  ],
  "upcoming": [
